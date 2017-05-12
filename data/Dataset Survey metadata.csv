@@ -1,0 +1,12 @@
+資料集標題,政府開放資料集盤點 Dataset Survey
+資料集描述,本資料集為台灣政府二十大項資料集的盤點結果
+主要欄位說明,"層級,資料集類別,資料集名稱,reviewer,資料集連結,1.資料是否存在,2. 線上取得,3. 是否為機器可讀,4. 是否可整批下載,5. 是否免費,6. 是否有開放授權,7. 是否為最新版本,8. 是否定期更新,9. 相關訊息是否容易找到,10.是否是關聯性資料(linked data)"
+資料集連結,https://github.com/ocftw/OpenGovReport14-16/tree/master/data
+資料集格式,"CSV,JSON"
+資料集提供者,"蝦蝦,Leo,e2720pjk,李梅君"
+資料集檢查者,"楊小克,If,chunghao,jonny,TCC,ttcat"
+授權方式,CC0 1.0 公眾領域貢獻宣告
+授權說明網址,https://creativecommons.org/publicdomain/zero/1.0/deed.zh_TW
+計費方式,免費
+發布時間,2017年05月11日
+專案說明,https://g0v.hackpad.com/--8fxOWuoTDrl
