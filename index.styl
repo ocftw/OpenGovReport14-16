@@ -1,0 +1,68 @@
+@import 'vars'
+@import 'basic'
+
+html,body
+  width: 100%
+  height: 100%
+  margin: 0
+  padding: 0
+
+html,body,h1,h2,h3,h4,h5,h6
+  font-family: "varela round"
+
+.chart
+  width: 500px
+  height: 400px
+  margin: auto
+  &.sparkline
+    width: 100%
+    height: 60px
+
+body
+  color: #444
+
+.summaries .pdb-root .tick
+  display: none
+
+.summary .name
+  font-size: 2em
+.summary .score
+  font-size: 3em
+  &:after
+    content: "分"
+    display: inline
+    color: #999
+    margin-left: 3px
+    font-size: 0.4em
+.rank-table
+  max-width: 1024px
+  margin: 20px auto
+  width: 100%
+  table
+    width: 100%
+    tr td, tr th
+      text-align: center
+      padding: 5px
+    tr td:first-child
+      text-align: right
+      padding-right: 20px
+      max-width: 130px
+  .level3
+    color: #9f9
+  .level2
+    color: #fc9
+  .level1
+    color: #f99
+  .level0
+    color: #ddd
+.rank-table.tiny
+  table
+    tr td, tr th
+      padding: 1px
+
+.cat-context
+  color: color.success
+.cat-dataset
+  color: color.warning
+.cat-impact
+  color: color.info
