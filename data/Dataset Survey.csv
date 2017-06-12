@@ -1,7 +1,7 @@
 層級,資料集類別,資料集名稱,reviewer ,資料集連結,"1.資料是否存在
 YES=1; NO=0",2. 線上取得,3. 是否為機器可讀,4. 是否可整批下載,5. 是否免費,6. 是否有開放授權,7. 是否為最新版本,8. 是否定期更新,9. 相關訊息是否容易找到,10.是否是關聯性資料(linked data),分數,其它評論
-0 法制與政府組織,0.1 法律,中文法規_法律資料檔下載,克,http://law.moj.gov.tw/PublicData/DevelopGuide.aspx,1,1,1,1,1,1,1,1,1,0,,
-0 法制與政府組織,0.1 法律,中文法規_命令資料檔下載,克,http://law.moj.gov.tw/PublicData/DevelopGuide.aspx,1,1,1,1,1,1,1,1,1,0,,
+0 法制與政府組織,0.1 法律,中文法規_法律資料檔下載,克,http://law.moj.gov.tw/PublicData/DevelopGuide.aspx,1,1,1,1,1,0,1,1,1,0,,
+0 法制與政府組織,0.1 法律,中文法規_命令資料檔下載,克,http://law.moj.gov.tw/PublicData/DevelopGuide.aspx,1,1,1,1,1,0,1,1,1,0,,
 0 法制與政府組織,0.1 法律,法規草案,克,http://law.moj.gov.tw/News/news_list.aspx?type=s,1,0,0,0,1,0,1,1,0,0,,
 0 法制與政府組織,0.2 政府架構與人事 ,行政院各部會組織架構圖,克,http://data.gov.tw/node/31707,1,1,0,1,1,1,1,0,1,0,,
 0 法制與政府組織,0.2 政府架構與人事 ,行政院所屬各機關公務人員概況,克,http://www.dgpa.gov.tw/mp/informationlist?uid=330&mid=328,1,1,0,1,1,1,1,1,0,0,,
