@@ -1,5 +1,6 @@
-.sass-cache
+db
 node_modules
-npm-debug.log
 .*
+secret.ls
 !.gitignore
+npm-debug.log

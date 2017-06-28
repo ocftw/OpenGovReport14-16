@@ -1,0 +1,29 @@
+//- module
+mixin margin-break
+  .margin-break &nbsp;
+mixin cover-modal(model,className)
+  .cover-modal-wrapper(ng-modal,ng-model=model,config=model + ".config",
+  ng-class="{'active':" + model + ".ctrl.toggled,'inactive':" + model + ".ctrl.toggled==false}",class=className)
+    .cover-modal(ng-click=model+".ctrl.toggle(false)")
+    .cover-modal-inner
+      block
+mixin slider(model,config,size)
+  - if(!size) size = "sm"
+  - var value = "slidemode['" + model + "']";
+  .irs-switch(ng-click=value + " = !!!" + value)
+    .icon-form-slider-left(ng-show="!" + value)
+    .icon-form-inputbox(ng-show=value)
+  .up.irs-input: input.form-control(class="input-" + size,
+  ng-ion-slider,ng-value=model,config=config,ng-switch=value,default-switch="false")
+mixin color-input(model,idx,context)
+  - if(!context) context = "random";
+  div(style="position:relative")
+    input.form-control(ng-model=model,ng-idx=idx,ldColorPicker,
+    data-context=context,data-exclusive="true",data-cpclass="compact-palette")
+    div(ng-attr-style="background:{{" + model + "}};position:absolute;top:3px;right:3px;width:7px;bottom:3px;border-radius:3px;border:1px solid #eee")
+mixin nbr(count)
+  - for (var i = 0; i < count; i++)
+    br
+mixin fake
+  p 萬另物！部題科力能有起絕再麼！四入再報一我一會新年、一地家也起麼跟種可車也學食成藝面對禮克呢無外？此哥了我養本地；音來話不你用當是！安創民後費？都著頭；為一放的濟人來們約壓點麗出你，政奇的任黃早見調下的們！不度手合，記場具自又風否業包人起的大用親，一數太國不第比把微以如文夫者不品山著不了政！度反種站的麼險點分必花。全天活小，復用小大一靈專打上是。教必品識破流氣子下是急心不土車其：刻然時直而否去該係為在去藝直查去計司勢風？結天與合顧童只，理年他不向父只開皮小工買期元本們說電那人他上，收月別社子叫費治...
+

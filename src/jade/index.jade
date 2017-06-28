@@ -1,0 +1,38 @@
+extends /base.jade
+block vars
+block head
+  script(type="text/javascript",src="/js/report/index.js")
+block body
+  #landing
+    #banner
+      h1 開放政府觀察報告 2014 - 2016
+      p #[b.strong O]pen #[b.strong G]overnment #[b.strong R]eport 2014 - 2016
+    .text-center
+      .btn.btn-crystal.btn-lg Download
+      span &nbsp;
+      .btn.btn-crystal.btn-lg Data
+  #report(ng-controller="report")
+    ul.nav.nav-tabs
+      li(ng-click="tab=0",ng-class="{'active':tab==0}"): a 0. 前言
+      li(ng-click="tab=1",ng-class="{'active':tab==1}"): a 1. 法律及政策
+      li(ng-click="tab=2",ng-class="{'active':tab==2}"): a 2. 開放資料檢視
+    .row
+      .col-sm-4
+        div(ng-show="tab==0")
+          include:md /toc/ch-0.md
+        div(ng-show="tab==1")
+          include:md /toc/ch-1.md
+        div(ng-show="tab==2")
+          include:md /toc/ch-2.md
+      .col-sm-8
+        div(ng-show="tab==0")
+          include:md /report/ch-0.md 
+        div(ng-show="tab==1")
+          include:md /report/ch-1.md 
+        div(ng-show="tab==2")
+          include:md /report/ch-2.md 
+
+        .sep
+        textarea.form-control
+
+  include /footer.jade

@@ -1,0 +1,19 @@
+extends /base.jade
+block vars
+block head
+block body
+  include ../mixin.jade
+  #about
+    h2 About OGR
+    +fake
+    +nbr(2)
+
+    h2 About Production Team
+    +fake
+    +nbr(2)
+
+    h2 About OCF
+    +fake
+    +nbr(2)
+
+  include /footer.jade

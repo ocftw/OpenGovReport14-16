@@ -1,0 +1,1 @@
+var x$;x$=angular.module("ogr"),x$.controller("report",["$scope"].concat(function(r){return r.tab=0}));
