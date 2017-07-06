@@ -5,19 +5,13 @@ block vars
 block head
 block body
   div &nbsp;
+
   #root
+    +nbr(5)
+    .text-center
+      small.grayed HTTP 403
+      h1 你的存取被拒絕
+      small.grayed 你的資料可以釋出嗎？
+      +nbr(3)
+      a(href="/") 回首頁
     br
-    br
-    h1.text-center Access Denied.
-    .text-center.grayed
-      | " http 403 
-      if msg
-        | : #{msg}
-      | "
-    br
-    br
-    br
-    p.text-center Can't find what you want? #[br]#[br] #[a(href="/") back to home]
-    br
-    script.
-      if(!window.location.search) { window.location.search = "?nexturl=/" }

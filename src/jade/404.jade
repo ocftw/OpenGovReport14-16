@@ -6,18 +6,11 @@ block head
 block body
   div &nbsp;
   #root
+    +nbr(5)
+    .text-center
+      small.grayed HTTP 404
+      h1 找不到這個頁面
+      small.grayed 你的資料開放了嗎？
+      +nbr(3)
+      a(href="/") 回首頁
     br
-    br
-    h1.text-center Not Found.
-    .text-center.grayed
-      | " http 404 
-      if msg
-        | : #{msg}
-      | "
-    br
-    br
-    br
-    p.text-center Can't find what you want? #[br]#[br] #[a(href="/") back to home]
-    br
-    script.
-      if(!window.location.search) { window.location.search = "?nexturl=/" }

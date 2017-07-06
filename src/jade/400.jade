@@ -6,18 +6,11 @@ block head
 block body
   div &nbsp;
   #root
+    +nbr(5)
+    .text-center
+      small.grayed HTTP 400
+      h1 網頁要求的格式不符
+      small.grayed  一定要發公文才能拿到資料嗎？
+      +nbr(3)
+      a(href="/") 回首頁
     br
-    br
-    h1.text-center Bad Request.
-    .text-center.grayed
-      | " http 400 
-      if msg
-        | : #{msg}
-      | "
-    br
-    br
-    br
-    p.text-center Can't find what you want? #[br]#[br] #[a(href="/") back to home]
-    br
-    script.
-      if(!window.location.search) { window.location.search = "?nexturl=/" }
