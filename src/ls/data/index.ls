@@ -1,6 +1,10 @@
 angular.module \ogr
   ..controller \data, <[$scope]> ++ ($scope) ->
     $scope.loading = true
+
+    $scope.score = do
+      set: (name, value) -> @values[name] = if @values[name] == value => 0 else value
+      values: {}
     $scope.clsmap = do
       "政策基礎": "context"
       "資料集": "dataset"

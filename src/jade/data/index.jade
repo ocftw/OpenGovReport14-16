@@ -6,7 +6,7 @@ block body
   #visualization(ng-controller="data")
     .ld-over-full-inverse.running(style="margin:20px auto;max-width:1024px;width:100%",
     ng-class="{'running':loading}")
-      .ld.ld-loader(style="font-size:130px;background-image:url(/assets/img/loading.svg)")
+      .ld.ld-loader(style="font-size:130px;background-image:url(/assets/img/loading/bar.svg)")
       .text-center
         h1 開放資料檢視
         p.grayed 視覺化呈現整體開放資料的現況與評分，研究方法與計分方式細節請參考報告第二章「開放資料檢視」。
@@ -31,6 +31,7 @@ block body
           .subtitle Impact
           .score 68
           .chart.sparkline: #chart-impact
+      .sep.huge-gap
       .row(style="margin-top:10px")
         #score-detail.col-sm-3
           +nbr(4)
@@ -108,16 +109,17 @@ block body
           h3= n
           .feedback-list
             each i in [1,2,3,4,5]
+              - var id = n + "-" + i;
               .feedback-item
-                .pull-right
-                  i.fa.fa-star
-                  i.fa.fa-star
-                  i.fa.fa-star
-                  i.fa.fa-star
-                  i.fa.fa-star
-                .btn.btn-link(data-toggle="collapse", data-target="#blah" + i)
+                .pull-right(ng-click="score.set['" + id + "']")
+                  each j in [1,2,3,4,5]
+                    i.fa.fa-star(
+                    ng-class="{'active':score.values['" + id + "'] >= " + j + "}",
+                    ng-click="score.set('" + id + "', " + j + ")"
+                    )
+                .btn.btn-link(data-toggle="collapse", data-target="#blah-" + n + "-" + i)
                   span 您可以在這裡針對各個評比項目提供您的給分，我們會將之做為民間回饋。
-                .collapse(id="blah" + i)
+                .collapse(id="blah-" + n + "-" + i)
                   .well: +fake
       .btn.pull-right.btn-success.btn-block.btn-lg(style="width:160px") 確認送出
       .clearfix
@@ -126,6 +128,8 @@ block body
         h2 評分結果
       #feedback-line.chart
       .sep.huge-gap
-      textarea.form-control
+      +nbr(2)
+      h3.text-center 有任何想法嗎？歡迎在這裡跟大家討論！
+      include /facebook/comment.jade
     br
   include /footer.jade
