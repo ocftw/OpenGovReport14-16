@@ -32,7 +32,9 @@ block body
         div(ng-show="tab==2")
           include:md /report/ch-2.md 
 
-        .sep
-        textarea.form-control
+    .sep.huge-gap
+    +nbr(1)
+    h3.text-center 有任何想法嗎？歡迎在這裡跟大家討論！
+    include /facebook/comment.jade
 
   include /footer.jade
