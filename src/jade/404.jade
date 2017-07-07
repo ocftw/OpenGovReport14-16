@@ -1,0 +1,16 @@
+extends base.jade
+block vars
+  - var lib = {d3js: false, clipboardjs: false, domtoimg: false, ldcolorpicker: true, gifjs: false}
+  - var rootid = "errorview"
+block head
+block body
+  div &nbsp;
+  #root
+    +nbr(5)
+    .text-center
+      small.grayed HTTP 404
+      h1 找不到這個頁面
+      small.grayed 你的資料開放了嗎？
+      +nbr(3)
+      a(href="/") 回首頁
+    br

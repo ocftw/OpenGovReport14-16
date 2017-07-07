@@ -1,0 +1,16 @@
+extends base.jade
+block vars
+  - var lib = {d3js: false, clipboardjs: false, domtoimg: false, ldcolorpicker: true, gifjs: false}
+  - var rootid = "errorview"
+block head
+block body
+  div &nbsp;
+  #root
+    +nbr(5)
+    .text-center
+      small.grayed HTTP 400
+      h1 網頁要求的格式不符
+      small.grayed  一定要發公文才能拿到資料嗎？
+      +nbr(3)
+      a(href="/") 回首頁
+    br

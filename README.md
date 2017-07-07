@@ -1,12 +1,9 @@
-Open Government Report
-======================
-
- * [Color Scheme](https://loading.io/palette/16276)
- * [Chart Pack](https://plotdb.com/collection/24)
+Open Government Report 14 - 16
+==============================
 
 
 
 License
-----------------
+------------------------------
 
-MIT License.
+MIT License

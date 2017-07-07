@@ -1,0 +1,135 @@
+extends /base.jade
+block vars
+block head
+  script(type="text/javascript",src="/js/data/index.js")
+block body
+  #visualization(ng-controller="data")
+    .ld-over-full-inverse.running(style="margin:20px auto;max-width:1024px;width:100%",
+    ng-class="{'running':loading}")
+      .ld.ld-loader(style="font-size:130px;background-image:url(/assets/img/loading/bar.svg)")
+      .text-center
+        h1 開放資料檢視
+        p.grayed 視覺化呈現整體開放資料的現況與評分，研究方法與計分方式細節請參考報告第二章「開放資料檢視」。
+      .sep.huge-gap
+      .row.text-center.summaries
+        #sum-ttl.col-sm-3.summary
+          .name 綜合評比
+          .subtitlte TTL
+          .score 68
+        #sum-context.col-sm-3.summary
+          .name 政策基礎
+          .subtitle Context
+          .score 68
+          .chart.sparkline: #chart-context
+        #sum-dataset.col-sm-3.summary
+          .name 資料集現況
+          .subtitle Dataset
+          .score 68
+          .chart.sparkline: #chart-dataset
+        #sum-impact.col-sm-3.summary
+          .name 影響力
+          .subtitle Impact
+          .score 68
+          .chart.sparkline: #chart-impact
+      .sep.huge-gap
+      .row(style="margin-top:10px")
+        #score-detail.col-sm-3
+          +nbr(4)
+          h4 綜合評比依以下權重計算：
+          table(cellspacing="3")
+            tr #[td 政策基礎] #[td 35.0%]
+            tr #[td 資料現況] #[td 35.0%]
+            tr #[td 影響力] #[td 30.0%]
+          //-
+            h4 政策基礎的計分方式
+            table(cellspacing="3")
+              tr #[td 冬蟲夏草] #[td 12.4%]
+              tr #[td 冬蟲夏草] #[td 12.4%]
+              tr #[td 冬蟲夏草] #[td 12.4%]
+            +nbr(1)
+            h4 資料集現況的計分方式
+            table
+              tr #[td 冬蟲夏草] #[td 12.4%]
+              tr #[td 冬蟲夏草] #[td 12.4%]
+              tr #[td 冬蟲夏草] #[td 12.4%]
+            +nbr(1)
+            h4 影響力的計分方式
+            table
+              tr #[td 冬蟲夏草] #[td 12.4%]
+              tr #[td 冬蟲夏草] #[td 12.4%]
+              tr #[td 冬蟲夏草] #[td 12.4%]
+
+        //-.col-sm-3
+          #sum-ttl.summary.text-right
+            .name 綜合評比
+            .subtitlte TTL
+            .score 68
+          .rank-table.tiny: table
+            tr(ng-repeat="item in subcats")
+              td {{item.key}}
+              td: i.fa.fa-square(ng-class="'cat-' + clsmap[item.values.values[0].Category]")
+              td {{item["總計"]}}
+        .col-sm-9
+          .text-center: h3 子分類分數
+          .chart: #chart-attr
+    br
+    hr
+    - icons = ["0.1-law.svg","2-online.svg","3.3-environment.svg","5.3-trade.svg","0.2-gov.svg","2.1-survey.svg","4-bulk.svg","5.4-labor.svg","0.3-jurisdiction.svg","2.2-company.svg","4.1-infrastructure.svg","6-license.svg","1-exist.svg","2.3-procument.svg","4.2-health.svg","7-latest.svg","1.1-vote.svg","2.4-military-diplomacy.svg","4.3-education.svg","8-update.svg","1.2-spending.svg","3-machine.svg","5-free.svg","9-info.svg","1.3-accountability.svg","3.1-safety.svg","5.1-license.svg","10-link.svg","3.2-crime.svg","5.2-mortgage.svg"]
+    h2.text-center 開放資料現況
+
+    .rank-table
+      .legend
+        span 項目評比
+        span #[i.fa.fa-circle.level0] 0 分
+        span #[.i.fa.fa-circle.level1] 0 ~ 30 分
+        span #[.i.fa.fa-circle.level2] 30 ~ 60 分
+        span #[.i.fa.fa-circle.level3] 60 ~ 100 分
+      table
+        tr
+          th
+          th.has-tips.clickable(ng-repeat="d in detail")
+            .hover-tip.top {{d.key}}
+            img(ng-attr-src="/assets/img/icons/icon_{{d.img}}.svg",style="width:20px")
+        tr(ng-repeat="tr in table")
+          td {{tr.name}}
+          td(ng-repeat="d in detail")
+            .block(ng-class="'level' + tr[d.key].rank")
+            //-.i.fa.fa-circle(ng-class="'level' + tr[d.key].rank")
+            //-span {{tr[d.key]}}
+    .sep.huge-gap
+    +nbr(1)
+    .text-center
+      h2 參與評鑑
+      p.grayed 您可以在這裡針對各個評比項目提供您的給分，我們會將之做為民間回饋的數據於下方呈現統計值。
+    +nbr(1)
+    #feedback
+      each n in ["政策基礎","資料集現況","影響力"]
+        .feedback-cat
+          .pull-right.feedback-score 您的評分
+          h3= n
+          .feedback-list
+            each i in [1,2,3,4,5]
+              - var id = n + "-" + i;
+              .feedback-item
+                .pull-right(ng-click="score.set['" + id + "']")
+                  each j in [1,2,3,4,5]
+                    i.fa.fa-star(
+                    ng-class="{'active':score.values['" + id + "'] >= " + j + "}",
+                    ng-click="score.set('" + id + "', " + j + ")"
+                    )
+                .btn.btn-link(data-toggle="collapse", data-target="#blah-" + n + "-" + i)
+                  span 您可以在這裡針對各個評比項目提供您的給分，我們會將之做為民間回饋。
+                .collapse(id="blah-" + n + "-" + i)
+                  .well: +fake
+      .btn.pull-right.btn-success.btn-block.btn-lg(style="width:160px",ng-click="score.send()") 確認送出
+      .clearfix
+      .sep.huge-gap
+      .text-center
+        h2 評分結果
+      #feedback-line.chart
+      .sep.huge-gap
+      +nbr(2)
+      h3.text-center 有任何想法嗎？歡迎在這裡跟大家討論！
+      include /facebook/comment.jade
+    br
+  include /footer.jade

@@ -1,0 +1,35 @@
+//- module
+doctype html
+- var debug = false
+- var version = "26"
+- var thumbnail = "thumbnail.png"
+- var thumbtype = "image/png"
+- var thumb_width = "1200"
+- var thumb_height = "630"
+- var favicon = "/assets/img/logo.png"
+- var rootid = ""
+- var rootclass = ""
+html(lang="en")
+  block vars
+  head(prefix="og: http://ogp.me/ns#")
+    include library.jade
+    link(rel="stylesheet",type="text/css",href="/css/index.css?"+version)
+    link(rel="chrome-webstore-item",href="https://chrome.google.com/webstore/detail/einojbmllcjnkcapgajdbjjnpibkjnhh")
+    if debug
+      link(rel="stylesheet",type="text/css",href="/assets/googlefont/varela-round/index.css")
+    else
+      link(href="https://fonts.googleapis.com/css?family=Varela+Round",rel="stylesheet")
+      link(href="https://fonts.googleapis.com/css?family=Open+Sans:300",rel="stylesheet")
+
+    script(type="text/javascript",src="/js/global.js")
+    script(type="text/javascript",src="/js/index.js")
+    block head
+  body(ng-app="ogr")
+    include mixin.jade
+    include nav.jade
+    #notifications
+      .notify(ng-repeat="n in notifications",ng-class="'notify-'+n.type",ng-cloak) {{n.message}}
+    block body
+    if !debug
+      include ga.jade
+      include /facebook/init.jade
