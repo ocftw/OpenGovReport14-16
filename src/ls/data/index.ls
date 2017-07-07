@@ -1,10 +1,19 @@
 angular.module \ogr
-  ..controller \data, <[$scope]> ++ ($scope) ->
+  ..controller \data, <[$scope $http]> ++ ($scope, $http) ->
     $scope.loading = true
 
     $scope.score = do
       set: (name, value) -> @values[name] = if @values[name] == value => 0 else value
       values: {}
+      send: ->
+        $http do
+          url: \/d/score
+          method: \POST
+          data: {payload: @values}
+        .then -> console.log \ok
+        .catch -> console.log it
+
+
     $scope.clsmap = do
       "政策基礎": "context"
       "資料集": "dataset"
@@ -138,6 +147,12 @@ angular.module \ogr
       {radius: ["score"],  name: ["name"], category: ["cat"]}
     )
 
+    $http do
+      url: \/d/score/mean
+      method: \GET
+    .then ->
+
+    .catch ->
     scores = for i from 0 til 15 =>
       {
         "報告分數": Math.round(Math.random! * 2 + i/15)

@@ -121,7 +121,7 @@ block body
                   span 您可以在這裡針對各個評比項目提供您的給分，我們會將之做為民間回饋。
                 .collapse(id="blah-" + n + "-" + i)
                   .well: +fake
-      .btn.pull-right.btn-success.btn-block.btn-lg(style="width:160px") 確認送出
+      .btn.pull-right.btn-success.btn-block.btn-lg(style="width:160px",ng-click="score.send()") 確認送出
       .clearfix
       .sep.huge-gap
       .text-center

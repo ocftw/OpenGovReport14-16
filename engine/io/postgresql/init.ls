@@ -2,33 +2,16 @@ require! <[../../../secret ../postgresql pg bluebird]>
 
 queries = []
 
-queries.push init-users-table = """create table if not exists users (
-  key serial primary key,
-  username text not null unique constraint nlen check (char_length(username) <= 100),
-  password text constraint pwlen check (char_length(password) <= 100),
-  usepasswd boolean,
-  displayname text, constraint displaynamelength check (char_length(displayname) <= 100),
-  description text,
-  datasize int,
-  createdtime timestamp,
-  lastactive timestamp,
-  public_email boolean,
-  avatar text,
-  detail jsonb,
-  payment jsonb,
-  config jsonb,
-  deleted boolean
-)"""
-
-queries.push init-pwresettoken-table = """create table if not exists pwresettoken (
-  owner int references users(key),
-  token text,
-  time timestamp
-)"""
-
 queries.push init-sessions-table = """create table if not exists sessions (
   key text not null unique primary key,
   detail jsonb
+)"""
+
+queries.push init-score-table = """create table if not exists score (
+  key serial primary key,
+  session text,
+  data jsonb,
+  updatedtime timestamp
 )"""
 
 client = new pg.Client secret.io-pg.uri
@@ -52,11 +35,3 @@ consume = ->
     client.end!
 
 consume!
-/*
-query init-users-table
-  .then -> query init-sessions-table
-  .then ->
-    console.log "done."
-    client.end!
-  .catch -> [console.log(it), client.end!]
-*/
