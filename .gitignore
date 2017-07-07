@@ -4,3 +4,4 @@ node_modules
 secret.ls
 !.gitignore
 npm-debug.log
+_public
