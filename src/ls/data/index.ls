@@ -3,6 +3,13 @@ angular.module \ogr
     $scope.loading = true
 
     $scope.score = do
+      init: ->
+        $http do
+          url: \/d/score/mean
+          method: \GET
+        .then ~> @mean = it.data
+        .catch -> console.log it
+      mean: null
       set: (name, value) -> @values[name] = if @values[name] == value => 0 else value
       values: {}
       send: ->
@@ -147,12 +154,6 @@ angular.module \ogr
       {radius: ["score"],  name: ["name"], category: ["cat"]}
     )
 
-    $http do
-      url: \/d/score/mean
-      method: \GET
-    .then ->
-
-    .catch ->
     scores = for i from 0 til 15 =>
       {
         "報告分數": Math.round(Math.random! * 2 + i/15)
@@ -179,3 +180,5 @@ angular.module \ogr
     setscore '#sum-impact .score', obj["影響力"].sum
 
     $scope.$apply -> $scope.loading = false
+    $scope.score.init!
+      .then ->
