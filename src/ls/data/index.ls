@@ -195,9 +195,9 @@ angular.module \ogr
     chart.line.attach \#feedback-line
 
     setscore = (sel,v) -> document.querySelector sel .innerText = Math.round(v)
-    setscore '#sum-context .score', obj["政策基礎"].sum
-    setscore '#sum-dataset .score', obj["資料集"].sum
-    setscore '#sum-impact .score', obj["影響力"].sum
+    setscore '#sum-context .score', Math.round(100 * obj["政策基礎"].sum / 0.30) * 0.01
+    setscore '#sum-dataset .score', Math.round(100 * obj["資料集"].sum / 0.35) * 0.01
+    setscore '#sum-impact .score', Math.round(100 * obj["影響力"].sum / 0.30) * 0.01
     setscore '#sum-ttl .score', obj["影響力"].sum + obj["政策基礎"].sum + obj["資料集"].sum
 
     $scope.$apply -> $scope.loading = false
