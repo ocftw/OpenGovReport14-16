@@ -13,24 +13,24 @@ block body
       .btn.btn-crystal.btn-lg English Report
   #report(ng-controller="report")
     ul.nav.nav-tabs
-      li(ng-click="tab=0",ng-class="{'active':tab==0}"): a 0. 前言
-      li(ng-click="tab=1",ng-class="{'active':tab==1}"): a 1. 法律及政策
-      li(ng-click="tab=2",ng-class="{'active':tab==2}"): a 2. 開放資料檢視
+      li.clickable(ng-click="tab=0",ng-class="{'active':tab==0}"): a 0. 前言
+      li.clickable(ng-click="tab=1",ng-class="{'active':tab==1}"): a 1. 法律及政策
+      li.clickable(ng-click="tab=2",ng-class="{'active':tab==2}"): a 2. 開放資料檢視
     .row
       .col-sm-4
         div(ng-show="tab==0")
-          include:md /toc/ch-0.md
+          include:markdown /toc/ch-0.md
         div(ng-show="tab==1")
-          include:md /toc/ch-1.md
+          include:markdown /toc/ch-1.md
         div(ng-show="tab==2")
-          include:md /toc/ch-2.md
+          include:markdown /toc/ch-2.md
       .col-sm-8
         div(ng-show="tab==0")
-          include:md /report/ch-0.md 
+          include:markdown /report/ch-0.md
         div(ng-show="tab==1")
-          include:md /report/ch-1.md 
+          include:markdown /report/ch-1.md
         div(ng-show="tab==2")
-          include:md /report/ch-2.md 
+          include:markdown /report/ch-2.md
 
     .sep.huge-gap
     +nbr(1)

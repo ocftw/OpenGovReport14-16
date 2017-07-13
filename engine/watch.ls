@@ -1,9 +1,10 @@
 require! <[fs fs-extra path chokidar child_process jade stylus js-yaml]>
-require! <[colors require-reload markdown jsdom bluebird node-minify]>
+require! <[colors require-reload markdown jsdom bluebird node-minify jstransformer-markdown]>
 require! 'uglify-js': uglify-js, LiveScript: lsc, 'uglifycss': uglify-css
 require! <[../config/scriptpack]>
 reload = require-reload require
 
+jade.filters.markdown = jstransformer-markdown
 markdown = markdown.markdown
 
 RegExp.escape = -> it.replace /[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"
