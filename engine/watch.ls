@@ -1,4 +1,4 @@
-require! <[fs fs-extra path chokidar child_process jade stylus]>
+require! <[fs fs-extra path chokidar child_process jade stylus js-yaml]>
 require! <[colors require-reload markdown jsdom bluebird node-minify]>
 require! 'uglify-js': uglify-js, LiveScript: lsc, 'uglifycss': uglify-css
 require! <[../config/scriptpack]>
@@ -66,6 +66,7 @@ styl-tree = src-tree(
 
 ftype = ->
   switch
+  | /\.yaml$/.exec it => "yaml"
   | /\.ls$/.exec it => "ls"
   | /\.styl/.exec it => "styl"
   | /\.jade$/.exec it => "jade"
@@ -153,6 +154,10 @@ base = do
     [type,cmd,des] = [ftype(src), "",""]
     if trigger-only => type = \other
 
+    if type == \yaml and src == "src/jade/yaml/question.yaml" =>
+      type = \jade
+      src = "src/jade/data/index.jade"
+
     # other - for triggering jade rebuilding
     if type == \jade or type == \other =>
       if /^src\/jade\/view\//.exec(src) => return
@@ -176,10 +181,16 @@ base = do
           if newer(des, _src) => continue
           desdir = path.dirname(des)
           if !fs.exists-sync(desdir) or !fs.stat-sync(desdir).is-directory! => mkdir-recurse desdir
+          if /data\/index.jade/.exec(src) =>
+            try
+              cfg = js-yaml.safe-load fs.read-file-sync "src/jade/yaml/question.yaml", \utf8
+            catch e
+              console.log "[ERROR] Question Yaml parse failed."
+              cfg = {}
           try
             fs.write-file-sync(des, jade.render(
               code,
-              {filename: src, basedir: path.join(cwd,\src/jade/)} <<< {config: data}
+              {filename: src, basedir: path.join(cwd,\src/jade/)} <<< {config: data} <<< {data: cfg or {}}
             ))
             logs.push "[BUILD]   #src --> #des"
           catch
