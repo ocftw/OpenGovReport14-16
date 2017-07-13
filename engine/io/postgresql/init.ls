@@ -9,7 +9,7 @@ queries.push init-sessions-table = """create table if not exists sessions (
 
 queries.push init-score-table = """create table if not exists score (
   key serial primary key,
-  session text,
+  session text not null unique,
   data jsonb,
   updatedtime timestamp
 )"""
