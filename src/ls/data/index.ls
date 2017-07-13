@@ -77,7 +77,9 @@ angular.module \ogr
           obj[d] = Math.round(100 * obj[d] / list.length)
         obj
       .entries detail
-    detail.map -> it.img = it.key.split ' ' .0
+    detail.map ->
+      it.img = it.key.split ' ' .0
+      it.name = it.key.replace /^[0-9. ]+/g, ''
     criteria = [k for k of detail.0.values]
     table = for c in criteria =>
       obj = {name: c}

@@ -13,7 +13,7 @@ block body
       .ld.ld-loader(style="font-size:130px;background-image:url(/assets/img/loading/bar.svg)")
       .text-center
         h1 開放資料檢視
-        p.grayed 視覺化呈現整體開放資料的現況與評分，研究方法與計分方式細節請參考報告第二章「開放資料檢視」。
+        p.grayed 視覺化呈現台灣 2014~2016 年開放資料的評析，研究方法與計分方式請參考報告第二章「開放資料檢視」，原始資料請見下載頁。
       .sep.huge-gap
       .row.text-center.summaries
         #sum-ttl.col-sm-3.summary
@@ -83,10 +83,10 @@ block body
     .rank-legend.text-center
       .legend
         span 項目評比
-        span #[i.fa.fa-circle.level0] 0 分
-        span #[.i.fa.fa-circle.level1] 0 ~ 30 分
-        span #[.i.fa.fa-circle.level2] 30 ~ 60 分
-        span #[.i.fa.fa-circle.level3] 60 ~ 100 分
+        span #[i.fa.fa-circle.level0] 零開放
+        span #[.i.fa.fa-circle.level1] 低度開放
+        span #[.i.fa.fa-circle.level2] 中度開放
+        span #[.i.fa.fa-circle.level3] 高度開放
     .rank-table
       table
         tr
@@ -97,14 +97,15 @@ block body
         tr(ng-repeat="tr in table")
           td {{tr.name}}
           td(ng-repeat="d in detail")
-            .block(ng-class="'level' + tr[d.key].rank")
+            .block.has-tips(ng-class="'level' + tr[d.key].rank")
+              .hover-tip.top {{d.name}}#[br]{{tr[d.key].value}}分
             //-.i.fa.fa-circle(ng-class="'level' + tr[d.key].rank")
             //-span {{tr[d.key]}}
     .sep.huge-gap
     +nbr(1)
     .text-center
       h2 參與評鑑
-      p.grayed 您可以在這裡針對各個評比項目提供您的給分，我們會將之做為民間回饋的數據於下方呈現統計值。
+      p.grayed 您可以在針對各個評比項目提供您的給分，送出後，統計值會呈現在下方提供您參考。
     +nbr(1)
     #feedback
       //-each n in [["政策基礎",/^\s*C/,"C"],["資料集現況",/^\s*D/,"D"],["影響力",/^\s*I/,"I"]]
