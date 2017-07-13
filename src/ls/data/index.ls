@@ -1,24 +1,59 @@
 angular.module \ogr
   ..controller \data, <[$scope $http]> ++ ($scope, $http) ->
-    $scope.loading = true
 
+    chart = do
+      radar: plotdb.chart.get 'Radar Chart - OGR Edition'
+      column: plotdb.chart.get 'Column Chart'
+      gradar: plotdb.chart.get 'grouped radar chart'
+      line: plotdb.chart.get 'Line Chart - OGR edition'
+
+    $scope.loading = true
     $scope.score = do
+      data: reportScore
       init: ->
+        for item in @data => item["您的評分"] = 0
+        @get-mine!
+          .then ~> @get-mean!
+          .then ~> @render!
+      render: ->
+        chart.line.data @data, true, {value: ["報告分數","社群平均","您的評分"], order: ["id"]}
+      update: (values, name) ->
+        for k,v of values =>
+          obj = @data.filter(->it.id == k).0
+          if k == \total or !obj => continue
+          obj[name] = v / (if values.total? => (values.total or 1) else 1)
+      get-mine: ->
+        $http do
+          url: \/d/score/
+          method: \GET
+        .then ~>
+          @values = it.data
+          @update @values, "您的評分"
+          @done = true
+        .catch ->
+      get-mean: ->
         $http do
           url: \/d/score/mean
           method: \GET
-        .then ~> @mean = it.data
+        .then ~>
+          @mean = it.data
+          @update @mean, "社群平均"
         .catch -> console.log it
       mean: null
       set: (name, value) -> @values[name] = if @values[name] == value => 0 else value
       values: {}
       send: ->
+        $scope.loading = true
         $http do
           url: \/d/score
           method: \POST
           data: {payload: @values}
-        .then -> console.log \ok
-        .catch -> console.log it
+        .finally ~> $scope.loading = false
+        .then ~>
+          @update @values, "您的評分"
+          @get-mean!
+        .then ~> @render!
+        .catch -> alert "您已經填過囉！"
 
 
     $scope.clsmap = do
@@ -43,7 +78,6 @@ angular.module \ogr
         obj
       .entries detail
     detail.map -> it.img = it.key.split ' ' .0
-    console.log detail
     criteria = [k for k of detail.0.values]
     table = for c in criteria =>
       obj = {name: c}
@@ -53,7 +87,7 @@ angular.module \ogr
       $scope.table = table
       $scope.detail = detail
     (raw) <- d3.csv \/assets/data/score.csv, _
-    setTimeout (-> document.querySelector \#root .setAttribute \class, 'ld ld-over-full-inverse'), 1000
+    setTimeout (-> document.querySelector \#visualization .setAttribute \class, 'ld ld-over-full-inverse'), 1000
     palette = do
       danger: \#ff5135
       success: \#00f2c1
@@ -86,12 +120,6 @@ angular.module \ogr
     for item in subcats => item["總計"] = Math.round(item.values.sum * 100)/100
     $scope.$apply -> $scope.subcats = subcats
 
-    chart = do
-      radar: plotdb.chart.get 'Radar Chart'
-      column: plotdb.chart.get 'Column Chart'
-      gradar: plotdb.chart.get 'grouped radar chart'
-      line: plotdb.chart.get 'Line Chart - OGR edition'
-
     config = do
       gridShow: false
       xAxisShow: true
@@ -117,7 +145,7 @@ angular.module \ogr
       legendShow: true
       palette: {colors: [
         {hex: \#00f2c1, keyword: "政策基礎"},
-        {hex: \#ffdc6c, keyword: "資料集"}, 
+        {hex: \#ffdc6c, keyword: "資料集"},
         {hex: \#e285ff, keyword: "影響力"},
         {hex: \#e354f0, keyword: "其它"}
       ]}
@@ -127,21 +155,22 @@ angular.module \ogr
     config-line = do
       palette: {colors: [
         {hex: \#ccc, keyword: "報告分數"},
-        {hex: \#f73d7e, keyword: "您的評分"}, 
-        {hex: \#00f2c1, keyword: "網友平均"},
+        {hex: \#f73d7e, keyword: "您的評分"},
+        {hex: \#00f2c1, keyword: "社群平均"},
       ]}
       yAxisShowDomain: false
       gridShow: false
       xAxisTickDirection: \vertical
       xAxisHandleOverlap: \none
       xAxisTickCount: 15
+      sort: null
     chart.context = chart.column.clone!
     chart.dataset = chart.column.clone!
     chart.impact = chart.column.clone!
 
     parsed-data = [ <[context 政策基礎]>, <[dataset 資料集]>, <[impact 影響力]> ] .map (map) ->
       [
-        map, 
+        map,
         [{k, v} for k,v of obj[map.1]]
           .filter(->it.k!='sum')
           .map(-> it.v.name = it.k; it.v.cat = map.1; return it.v)
@@ -153,15 +182,6 @@ angular.module \ogr
       false
       {radius: ["score"],  name: ["name"], category: ["cat"]}
     )
-
-    scores = for i from 0 til 15 =>
-      {
-        "報告分數": Math.round(Math.random! * 2 + i/15)
-        "您的評分": Math.round(Math.random! * 5 + i/15)
-        "網友平均": Math.round(Math.random! * 5 + i/15)
-        name: "I#{i + 1}"
-      }
-    chart.line.data scores, false, {value: ["報告分數","您的評分","網友平均"], order: ["name"]}
 
     chart.gradar.config config-radar
     chart.context.config {} <<< config <<< fill: palette.success, xAxisStroke: palette.success
@@ -178,6 +198,7 @@ angular.module \ogr
     setscore '#sum-context .score', obj["政策基礎"].sum
     setscore '#sum-dataset .score', obj["資料集"].sum
     setscore '#sum-impact .score', obj["影響力"].sum
+    setscore '#sum-ttl .score', obj["影響力"].sum + obj["政策基礎"].sum + obj["資料集"].sum
 
     $scope.$apply -> $scope.loading = false
     $scope.score.init!

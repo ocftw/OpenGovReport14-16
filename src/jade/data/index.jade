@@ -3,7 +3,11 @@ block vars
 block head
   script(type="text/javascript",src="/js/data/index.js")
 block body
-  #visualization(ng-controller="data")
+  if data
+    script.
+      var reportScore = !{JSON.stringify(data.map(function(it) { return {"報告分數": it.score, id: it.id}; }))};
+
+  #visualization(ng-controller="data",ng-cloak)
     .ld-over-full-inverse.running(style="margin:20px auto;max-width:1024px;width:100%",
     ng-class="{'running':loading}")
       .ld.ld-loader(style="font-size:130px;background-image:url(/assets/img/loading/bar.svg)")
@@ -103,30 +107,36 @@ block body
       p.grayed 您可以在這裡針對各個評比項目提供您的給分，我們會將之做為民間回饋的數據於下方呈現統計值。
     +nbr(1)
     #feedback
-      each n in ["政策基礎","資料集現況","影響力"]
+      //-each n in [["政策基礎",/^\s*C/,"C"],["資料集現況",/^\s*D/,"D"],["影響力",/^\s*I/,"I"]]
+      each n in [["政策基礎",/^\s*C/,"C"],["影響力",/^\s*I/,"I"]]
         .feedback-cat
           .pull-right.feedback-score 您的評分
-          h3= n
+          h3= n[0]
           .feedback-list
-            each i in [1,2,3,4,5]
-              - var id = n + "-" + i;
-              .feedback-item
-                .pull-right(ng-click="score.set['" + id + "']")
-                  .score {{score.values['#{id}']}}
-                  each j in [1,2,3,4,5,6,7,8,9,10]
-                    i.fa.fa-star(
-                    ng-class="{'active':score.values['" + id + "'] >= " + j + "}",
-                    ng-click="score.set('" + id + "', " + j + ")"
-                    )
-                .btn.btn-link(data-toggle="collapse", data-target="#blah-" + n + "-" + i)
-                  span 您可以在這裡針對各個評比項目提供您的給分，我們會將之做為民間回饋 #[b.caret] &nbsp; #[small.grayed ( 看評分 )]
-                .collapse(id="blah-" + n + "-" + i)
-                  .well
-                    h4 我們的評分：#[big: b.red 6]
-                    .sep
-                    label 給分的依據
-                    +fake
-      .btn.pull-right.btn-success.btn-block.btn-lg(style="width:160px",ng-click="score.send()") 確認送出
+            each item in data
+              if n[1].exec(item.id)
+                - var id = item.id
+                .feedback-item
+                  .pull-right(ng-click="score.set['" + id + "']")
+                    .score {{score.values['#{id}']}}
+                    each j in [1,2,3,4,5,6,7,8,9,10]
+                      i.fa.fa-star(
+                      ng-class="{'active':score.values['" + id + "'] >= " + j + "}",
+                      ng-click="score.set('" + id + "', " + j + ")"
+                      )
+                  .btn.btn-link(data-toggle="collapse", data-target="#question-" + id)
+                    span #{item.id}. #{item.name} #[b.caret] &nbsp; #[small.grayed ( 看評分 )]
+                  .collapse(id="question-" + id)
+                    .well
+                      h4 我們的評分：#[big: b.red #{item.score}]
+                      .sep
+                      label 給分的依據
+                      p= item.description
+
+      .pull-right(style="width:160px")
+        .btn.btn-success.btn-block.btn-lg(ng-click="score.send()",ng-show="!score.done") 確認送出
+        .btn.btn-default.bnt-block.btn-lg(ng-show="score.done",disabled) 您已經填過囉！
+
       .clearfix
       .sep.huge-gap
       .text-center
