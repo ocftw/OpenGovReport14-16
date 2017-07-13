@@ -4,16 +4,94 @@ block head
 block body
   include ../mixin.jade
   #about
-    h2 About OGR
-    +fake
     +nbr(2)
-
-    h2 About Production Team
-    +fake
+    h1 About
     +nbr(2)
+    h2 使用授權 #[small.grayed / License]
+    .sep
+    .row
+      .col-sm-5.text-right
+        div 本報告全文 / This report
+        div 原始資料 / Raw data in this report
+        div 網頁原始碼 / Source code of this website
+      .col-sm-7
+        div released under CC-BY-SA 4.0 International-Open Culture Foundation 
+        div released under CC0 1.0. Universal.
+        div released under MIT License 
 
-    h2 About OCF
-    +fake
+
+    +nbr(3)
+
+    h2 作者 #[small.grayed / Author]
+    .sep
+    .row
+      .col-sm-5.text-right
+        p #[big 曾柏瑜] / 負責第一章法規制度及第三章公民參與
+        p 開放文化基金會研究專員
+        p 關注人權、性別平等及世代正義的社運參與者，曾參與太陽花運動，並參選2016年立委選舉。曾任《五花鹽出版社》專案編輯、並於2016年在台北市政府媒體事務組負責新聞分析，是亞洲青年民主連線的秘書。
+      .col-sm-7
+        p #[big Po-yu Tseng] / Author of Chapter 1 and 3
+        p Researcher, Open Culture Foundation 
+        p Po-yu is an activist concerned with human rights, gender equality and generational justice. Po-yu was involved with Taiwan’s Sunflower Movement in 2014, and was a candidate for the Legislative Yuan (Taiwan’s Congress) during the 2016 general elections. She has also worked at Taipei City Hall’s media affairs department. Po-yu is secretary of the Network of Young Democratic Asians, an alliance of young activists in Asia working to achieve effective democracy and protection of human rights.
+    +nbr(3)
+    .row
+      .col-sm-5.text-right
+        p #[big 李梅君] / 負責第二章開放資料及第四章公私協力
+        p 開放文化基金會研究專員
+        p 英國劍橋大學人類學碩士、美國加州大學戴維斯分校人類學博士候選人。研究關注公民科技、開源技術與開放文化、數位治理、與數位行動主義。現於台灣進行 g0v 社群與公民科技之田野調查。
+      .col-sm-7
+        p #[big Mei-chun Lee] / Author of Chapter 2 and 4
+        p Researcher, Open Culture Foundation 
+        p Mei-chun is an anthropology PhD candidate at the University of California, Davis, and a g0v community participant. She also holds a master degree from the University of Cambridge. Her research interests include hackitivism, open movements, digital democracy and activism. She is currently conducting fieldwork of civic technology in Taiwan.
+
+
+    +nbr(3)
+
+    h2 研究及製作團隊 #[small.grayed / Production Team]
+    .sep.huge-gap
+    .row
+      .col-sm-5.text-right
+        div 研究編寫
+        .grayed Author
+      .col-sm-7
+        div 李梅君 曾柏瑜
+        .grayed Mei-chun Lee, Po-yu Tseng 
+    +nbr(1)
+    .row
+      .col-sm-5.text-right
+        div 英文翻譯
+        .grayed Translation
+      .col-sm-7
+        div 陳曉瑩、陳中寬
+        .grayed Melissa Chen, Chung-Kuan Chen
+    +nbr(1)
+    .row
+      .col-sm-5.text-right
+        div 網站設計
+        .grayed Website and Visualization
+      .col-sm-7
+        div 吳泰輝
+        .grayed Kirby Wu
+
+    +nbr(1)
+    .row
+      .col-sm-5.text-right
+        div 封面設計與美術編輯
+        .grayed Design
+      .col-sm-7
+        div TBD
+        .grayed TBD
+        
+
+    +nbr(1)
+    .row
+      .col-sm-5.text-right
+        div 出版
+        .grayed Publish
+      .col-sm-7
+        div 開放文化基金會
+        .grayed Open Culture Foundation
+
     +nbr(2)
 
   include /footer.jade
