@@ -118,6 +118,12 @@ block body
       .sep.huge-gap
       +nbr(2)
       h3.text-center 有任何想法嗎？歡迎在這裡跟大家討論！
-      include /facebook/comment.jade
+      script.
+        var disqus_config = function () {
+        this.page.url = "http://opengovreport.ocf.tw/data/";
+        this.page.identifier = "/data/";
+        };
+      include /module/disqus.jade
+
     br
   include /footer.jade
