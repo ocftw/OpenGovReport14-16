@@ -32,7 +32,8 @@
     text-align: center
     span
       display: inline-block
-      margin-right: 15px
+      margin: 2px 5px
+      vertical-align: middle
   .level3
     color: #4d4
   .level2
@@ -41,6 +42,21 @@
     color: #ded
   .level0
     color: #ddd
+  .square
+    width: 26px
+    height: 18px
+    display: inline-block
+    margin: -3px 1px 0 0
+    vertical-align: middle
+  .square.level3
+    background: #4d4
+  .square.level2
+    background: #9e9
+  .square.level1
+    background: #ded
+  .square.level0
+    background: #ddd
+
   /*
   .level3
     color: #9f9
@@ -59,9 +75,11 @@
   left: -10px
   table
     width: 100%
+    tr th
+      padding-bottom: 6px
     tr td, tr th
       text-align: center
-      padding: 4px
+      padding: 1px 4px
     tr td:first-child
       text-align: right
       padding-right: 20px 15px

@@ -22,12 +22,12 @@ block body
           .score 68
         #sum-context.col-sm-3.summary
           .name 政策基礎
-          .subtitle Context
+          .subtitle Readness
           .score 68
           .chart.sparkline: #chart-context
         #sum-dataset.col-sm-3.summary
           .name 資料集現況
-          .subtitle Dataset
+          .subtitle Implementation
           .score 68
           .chart.sparkline: #chart-dataset
         #sum-impact.col-sm-3.summary
@@ -44,35 +44,6 @@ block body
             tr #[td 政策基礎] #[td 35.0%]
             tr #[td 資料現況] #[td 35.0%]
             tr #[td 影響力] #[td 30.0%]
-          //-
-            h4 政策基礎的計分方式
-            table(cellspacing="3")
-              tr #[td 冬蟲夏草] #[td 12.4%]
-              tr #[td 冬蟲夏草] #[td 12.4%]
-              tr #[td 冬蟲夏草] #[td 12.4%]
-            +nbr(1)
-            h4 資料集現況的計分方式
-            table
-              tr #[td 冬蟲夏草] #[td 12.4%]
-              tr #[td 冬蟲夏草] #[td 12.4%]
-              tr #[td 冬蟲夏草] #[td 12.4%]
-            +nbr(1)
-            h4 影響力的計分方式
-            table
-              tr #[td 冬蟲夏草] #[td 12.4%]
-              tr #[td 冬蟲夏草] #[td 12.4%]
-              tr #[td 冬蟲夏草] #[td 12.4%]
-
-        //-.col-sm-3
-          #sum-ttl.summary.text-right
-            .name 綜合評比
-            .subtitlte TTL
-            .score 68
-          .rank-table.tiny: table
-            tr(ng-repeat="item in subcats")
-              td {{item.key}}
-              td: i.fa.fa-square(ng-class="'cat-' + clsmap[item.values.values[0].Category]")
-              td {{item["總計"]}}
         .col-sm-9
           .text-center: h3 子分類分數
           .chart: #chart-attr
@@ -82,11 +53,12 @@ block body
     h2.text-center 開放資料現況
     .rank-legend.text-center
       .legend
-        span 項目評比
-        span #[i.fa.fa-circle.level0] 零開放
-        span #[.i.fa.fa-circle.level1] 低度開放
-        span #[.i.fa.fa-circle.level2] 中度開放
-        span #[.i.fa.fa-circle.level3] 高度開放
+        span 開放度低
+        .square.level0
+        .square.level1
+        .square.level2
+        .square.level3
+        span &nbsp;開放度高
     .rank-table
       table
         tr
