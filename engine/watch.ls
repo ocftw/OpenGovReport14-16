@@ -122,8 +122,8 @@ base = do
       fs.write-file-sync report, buf
       console.log "[BUILD] #src --> #report"
       $ = cheerio.load buf
-      list = $('h1,h2,h3')
-      map = {h1: " * ", h2: "   * ", h3: "     * "}
+      list = $('h2,h3')
+      map = {h1: "", h2: " * ", h3: "   * "}
       output = []
       for i from 0 til list.length =>
         item = $(list[i])
