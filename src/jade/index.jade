@@ -20,7 +20,7 @@ block body
       li.clickable(ng-click="tab=4",ng-class="{'active':tab==4}"): a 4. 公民科技
       li.clickable(ng-click="tab=5",ng-class="{'active':tab==5}"): a 5. 結論
     .row
-      #toc.col-sm-4
+      #toc.col-sm-4(ng-click="toc.handle($event)")
         div(ng-show="tab==0")
           include:markdown /partial/toc/ch-0.html
         div(ng-show="tab==1")
