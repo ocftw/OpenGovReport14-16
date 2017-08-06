@@ -1,11 +1,21 @@
-require! <[fs fs-extra path chokidar child_process jade stylus js-yaml]>
+require! <[fs fs-extra path chokidar child_process jade stylus js-yaml cheerio]>
 require! <[colors require-reload markdown jsdom bluebird node-minify jstransformer-markdown]>
 require! 'uglify-js': uglify-js, LiveScript: lsc, 'uglifycss': uglify-css
+require! <[fs markdown-it cheerio markdown-it-footnote markdown-it-container]>
 require! <[../config/scriptpack]>
 reload = require-reload require
 
-jade.filters.markdown = jstransformer-markdown
+panel-type = (type) -> (tokens, idx) ->
+  if tokens[idx].nesting == 1 =>
+    """<div class="panel panel-conclusion panel-#type"><div class="panel-body">"""
+  else """</div></div>"""
 markdown = markdown.markdown
+md = new markdown-it html: true, linkify: true, typographer: true
+md.use markdown-it-footnote
+<[danger warning info success primary]>.map (type) ->
+  md.use markdown-it-container, type, render: panel-type type,
+
+jade.filters.markdown = jstransformer-markdown
 
 RegExp.escape = -> it.replace /[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"
 
@@ -82,6 +92,9 @@ base = do
     @config = config or {config: \default}
     <[src src/ls src/styl static static/css static/js static/js/pack/ static/css/pack/]>.map ->
       if !fs.exists-sync it => fs.mkdir-sync it
+    chokidar.watch 'src/jade/report', ignored: (~> @ignore-func it), persistent: true
+      .on \add, ~> @md.watcher it
+      .on \change, ~> @md.watcher it
     chokidar.watch 'static/css', ignored: (~> @ignore-func it), persistent: true
       .on \add, ~> @packer.watcher it
       .on \change, ~> @packer.watcher it
@@ -95,6 +108,34 @@ base = do
       .on \add, ~> @watch-handler it
       .on \change, ~> @watch-handler it
     console.log "[Watcher] monitoring source files...".cyan
+  md: do
+    handle: {}
+    queye: {}
+    handler: (src) ->
+      toc = "src/jade/partial/toc/#{path.basename(src).replace /\.md$/, '.html'}"
+      report = "src/jade/partial/report/#{path.basename(src).replace /\.md$/, '.html'}"
+      fs-extra.ensure-dir-sync \src/jade/partial/toc/
+      fs-extra.ensure-dir-sync \src/jade/partial/report/
+      @handle[src] = null
+      buf = fs.read-file-sync src .toString!
+      buf = md.render buf
+      fs.write-file-sync report, buf
+      console.log "[BUILD] #src --> #report"
+      $ = cheerio.load buf
+      list = $('h1,h2,h3')
+      map = {h1: " * ", h2: "   * ", h3: "     * "}
+      output = []
+      for i from 0 til list.length =>
+        item = $(list[i])
+        output.push "#{map[item.0.name]}#{item.text!}"
+      output = output.join("\n")
+      output = md.render output
+      fs.write-file-sync toc, output
+      console.log "[BUILD] #src --> #toc"
+
+    watcher: (src) ->
+      if @handle[src] => clearTimeout @handle[src]
+      @handle[src] = setTimeout (~> @handler src), 500
 
   packer: do
     handle: null
