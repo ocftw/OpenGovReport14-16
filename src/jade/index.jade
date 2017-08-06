@@ -12,40 +12,8 @@ block body
       span &nbsp;
       .btn.btn-crystal.btn-lg English Report
   #report(ng-controller="report")
-    ul.nav.nav-tabs
-      li.clickable(ng-click="tab=0",ng-class="{'active':tab==0}"): a 0. 前言
-      li.clickable(ng-click="tab=1",ng-class="{'active':tab==1}"): a 1. 法律及政策
-      li.clickable(ng-click="tab=2",ng-class="{'active':tab==2}"): a 2. 開放資料檢視
-      li.clickable(ng-click="tab=3",ng-class="{'active':tab==3}"): a 3. 公民參與
-      li.clickable(ng-click="tab=4",ng-class="{'active':tab==4}"): a 4. 公民科技
-      li.clickable(ng-click="tab=5",ng-class="{'active':tab==5}"): a 5. 結論
-    .row
-      #toc.col-sm-4(ng-click="toc.handle($event)")
-        div(ng-show="tab==0")
-          include:markdown /partial/toc/ch-0.html
-        div(ng-show="tab==1")
-          include:markdown /partial/toc/ch-1.html
-        div(ng-show="tab==2")
-          include:markdown /partial/toc/ch-2.html
-        div(ng-show="tab==3")
-          include:markdown /partial/toc/ch-3.html
-        div(ng-show="tab==4")
-          include:markdown /partial/toc/ch-4.html
-        div(ng-show="tab==5")
-          include:markdown /partial/toc/ch-5.html
-      #content.col-sm-8
-        div(ng-show="tab==0")
-          include:markdown /partial/report/ch-0.html
-        div(ng-show="tab==1")
-          include:markdown /partial/report/ch-1.html
-        div(ng-show="tab==2")
-          include:markdown /partial/report/ch-2.html
-        div(ng-show="tab==3")
-          include:markdown /partial/report/ch-3.html
-        div(ng-show="tab==4")
-          include:markdown /partial/report/ch-4.html
-        div(ng-show="tab==5")
-          include:markdown /partial/report/ch-5.html
+    #content.summary
+      include /partial/report/summary.html
 
     .sep.huge-gap
     +nbr(1)

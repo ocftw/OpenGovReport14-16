@@ -92,7 +92,7 @@ base = do
     @config = config or {config: \default}
     <[src src/ls src/styl static static/css static/js static/js/pack/ static/css/pack/]>.map ->
       if !fs.exists-sync it => fs.mkdir-sync it
-    chokidar.watch 'src/jade/report', ignored: (~> @ignore-func it), persistent: true
+    chokidar.watch 'src/jade/md', ignored: (~> @ignore-func it), persistent: true
       .on \add, ~> @md.watcher it
       .on \change, ~> @md.watcher it
     chokidar.watch 'static/css', ignored: (~> @ignore-func it), persistent: true
@@ -111,6 +111,20 @@ base = do
   md: do
     handle: {}
     queye: {}
+    summary: ->
+      output = fs.readdir-sync \src/jade/partial/report/
+        .filter -> !/summary/.exec it
+        .map -> "src/jade/partial/report/#it"
+        .map ->
+          $ = cheerio.load(fs.read-file-sync it .toString!)
+          head = $ \h1
+          body = $ \.panel-conclusion
+          {head, body}
+        .filter -> it.body.length
+        .map -> 
+          return """<div class="summary-block">""" + it.head + it.body + "</div>"
+        .join \\n
+      fs.write-file-sync \src/jade/partial/report/summary.html, output
     handler: (src) ->
       toc = "src/jade/partial/toc/#{path.basename(src).replace /\.md$/, '.html'}"
       report = "src/jade/partial/report/#{path.basename(src).replace /\.md$/, '.html'}"
@@ -132,6 +146,7 @@ base = do
       output = md.render output
       fs.write-file-sync toc, output
       console.log "[BUILD] #src --> #toc"
+      @summary!
 
     watcher: (src) ->
       if @handle[src] => clearTimeout @handle[src]
