@@ -14,7 +14,7 @@ block body
   #report(ng-controller="report",style="max-width:100%;margin:0")
     #summary
       - var colors = ["f5542e","f2c327","008b6e","0067ad"];
-      - var icons = ["0.1", "2.1", "5.4", "5.4"];
+      - var icons = ["0.1", "2.1", "5.4", "10"];
       each item in data
         .summary-block(style="background:#" + colors[$index])
           .row.block1024.clickable(data-toggle="collapse", data-target="#summary-" + $index)
