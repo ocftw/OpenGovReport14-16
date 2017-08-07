@@ -211,9 +211,9 @@
 
 <table>
   <tr>
-    <td>政策基礎 35%</td>
-    <td>資料現況 35%</td>
-    <td>影響力 30%</td>
+    <td align='center' valign="middle">政策基礎 35%</td>
+    <td align='center' valign="middle">資料現況 35%</td>
+    <td align='center' valign="middle">影響力 30%</td>
   </tr>
   <tr>
     <td align='center' valign="middle">政府政策<br />政府執行<br />經濟與企業<br />公民社會<br />各 1/4</td>
