@@ -14,11 +14,12 @@ block body
   #report(ng-controller="report",style="max-width:100%;margin:0")
     #summary
       - var colors = ["f5542e","f2c327","008b6e","0067ad"];
+      - var icons = ["0.1", "2.1", "5.4", "5.4"];
       each item in data
         .summary-block(style="background:#" + colors[$index])
           .row.block1024.clickable(data-toggle="collapse", data-target="#summary-" + $index)
             .col-sm-5
-              h1 #[i.fa.fa-home] #{item.name}
+              h1 #[img(src="/assets/img/icons/icon_" + icons[$index] + ".white.svg")] #{item.name}
             .col-sm-7.text-right
               p.desc #{item.summary}
               .btn.btn-link.btn-lg More ...
