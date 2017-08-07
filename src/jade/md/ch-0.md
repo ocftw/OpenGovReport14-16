@@ -21,6 +21,6 @@
 
 ### 註解 
 
-[^first]:相關批評可參考〈前瞻公聽會拒旁聽 與會人士問唐鳳：這是開放政府？〉https://udn.com/news/story/7238/2393866、〈「前瞻基礎建設計畫」證明「開放政府」徒具形式，但是還來得及補救〉http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html。
+[^first]:相關批評可參考[〈前瞻公聽會拒旁聽 與會人士問唐鳳：這是開放政府？〉](https://udn.com/news/story/7238/2393866)、[〈「前瞻基礎建設計畫」證明「開放政府」徒具形式，但是還來得及補救〉](http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html)。
 
 

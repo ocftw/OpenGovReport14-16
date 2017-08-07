@@ -1,24 +1,31 @@
 <!DOCTYPE html><html lang="en"><head prefix="og: http://ogp.me/ns#"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title></title><meta property="og:locale" content="zh_TW"><meta property="og:image" content="thumbnail.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:type" content="website"><meta property="og:url" content="undefined"><meta property="og:title" content="undefined"><meta property="og:description" content="undefined"><meta property="fb:admins" content="586097167"><meta property="fb:app_id" content="538062799648166"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@loadingio"><meta name="twitter:title" content="undefined"><meta name="twitter:description" content="undefined"><meta name="twitter:creator" content="@loadingio"><meta name="twitter:image" content="thumbnail.png"><link rel="icon" type="image/x-icon" href="/assets/img/logo.png"><link rel="stylesheet" type="text/css" href="/assets/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/assets/fontawesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="/assets/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/assets/angular/1.3.15/angular.min.js"></script><script type="text/javascript" src="/assets/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="/assets/plotdb/plotdb.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading-btn.css"><script type="text/javascript" src="/assets/plotdb/plotdb.js"></script><script type="text/javascript" src="/assets/plotdb/dependency.bundle.js"></script><script type="text/javascript" src="/assets/plotdb/ogr-project.js"></script><link rel="stylesheet" type="text/css" href="/css/index.css?26"><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/einojbmllcjnkcapgajdbjjnpibkjnhh"><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><script type="text/javascript" src="/js/global.js"></script><script type="text/javascript" src="/js/index.js"></script><script type="text/javascript" src="/js/report/index.js"></script></head><body ng-app="ogr"><div id="nav-top"><nav role="navigation" class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button data-toggle="collapse" data-target="#nav-collapse" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">OGR <sup><small>2014-16</small></sup></a></div><div id="nav-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav pull-right"><li><a href="/report/"><div>報告</div><div>Report</div></a></li><li><a href="/data/"><div>資料</div><div>Data</div></a></li><li><a href="/download/"><div>下載</div><div>Download</div></a></li><li><a href="/about/"><div>關於</div><div>about</div></a></li><li><a><span>中文/EN</span></a></li></ul></div></div></nav></div><div id="nav-top-placeholder"></div><div id="notifications"><div ng-repeat="n in notifications" ng-class="'notify-'+n.type" ng-cloak class="notify">{{n.message}}</div></div><div id="landing"><div id="banner"><h1>開放政府觀察報告 2014 - 2016</h1><p><b class="strong">O</b>pen <b class="strong">G</b>overnment <b class="strong">R</b>eport 2014 - 2016</p></div><div class="text-center"><div class="btn btn-crystal btn-lg">中文報告</div><span>&nbsp;</span><div class="btn btn-crystal btn-lg">English Report</div></div></div><div id="report" ng-controller="report"><ul class="nav nav-tabs"><li ng-click="tab=0" ng-class="{'active':tab==0}" class="clickable"><a>0. 前言</a></li><li ng-click="tab=1" ng-class="{'active':tab==1}" class="clickable"><a>1. 法律及政策</a></li><li ng-click="tab=2" ng-class="{'active':tab==2}" class="clickable"><a>2. 開放資料檢視</a></li><li ng-click="tab=3" ng-class="{'active':tab==3}" class="clickable"><a>3. 公民參與</a></li><li ng-click="tab=4" ng-class="{'active':tab==4}" class="clickable"><a>4. 公民科技</a></li><li ng-click="tab=5" ng-class="{'active':tab==5}" class="clickable"><a>5. 結論</a></li></ul><div class="row"><div id="toc" ng-click="toc.handle($event)" class="col-sm-4"><div ng-show="tab==0"><p><ul>
 <li>註解</li>
 </ul></p></div><div ng-show="tab==1"><p><ul>
-<li>關鍵結論</li>
+<li>關鍵結論
+<ul>
+<li>台灣現無開放政府、開放資料專法</li>
+<li>2012 年因應國際趨勢及台灣社會氛圍開始一連串政策制定</li>
+<li>開放資料政策由行政院二級制及諮詢小組為架構，然而成效不彰</li>
+<li>開放政府缺乏整體規畫，在推動上高度依賴政務官的政治意志</li>
+</ul>
+</li>
 <li>1-1. 台灣開放資料、開放政府的法律及政策
 <ul>
-<li>1-1-1. 開放資料相關法制歷程</li>
-<li>1-1-2. 參與和協作的法制歷程</li>
+<li>開放資料相關法制歷程</li>
+<li>參與和協作的法制歷程</li>
 </ul>
 </li>
 <li>1-2. 台灣開放政府相關政府組織架構
 <ul>
-<li>1-2-1. 現行組織架構</li>
-<li>1-2-2.  現行架構中遇到的困難</li>
+<li>現行組織架構</li>
+<li>現行架構中遇到的困難</li>
 </ul>
 </li>
 <li>1-3. 國際比較
 <ul>
-<li>1-3-1. 美國</li>
-<li>1-3-2. 歐盟</li>
-<li>1-3-3. 韓國</li>
+<li>美國</li>
+<li>歐盟</li>
+<li>韓國</li>
 <li>註解</li>
 </ul>
 </li>
@@ -34,9 +41,9 @@
 </li>
 <li>2-1. 緒論
 <ul>
-<li>2-1-1. 前言</li>
-<li>2-1-2. 開放資料定義</li>
-<li>2-1-3. 研究方法與資料來源</li>
+<li>前言</li>
+<li>開放資料定義</li>
+<li>研究方法與資料來源</li>
 </ul>
 </li>
 <li>2-2 開放資料政策基礎
@@ -49,12 +56,12 @@
 </li>
 <li>2-3 資料集現況
 <ul>
-<li>政府組織：多數關鍵資料集仍未以開放資料的標準釋出</li>
-<li>政府課責：政府支出與陽光法案主題網須加速提供開放資料</li>
-<li>政府運作：黑箱般的國防與外交、無法監督的政府捐助財團法人</li>
-<li>公共安全：犯罪與環境資料相對開放，而地方公共檢查資料彙整程度低</li>
-<li>公營服務：開放程度高，交通資料已符合四星級的鏈結資料</li>
-<li>經濟活動：開放程度高，但地價仍未提供開放資料</li>
+<li>政府組織</li>
+<li>政府課責</li>
+<li>政府運作</li>
+<li>公共安全</li>
+<li>公營服務</li>
+<li>經濟活動</li>
 </ul>
 </li>
 <li>2-4 開放資料影響力評估
@@ -82,22 +89,22 @@
 </li>
 <li>3-1. 台灣公民參與的發展歷程
 <ul>
-<li>3-1-1. 既有的參與模式</li>
-<li>3-1-2. 具開放精神的公民參與萌芽</li>
-<li>3-1-3.  分析架構</li>
+<li>既有的參與模式</li>
+<li>具開放精神的公民參與萌芽</li>
+<li>分析架構</li>
 <li>Blulu 量表</li>
 </ul>
 </li>
-<li>3-2. 案例一：公民憲政會議草根論壇</li>
-<li>3-3. 案例二：經貿國是會議青年網聚 World Café 論壇計畫</li>
-<li>3-4. 案例三：飛雁新村</li>
-<li>3-5. 案例四：台北市社子島 i-Voting</li>
-<li>3-6. 案例五：公共政策網路參與平台</li>
-<li>3-7. 案例六：參與式預算
+<li>3-2. 公民憲政會議草根論壇</li>
+<li>3-3. 經貿國是會議青年網聚 World Café 論壇計畫</li>
+<li>3-4. 飛雁新村</li>
+<li>3-5. 台北市社子島 i-Voting</li>
+<li>3-6. 公共政策網路參與平台</li>
+<li>3-7. 參與式預算
 <ul>
-<li>3-7-1. 台北市：行政推動</li>
-<li>3-7-2. 新北市：議員配合款及主題式</li>
-<li>3-7-3. 台中市：標案式</li>
+<li>台北市：行政推動</li>
+<li>新北市：議員配合款及主題式</li>
+<li>台中市：標案式</li>
 </ul>
 </li>
 <li>3-8. 困境與挑戰
@@ -145,9 +152,9 @@
 </li>
 <li>4-6. 如何促成公民科技協作關係
 <ul>
-<li>4-6-1. 公民科技與資訊採購</li>
-<li>4-6-2. 公民科技的四種模式</li>
-<li>4-6-3. 化困境為挑戰</li>
+<li>公民科技與資訊採購</li>
+<li>公民科技的四種模式</li>
+<li>化困境為挑戰</li>
 <li>註解</li>
 </ul>
 </li>
@@ -172,30 +179,33 @@
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn-ch-0.md-1" class="footnote-item"><p>相關批評可參考〈前瞻公聽會拒旁聽 與會人士問唐鳳：這是開放政府？〉<a href="https://udn.com/news/story/7238/2393866%E3%80%81%E3%80%88%E3%80%8C%E5%89%8D%E7%9E%BB%E5%9F%BA%E7%A4%8E%E5%BB%BA%E8%A8%AD%E8%A8%88%E7%95%AB%E3%80%8D%E8%AD%89%E6%98%8E%E3%80%8C%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E3%80%8D%E5%BE%92%E5%85%B7%E5%BD%A2%E5%BC%8F%EF%BC%8C%E4%BD%86%E6%98%AF%E9%82%84%E4%BE%86%E5%BE%97%E5%8F%8A%E8%A3%9C%E6%95%91%E3%80%89http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html%E3%80%82">https://udn.com/news/story/7238/2393866、〈「前瞻基礎建設計畫」證明「開放政府」徒具形式，但是還來得及補救〉http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html。</a> <a href="#fnref-ch-0.md-1" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-0.md-1" class="footnote-item"><p>相關批評可參考<a href="https://udn.com/news/story/7238/2393866">〈前瞻公聽會拒旁聽 與會人士問唐鳳：這是開放政府？〉</a>、<a href="http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html">〈「前瞻基礎建設計畫」證明「開放政府」徒具形式，但是還來得及補救〉</a>。 <a href="#fnref-ch-0.md-1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section></p></div><div ng-show="tab==1"><p><h1>1. 法律及政策</h1>
 <div class="panel panel-conclusion panel-success"><div class="panel-body"><h2>關鍵結論</h2>
-<ul>
-<li>目前台灣無開放政府、開放資料相關專法，多以行政命令方式規範</li>
-<li>早期透過《行政程序法》 及《政府資訊公開法》規範政府資訊公開，直到 2012 年因為國際開放政府趨勢及台灣社會氛圍對於政府透明治理的要求，開始展開一連串針對開放政府的相關政策及行政命令制定</li>
-<li>台灣開放政府、開放資料政策由行政院主導，科技會報及 NICI 諮詢委員<sup class="footnote-ref"><a href="#fn-ch-1.md-1" id="fnref-ch-1.md-1">[1]</a></sup>作為幕僚機關，國發會負責制定資料開放原則，經濟部工業局負責開放資料的加值應用，而行政院所有二級機關皆設有開放資料諮詢小組</li>
-</ul>
+<h3>台灣現無開放政府、開放資料專法</h3>
+<p>現行開放資料相關規定，多以行政命令方式規範。公民參與除了《行政程序法》中對於聽證的規範外，尚未能將審議式、開放的公民參與制度化。</p>
+<h3>2012 年因應國際趨勢及台灣社會氛圍開始一連串政策制定</h3>
+<p>早期透過《行政程序法》 及《政府資訊公開法》規範政府資訊公開，直到 2012 年因為國際開放政府趨勢及台灣社會氛圍對於政府透明治理的要求，開始展開一連串針對開放政府的相關政策及行政命令制定。</p>
+<h3>開放資料政策由行政院二級制及諮詢小組為架構，然而成效不彰</h3>
+<p>目前相關政策由行政院主導，科技會報及 NICI 諮詢委員作為幕僚機關，國發會負責制定資料開放原則，經濟部工業局負責開放資料的加值應用，而行政院所有二級機關皆設有開放資料諮詢小組，然而因公務員普遍對開放資料了解不多，二級制架構施行上仍有困難。</p>
+<h3>開放政府缺乏整體規畫，在推動上高度依賴政務官的政治意志</h3>
+<p>現在的台灣政府至今仍未將開放政府的概念鑲嵌進現有的政治結構中，以至於空有價值面向的政策宣示，卻缺乏架構、政治文化、法制的明確策略規畫。</p>
 </div></div><h2>1-1. 台灣開放資料、開放政府的法律及政策</h2>
-<h3>1-1-1. 開放資料相關法制歷程</h3>
+<h3>開放資料相關法制歷程</h3>
 <p>開放資料、開放政府的實現有賴於健全的法律環境支持。台灣的法制化過程歷經許久的時間，早在 1998 年台灣便開始推動電子化政府，雖然此時期的電子化政府較偏重於提升行政效率，但數位資料的使用已經受到關注。1999 年通過的《行政程序法》，便針對政府資訊公開有了初步的規範，但此時僅從維護公民權利為出發點。</p>
 <p>2005 年通過的《政府資訊公開法》是台灣第一個明訂政府資訊應公開的法律，其立法目的明確指出「為建立政府資訊公開制度，便利人民共享及公平利用政府資訊，保障人民知的權利，增進人民對公共事務之了解、信賴及監督，並促進民主參與。」《政府資訊公開法》也明確定義了政府應公開的資訊包括法規命令、解釋法令、政府機關之組織聯絡資訊、行政指導、施政計畫、預算及決算書、請願結果、訴願決定、公共工程採購契約、補助及合議制機關之會議紀錄等，並應以主動公開為原則、不公開為例外。</p>
 <p>然而《政府資訊公開法》雖然強調政府必須「主動且適時」的公開資訊，卻沒有明確定義何為「適時」，也未特別要求其公開的形式和管道。該法對於政府資訊仍侷限於「人民有知的權利」，而非資訊應用的層面（朱斌妤、曾憲立 2016）。</p>
 <p>國際上，隨著科技及民主化運動的發展，人民對於政府透明及開放的需求益發加深。2008 年美國聯邦政府首開先例大力推動開放政府資料，2009 年時任美國總統歐巴馬上任後立即簽署《透明與開放政府備忘錄》，強調開放政府須具備「透明」、「參與」、「協作」三項原則。2011 年開放政府夥伴聯盟（OGP）正式成立，開放政府的風潮席捲全球，至今已有 75 個國家加入此聯盟，共同推動開放政府資料及透明治理。</p>
 <p>這股國際風潮也影響了台灣有關當局對於開放政府資料的看法。同一時期，台灣社會開始有更多要求透明治理、政府課責的訴求，包括 2014 年三一八佔領運動對於「反黑箱」的主張，都顯示了公民社會因為資訊不夠公開、決策無法課責，而缺乏對政府的信任。</p>
 <p>國際間的開放風潮以及台灣的政治氛圍，促使台灣政府開始思考開放資料、開放政府的議題。2011 年，政務委員朱敬一試圖推動開放資料，然而當時各部門對於開放資料尚未凝聚共識。2012 年，時任政委（後於 2016 年就職行政院長）的張善政大力推動開放資料。同時，開放資料與技術社群也從外部鼓吹與倡議。社群不但深入政府各機關進行觀念的傳播與諮詢，也扮演政府機關和公民之間的橋樑，讓政府機關加速資料開放。更重要的是，社群與政府展開協作，訂定開放資料的規範與授權。這時期的公私協作加速了台灣開放資料的進程。</p>
-<p>政策面上，2012 年「第四階段電子化政府」計畫中納入了「開放資料的加值應用」之概念，有別於過去三個階段的電子化政府計畫多關注政府服務電子化的面向，第四階段更強調資料的應用。2012 年 10 月 國家資訊通信發展推動（NICI）小組 第 31 次會議研議「政府資料開放推動策略」，2012 年 11 月行政院第 3322 次院會決議，積極規畫政府開放資料（李治安、林誠夏、莊庭瑞 2014）。「行政院第 3322 次院會決議文」對於台灣後續開放資料的立法非常關鍵，影響了後續許多開放資料的相關法規，包括 2013 年訂定的「行政院及所屬各級機關政府資料開放作業原則」及「政府資料開放資料集管理要項」，國發會更在此政策下，架設政府資料開放平台 <a href="http://data.gov.tw">data.gov.tw</a>，開始督導各二級機關開放資料。</p>
+<p>政策面上，2012 年「第四階段電子化政府」計畫中納入了「開放資料的加值應用」之概念，有別於過去三個階段的電子化政府計畫多關注政府服務電子化的面向，第四階段更強調資料的應用。2012 年 10 月 國家資訊通信發展推動（NICI）小組<sup class="footnote-ref"><a href="#fn-ch-1.md-1" id="fnref-ch-1.md-1">[1]</a></sup>第 31 次會議研議「政府資料開放推動策略」，2012 年 11 月行政院第 3322 次院會決議，積極規畫政府開放資料（李治安、林誠夏、莊庭瑞 2014）。「行政院第 3322 次院會決議文」對於台灣後續開放資料的立法非常關鍵，影響了後續許多開放資料的相關法規，包括 2013 年訂定的「行政院及所屬各級機關政府資料開放作業原則」及「政府資料開放資料集管理要項」，國發會更在此政策下，架設政府資料開放平台 <a href="http://data.gov.tw">data.gov.tw</a>，開始督導各二級機關開放資料。</p>
 <p>2015 年公布的「ide@Taiwan 2020（創意臺灣）政策白皮書」，揭示政府對於開放資料和公民參與的重視。它並針對共享經濟、虛擬貨幣、跨境網路交易課稅、網路連署及網路投票、數位資產及遺產、調整著作權等數位時代的新興領域，研擬法規鬆綁與行政規則的建立。2016 年公布的「第五階段電子化政府」計畫，更以資料驅動、公私協作、以民為本的核心理念，希望「透過巨量資料（big data）分析彙集民眾需求，藉由開放資料（open data）促進政府透明公開，並善用個人資料（my data）完備為民服務需求」。</p>
 <p>在開放資料與技術社群的呼籲及協作之下，2015 年行政院國發會發布了《政府資料開放授權條款》，以取代原先規定在「政府資料開放資料集管理要項」中的政府開放資料授權。此授權條款涵蓋所有政府資料開放平台中的資料，並和國際創用CC授權條款接軌，保障著作權授權不會收回、不限使用目的、允許再授權。</p>
 <p>目前，台灣開放資料、開放政府相關的規範以行政命令居多，而非經過立法程序的法律。也因為如此，目前現有的開放資料規範具有一定的限制，只能規範行政院附屬機關，對於開放資料的格式也沒有詳細規範。因此部分開放資料社群的參與者認為台灣應有開放資料的專法，法務部過去也試圖將開放資料的概念透過修法加入《政府資訊公開法》，不過因為各界當時對於開放資料尚無共識，因此並未成功修法。</p>
 <p>直至今日，政府機關及公民社會對於開放資料如何納入法律並沒有定論。反對訂定專法論者認為台灣政府體制不同於其他國家，立法所需要的時間相對較長，如果執著於先立法，反而會使開放資料的腳步更慢，如今以行政命令的方式處理反而更快速且有彈性。支持訂定專法論者則認為法源依據應該是追求開放透明政府的基礎建設之一。目前開放政府資料相關法源，一為《政府資訊公開法》，一為「行政院及所屬各級機關政府資料開放作業原則」。前者最大問題是只說要公開，但公開不等於要上網（政府公報即可），上網也不等於開放格式及開放授權，空有此法無法推動開放資料。而後者只規範行政院所屬單位，無法涵蓋其他四院<sup class="footnote-ref"><a href="#fn-ch-1.md-2" id="fnref-ch-1.md-2">[2]</a></sup>。</p>
-<h3>1-1-2. 參與和協作的法制歷程</h3>
+<h3>參與和協作的法制歷程</h3>
 <p>相較於開放資料在過去三年有較明確的法規與政策，開放政府的另一大核心——「參與」，則因為它屬於原則性又須具備彈性操作的空間，因此並無單一法規明訂，而是在各種行政程序中運作。部分既有的行政程序已納入公民參與的精神，但尚未能將審議式、開放的公民參與制度化。</p>
 <p>1999 年公布之《行政程序法》，首度明確規範無論在行政處分、法規命令或行政計畫，皆應該讓人民有參與表達意見之機會。依據立法目的可以將《行政程序法》進行功能性分類，將之分為透明化、參與化、辯論化、一般化及夥伴化等面向。其中透明化面向指對民眾公開決策過程，強化責任監督機制；參與化面向則指在行政決策過程中納入民眾參與精神；辯論化面向是指以辯論方式取代片面決策；一般化面向則代表行政程序從個案式朝向一般性制度化延伸；夥伴化面向則指行政機關和當事人合作的行政模式（葉俊榮、郭銘松 1999）。</p>
 <table>
@@ -238,7 +248,7 @@
 <p>另外，行政院於 2014 年發布「強化政府治理效能實施要點」，強調各部會可辦理政策擬案座談會，或利用社群媒體擴大民眾參與，然而因未有具體評量指標，其實際施行狀況難以觀察。</p>
 <p>目前公私協作的相關法規制度並未完備，其管道也仰賴委員會、顧問、發包等形式，至今未有較制度化的法規規範。其中值得一提的是，由國發會建構的「公共政策網路參與平台」則有較完備的行政法規。</p>
 <h2>1-2. 台灣開放政府相關政府組織架構</h2>
-<h3>1-2-1. 現行組織架構</h3>
+<h3>現行組織架構</h3>
 <p>//插入圖//
 &lt;圖表 1.2&gt; 組織架構</p>
 <p>目前開放政府資料相關施政由行政院主導，行政院科技會報及國家資訊通信發展推動（NICI）電子化政府組作為幕僚單位，國家發展委員會及經濟部工業局作為督導單位。以開放政府資料的分工上，國發會負責督導行政院各二級機關的資料開放，並制定資料開放作業原則及研擬台灣所適用的規範，以行政命令的方式頒布。根據《政府資料開放諮詢小組設置要點》規定，行政院轄下各二級機關皆須設置開放資料諮詢小組，並依據「行政院及所屬各級機關政府資料開放作業原則」將資料上傳至政府資料開放平台。經濟部工業局則負責資訊的加值應用，包括相關產業的創新及推廣。</p>
@@ -248,7 +258,7 @@
 <p>透過二級制，民眾可以向行政院各部會要求開放特定資料集。依據「開放為原則，不開放為例外」的精神，如果二級機關拒絕開放特定資料集，則須回應民眾不開放的原因，如果民眾不服其理由，可再往上追溯至行政院，行政院可以推翻其不開放的決定，並要求相關部會開放。此資料請求的程序法理上應為陳情程序，不過由於資料請求的流程尚未統一規範，各局處的處理情形會有所不同。</p>
 <p>//插入圖//
 &lt;圖表 1.3&gt; 資料請求的流程</p>
-<h3>1-2-2.  現行架構中遇到的困難</h3>
+<h3>現行架構中遇到的困難</h3>
 <p>設計上諮詢小組並非顧問，而是具有決策權的角色，然而在實際運作上，諮詢小組通常無法進行決策。各機關開放資料承辦人收到民眾對於資料開放的請求後，如認定依法無法公開，或所開放的資料有缺漏、質量不佳，這些問題都不會進入諮詢小組討論。另外，由於各諮詢小組中的民間委員僅占三分之一，部分諮詢委員對開放資料的概念不一，實際討論中有時難以符合社群及民間期待，許多部會諮詢小組會議紀錄也非完整公開，使諮詢小組的作用有限。</p>
 <p>此外，雖然各部會形式上仍然會將開放資料的內容送至行政院備查，但行政院諮詢小組並無發揮實質審查的效果。尤其因為作為幕僚單位的國發會人力不足，無法在行政院檢討會議前，將當年度開放資料的內容及品質做初期檢討，並將內容整理給行政院諮詢小組討論，讓諮詢小組的功能大打折扣。不過藉由行政院諮詢小組會議的機會，能將各部會首長聚集，重新確認對開放資料的方向，此舉仍具政治宣誓的意義。</p>
 <p>除了二級制的諮詢小組外，開放資料仍是由各機關業務承辦人各自進行，但許多承辦人並沒有開放資料的概念，針對一些通用型的資料，也無規範範本可供業務單位參考。目前民間請求資料的流程並無明確規範，法理上雖然各業務承辦人應依《行政程序法》的民眾陳情流程處理，但許多承辦人無此認知，使此流程並不順暢，社群仍期待未來各部會能設立相關專屬流程。</p>
@@ -282,10 +292,10 @@
   </tr>
 </table>
 <p>&lt;圖表 1.4&gt; 各國推動開放資料模式比較</p>
-<h3>1-3-1. 美國</h3>
+<h3>美國</h3>
 <p>美國在推動開放政府及開放資料之初，並未以專法規範，而是以總統行政命令及總統備忘錄的方式執行。2009 年美國總統歐巴馬在上任第二天便簽署《透明與開放政府備忘錄》，此份備忘錄揭示了「透明」、「參與」 及「協作」三項行動方針。這份備忘錄指示美國行政管理和預算辦公室（Office of Management and Budget，簡稱 OMB）發布「開放政府指令」（Open Government Directive），要求各機關落實執行，並以《政府資訊公開法》、《著作權法》第 105 條與行政管理與預算辦公室「第 A-130 號函」為依據，來實行開放資料。此外，美國也於 2009 年設置政府資料平台 <a href="http://data.gov">data.gov</a>（戴豪君、 顧振豪 2015）。</p>
 <p>美國於 2014 年通過了《數位責任與透明法》（Digital Accountability and Transparency Act of 2014），此法主要關注政府預算支出的透明化。2016 年初，國會議員夏茲（Brian Schatz）提出《開放政府資料法》（Open Government Data Act），這個法案將會以法律的層次確定政府資料以開放為原則、不開放為例外，並將之前通過的行政命令以法律定調。該法於 2017 年 5 月已經通過委員會審議，後續只須再經過辯論及表決便可通過，因兩黨都表態支持《開放政府資料法》，因此通過的可能性偏高（Jonathan Haggerty 2017<sup class="footnote-ref"><a href="#fn-ch-1.md-3" id="fnref-ch-1.md-3">[3]</a></sup> 。</p>
-<h3>1-3-2. 歐盟</h3>
+<h3>歐盟</h3>
 <p>歐盟於 2003 年通過「公部門資訊再利用指令」（Re-use of Public Sector Information Directive, 2003/98/EC），該指令著重政府資訊再利用的經濟效益（林誠夏 2016）。2013 年歐盟執委會修正「公部門資訊再利用指令」，這項修正中有三個重點：</p>
 <ol>
 <li>公共資料提供及資訊再利用的收費基準，由費用上限（Upper Ceiling for Charges）改為邊際成本（Marginal Costs）計算模式。</li>
@@ -293,7 +303,7 @@
 <li>明確規範政府釋出的資訊必須以機器可讀的格式處理。</li>
 </ol>
 <p>「公部門資訊再利用指令」提出了一個完整的發展面向及目標，而其他規範則有賴歐盟會員國將這些目標內化成各國國內法。</p>
-<h3>1-3-3. 韓國</h3>
+<h3>韓國</h3>
 <p>韓國於 2012 年加入「開放政府夥伴聯盟」。2013 年開始推動 Government 3.0，希望以資訊技術改變公務機關的文化。同年，通過了《公共資料提供及再利\用活化法》（Open Data 專法），該法以平等原則保障公民對資訊近用的權利，並明確規範應開放及不開放的資料。</p>
 <p>《公共資料提供及再利用活化法》明定設置「公共資料策略委員會」，進行開放資料相關的政策審議，並針對資料盤點結果進行評估。此外，為避免資料使用過程中發生糾紛，也設置「公共資料紛爭調解委員會」，以尋求有效率的解決方案。</p>
 <p>根據韓國《著作權法》規定，由國家或地方政府機關公開的著作，不須取得機關授權即可使用。在《著作權法施行細則》則規定須建置「公共機關著作使用授權的系統」。韓國也在推動 Government 3.0 後建置了開放資料平台 <a href="http://data.go.kr">data.go.kr</a>（經濟部工業局 2015）。</p>
@@ -302,11 +312,11 @@
 <section class="footnotes">
 <ol class="footnotes-list">
 <li id="fn-ch-1.md-1" class="footnote-item"><p>2017 年 5 月起改組為「行政院數位國家創新經濟推動小組」，NICI 要點停止適用。
-<a href="http://chuchi.cyhg.gov.tw/News<em>Content.aspx?n=AFDE5898784A405A&amp;sms=4F8F3F800B36E0EF&amp;s=CDDF9C9CC2973F57">http://chuchi.cyhg.gov.tw/News</em>Content.aspx?n=AFDE5898784A405A&amp;sms=4F8F3F800B36E0EF&amp;s=CDDF9C9CC2973F57</a> <a href="#fnref-ch-1.md-1" class="footnote-backref">↩︎</a></p>
+參考 <a href="http://www.ey.gov.tw/News<em>Content.aspx?n=4E506D8D07B5A38D&amp;s=5C49032AC4D46C4D">http://www.ey.gov.tw/News</em>Content.aspx?n=4E506D8D07B5A38D&amp;s=5C49032AC4D46C4D</a> <a href="#fnref-ch-1.md-1" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-1.md-2" class="footnote-item"><p>參考開放政府資料法在 g0v 社群中的討論：<a href="https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY%EF%BC%8C%E6%96%87%E4%BB%B6%E6%8E%88%E6%AC%8A">https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY，文件授權</a> CC BY 4.0。 <a href="#fnref-ch-1.md-2" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-1.md-2" class="footnote-item"><p>參考g0v 社群<a href="https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY">〈開放政府資料法〉</a>。文件授權 CC BY 4.0。 <a href="#fnref-ch-1.md-2" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-1.md-3" class="footnote-item"><p><a href="http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/">http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/</a> <a href="#fnref-ch-1.md-3" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-1.md-3" class="footnote-item"><p>參考 <a href="http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/">“OPEN Government Data Act moves to Senate floor after markup”</a> <a href="#fnref-ch-1.md-3" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section></p></div><div ng-show="tab==2"><p><h1>2. 開放資料</h1>
@@ -322,7 +332,7 @@
 <h3>過份強調 KPI，而未全盤思考開放資料在政府治理中的角色</h3>
 <p>開放資料在台灣已推行數年，政府從推動平台、資料集數量、舉辦黑客松等等，無不追求各種能創造短期亮點的 KPI，卻缺乏開放資料在行政流程、數位治理、資料經濟上的整體規畫。不論是法制與政策的不完整，或是系統老舊與資料治理的概念不足，都讓開放資料的發展往往得仰賴上位者的意志來推動。</p>
 </div></div><h2>2-1. 緒論</h2>
-<h3>2-1-1. 前言</h3>
+<h3>前言</h3>
 <p>伴隨著「開放政府」運動在二十一世紀成為國家治理的新趨勢，「政府開放資料」（以下簡稱為「開放資料」）也在 2012 年起，成為各國推動數位轉型與民主深化的重要手段。現代國家治理建立在對人民與領土的普查之上，因此國家蒐集大量關於人民的資訊與資料。這些政府資料並非為政府或是特定政治人物所擁有，它的蒐集仰賴人民的稅賦，它的內容也關乎人民，政府機構僅是依其職責代全民蒐集、保存並管理各項資訊 （陳舜伶、林珈宏、莊庭瑞 2013）。因此，政府資料應以開放的授權回歸到公眾領域，展現民主國家公開透明、可被問責的態度。</p>
 <p>2005 年發布的《政府資訊公開法》明定政府在該法所列的例外情形外 （見第十八條），有責任「主動公開」政府資訊（public information）。公開的資訊可為政府帶來一定程度的透明，但是，已經過業務單位統計後的公開資訊，往往只能瞥見政府運作的冰山一角。在資通訊技術的快速發展下，台灣於 2012 年起，開始推動政府開放資料（open data），強調將資訊進一步以更完整的數據與結構化的格式形成資料，並在統一的資料平台上釋出，藉由大數據的運算，讓政府資料不只是可以「看」，更能拿來「用」，透過對政府開放資料的分析與應用，「讓民眾、公司以及組織可用於創立新事業、分析型態與趨勢、做出資料導向決策，以及解決複雜問題」（Joel Gurin 2014，引自朱斌妤、曾憲立 2016），進而達成資料治理的願景。</p>
 <p>在上述理念下，開放資料不僅肩負政府透明與問責，更進一步以提升政府服務品質與效能，並創造經濟價值為目標。我們強調，開放資料不只是為了經濟發展，它是政府透明與公民參與的根基。推動開放資料的同時，政府應以數位化行政流程為基石、建立起共享的知識庫，人民才能在此之上與政府協作出新的治理模型。</p>
@@ -350,7 +360,7 @@
   </tr>
 </table>
 <p>&lt;圖表2.2&gt; 政府資訊公開 vs 開放政府資料</p>
-<h3>2-1-2. 開放資料定義</h3>
+<h3>開放資料定義</h3>
 <p>開放資料是指「資料能被任何人自由地使用，重新使用與散布。我們至多只能要求來源標示，與以相同方式分享」（參考 Open Data Handbook<sup class="footnote-ref"><a href="#fn-ch-2.md-1" id="fnref-ch-2.md-1">[1]</a></sup>）。不同於傳統著作權對於知識與資料在使用、重製與散布的限制，「開放」強調知識的公共性與自由流通，在開放的基礎上，才能推動一個強健、任何人都可以在最大互通性下進行參與的共享領域。</p>
 <p>國際上，關於開放資料有兩個重要的定義：「開放定義」（Open Definition 2.1<sup class="footnote-ref"><a href="#fn-ch-2.md-2" id="fnref-ch-2.md-2">[2]</a></sup>）與「開放資料五顆星」<sup class="footnote-ref"><a href="#fn-ch-2.md-3" id="fnref-ch-2.md-3">[3]</a></sup>。開放知識基金會（Open Knowledge International）的「開放定義」 ，指出開放資料須滿足「開放授權」、「機器可讀」、「方便近用」、「開放格式 」四項條件（圖表 2.3）。</p>
 <table>
@@ -396,7 +406,7 @@
   </tr>
 </table>
 <p>&lt;圖表 2.4&gt; 開放資料的五顆星</p>
-<h3>2-1-3. 研究方法與資料來源</h3>
+<h3>研究方法與資料來源</h3>
 <p>本章節兼採質性與量化的分析，針對台灣 2014 年到 2016 年開放資料的政策脈絡、資料現況，與影響力進行評析。我們採用世界網路基金會（World Wide Web Foundation）在 Open Data Barometer（以下簡稱 ODB）第三版使用的研究方法<sup class="footnote-ref"><a href="#fn-ch-2.md-4" id="fnref-ch-2.md-4">[4]</a></sup> 為骨架，並參考學者們的相關文獻，綜合整理為本章節的論述。</p>
 <p>開放資料的「政策脈絡」與「影響力」兩部分，是以 ODB 的題目作為基礎，由研究員進行調查分析。我們同時邀請相關主管機關另外作答，作為參考資料，希望這種互動能促進主管機關重新思考開放資料的政策方向，而不僅僅在衝高資料集開放的數量。初步的調查文件由研究員蒐集資料與撰文，並依據 ODB 各題的評量標準給分。我們並於 4 月 17 日至 5 月 7 日開放社群檢視調查文件，並提供更多參考資料與評論，再由研究員於 5 月 7 日將意見回收，整理成最後的調查文件<sup class="footnote-ref"><a href="#fn-ch-2.md-5" id="fnref-ch-2.md-5">[5]</a></sup>，成為本文重要的參考資料。</p>
 <p>「資料集現況」的部分，不同於 ODB 的 15 項資料類別，我們採用 g0v 社群所編寫的〈Data-Centric Government 的 20 大類資料〉（見圖表 2.5）<sup class="footnote-ref"><a href="#fn-ch-2.md-6" id="fnref-ch-2.md-6">[6]</a></sup>。這 20 大類資料，呈現開放資料從促進政府透明、公眾權利到經濟應用的架構，相對於 ODB 的 15 項資料，更符合台灣的脈絡與現況，也利於結構性分析。我們在每一類別中，依據相關性與重要性挑選了 3 到 5 項的資料集，檢視其是否符合圖表 2.6 中 1~10 項的指標，以判斷該資料集的開放程度。這項盤點由 g0v 社群協作蒐集、檢視與審查，貢獻者與審查者的名單可參考 GitHub 上的原始資料頁<sup class="footnote-ref"><a href="#fn-ch-2.md-7" id="fnref-ch-2.md-7">[7]</a></sup>。盤點後的結果，再以圖表 2.7 的加權比重計算出總分。</p>
@@ -485,32 +495,31 @@
     <td>影響力 30%</td>
   </tr>
   <tr>
-    <td><em> 政府政策</br></em> 政府執行</br><em> 經濟與企業</br></em> 公民社會</br>各 1/4</td>
-    <td>20 大類資料</br>各 1/20</td>
-    <td><em> 政治面</br></em> 經濟面</br>* 社會面</br>各1/3</td>
+    <td align='center' valign="middle">政府政策<br />政府執行<br />經濟與企業<br />公民社會<br />各 1/4</td>
+    <td align='center' valign="middle">20 大類資料</br>各 1/20</td>
+    <td align='center' valign="middle">政治面<br />經濟面<br />社會面<br />各1/3</td>
   </tr>
 </table>
 <p>〈圖表 2.7〉評分權重表</p>
 <h2>2-2 開放資料政策基礎</h2>
 <h3>法規政策</h3>
 <blockquote>
-<p>無開放資料法源，而是以行政規範與命令推動
-平台與授權已具備，但個別資料集品質參差不齊</p>
+<p>無開放資料法源，而是以行政規範與命令推動</br>平台與授權已具備，但個別資料集品質參差不齊</p>
 </blockquote>
 <p>台灣現無開放資料的基礎法源，目前僅有《政府資訊公開法》（2005） 作為資訊公開的依據，並搭配行政規範「行政院及所屬各級機關政府資料開放作業原則」（2013） 來推行開放資料。由於開放資料並無專法明定，使得上位者的政治意志與政策指令，成為推動開放資料的關鍵。行政院曾將 2015 年訂為「Open Data 深化應用元年」，帶動一波衝數量但不重品質的資料開放。但在那之後，因為缺乏法源與資料治理的基礎，擁有資料的各機關單位，傾向被動開放而非主動開放資料。</p>
 <p>法規與政策雖不完備，但國發會於 2013 年建立「政府資料開放平台<sup class="footnote-ref"><a href="#fn-ch-2.md-8" id="fnref-ch-2.md-8">[8]</a></sup>，作為台灣第一個開放資料平台，具有指標性的意義。此平台所採用的授權條款「政府資料開放授權條款第一版」，由國發會與社群協作編寫，在 2017 年獲得開放知識基金會認證，成為少數符合「開放定義」的國家級授權條款<sup class="footnote-ref"><a href="#fn-ch-2.md-9" id="fnref-ch-2.md-9">[9]</a></sup>。政府資料開放平台上線後，在資料集數量上雖有成長，但並未從資料產生端進行系統性的統整，造成資料品質參差不齊。「資料集品質評鑑機制研究計畫」 （聯經數位 2016）指出，政府資料開放平台上，有高達五成的資料不利於機器讀取，阻礙跨機關串接與資料加值應用。</p>
 <h3>政府執行</h3>
 <blockquote>
-<p>資料治理的流程未建立，無法改善行政效率
-業務單位缺乏相關的概念與技術課程
+<p>資料治理的流程未建立，無法改善行政效率<br>
+業務單位缺乏相關的概念與技術課程<br>
 地方政府皆已提供開放資料，但發展上有嚴重城鄉差異</p>
 </blockquote>
 <p>政府在開放資料的執行上，並無單一的統籌機關，資料集的開放由各機關單位的資訊人員來協調業務單位釋出手中資料。由於資訊部門屬於輔助單位，非資料管理者，而業務單位多數未具有資訊背景，並不熟悉開放資料的概念與實作技術，政府也缺乏相關的系統性課程，因此開放資料仍無法與政府決策的流程整合。相反的，在行政流程沒有完善的數位化管理之前，對基層公務員來說，每多一份開放資料，就又多一項列管的業務與更新的壓力，不但成為基層公務員沉重的負擔，也讓所提供的資料集品質低落。</p>
 <p>至於地方政府方面，台灣 22 個地方政府中，已有 13 個地方政府架設自己的資料開放平台，其他 9 個地方政府則是將資料提供於國發會所架設的政府資料開放平台上。未自行架設資料開放平台的縣市，多為非都會區，於政府資料開放平台上提供的開放資料數量也相對稀少<sup class="footnote-ref"><a href="#fn-ch-2.md-10" id="fnref-ch-2.md-10">[10]</a></sup>，可見開放資料的發展仍有嚴重的城鄉差距。</p>
 <h3>公民社會</h3>
 <blockquote>
-<p>有《政府資訊公開法》，但申請政府資料仍有重重阻礙
-有《個人資料保護法》，但機關易以去識別化為方法規避
+<p>有《政府資訊公開法》，但申請政府資料仍有重重阻礙<br>
+有《個人資料保護法》，但機關易以去識別化為方法規避<br>
 開放資料諮詢小組運作不一，部分成為形式會議</p>
 </blockquote>
 <p>開放資料與公民社會的互動上，有兩個面向需要關注：其一，如何保障政府的開放資料不會侵害個人隱私權；其二，政府如何回應公民社會的資料需求。</p>
@@ -519,48 +528,66 @@
 <p>除了法規之外，自 2015 年起，行政院及其以下二級機關皆設有開放資料諮詢小組，由機關代表與公民社會代表組成，每季或每半年召開會議，分別針對策略規畫、資料盤點、溝通推廣、資料品質四大方向進行討論。會中，也會檢視民眾索取的資料，並確保機關有回應民眾需求。但是，委員會的組成並非全部是熟悉開放資料的專家學者，且數個月才有一次會議，使得各諮詢小組效能不如預期，部分淪為形式會議。</p>
 <h3>經濟創新</h3>
 <blockquote>
-<p>過度仰賴短期的活動、黑客松
+<p>過度仰賴短期的活動、黑客松<br>
 缺乏資料經濟產業政策</p>
 </blockquote>
 <p>台灣推動開放資料將資料經濟視為一大重點，由工業局統籌，近三年積極透過舉辦各類競賽、黑客松，鼓勵以開放資料為基礎的經濟創新。但是競賽型黑客松囿於時間所限，往往只成為一、兩天熱鬧的嘉年華。黑客松所產出的作品，在缺乏產業鏈的支持又沒有政府政策輔助下，很少能持續開發成為可應用的產品。此外，機關針對黑客松推動開放資料，往往也在黑客松結束後停擺。整體而言，台灣的資料經濟產業缺乏完善的產業政策，過度仰賴短期的活動、競賽、黑客松。</p>
 <h2>2-3 資料集現況</h2>
 <p>//插入圖片//
 &lt;圖表 2.8&gt;</p>
-<h3>政府組織：多數關鍵資料集仍未以開放資料的標準釋出</h3>
+<h3>政府組織</h3>
+<blockquote>
+<p>多數關鍵資料集仍未以開放資料的標準釋出</p>
+</blockquote>
 <p>//插入圖片//
 &lt;圖表 2.9&gt; 政府組織各項分數</p>
 <p>在關於政府組織的各項資料集（法規、人事、司法）中，我們比對政府資料開放平台上的資料集與各機關提供在個別網站的資料集，發現前者的資料內容相對簡略（例如司法相關的資料），或者無更新到最新版本（例如人事資料）。是故，在選取評量的資料集時，我們挑選了在各機關網站上提供的版本，但這些版本多以資訊公開的形式發布，缺乏開放資料的概念。比方說，人事總處針對行政院所屬暨地方政府機關有十分詳盡的統計數據，但非以開放格式提供，且表格內含有合併儲存格，因此不利於機器讀取。同樣的，司法院在司法統計頁上有比法務部更詳盡的統計數據，可是前者無法以機器讀取，且不能整批下載，不符合開放資料的原則<sup class="footnote-ref"><a href="#fn-ch-2.md-12" id="fnref-ch-2.md-12">[12]</a></sup>。此外，法務部於全國法規資料庫上，提供 XML 格式的中英文法規下載，但所使用的授權條款《全國法規資料庫公開資料使用規範》，並不符合開放定義。</p>
-<h3>政府課責：政府支出與陽光法案主題網須加速提供開放資料</h3>
+<h3>政府課責</h3>
+<blockquote>
+<p>政府支出與陽光法案主題網須加速提供開放資料</p>
+</blockquote>
 <p>//插入圖片//
 &lt;圖表 2.10&gt;  政府課責各項分數</p>
 <p>此類資料集有著與上一類相同的問題。關鍵資料集，尤其是陽光法案主題網上關於政治獻金、財產申報、行政罰鍰等資料，仍然只能用系統查詢，而不是整理成開放資料提供使用者整筆下載，非常不利於機器讀取，更難以被公民科技應用。另外，雖然政府預算已提供開放資料，但是實際的支出則仍以年報、月報的方式，公布在不便於使用者查找的地方，大大降低人民透過資料監督政府的可能性。值得一提的是，中選會提供的選舉資料相對完整，但目前罷免統計尚未提供於政府資料開放平台上。</p>
-<h3>政府運作：黑箱般的國防與外交、無法監督的政府捐助財團法人</h3>
+<h3>政府運作</h3>
+<blockquote>
+<p>黑箱般的國防與外交、無法監督的政府捐助財團法人</p>
+</blockquote>
 <p>//插入圖片//
 &lt;圖表 2.11&gt;  政府運作各項分數</p>
 <p>在此大類中，採購資料與部分普查資料相對開放，但是普查類的地圖圖資開放程度不足，所提供的圖資並非機器可讀的 vector data。法人基本資訊中，有關政府捐助的財團法人，雖領有大筆政府預算，理應受人民監督，但卻無法找到相關資訊，不但易淪為肥貓組織，且可能形成重大弊端。至於國防與外交，更僅次於司法最不開放的資料項目，各種重要資料，例如條約協定、援外成果，四散在政府網站各處，且多以非開放資料的方式提供，無清楚的授權標示、更新時間也不明。</p>
-<h3>公共安全：犯罪與環境資料相對開放，而地方公共檢查資料彙整程度低</h3>
+<h3>公共安全</h3>
+<blockquote>
+<p>犯罪與環境資料相對開放，而地方公共檢查資料彙整程度低</p>
+</blockquote>
 <p>//插入圖片//
 &lt;圖表 2.12&gt;  公共安全各項分數</p>
 <p>在此大類中，關於犯罪與環境的資料開放程度較佳，而公共檢查的資料則散亂且殘缺。由於公共檢查多以各地方政府為執法單位，因此資料集經常是提供各地方政府的網頁連結。而各地區資料開放程度不一，使得資料須進一步人工處理，才能串連做整合性的分析與應用。環保相關的資料則開放程度較高，且水質與空氣皆有提供即時監測資料。</p>
-<h3>公營服務：開放程度高，交通資料已符合四星級的鏈結資料</h3>
+<h3>公營服務</h3>
+<blockquote>
+<p>開放程度高，交通資料已符合四星級的鏈結資料</p>
+</blockquote>
 <p>//插入圖片//
 &lt;圖表 2.13&gt;  公營服務各項分數</p>
 <p>此大類有相當高的開放程度，可見開放資料作為改善民生服務的基礎，在應用面上較廣，因此開放程度高。基礎建設中，交通資料的表現最佳，已達成鏈結資料（linked data）。水力與電力資料則在經濟部 2016 年大力推動公營事業開放資料下，開放程度高。健康醫療資料的表現也不俗，健保署並自設有「健康保險資料開放服務」 <sup class="footnote-ref"><a href="#fn-ch-2.md-13" id="fnref-ch-2.md-13">[13]</a></sup>，提供豐富的開放資料集。教育資料中，有部分較完整的資料是公布在教育統計查詢網<sup class="footnote-ref"><a href="#fn-ch-2.md-14" id="fnref-ch-2.md-14">[14]</a></sup>中，雖然資料豐富且機器可讀，但是並無標示開放的授權條款。</p>
-<h3>經濟活動：開放程度高，但地價仍未提供開放資料</h3>
+<h3>經濟活動</h3>
+<blockquote>
+<p>開放程度高，但地價仍未提供開放資料</p>
+</blockquote>
 <p>//插入圖片//
 &lt;圖表 2.14&gt;  經濟活動各項分數</p>
 <p>此大類的資料開放程度高，反映政府在推動開放資料上，是以經濟發展為優先。多項重要資料集已整合在政府資料開放平台上。其中，地價資料並無提供開放資料供使用者下載，僅僅以查詢的方式提供。</p>
 <h2>2-4 開放資料影響力評估</h2>
 <h3>政治面影響</h3>
 <blockquote>
-<p>促進部分政府透明，但許多關鍵資料集尚未開放
+<p>促進部分政府透明，但許多關鍵資料集尚未開放<br>
 未能有效提升政府效率與執行力</p>
 </blockquote>
 <p>開放資料對於政府的透明與公共問責有部分正面影響，可見於選舉與預算兩類資料的應用。2016 年總統與立委選舉後，技術社群應用中選會的資料，推出「選票分布地圖」進一步分析選舉結果。此外，台北市也在 2015 年與社群專家合作，將下年度的預算資料，以互動且視覺化的方式呈現，讓民眾可以簡單而快速了解預算使用情形。此做法後續也應用在高雄市、嘉義縣、台中市、宜蘭縣、新北市等地方政府。但是，除了選舉與預算資料外，仍有許多關於政府透明與問責的關鍵資料尚未公開，或未達開放三星等的資料集，例如：政治獻金、公職人員財產申報、政府採購與支出等，須加速開放且統整進政府資料開放平台，以促進施政透明與公共問責。</p>
 <p>在改善行政效率上，開放資料的影響仍待觀察。開放資料的確有促成零星的公私協作個案，例如：台南市登革熱地圖、八仙粉塵爆炸傷者開放資料查詢。這些個案顯示，公民社會可以透過開放資料，進行群眾外包與社群協作，幫助政府提升處理急難事件的效率。但是，就公務系統而言，由於各機關文化與資料格式尚無彙整，開放資料因而無法具體改善跨機關間溝通。相反的，開放資料經常是在原有業務上新增的負擔。由於疊床架屋的研考流程、 依法行政的保守文化、概念與技術訓練不足、對於政令的不信任感等因素<sup class="footnote-ref"><a href="#fn-ch-2.md-15" id="fnref-ch-2.md-15">[15]</a></sup>，使得開放資料在改善政府效率與執行力上，大大受限。</p>
 <h3>社會面影響</h3>
 <blockquote>
-<p>有助於民眾進一步了解公共事務，並促進公民參與
+<p>有助於民眾進一步了解公共事務，並促進公民參與<br>
 無實際改善對弱勢群體的公共服務</p>
 </blockquote>
 <p>開放資料有助於民眾進一步了解公共事務，並促進公民參與。在環保上，開放資料能提升民眾的環保意識，並且成為環保團體監督政府與企業的工具。例如，由各地方縣市政府與企業、創客社群 LASS（Location Aware Sensor System），以及中研院資訊科學研究共同合作的「空氣盒子」計畫，將溫濕度環境感應器提供給學校單位，並將資料以開放的格式在雲端串接，補足官方測站不足的問題，同時提供學校在環保議題上的實作教學。</p>
@@ -568,7 +595,7 @@
 <p>但是，當前台灣的開放資料極少運用在改善弱勢群體的生活，截至 2016 年底仍不見產生正面影響的案例。台北市社會局與社群共同推出的「家暴地圖」，將已去個資識別的家暴資料，以地圖方式呈現，希望讓社工人員能更有效地掌握家暴潛在區域，並且提升地方社區鄰里守望相助的意識。但是，學者與社會團體也提出異議，認為將家暴以地圖的方式呈現，容易簡化家暴議題，實質上無助解決問題，更有可能造成特定鄰里污名化。</p>
 <h3>經濟面影響力</h3>
 <blockquote>
-<p>已促成零星的新興商業模式，但仍無成形的資料經濟產業鏈
+<p>已促成零星的新興商業模式，但仍無成形的資料經濟產業鏈<br>
 政府以資料擁有者的優勢搶占應用市場，扼殺資料經濟的發展</p>
 </blockquote>
 <p>台灣自推動開放資料以來，將資料經濟視為重要發展方向。工業局於過去三年，投注企業補助與創新獎勵，並舉辦相關的產品發表會，促成零星以開放資料為基礎的新興商業模式，例如三商行的選址系統或是宸訊科技的農地履歷。但是，上述個案尚未能推動資料經濟的發展。此外，過去三年，政府除了推動機關內部開放資料外，為了短期績效表現，也投注經費於長期標案合作的系統廠商開發網站、App 等應用程式。政府一面開放資料，另一面卻以資料擁有者的優勢開發應用、搶占市場，使規模小的新創公司無法發展，因而阻礙了台灣資料經濟的整體成長（陳坤助 2016）。</p>
@@ -627,37 +654,37 @@
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn-ch-2.md-1" class="footnote-item"><p><a href="http://opendatahandbook.org/guide/en/introduction/">http://opendatahandbook.org/guide/en/introduction/</a> <a href="#fnref-ch-2.md-1" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-1" class="footnote-item"><p>請參考 <a href="http://opendatahandbook.org/guide/en/introduction/">Open Data Handbook</a> <a href="#fnref-ch-2.md-1" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-2" class="footnote-item"><p><a href="http://opendefinition.org/od/2.1/en/">http://opendefinition.org/od/2.1/en/</a> <a href="#fnref-ch-2.md-2" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-2" class="footnote-item"><p>請參考 <a href="http://opendefinition.org/od/2.1/en/">Open Definition 2.1</a> <a href="#fnref-ch-2.md-2" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-3" class="footnote-item"><p><a href="http://5stardata.info/zh-TW/">http://5stardata.info/zh-TW/</a> <a href="#fnref-ch-2.md-3" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-3" class="footnote-item"><p>請參考<a href="http://5stardata.info/zh-TW/">開放資料五顆星</a> <a href="#fnref-ch-2.md-3" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-4" class="footnote-item"><p>方法論文件請參考 <a href="http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf">http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf</a> <a href="#fnref-ch-2.md-4" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-4" class="footnote-item"><p>請參考 <a href="http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf">ODB 方法論文件</a> <a href="#fnref-ch-2.md-4" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-5" class="footnote-item"><p>調查文件已公開在本報告的 github 頁面 <a href="https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact">https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact</a> <a href="#fnref-ch-2.md-5" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-5" class="footnote-item"><p>調查文件已公開在本報告的 <a href="https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact">github 頁面</a> <a href="#fnref-ch-2.md-5" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-6" class="footnote-item"><p>參考 <a href="https://g0v.hackpad.tw/ep/pad/static/NoJ1mbwsqkQ%EF%BC%8Caccessed">https://g0v.hackpad.tw/ep/pad/static/NoJ1mbwsqkQ，accessed</a> on 2017/7/15，CC BY-clkao &amp; g0v contributors。 <a href="#fnref-ch-2.md-6" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-6" class="footnote-item"><p><a href="https://g0v.hackpad.tw/ep/pad/static/NoJ1mbwsqkQ">Data-Centric Government 的二十大類資料</a> <a href="#fnref-ch-2.md-6" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-7" class="footnote-item"><p>原始資料已公開在本報告的 github 頁面 <a href="https://github.com/ocftw/OpenGovReport14-16/tree/master/data%E3%80%82">https://github.com/ocftw/OpenGovReport14-16/tree/master/data。</a> <a href="#fnref-ch-2.md-7" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-7" class="footnote-item"><p>原始資料已公開在本報告的 <a href="https://github.com/ocftw/OpenGovReport14-16/tree/master/data">github 頁面</a> <a href="#fnref-ch-2.md-7" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-8" class="footnote-item"><p><a href="http://data.gov.tw">http://data.gov.tw</a> <a href="#fnref-ch-2.md-8" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-8" class="footnote-item"><p><a href="http://data.gov.tw">政府資料開放平台</a> <a href="#fnref-ch-2.md-8" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-9" class="footnote-item"><p><a href="http://opendefinition.org/licenses/">http://opendefinition.org/licenses/</a> <a href="#fnref-ch-2.md-9" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-9" class="footnote-item"><p>參考 <a href="http://opendefinition.org/licenses/">http://opendefinition.org/licenses/</a> <a href="#fnref-ch-2.md-9" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-10" class="footnote-item"><p>參考 <a href="http://data.gov.tw/visual/1">http://data.gov.tw/visual/1</a> <a href="#fnref-ch-2.md-10" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-10" class="footnote-item"><p>參考<a href="http://data.gov.tw/visual/1">各地方政府資料開放情形</a> <a href="#fnref-ch-2.md-10" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-11" class="footnote-item"><p><a href="https://www.tahr.org.tw/node/1656">https://www.tahr.org.tw/node/1656</a> <a href="#fnref-ch-2.md-11" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-11" class="footnote-item"><p>參考<a href="https://www.tahr.org.tw/node/1656">〈我的行車紀錄，你的開放資料？ 鑽個資法漏洞，政府大量開放人民資料！〉</a> <a href="#fnref-ch-2.md-11" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn-ch-2.md-12" class="footnote-item"><p>2017 年起，司法院已陸續在政府資料開放平台上提供各級法院的裁判書資料。 <a href="#fnref-ch-2.md-12" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn-ch-2.md-13" class="footnote-item"><p><a href="http://data.nhi.gov.tw/">http://data.nhi.gov.tw/</a> <a href="#fnref-ch-2.md-13" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-14" class="footnote-item"><p><a href="https://stats.moe.gov.tw/qframe.aspx?qno=MgA3AA2">https://stats.moe.gov.tw/qframe.aspx?qno=MgA3AA2</a> <a href="#fnref-ch-2.md-14" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-14" class="footnote-item"><p><a href="https://stats.moe.gov.tw/qframe.aspx?qno=MgA3AA2">教育統計查詢網</a> <a href="#fnref-ch-2.md-14" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-15" class="footnote-item"><p>參考匿名，2017，〈公務員匿名共筆〉，g0v news，2017/03/22。g0v.newshttps://g0v.news/%E5%85%AC%E5%8B%99%E5%93%A1%E5%8C%BF%E5%90%8D%E5%85%B1%E7%AD%86%E2%85%B0-%E5%B0%8D%E6%96%BC%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E5%AF%A6%E8%B8%90%E7%8F%BE%E6%B3%81%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%8B%E8%A7%80%E5%AF%9F-dc93e7ab19cf <a href="#fnref-ch-2.md-15" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-15" class="footnote-item"><p>參考匿名，2017，<a href="https://g0v.news/%E5%85%AC%E5%8B%99%E5%93%A1%E5%8C%BF%E5%90%8D%E5%85%B1%E7%AD%86%E2%85%B0-%E5%B0%8D%E6%96%BC%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E5%AF%A6%E8%B8%90%E7%8F%BE%E6%B3%81%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%8B%E8%A7%80%E5%AF%9F-dc93e7ab19cf">〈公務員匿名共筆〉</a>，g0v news，2017/03/22。 <a href="#fnref-ch-2.md-15" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-2.md-16" class="footnote-item"><p>由綠色公民行動聯盟發起的「透明足跡」計畫 <a href="https://thaubing.gcaa.org.tw">https://thaubing.gcaa.org.tw</a>。 <a href="#fnref-ch-2.md-16" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-2.md-16" class="footnote-item"><p>由綠色公民行動聯盟發起的<a href="https://thaubing.gcaa.org.tw">「透明足跡」</a>計畫 <a href="#fnref-ch-2.md-16" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section></p></div><div ng-show="tab==3"><p><h1>3. 公民參與</h1>
@@ -673,21 +700,21 @@
 <h3>透過公務員的培力與中介者的轉譯來增進參與的品質</h3>
 <p>執行單位、市政府、公民三者的角色定位十分重要。其中，公務人員的培力是當前須處理的重要課題。另外，透過中介者的轉譯，公民參與才能兼顧降低參與門檻及充分知情，同時又能確保有品質的討論。</p>
 </div></div><h2>3-1. 台灣公民參與的發展歷程</h2>
-<h3>3-1-1. 既有的參與模式</h3>
+<h3>既有的參與模式</h3>
 <p>公民參與作為參政權的實踐，是民主制度中重要的一環。在台灣，公民參與受到《憲法》第 17 條參政權的保障，然而在戒嚴時期，民眾參與公共事務或對公共議題表達看法皆受政府強烈打壓，直到解嚴後民主深化，公民參與才逐漸受到重視。</p>
 <p>《行政程序法》於 1999 年公布，依據此法，政府機關在行政處分、法規命令或行政計畫中，皆應設有讓人民參與表達意見的機制。其他規範公民參與的相關法律，包括 1994 年通過的《環境影響評估法》，在環境影響評估過程中設有公民參與的機制，以及《促進民間參與公共建設法》規定甄審委員會內須有特定比例的專家學者，也是一種公民參與的管道。</p>
 <p>除了上述兩個已明訂於法律中的公民參與管道外，政府另設有其他參與的機制，例如公聽會與說明會，然而參與民眾的意見是否納入政府決策考量中，因為沒有法律明文規定，行政機關也可以完全不採納民眾意見。</p>
-<h3>3-1-2. 具開放精神的公民參與萌芽</h3>
+<h3>具開放精神的公民參與萌芽</h3>
 <p>二十世紀以來，民主體制在全球正面臨極大的挑戰。許多名義上的民主政體演變為專制政體，只是通過選舉保留民主制度的外貌，而對一個能夠有效運作的民主制度而言，人權的保障與民主參與制度則逐漸消失（The Economist 2014）。在這「全球民主的艱困時代」，人們對自由民主體制的表現，普遍感到挫折、失望與不滿（Pharr and Putnam 2000；Norris 2011；引自林國明 2016），進而引發了一次又一次的街頭抗爭。2014 年發生的三一八佔領運動，就是台灣人民對代議制度失望而引發的大規模抗爭。</p>
 <p>面對衰弱的民主體制，審議民主是一條備受期待的可能出路。審議民主在台灣的發展，則從 2001 年二代健保改革開始。當時，衛生署（現升格為衛福部）組成第二代全民健康保險規畫團隊，其中特別設立公眾參與的小組，邀請多位學者參加，這些學者將審議民主為基礎的公民會議帶入了二代健保改革，形成為期三年的計畫。2003 年，台灣學術團隊前往丹麥科技委員會拜會，之後積極進行各種審議民主的實踐（陳東升 2012），並從 2004 年起大量嘗試公民會議及願景工作坊。</p>
-<pre><code class="language-!">公民會議：篩選約 20名、不同背景的自願者在預備會議中針對議題進行課程，正式會議中邀請相關領域專家到場擔任諮詢的角色，透過提問或對談方式使自願者得到資訊，接著由自願者進行討論，最後撰寫報告，整個流程通常須費時約 5 天。
+<pre><code class="language-!">公民會議：篩選約 20 名、不同背景的自願者在預備會議中針對議題進行課程，正式會議中邀請相關領域專家到場擔任諮詢的角色，透過提問或對談方式使自願者得到資訊，接著由自願者進行討論，最後撰寫報告，整個流程通常須費時約 5 天。
 </code></pre>
 <p>2014 年，三一八佔領運動爆發。在為期 24 天的佔領行動中，「街頭公民審議」（D-Street）被提出。當時，佔領運動被警方封鎖線分為「議場內」及「議場外」，議場內的佔領民眾在這場運動中占據較具發話權的位置。為了擴大參與，讓議場外靜坐支持的公民也能夠有機會發表意見，形成可能的共識，多位相關領域的學者、專家及 NGO 工作者開始推動街頭公民審議（施聖文 2014）。為期 10 天的街頭公民審議，在抗爭現場的不同地理位置同時舉行，每一天都有超過百位參與者加入討論。議場內和議場外的權力關係雖然並未真正「翻轉」，但卻在試圖達成平權的過程中，將審議民主的概念提上政治議程，也在公民社會埋下新型態公民參與的伏筆。</p>
 <p>三一八佔領運動結束後，台灣公民社會力量前所未有的豐沛。同年，台北市長候選人柯文哲以「開放政府、全民參與」作為競選口號，並將「參與式預算」、「i-Voting」（網路市民投票系統）作為重點政見，最後以懸殊的得票贏得大選。</p>
 <p>上述事件都使具有開放精神的公民參與廣為社會大眾所知及期待，並成為地方政府的潮流。我們也觀察到從 2014 年開始，為了擴大參與並降低舉辦成本，具有審議精神的公民參與，開始嘗試使用較不嚴謹的形式，試圖降低審議民主的參與門檻，例如以一至兩天的世界咖啡館 (World Cafe’ Guidelines) 取代成本較高的公民會議。另外，隨著資訊科技的進步，使用網路工具也成為公民參與的重要環節。</p>
 <p>本章節以探討「具開放精神的公民參與」為主旨，我們並將之定義為：受審議民主、開放政府概念影響而產生的公民參與模式，其過程中使用網路工具，並以相對不嚴謹的討論形式試圖降低參與門檻，和過去常見的公民參與管道做區別，也區隔出 2001 年開始的公民會議等審議民主嘗試。</p>
 <p>我們期待透過不同案例的分析，一探這些「具開放精神的公民參與」，是否真的能讓受到決策所影響的公民，以平等的地位，透過公開、自由討論的過程，來形成意見，最後影響政策？也就是說，是否能真正達成「參與」？</p>
-<h3>3-1-3.  分析架構</h3>
+<h3>分析架構</h3>
 <p>本章節從 2014 年至 2016 年所嘗試「具開放精神的公民參與」當中，挑選出六個案例進行分析，並探討這些案例以何種方式推動公民參與，以及個別案例的開放程度。</p>
 <p>其中，三一八佔領運動後，「公民憲政會議草根論壇」作為由下而上、民間發起的公民參與，具有相當的重要性。而針對特定議題、由政府發起公民參與，則挑選飽受批評的「經貿國是會議青年網聚 World Café 論壇計畫」，及程序相較完整的「飛雁新村」來比較。在數位平台的嘗試中，本文挑選了最先被提出的電子投票系統「台北市 i-Voting」，以及台灣首次架設的線上「公共政策網路參與平台」。最後，參與式預算已成為世界潮流，台灣各城市皆進行不同的參與式預算實驗，這些實驗也成為各縣市政府所宣稱的開放政府及公民參與政績，本文亦挑選不同類型的個案進行分析。</p>
 <p>透過這些案例，本文試圖呈現 2014 年至 2016 年不同類型的參與實驗，凸顯「具開放精神的公民參與」內涵多樣化，並檢視這些案例的參與經驗。</p>
@@ -731,10 +758,10 @@
 <p>//插入圖表//
 &lt;圖表 3.4&gt; Blulu 測量儀
 資料來源： <a href="http://Blulu.tw">Blulu.tw</a></p>
-<h2>3-2. 案例一：公民憲政會議草根論壇</h2>
+<h2>3-2. 公民憲政會議草根論壇</h2>
 <blockquote>
-<p>案例特色：由下而上的公民參與
-模式：華爾街手勢會議或小組討論
+<p>案例特色：由下而上的公民參與<br>
+模式：華爾街手勢會議或小組討論<br>
 數位工具：以網站呈現會議手冊及會議紀錄</p>
 </blockquote>
 <p><strong>由下而上的憲政改革</strong></p>
@@ -755,10 +782,10 @@
 <p>草根論壇由於和各公民團體合辦，不但開放給不特定公眾，有時針對議題也會有民間利害關係人參與，但無政府方參與。</p>
 <p><strong>開放參與程度 → 開放程度高，但非法定程序</strong></p>
 <p>公民憲政會議草根論壇以公民團體自主舉辦，雖然試圖成為法定程序的一部分，其開放程度雖然相當高，也是一個健康的政策程序，但礙於政治氛圍無法成為法定程序，故無法評量執行層面的狀況。</p>
-<h2>3-3. 案例二：經貿國是會議青年網聚 World Café 論壇計畫</h2>
+<h2>3-3. 經貿國是會議青年網聚 World Café 論壇計畫</h2>
 <blockquote>
-<p>案例特色：針對特定議題操作的公民參與失敗案例
-模式：世界咖啡館
+<p>案例特色：針對特定議題操作的公民參與失敗案例<br>
+模式：世界咖啡館<br>
 數位工具：網路公開會議結論</p>
 </blockquote>
 <p><strong>經貿國是會議的擴大參與</strong></p>
@@ -777,10 +804,10 @@
 <p>雖然國是會議的過程中，政務官及事務官都有出席，不過因為是邀請制，非針對不特定公眾，且因議題龐大，無法邀請到所有利害關係人。</p>
 <p><strong>開放參與程度 → 低</strong></p>
 <p>國是會議可以說是一種政策危機處理的機制，在遇到重大決策時才會召開，並非政策形成的健康程序，其參與的族群及階段也不完善，在開放參與的程度上可以說是非常低的。</p>
-<h2>3-4. 案例三：飛雁新村</h2>
+<h2>3-4. 飛雁新村</h2>
 <blockquote>
-<p>案例特色：針對特定議題的公民參與，程序相對較完整的案例
-模式：願景工作坊及城鄉論壇
+<p>案例特色：針對特定議題的公民參與，程序相對較完整的案例<br>
+模式：願景工作坊及城鄉論壇<br>
 數位工具：會議手冊、相關資訊及會議直播彙整於單一網站</p>
 </blockquote>
 <p><strong>飛雁新村開發案</strong></p>
@@ -807,13 +834,13 @@
 <p>願景工作坊的參與者包括政務官、事務官及利害關係人，城鄉論壇則包含上述三者及抽選出的公眾。</p>
 <p><strong>開放參與程度 → 單一議題決策持久度不足</strong></p>
 <p>從上述分析可以觀察出飛雁新村的程序健康、開放程度亦高，然而此案為市府選擇進行的單一議題公民參與，並沒有形成讓公民啟動參與的機制，例如南鐵議題是否能夠開啟參與，因此欠缺決策持久度。</p>
-<h2>3-5. 案例四：台北市社子島 i-Voting</h2>
+<h2>3-5. 台北市社子島 i-Voting</h2>
 <blockquote>
-<p>案例特色：第一個電子投票系統
-模式：透過電子及實體方式進行區域公民投票
+<p>案例特色：第一個電子投票系統<br>
+模式：透過電子及實體方式進行區域公民投票<br>
 數位工具：電子投票系統，並以單一平台記錄相關會議</p>
 </blockquote>
-<pre><code class="language-!">台北市民網路投票 i-Voting 系統：
+<pre><code class="language-!">台北市民網路投票 i-Voting 系統
 i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提案僅須填寫提案企畫書，而公民提案則需要在單一議題上透過市政信箱或市民熱線累積上百封陳情，才可進入提案審查階段。至 2016 年底，i-Voting 只有十個來自行政部門的提案。
 </code></pre>
 <p><strong>社子島開發方向</strong></p>
@@ -832,10 +859,10 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <p>由於社子島 i-Voting 缺乏討論的環節，即使設計了針對不特定公眾及利害關係人的兩套投票機制，前期宣傳時也有政務官及事務官參與其中，卻欠缺雙方對話。</p>
 <p><strong>參與開放程度 → 非健康程序，但執行持久度可以預期</strong></p>
 <p>i-Voting 是政策形成的其中一項程序，但是否為健康的程序，端看 i-Voting 制度的設計，以社子島開發一案來說，因為缺乏討論，議題設定的程序也不夠開放，並不是一個健康的程序。不過針對執行持久度來說，因為 i-Voting 有行政命令的效力，執行持久度是可以預期的。</p>
-<h2>3-6. 案例五：公共政策網路參與平台</h2>
+<h2>3-6. 公共政策網路參與平台</h2>
 <blockquote>
-<p>案例特色：第一個公共政策討論平台
-模式：透過線上平台進行政策建議
+<p>案例特色：第一個公共政策討論平台<br>
+模式：透過線上平台進行政策建議<br>
 數位工具：網路平台</p>
 </blockquote>
 <p><strong>公共政策網路參與平台</strong></p>
@@ -855,16 +882,16 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <p>Join 平台針對公眾，對利害關係人的角色並不強調，行政單位雖給予回應，卻難以判斷是否政務官及事務官皆有參與。</p>
 <p><strong>開放參與程度 → 參與階段不完整、執行持久度可預期</strong></p>
 <p>Join 平台作為提案平台， 能夠啟動對議題的討論及關注，政策形成的程序後續是否仍開放，端看各行政機關，因此開放參與的階段並不完整，不過 Join 平台有行政命令的效力，執行持久度是可以預期的。</p>
-<h2>3-7. 案例六：參與式預算</h2>
+<h2>3-7. 參與式預算</h2>
 <pre><code class="language-!">參與式預算
 參與式預算源起 1988 年的巴西愉港，來自工黨的市長當選後，希望能夠將市政預算的優先順序做調整，進而發起的一項民主實踐，由社區及居民共同決定一部分的公共預算支出順序。目前，全球已經有超過 1500 個地方嘗試操作參與式預算。
 </code></pre>
 <p>相較於以上案例，參與式預算是相對程序複雜、實驗性質高、非針對特定問題的案例。參與式預算已成為國際新潮流， 2014 年台北市長柯文哲將之作為競選政見後，參與式預算的熱潮在台灣展開，被許多縣市首長視為政績。</p>
 <p>目前台灣的參與式預算多為地方政府推動，推動方式及設定流程大不相同，因流程較複雜並不適用 Blulu 量表進行量測。</p>
-<h3>3-7-1. 台北市：行政推動</h3>
+<h3>台北市：行政推動</h3>
 <blockquote>
-<p>案例特色：由行政單位推動
-模式：分為推廣、提案審查、預算評估、預算審查及議會監督五個階段
+<p>案例特色：由行政單位推動<br>
+模式：分為推廣、提案審查、預算評估、預算審查及議會監督五個階段<br>
 數位工具：網路平台整理提案及工作坊資訊<sup class="footnote-ref"><a href="#fn-ch-3.md-8" id="fnref-ch-3.md-8">[8]</a></sup></p>
 </blockquote>
 <p><strong>行政單位推動的參與式預算</strong></p>
@@ -873,22 +900,22 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <p><strong>行政成本過高</strong></p>
 <p>台北市參與式預算推動過程中耗費龐大行政成本及公務人力，且公民參與委員會及各區陪伴團體角色亦非常吃重。在第一次參與式預算的嘗試中，由於各區陪伴團體操作方式不同，各區提案審查的形式不盡相同。</p>
 <p>在台北市的第一次嘗試，許多票選出的提案在後續和權責機關的討論當中，因為不合法規程序或是有窒礙難行之處而被駁回，造成「是否真正開放」的爭議，其根本原因是由於公務機關在前期提案過程中未參與之故。另外，由於台北市參與式預算為行政機關推動，也使台北市議會頗感對於預算編列和監督的壓力，數位台北市議員質疑，經過公民審議後的參與式預算提案，議員是否能「駁回」或「刪減」，甚至對媒體表示此制度「陷代議士於不義」<sup class="footnote-ref"><a href="#fn-ch-3.md-10" id="fnref-ch-3.md-10">[10]</a></sup> 。</p>
-<h3>3-7-2. 新北市：議員配合款及主題式</h3>
+<h3>新北市：議員配合款及主題式</h3>
 <p><strong>議員配合款作為參與式預算</strong></p>
 <blockquote>
-<p>案例特色：議員配合款參與式預算
-模式：議員委託里長進行
+<p>案例特色：議員配合款參與式預算<br>
+模式：議員委託里長進行<br>
 數位工具：新北市統一數位平台紀錄</p>
 </blockquote>
 <p>新北市第一次嘗試參與式預算，是新北市議員陳儀君，受到新北市新聞局長林芥佑啟發，決定仿效美國「芝加哥模式」，利用議員配合款，並透過前議員助理、現任新店區達觀里里長黃振宇，在達觀里進行實驗性質的參與式預算，進行提案、委員會審查及投票後選出三案。</p>
-<pre><code class="language-!">芝加哥模式：
+<pre><code class="language-!">芝加哥模式
 美國第一個操作參與式預算的區域是芝加哥市。芝加哥市有議員補助款的制度，每位議員一年可得約為 132 萬美元的補助款，補助款用途規定只能用於基礎建設的資本支出，其分配完全由議員決定，2007 年市議員摩爾（Joe Moore）首次在選區以議員配合款操作參與式預算。紐約市也有議員補助款的預算制度，由多位議員和社區及非營利機構合作，目前有 24 個市議員投入參與式預算。
 </code></pre>
 <p>此次參與式預算規模較小，且由市議員推動，在和行政部門的協調上較為順利，不過一年後卻有報導指出，達觀里參與式預算缺乏後續監督機制，三案中有一案仍未完成施作。另外，由於達觀里參與式預算全靠里長宣傳動員，而遭受綁樁的批評。</p>
 <p><strong>委託社區大學進行的主題式參與式預算</strong></p>
 <blockquote>
-<p>案例特色：單一議題的參與式預算
-模式：新北市勞工局委託蘆荻社區大學
+<p>案例特色：單一議題的參與式預算<br>
+模式：新北市勞工局委託蘆荻社區大學<br>
 數位工具：新北市統一數位平台紀錄</p>
 </blockquote>
 <p>除了由市議員發起的參與式預算， 2015 年新北市政府經濟發展局亦撥出其業務預算中「節電推廣」預算，委託蘆洲蘆荻社大進行節電為主題、蘆洲為範圍的參與式預算。</p>
@@ -899,10 +926,10 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <p>因委託單位蘆荻社區大學是以公民教育、成人學習為目的的機構，相較其他參與式預算的執行單位更注重「培力」。依據這樣的理念，節電參與式預算流程設計盡可能地降低參與門檻：企圖透過不同的宣傳方式，接觸較少被地方政治動員的民眾。</p>
 <p>另外，節電參與式預算在操作過程中，認為培力和學習的價值，與「提案」一樣重要。在設計流程的過程中，蘆荻社大更強調如何促進提案人的信心與能力。</p>
 <p>在這樣的操作過程中，中介者或組織者的角色非常重要。透過參與式預算的推動，在社區的層次上，除了達到培力的目的，也促進在地民主社群的發展。然而在提案完成後委辦單位的工作就已經結束，提案進入行政部門之後的溝通和管考，以及後續的公民參與管道並沒有辦法被掌握，是相當可惜的。</p>
-<h3>3-7-3. 台中市：標案式</h3>
+<h3>台中市：標案式</h3>
 <blockquote>
-<p>案例特色：以標案外包進行參與式預算
-模式：台中市委託民間團體辦理
+<p>案例特色：以標案外包進行參與式預算<br>
+模式：台中市委託民間團體辦理<br>
 數位工具：台中市數位平台紀錄、提案地圖</p>
 </blockquote>
 <p>台中參與式預算在市長林佳龍的宣示下展開，以標案的方式，由民政局將參與式預算發包給在地公民團體，成立「台中市參與式預算推動專案辦公室」並執行，可以說是透過政府與廠商的契約關係來推動。</p>
@@ -923,26 +950,25 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn-ch-3.md-1" class="footnote-item"><p>Blulu Metrics 為呂家華與藍一婷的共同著作，以 創用 CC 姓名標示─非商業性 4.0 國際版授權釋出（參考 <a href="https://Blulu.xn--tw-ku3n">https://Blulu.tw</a>）。 <a href="#fnref-ch-3.md-1" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-1" class="footnote-item"><p><a href="https://Blulu.tw">Blulu Metrics</a> 為呂家華與藍一婷的共同著作，以 創用 CC 姓名標示─非商業性 4.0 國際版授權釋出。 <a href="#fnref-ch-3.md-1" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn-ch-3.md-2" class="footnote-item"><p>根據《憲法》增修條文第七條規定，憲法修正案、領土變更案須立法委員四分之一提議，四分之三出席，出席委員四分之三決議，公告半年後，經中華民國自由地區選舉人投票複決，有效同意票過選舉人總額之半數，即通過之。 <a href="#fnref-ch-3.md-2" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-3.md-3" class="footnote-item"><p>公民憲政會議草根論壇紀錄：<a href="http://www.new-tw.org/p/blog-page<em>20.html%E3%80%82">http://www.new-tw.org/p/blog-page</em>20.html。</a> <a href="#fnref-ch-3.md-3" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-3" class="footnote-item"><p>參考<a href="http://www.new-tw.org/p/blog-page<em>20.html">〈公民憲政會議草根論壇紀錄〉</a> <a href="#fnref-ch-3.md-3" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn-ch-3.md-4" class="footnote-item"><p>公民憲政推動聯盟成員經過密集的讀書會及討論後，「公民參與憲法改革程序法」草案撰寫終於完成，此草案以公民憲政會議取代了立法院的修憲委員會，期待藉此擴大公民參與在其中的角色。2016 年經跨黨派立委聯合提案後，目前此草案被擱置在一讀的階段。 <a href="#fnref-ch-3.md-4" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-3.md-5" class="footnote-item"><p>國發會經貿國是會議執行成效檢討：<a href="http://www.ndc.gov.tw/Content<em>NoList.aspx?n=F3C4CDB291314363%E3%80%82">http://www.ndc.gov.tw/Content</em>NoList.aspx?n=F3C4CDB291314363。</a> <a href="#fnref-ch-3.md-5" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-5" class="footnote-item"><p>參考<a href="http://www.ndc.gov.tw/Content</em>NoList.aspx?n=F3C4CDB291314363">〈國發會經貿國是會議執行成效檢討〉</a> <a href="#fnref-ch-3.md-5" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-3.md-6" class="footnote-item"><p>針對爭議，台北市政府於 2017 年四月提出新制（<a href="https://ivoting.taipei/i-voting">https://ivoting.taipei/i-voting</a> ）。 <a href="#fnref-ch-3.md-6" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-6" class="footnote-item"><p>針對爭議，台北市政府於 2017 年四月提出新制（參考 <a href="https://ivoting.taipei/i-voting">https://ivoting.taipei/i-voting</a> ）。 <a href="#fnref-ch-3.md-6" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-3.md-7" class="footnote-item"><p><a href="https://petitions.whitehouse.gov/%E3%80%82">https://petitions.whitehouse.gov/。</a> <a href="#fnref-ch-3.md-7" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-7" class="footnote-item"><p><a href="https://petitions.whitehouse.gov/">We the People</a> <a href="#fnref-ch-3.md-7" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-3.md-8" class="footnote-item"><p>月亮杯比照衛生棉條合法網購提案
-<a href="https://join.gov.tw/idea/detail/2f05760d-5202-45d8-8e0b-dc3348e2854f%E3%80%82">https://join.gov.tw/idea/detail/2f05760d-5202-45d8-8e0b-dc3348e2854f。</a> <a href="#fnref-ch-3.md-8" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-8" class="footnote-item"><p>參考<a href="https://join.gov.tw/idea/detail/2f05760d-5202-45d8-8e0b-dc3348e2854f">「月亮杯比照衛生棉條合法網購提案」</a> <a href="#fnref-ch-3.md-8" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-3.md-9" class="footnote-item"><p>此程序於第一次參與式預算後修改，目前新制參考：phttp://pb.taipei/ct.asp?xItem=113566031&amp;ctNode=82081&amp;m=100012。 <a href="#fnref-ch-3.md-9" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-9" class="footnote-item"><p>此程序於第一次參與式預算後修改，目前<a href="http://pb.taipei/ct.asp?xItem=113566031&amp;ctNode=82081&amp;mp=100012">新制</a> <a href="#fnref-ch-3.md-9" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-3.md-10" class="footnote-item"><p>北市議員轟參與式預算無民意基礎 暫擱執行費：<a href="http://news.ltn.com.tw/news/life/breakingnews/1902083%E3%80%82">http://news.ltn.com.tw/news/life/breakingnews/1902083。</a> <a href="#fnref-ch-3.md-10" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-3.md-10" class="footnote-item"><p>參考<a href="http://news.ltn.com.tw/news/life/breakingnews/1902083">〈北市議員轟參與式預算無民意基礎 暫擱執行費〉</a> <a href="#fnref-ch-3.md-10" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section></p></div><div ng-show="tab==4"><p><h1>4. 公民科技協作關係</h1>
@@ -1038,7 +1064,7 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <p>其三，這種新興參與機制如何與既有的參與機制（如公聽會）整合，並在初期階段即納入立法院的聲音，避免審議與代議制度的斷裂？</p>
 <p>其四，各部會中是否具有足夠授權且有彈性的人擔任政府與公民社會的窗口，讓雙向溝通順暢，進而確保 vTaiwan 的政治授權與影響力。</p>
 <h2>4-6. 如何促成公民科技協作關係</h2>
-<h3>4-6-1. 公民科技與資訊採購</h3>
+<h3>公民科技與資訊採購</h3>
 <p>前文曾將公民科技與資訊採購對比。事實上，兩者雖然皆試圖以數位的方式提供解方，但所適合的問題類型並不相同。公民科技適合突發型任務，或問題與流程尚未釐清的情形。透過協作者與需求單位直接互動與溝通，敏捷式的公民科技可以有彈性地開發系統。資訊採購適合需求明確且長期營運的系統，由資訊單位作為廠商與需求單位的中介者，進行瀑布式的開發，再委由廠商後續維運。</p>
 <p>公民科技與資訊採購雖然適合不同任務，但是，我們發現繁複的資訊採購在實際操作中正面臨許多困境（圖表 4.1），而這些困境是可以透過公民科技來改善的。</p>
 <table>
@@ -1090,7 +1116,7 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <p>&lt;圖表 4.1&gt; 資訊採購所面臨的問題<sup class="footnote-ref"><a href="#fn-ch-4.md-8" id="fnref-ch-4.md-8">[8]</a></sup></p>
 <p>資訊採購的最大困境是缺乏對使用者需求的釐清與盤點，讓系統從規畫之初便與需求有顯著落差。相較於資訊採購，公民科技重視實際操作中的互動與溝通。透過緊密的陪伴，協作雙方共同尋找問題和改善流程的方法，而非單純提供新的工具而已。當前，公民科技尚無法解決龐大的結構性問題，但它引入新的思維與文化，以期讓政府跟上業界的節奏，並傾聽公民的需求。同時，在既有的資訊採購流程尚未調整前，更彈性地提供解方。</p>
 <p>公民科技與資訊採購並非站在對立面。例如，台北市社會局老福據點的案例，即是透過協作關係先釐清需求，再進一步以採購的方式建置系統，並納入政府運作中，打開公民科技制度化的可能性。但正如我們所強調的，公民科技並不是提供系統而已，用硬體採購的邏輯來購入公民科技，雖然可以提供協作者報酬，但長遠來說，並不是讓公民科技協作關係制度化的最佳方法。同時，如何讓公民科技產生規模化的影響力，仍是一項待解的難題。</p>
-<h3>4-6-2. 公民科技的四種模式</h3>
+<h3>公民科技的四種模式</h3>
 <p>我們可以依互動模式與緊密程度，將台灣現有的公民科技協作，簡略地分為以下四種模式：</p>
 <table>
   <tr>
@@ -1125,7 +1151,7 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 <li>協作過程須開放權力與關係</li>
 <li>翻轉治理思維，從小政府到開放政府</li>
 </ol>
-<h3>4-6-3. 化困境為挑戰</h3>
+<h3>化困境為挑戰</h3>
 <p>公民科技協作關係在台灣仍是罕有的。本章節所呈現的每個案例都有它的天時、地利、人和，難以簡單複製，也有其侷限之處。事實上，公民科技協作關係在台灣仍面臨著四大面向的困境：</p>
 <blockquote>
 <p>制度面：如何整合新舊的機制或系統？
@@ -1147,17 +1173,17 @@ i-Voting 流程分為行政部門提案及公民提案兩種。行政部門提�
 </li>
 <li id="fn-ch-4.md-3" class="footnote-item"><p>全台僅有 76 個測站。 <a href="#fnref-ch-4.md-3" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-4.md-4" class="footnote-item"><p>參考 AirBox status report <a href="https://pm25.lass-net.org/AirBox/%E3%80%82">https://pm25.lass-net.org/AirBox/。</a> <a href="#fnref-ch-4.md-4" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-4.md-4" class="footnote-item"><p>參考 <a href="https://pm25.lass-net.org/AirBox/">AirBox status report</a>。 <a href="#fnref-ch-4.md-4" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn-ch-4.md-5" class="footnote-item"><p>加入空氣盒子計畫的地方政府有：台北市、新北市、台中市、台南市、高雄市、嘉義市、嘉義縣、雲林縣。2017 年 桃園市也加入空氣盒子計畫中。 <a href="#fnref-ch-4.md-5" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-4.md-6" class="footnote-item"><p>零時政府第拾壹次開放報禁黑客松 <a href="https://g0v-tw.kktix.cc/events/g0v-hackath11n">https://g0v-tw.kktix.cc/events/g0v-hackath11n</a> <a href="#fnref-ch-4.md-6" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-4.md-6" class="footnote-item"><p>參考<a href="https://g0v-tw.kktix.cc/events/g0v-hackath11n">零時政府第拾壹次開放報禁黑客松</a> <a href="#fnref-ch-4.md-6" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-4.md-7" class="footnote-item"><p>參考 2016/06/17 報導「網路賣酒喊卡！政策大轉彎，行政院從立法院撤案」<a href="https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44">https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44</a> <a href="#fnref-ch-4.md-7" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-4.md-7" class="footnote-item"><p>參考 2016/06/17 數位時代報導<a href="https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44">「網路賣酒喊卡！政策大轉彎，行政院從立法院撤案」</a> <a href="#fnref-ch-4.md-7" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn-ch-4.md-8" class="footnote-item"><p>本報告並非以檢討資訊採購為主題，因此僅以簡單的表格來做比較與分析。若想更了解當前資訊採購的問題，可參考〈政府的資訊採購，出了什麼問題？〉（林雨蒼 2017）。 <a href="#fnref-ch-4.md-8" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn-ch-4.md-9" class="footnote-item"><p>參考 g0v.taipei fellowship <a href="https://g0v.hackpad.tw/g0v.taipei-fellowship-LJZw6OzdO9g%E3%80%82">https://g0v.hackpad.tw/g0v.taipei-fellowship-LJZw6OzdO9g。</a> <a href="#fnref-ch-4.md-9" class="footnote-backref">↩︎</a></p>
+<li id="fn-ch-4.md-9" class="footnote-item"><p>參考 <a href="https://g0v.hackpad.tw/g0v.taipei-fellowship-LJZw6OzdO9g">g0v.taipei fellowship</a> <a href="#fnref-ch-4.md-9" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section></p></div><div ng-show="tab==5"><p><h1>5. 結論</h1>
