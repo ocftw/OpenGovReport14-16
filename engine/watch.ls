@@ -238,6 +238,14 @@ base = do
           if newer(des, _src) => continue
           desdir = path.dirname(des)
           if !fs.exists-sync(desdir) or !fs.stat-sync(desdir).is-directory! => mkdir-recurse desdir
+          if /^src\/jade\/index.jade$/.exec(src) =>
+            try
+              cfg = js-yaml.safe-load fs.read-file-sync "src/jade/yaml/landing.yaml", \utf8
+              for item in cfg => item.detail = md.render item.detail
+            catch e
+              console.log "[ERROR] Summary Yaml parse failed."
+              cfg = {}
+
           if /data\/index.jade/.exec(src) =>
             try
               cfg = js-yaml.safe-load fs.read-file-sync "src/jade/yaml/question.yaml", \utf8
