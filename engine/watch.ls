@@ -139,9 +139,12 @@ base = do
       list = $('h2,h3')
       map = {h1: "", h2: " * ", h3: "   * "}
       output = []
+      skip = false
       for i from 0 til list.length =>
         item = $(list[i])
-        output.push "#{map[item.0.name]}#{item.text!}"
+        if item.0.name == \h2 and item.text!trim! != \關鍵結論 => skip = false
+        if !skip => output.push "#{map[item.0.name]}#{item.text!}"
+        if item.0.name == \h2 and item.text!trim! == \關鍵結論 => skip = true
       output = output.join("\n")
       output = md.render output
       fs.write-file-sync toc, output
