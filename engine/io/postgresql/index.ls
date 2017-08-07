@@ -93,7 +93,6 @@ ret.prototype = do
     if typeof(a) == \string => [client,q,params] = [null,a,b]
     else => [client,q,params] = [a,b,c]
     _query = (client, q, params=null) -> new bluebird (res, rej) ->
-      console.log " - " + "[QUERY]".cyan + " #{q.substring(0, 80)}"
       (e,r) <- client.query q, params, _
       if e => return rej e
       return res r
