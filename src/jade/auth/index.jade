@@ -1,0 +1,20 @@
+extends /base.jade
+block vars
+  - var lib = {d3js: true, clipboardjs: true, domtoimg: false, ldcolorpicker: true, gifjs: true}
+  - var rootid = "iconview"
+  - var title = 'Loading.css / CSS Animation for Loading'
+  - var description = "Loading.css is a set of CSS animation designed for repeatable, infinitely playing loading animation."
+  - var rootclass = "invert auth-static"
+  - var thumbtype = "image/png"
+  - var thumb_width = "900"
+  - var thumb_height = "600"
+  - var thumbnail = "https://loading.io/assets/img/animation/thumbnail.png"
+  - var url = "https://loading.io/animation/"
+block head
+  link(rel="stylesheet",type="text/css",href="/css/page.css")
+  link(rel="stylesheet",type="text/css",href="/css/loading.css")
+block body
+  div
+    div #[br] #[br] #[br] #[br] #[br]
+    div(style="max-width:480px;margin:auto")
+      include static.jade

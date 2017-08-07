@@ -1,0 +1,27 @@
+//- module
+#nav-top
+  nav.navbar.navbar-default.navbar-fixed-top(role="navigation")
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed(data-toggle="collapse",data-target="#nav-collapse")
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href="/")
+          | OGR #[sup: small 2014-16]
+      #nav-collapse.collapse.navbar-collapse
+        ul.nav.navbar-nav.pull-right
+          li: a(href="/report/")
+            div 報告
+            div Report
+          li: a(href="/data/")
+            div 資料
+            div Data
+          li: a(href="/download/")
+            div 下載
+            div Download
+          li: a(href="/about/")
+            div 關於
+            div about
+          li: a: span 中文/EN
+#nav-top-placeholder

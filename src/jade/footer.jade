@@ -1,0 +1,22 @@
+//- module
+#footer-top
+#footer
+  .block1024
+    big: b Taiwan Open Government Report 2014-2016 
+    .sep.white(style="border-top-color:rgba(255,255,255,0.2)")
+  .row
+    .col-sm-6
+      div This work is produced by Open Culture Foundation. 
+      +nbr(1)
+      img(src="/assets/img/logo-white.png",style="border-radius:5px")
+    .col-sm-6(style="line-height:2.0em")
+      div: a(href="https://github.com/ocftw/OpenGovReport14-16",target="_blank") Github #[i.fa.fa-github]
+      div: a(href="/about/") Term of Use
+      div: a(href="mailto:intl@ocf.tw") Contact Us
+      .fb-share-button(
+      data-href="https://developers.facebook.com/docs/plugins/",
+      data-layout="button",
+      data-size="small",data-mobile-iframe="true")
+        a.fb-xfbml-parse-ignore(target="_blank",href="https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(domain)) 分享
+      a.twitter-share-button(href="https://twitter.com/intent/tweet?text=" + domain) #[i.fa.fa-twitter] Tweet
+

@@ -1,0 +1,129 @@
+extends /base.jade
+block vars
+block head
+  script(type="text/javascript",src="/js/data/index.js")
+block body
+  if data
+    script.
+      var reportScore = !{JSON.stringify(data.map(function(it) { return {"報告分數": it.score, id: it.id}; }))};
+
+  #visualization(ng-controller="data",ng-cloak)
+    .ld-over-full-inverse.running(style="margin:20px auto;max-width:1024px;width:100%",
+    ng-class="{'running':loading}")
+      .ld.ld-loader(style="font-size:130px;background-image:url(/assets/img/loading/bar.svg)")
+      .text-center
+        h1 開放資料檢視
+        p.grayed 視覺化呈現台灣 2014~2016 年開放資料的評析，研究方法與計分方式請參考報告第二章「開放資料檢視」，原始資料請見下載頁。
+      .sep.huge-gap
+      .row.text-center.summaries
+        #sum-ttl.col-sm-3.summary
+          .name 綜合評比
+          .subtitlte TTL
+          .score 68
+        #sum-context.col-sm-3.summary
+          .name 政策基礎
+          .subtitle Readiness
+          .score 68
+          .chart.sparkline: #chart-context
+        #sum-dataset.col-sm-3.summary
+          .name 資料集現況
+          .subtitle Implementation
+          .score 68
+          .chart.sparkline: #chart-dataset
+        #sum-impact.col-sm-3.summary
+          .name 影響力
+          .subtitle Impact
+          .score 68
+          .chart.sparkline: #chart-impact
+      .sep.huge-gap
+      .row(style="margin-top:10px")
+        #score-detail.col-sm-3
+          +nbr(4)
+          h4 綜合評比依以下權重計算：
+          table(cellspacing="3")
+            tr #[td 政策基礎] #[td 35.0%]
+            tr #[td 資料現況] #[td 35.0%]
+            tr #[td 影響力] #[td 30.0%]
+        .col-sm-9
+          .text-center: h3 子分類分數
+          .chart: #chart-attr
+    br
+    hr
+    - icons = ["0.1-law.svg","2-online.svg","3.3-environment.svg","5.3-trade.svg","0.2-gov.svg","2.1-survey.svg","4-bulk.svg","5.4-labor.svg","0.3-jurisdiction.svg","2.2-company.svg","4.1-infrastructure.svg","6-license.svg","1-exist.svg","2.3-procument.svg","4.2-health.svg","7-latest.svg","1.1-vote.svg","2.4-military-diplomacy.svg","4.3-education.svg","8-update.svg","1.2-spending.svg","3-machine.svg","5-free.svg","9-info.svg","1.3-accountability.svg","3.1-safety.svg","5.1-license.svg","10-link.svg","3.2-crime.svg","5.2-mortgage.svg"]
+    h2.text-center 開放資料現況
+    .rank-legend.text-center
+      .legend
+        span 開放度低
+        .square.level0
+        .square.level1
+        .square.level2
+        .square.level3
+        span &nbsp;開放度高
+    .rank-table
+      table
+        tr
+          th
+          th.has-tips.clickable(ng-repeat="d in detail")
+            .hover-tip.top {{d.key}}
+            img(ng-attr-src="/assets/img/icons/icon_{{d.img}}.svg",style="width:20px")
+        tr(ng-repeat="tr in table")
+          td {{tr.name}}
+          td(ng-repeat="d in detail")
+            .block.has-tips(ng-class="'level' + tr[d.key].rank")
+              .hover-tip.top {{d.name}}#[br]{{tr[d.key].value}}分
+            //-.i.fa.fa-circle(ng-class="'level' + tr[d.key].rank")
+            //-span {{tr[d.key]}}
+    .sep.huge-gap
+    +nbr(1)
+    .text-center
+      h2 參與評鑑
+      p.grayed 您可以在針對各個評比項目提供您的給分，送出後，統計值會呈現在下方提供您參考。
+    +nbr(1)
+    #feedback
+      //-each n in [["政策基礎",/^\s*C/,"C"],["資料集現況",/^\s*D/,"D"],["影響力",/^\s*I/,"I"]]
+      each n in [["政策基礎",/^\s*C/,"C"],["影響力",/^\s*I/,"I"]]
+        .feedback-cat
+          .pull-right.feedback-score 您的評分
+          h3= n[0]
+          .feedback-list
+            each item in data
+              if n[1].exec(item.id)
+                - var id = item.id
+                .feedback-item
+                  .pull-right(ng-click="score.set['" + id + "']")
+                    .score {{score.values['#{id}']}}
+                    each j in [1,2,3,4,5,6,7,8,9,10]
+                      i.fa.fa-star(
+                      ng-class="{'active':score.values['" + id + "'] >= " + j + "}",
+                      ng-click="score.set('" + id + "', " + j + ")"
+                      )
+                  .btn.btn-link(data-toggle="collapse", data-target="#question-" + id)
+                    span #{item.id}. #{item.name} #[b.caret] &nbsp; #[small.grayed ( 看評分 )]
+                  .collapse(id="question-" + id)
+                    .well
+                      h4 我們的評分：#[big: b.red #{item.score}]
+                      .sep
+                      label 給分的依據
+                      p= item.description
+
+      .pull-right(style="width:160px")
+        .btn.btn-success.btn-block.btn-lg(ng-click="score.send()",ng-show="!score.done") 確認送出
+        .btn.btn-default.bnt-block.btn-lg(ng-show="score.done",disabled) 您已經填過囉！
+
+      .clearfix
+      .sep.huge-gap
+      .text-center
+        h2 評分結果
+      #feedback-line.chart
+      .sep.huge-gap
+      +nbr(2)
+      h3.text-center 有任何想法嗎？歡迎在這裡跟大家討論！
+      script.
+        var disqus_config = function () {
+        this.page.url = "http://opengovreport.ocf.tw/data/";
+        this.page.identifier = "/data/";
+        };
+      include /module/disqus.jade
+
+    br
+  include /footer.jade

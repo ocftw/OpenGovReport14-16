@@ -1,0 +1,24 @@
+//- module
+#authpanel-outer(ng-class="{'active':auth.show || auth.stick}"): #authpanel-inner
+  .close-btn(ng-show="!auth.stick",ng-click="auth.show=!!!auth.show"): i.glyphicon.glyphicon-remove
+  .title
+    | LOADING.IO
+  .form
+    a.btn.btn-primary.btn-block(ng-attr-href="/u/auth/facebook?nexturl={{nexturl}}") Login With Facebook
+    br
+    .or
+    br
+    .error(ng-show="auth.failed",ng-cloak) {{auth.failed}}
+    .input-group
+      span.input-group-addon: i.glyphicon.glyphicon-user
+      input.form-control(type="text", ng-model="auth.email", placeholder="email",ng-keydown="auth.keyHandler($event)")
+    .input-group
+      span.input-group-addon: i.glyphicon.glyphicon-lock
+      input.form-control(type="password", ng-model="auth.passwd", placeholder="password",ng-keydown="auth.keyHandler($event)")
+    .btn.btn-danger.btn-block(ng-click="auth.login()") 
+      span(ng-show="auth.model!='signup'") Login
+      span(ng-show="auth.model=='signup'") Sign up
+    .hint.pull-right(ng-show="auth.model!='signup'",ng-click="auth.model='signup'") Sign up
+    .hint.pull-right(ng-cloak,ng-show="auth.model=='signup'",ng-click="auth.model='login'") Log In
+    .hint.hidden forgot password ?
+

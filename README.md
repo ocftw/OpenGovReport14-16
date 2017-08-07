@@ -1,2 +1,7 @@
-# OpenGovReport14-16
-Taiwan Open Government Report - 2014 to 2016
+Open Government Report 2014 - 2016
+==============================
+
+
+License
+------------------------------
+MIT License
