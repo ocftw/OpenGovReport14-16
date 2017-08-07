@@ -132,7 +132,7 @@ base = do
       fs-extra.ensure-dir-sync \src/jade/partial/report/
       @handle[src] = null
       buf = fs.read-file-sync src .toString!
-      buf = md.render buf
+      buf = md.render buf, docId: path.basename(src)
       fs.write-file-sync report, buf
       console.log "[BUILD] #src --> #report"
       $ = cheerio.load buf
