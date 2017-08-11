@@ -5,28 +5,28 @@ block head
 block body
   #landing
     #banner
-      h1 開放政府觀察報告 2014 - 2016
-      p #[b.strong O]pen #[b.strong G]overnment #[b.strong R]eport 2014 - 2016
+    +nbr(11)
     .text-center
       .btn.btn-crystal.btn-lg 中文報告
       span &nbsp;
       .btn.btn-crystal.btn-lg English Report
   #report(ng-controller="report",style="max-width:100%;margin:0")
     #summary
-      - var colors = ["f5542e","f2c327","008b6e","0067ad"];
+      - var colors = [{"value":"#f5e6c8"},{"value":"#a0c8d7"},{"value":"#c8dc96"},{"value":"#afa5cd"}].map(function(d,i) { return d.value; });
       - var icons = ["0.1", "2.1", "5.4", "10"];
       each item in data
-        .summary-block(style="background:#" + colors[$index])
+        .summary-block(data-color=colors[$index],style="color:#222;background:" + colors[$index])
           .row.block1024.clickable(data-toggle="collapse", data-target="#summary-" + $index)
             .col-sm-5
-              h1 #[img(src="/assets/img/icons/icon_" + icons[$index] + ".white.svg")] #{item.name}
+              h1 #[img(src="/assets/img/icons/icon_" + icons[$index] + ".svg")] #{item.name}
             .col-sm-7.text-right
               p.desc #{item.summary}
-              .btn.btn-link.btn-lg More ...
-          .collapse(id="summary-" + $index,data-toggle="collapse", data-target="#summary-" + $index)
+              .btn.btn-link.btn-lg: i.fa.fa-chevron-down
+          .collapse.detail(id="summary-" + $index,data-toggle="collapse", data-target="#summary-" + $index)
             .block800 !{item.detail}
-            a.btn.btn-block.btn-link.btn-lg.text-center(href="/report") Read the Report #[i.fa.fa-arrow-right]
-
+            a.btn.btn-block.btn-link.btn-lg.text-center(href="/report")
+              span Read the Report 
+              i.fa.fa-chevron-right
     .sep.huge-gap
     +nbr(1)
     h3.text-center 有任何想法嗎？歡迎在這裡跟大家討論！

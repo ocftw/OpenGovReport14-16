@@ -6,16 +6,25 @@
   width: 100%
   height: 300px
   background: #0c4b70
+  background: url(/assets/img/banner.png) center center no-repeat
   color: #fff
-  box-shadow: inset 0 0 200px rgba(0,0,0,0.3)
+  position: relative
 
 #banner
   text-align: center
   padding: 50px 0
   margin: auto
+  position: absolute
+  bottom: 20px
 
 #summary
   .summary-block
+    .row
+      opacity: 0.75
+    .detail
+      opacity: 0.65
+      a.btn
+        margin-top: 30px
     color: #fff
     padding: 20px 50px 20px
     h1
@@ -28,13 +37,14 @@
     img
       width: 64px
       opacity: 0.5
+      vertical-align: text-top
     i.fa
       opacity: 0.5
-      margin: 25px 10px 30px
+      margin: 0 10px
       font-size: 1.4em
       vertical-align: middle
     .col-sm-7
-      padding: 40px 0 20px
+      padding: 50px 0 20px
       p
         font-size: 1.5em
     .block800
@@ -42,4 +52,8 @@
       p
         opacity: 0.9
   .btn
-    color: #fff
+    color: $(color.link)
+  .row
+    i.fa
+      font-size: 2.5em
+      margin: 0

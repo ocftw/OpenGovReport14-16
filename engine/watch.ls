@@ -7,7 +7,7 @@ reload = require-reload require
 
 panel-type = (type) -> (tokens, idx) ->
   if tokens[idx].nesting == 1 =>
-    """<div class="panel panel-conclusion panel-#type"><div class="panel-body">"""
+    """<div class="panel panel-conclusion"><div class="panel-body">"""
   else """</div></div>"""
 markdown = markdown.markdown
 md = new markdown-it html: true, linkify: true, typographer: true
