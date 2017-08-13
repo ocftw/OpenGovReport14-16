@@ -119,7 +119,7 @@
 
 ### 研究方法與資料來源
 
-本章節兼採質性與量化的分析，針對台灣 2014 年到 2016 年開放資料的政策脈絡、資料現況，與影響力進行評析。我們採用世界網路基金會（World Wide Web Foundation）在 Open Data Barometer（以下簡稱 ODB）第三版使用的研究方法[^forth] 為骨架，並參考學者們的相關文獻，綜合整理為本章節的論述。
+本章節兼採質性與量化的分析，針對台灣 2014 年到 2016 年開放資料的政策脈絡、資料現況，與影響力進行評析。我們採用世界網路基金會（World Wide Web Foundation）在 Open Data Barometer（以下簡稱 ODB）第三版使用的研究方法[^fourth] 為骨架，並參考學者們的相關文獻，綜合整理為本章節的論述。
 
 開放資料的「政策脈絡」與「影響力」兩部分，是以 ODB 的題目作為基礎，由研究員進行調查分析。我們同時邀請相關主管機關另外作答，作為參考資料，希望這種互動能促進主管機關重新思考開放資料的政策方向，而不僅僅在衝高資料集開放的數量。初步的調查文件由研究員蒐集資料與撰文，並依據 ODB 各題的評量標準給分。我們並於 4 月 17 日至 5 月 7 日開放社群檢視調查文件，並提供更多參考資料與評論，再由研究員於 5 月 7 日將意見回收，整理成最後的調查文件[^fifth]，成為本文重要的參考資料。
 
@@ -415,7 +415,7 @@
 [^first]:請參考 [Open Data Handbook](http://opendatahandbook.org/guide/en/introduction/)
 [^second]:請參考 [Open Definition 2.1](http://opendefinition.org/od/2.1/en/)
 [^third]:請參考[開放資料五顆星](http://5stardata.info/zh-TW/)
-[^forth]:請參考 [ODB 方法論文件](http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf)
+[^fourth]:請參考 [ODB 方法論文件](http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf)
 [^fifth]:調查文件已公開在本報告的 [github 頁面](https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact)
 [^sixth]:[Data-Centric Government 的二十大類資料](https://g0v.hackpad.tw/ep/pad/static/NoJ1mbwsqkQ)
 [^seventh]:原始資料已公開在本報告的 [github 頁面](https://github.com/ocftw/OpenGovReport14-16/tree/master/data)
