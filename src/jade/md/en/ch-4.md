@@ -1,290 +1,289 @@
-# 4. 公民科技協作關係
+# 4. Collaborative Relationships in Civic Tech
 
 :::danger
-## 關鍵結論 
-### 「人」是當前公民科技發展的關鍵
+### Key Findings
 
-在現行的制度不完備前，公民科技協作仰賴不同角色的努力，包括：上位者的政治意志、中介者的溝通協調、協作雙方分享目標與價值，並願意學習彼此的語彙與文化。
+### People are the key factor in the current development of civic tech
 
-### 公民科技強調平等互惠，開放權力與關係
+In the face of inadequate systems, civic tech collaboration requires effort from people in a variety of roles: leaders must contribute political support, mediators must engage in communication and coordination, and the collaborating parties must share goals and values and be willing to learn each other’s language and culture.
 
-公民科技是為了打造平等而互惠的協作關係，而非提供免費的資訊服務。透過協作雙方共同尋找問題、整理流程，公民科技開放的不只是工具與機制，同時也是互動過程的權力與關係。
+### Civic tech emphasizes equality, mutual benefit, and an open approach to power and relationships
 
-### 政府須翻轉治理思維，從小政府到開放政府
+The goal of civic tech is to establish equal and mutually beneficial collaborative relationships, not to provide IT services for free. As the collaborating parties identify problems and streamline processes together, civic tech provides not only open tools and mechanisms, but also an open approach to power and relationships in the interaction process.
 
-公民科技打破傳統由上而下的官僚治理，希望藉由橫向連結，將政府從統治者的思維，轉變為開放的協作者，一步步從大政府走向小政府，最後往開放的政府邁進。
+### Governments must re-think their approach to governance and shift first toward "small government" and finally toward “open government”
 
-### 未來挑戰一：如何整合新舊的機制或系統？
+Civic tech goes beyond the traditional top-down model of bureaucratic governance, emphasizing a network of horizontal connections that transforms the government from a ruler to an open collaborator. This transformation enables a shift from big government toward small government, and finally toward open government.
 
-公民科技協作關係在台灣至今只有單點式、偶發性的案例，尚未能制度化地運作，因此無法產生具有規模的影響力。同時，公民科技的維運與課責對象也尚未有明確的規則。如何將公民科技產生的系統與程序整合進原有的機制中，是當前一大挑戰。
+### Future challenges: How can both old and new mechanisms and systems be integrated?
 
-### 未來挑戰二：如何建立成熟的公民科技生態圈？
+Thus far, civic tech collaboration in Taiwan has been limited to single ad-hoc cases. With no institutionalized model for co-operation, the scale of influence remains limited. There are also no clear rules on where the responsibility for operational maintenance lies, and who is ultimately accountable. How systems and processes created by civic tech can be integrated into existing mechanisms is currently a major challenge.
 
-台灣急須由政府、社群、企業形成公民科技生態圈，才能擴大公民科技的規模與影響力，而非倚賴少數個人的努力與串聯。
+### Future challenges: How can a mature civic tech ecosystem be established?
+
+Taiwan urgently needs a civic tech ecosystem that incorporates governments, communities, and corporations, instead of relying on the efforts and networks of a few, in order to expand the scale and influence of civic tech.
 :::
 
-## 4-1. 公民科技：公私協作的新嘗試
+## 4-1. Civic tech: A New Possibility for Public-Private Collaboration
 
-本章以案例分析的方式，探索一種新的嘗試——公民科技協作關係。我們將公民科技（civic tech）定義為：奠基在開放資料與公民參與之上，由公民主動，或是受政府請託，運用數位科技來改造政府服務、優化行政流程、參與政府運作。公民科技打破了人民授予權力後，由政府單向統治管理的社會契約論，重新思考政府與人民的權力互動，更進一步以「實作」來嘗試公私協作中新的可能性。
+This chapter will explore civic tech collaboration as a new approach through a variety of case studies. We define civic tech as the use of digital technology on the basis of open data and citizen participation to transform government services, optimize administrative processes, and enable participation in government operations. Civic tech represents a break from the current social contract, in which the people vest power in the government to rule and manage society unilaterally; it is a rethinking of the interaction of power between the government and the people, and a practical exploration of new possibilities in public-private collaboration.
 
-公私協作並不是劃時代的新產物，早在 1990 年代已有「公私協作夥伴關係」（Public-Private Partnership，以下簡稱 PPP）的概念。至今，學者對 PPP 的定義仍有歧異。廣義來說，它指涉公私部門之間，或是透過正式契約，或是因為相同價值，自發性地產生跨組織的合作關係。陳敦源、張世杰（2010）指出，PPP 參與者之間透過頻繁的互動來產生信任，並分享資源與目標價值，從而建立了「協作網絡」。本章所談的公私協作，特別著重於政府部門與社群或個人之間，透過協作網絡而打造的公民科技。不同於傳統的 PPP，多為政府與企業間大規模的合作（例如 BOT），公民科技則是透過規模較小且多樣化形式與政府展開互動，進一步導入新的模式與文化。
+Public-private collaboration is not something new to our time. The idea of public-private partnerships (PPP) emerged in the 1990s, though even today academics are still divided over its precise definition. Broadly, the term PPP refers to cooperative relationships between organizations in the public and private sector, whether codified in formal contracts or spontaneously arising from shared values. Chen and Zhang (2010) pointed out that PPP participants create a high level of trust through frequent interaction, and share resources, goals, and values, thereby establishing "collaborative networks." In this chapter, our conception of public-private collaboration emphasizes civic tech collaboration created through collaborative networks between government agencies and communities or individuals. Unlike traditional PPPs, which usually refer to large-scale cooperation between governments and corporations (e.g. through the Build-Operate-Transfer model), civic tech introduces new models and cultural ideas and practices through small-scale and diverse interactions with governments.
 
-本章的資料來自深度訪談，我們分析四個案例發生的時空背景、處理的問題、協作的模式、面臨的挑戰、可能的影響等等。此外，我們也關注以下三個重要的面向（整理自陳敦源、張世杰 2010）：一、權力關係是否平等，並且共享資源、資訊和目標價值；二、協作過程是否有在集體目標與個人利益之間保持適當平衡；三、參與者如何透過社會資本形成網絡，並且產生互信關係。
+This chapter provides four case studies using in-depth interviews as the main source. We explore their respective backgrounds, problems to be solved, collaboration models, challenges faced, and possible future effects. We focus on three important facets of each case in particular (sourced from Chen and Zhang, 2010): (1) Whether the parties are equals in the power relationship, and whether they share resources, information, goals, and values; (2) Whether the collaboration process maintains an appropriate balance between collective goals and individual interests; and (3) How the participants use their social capital to create a network and build relationships of mutual trust.
 
-過去三年，我們看見公民科技的精采發揮，像是提供急難事件的救援、跨組織改善行政流程、打開數位時代的審議空間、推廣公民科學式的環境參與等。在台灣，公民科技仍是實驗性的嘗試，透過政府與技術社群建立協作網絡，公民科技補足了因僵化資訊採購所造成的行政效率不彰。同時，也避免了圖利財團、貪污舞弊等傳統 PPP 模式下可能的隱憂。
 
-但是，由於公民科技尚未形成完善的商業模式，也未能制度化地導入政府既有的運作系統，使得它難以發揮具有規模的影響力。將公民科技協作關係放在這份報告的最後一個章節，我們除了想回顧過去三年的發展，也想與讀者一同思考未來。在未來眾多可能的方向中，公民科技的潛力在哪？要讓公民科技發揮它真正的影響力，前方還有什麼樣的挑戰必須面對？
+We have seen impressive examples of civic tech in action over the past three years. Civic tech has provided aid during emergencies, improved administrative processes across organizations, opened up new channels for deliberation on important issues for the digital age, and promoting participation in environmental causes through citizen science initiatives. In Taiwan, however, civic tech collaboration remains experimental. Civic tech has mitigated the administrative inefficiencies brought on by inflexible IT procurement rules, while avoiding the problems of collusion and corruption that traditional PPP models risk.
 
-## 4-2. 物資地圖與災民證：公民科技救援急難事件
+And yet, large-scale influence remains elusive for civic tech in Taiwan due to a lack of mature business models and systemic integration into existing government operations. Our intent in discussing civic tech in this final chapter is to invite the reader to join us in thinking to the future, in addition to looking back on the developments of the past three years. What is the potential of civic tech in comparison to other possible approaches for a future governance model? What are the challenges that must be faced before civic tech can become truly influential?
 
-> 案例：八仙粉塵爆炸傷者查詢系統、物資捐贈地圖、數位災民證
-> 處理的問題：急難事件的需求無法仰賴傳統的採購流程
-> 政府單位：台北市政府資訊局、社會局
-> 協作人員：網路上自主參與者、零時政府參與者
 
-### 八仙塵爆開啟台北市公私協作的串連
+## 4-2. Donation Maps and Victim Identification: Civic Tech in Emergencies
 
-2015 年 6 月 27 日，八仙塵爆震驚了台灣社會，也意外地激盪出台北市與技術社群公私協作的第一例。當時，台北市政府湧入大量的詢問電話，讓忙於救災的北市府應接不暇，因此有了開發傷患查詢平台的構想。但是資訊局沒有災害開口合約，無法在急難時臨時增加聘僱人力或機具。制式的採購流程更是緩不濟急。時任北市府資訊局機要祕書的彭盛韶，於是轉而向社群求助。
+> Case: Patient search systems, maps of donated goods, and digital identification of victims
+> Problem statement: In an emergency, needs cannot be filled through traditional procurement processes.
+> Government collaborator(s): Taipei City Department of Information Technology and Department of Social Welfare
+> Civil society collaborator(s): Online volunteers and g0v participants
 
-這一個政府向社群求救的訊號，揭開了北市府與社群互動的序幕。社群協作者王景弘首先將傷患名單轉為結構化資料，並公開在網路上。資料公開兩個小時後，網路上各方的志願者便已編寫出十個不同的查詢系統，讓北市府連回官網，提供心急的親友線上即時查詢傷患動態。
+### An Explosion Results in Taipei’s First Civic Tech Collaboration
 
-### 開源程式應用在防災救援
+A dust explosion at the Formosa Fun Coast Amusement Park during a "color party" event on June 27, 2015 shocked Taiwanese society, and sparked the first example of public-private collaboration between the government of Taipei City and its tech communities. Taipei City Hall was overwhelmed with phone calls as staff attention was focused on disaster relief work, and an online platform for searching for victim information was proposed. However, the city’s Department of Information Technology had no open-ended contract in place to acquire temporary workers or equipment in emergencies, and regular procurement processes could not work quickly enough for this need. The city therefore requested aid from the communities.
 
-在八仙塵爆後，彭盛韶更兩度[^first]邀請市府各單位與社群朋友，討論如何建立救援機制，以改善災難時的危機處理。透過這兩次會議，部分市府公務員開始接觸公民科技社群。其中，社會局專員曾苡馨、游婷婷，更在 2015 年 12 月親赴零時政府黑客松提案，並與社群在防災演習上展開兩個協作專案——物資捐贈地圖與數位災民證。
+With this request for aid, City Hall and the community began to work together. Tech community member TonyQ first converted the list of casualties into a structured dataset and published it online. Two hours after the data was made public, volunteers across the internet had programmed ten different systems for searching the data that Taipei City Hall linked in its official website, allowing anxious friends and family to look up the status of injured loved ones.
 
-物資地圖提供物資的動態管理平台，它最初的構想來自朱昱任與史嘉淋為割闌尾計畫設計的物資募集系統，後續也發展成一次防災應用比賽的作品。而災民證則是由劉宇庭主動在黑客松跳坑開發，利用數位建檔的方式，讓收容單位在混亂的災難現場，可以有效管理流動的災民，並提供民眾尋找失散親人。
+### Open Source Programs in Disaster Prevention and Relief
 
-開發這兩個系統的朱昱任、劉宇庭皆來自零時政府社群。他們對於將開源技術運用在公共服務上抱持熱忱，不但參與了八仙傷患查詢平台的開發，也出席彭盛韶邀請的討論會，更主動向北市府請纓，希望應用自己的資訊長才協助市府改善行政服務。
+After the Formosa Fun Coast explosion, Saul Peng twice [^first] invited city government agencies and civic tech communities to meetings discussing how to establish relief mechanisms to improve crisis management during a disaster. These two meetings were an opportunity for City Hall staff to forge connections with civic tech communities. Tseng I-hsin and Yu Ting-ting of the Department of Social Welfare even submitted a proposal at a g0v hackathon in December 2015, and began two collaborative projects with the g0v community to help improve disaster relief—donation maps and a digital system to identify victims.
 
-從黑客松開始，到市府內的數次會議，社會局與朱昱任、劉宇庭之間並沒有簽訂合約，也沒有金錢上的對價關係。由社會局提供資料與資源，社群提供技術，雙方互補互信，並朝共同目標協作。對朱昱任與劉宇庭來說，系統開源是協作的基本要求，只有當系統是開源的，才能被他人修改與再利用，進而成為長遠的公共財；對社會局來說，開源的概念雖然陌生，但若能促成行政數位化，並將此公共服務開源共享，不但可以減少業務單位的負擔，更可以節省重複開發的資源，因此也欣然地接受。
+The donation map project created a dynamic management platform for donated goods after a disaster. The idea for the project was inspired by an in-kind donation collection system designed by Ju Yuren and Shih Chialin for an effort to recall legislators from the then-ruling KMT party; the project was eventually developed into a submission for a disaster relief application contest. The victim identification system was proposed and developed by Liu Yutin in a hackathon. The system is in essence a digital registration system that allows shelters to keep track of victims’ movements in a chaotic scene after a disaster, and provides information for family members to find their loved ones.
 
-### 搭橋者是公私協作的關鍵
+Ju Yuren and Liu Yutin, the developers of these two systems, are both members of the g0v community. They are passionate about applying open source technology to public services, not only participating in the development of information search systems for Formosa Fun Coast victims, but also in the discussions convened by Saul Peng. They then volunteered to contribute their IT expertise to Taipei City, helping the city government improve its administrative services.
 
-相較於台灣其他縣市，台北市在發展公民科技協作關係擁有得天獨厚的條件。一方面，首長的政治意志與中階主管的支持，讓台北市在開放資料與公民參與的推動上較為順利；另一方面，台北市也是技術社群的重要聚居地。此外，政府內部有願意與社群合作的窗口更是關鍵因素。在市政府內扮演重要橋樑角色的彭盛韶與曾苡馨，不但懂得如何向外尋求協助，也能夠向內溝通協調，面對政府與公民社會不同的文化與語彙，這些搭橋者既是緩衝也是推手。
+Throughout the process, from the hackathon to the meetings in City Hall, no contract was signed between the Department of Social Welfare and Ju and Liu, nor was any money exchanged. The Department of Social Welfare provided information and resources, while the community provided the technology. The two parties complemented and trusted each other, and collaborated on accomplishing their common goal. For Ju and Liu, making the system open source was an essential requirement of the collaboration. Only when the system is open source can it be modified and reused by others, making it a long-lasting public good. Open source was an unfamiliar idea for the Department of Social Welfare, but the agency saw that the open source system could help digitalize administrative work, and that such open-source sharing of public services could reduce the workload of government agencies and save on resources that would be expended for developing similar systems from scratch. The agency was therefore happy to accept the open source requirement.
 
-公私協作並不僅僅是將技術外包，公民科技之所以能夠接入政府機器的運作，需要上位者的政治意志與搭橋者的社會資本。但是，過度仰賴少數搭橋者，而沒有制度化的流程以及成熟的協作網絡，也成為目前台灣公民科技協作的困境。一但搭橋者離開了位置，原先所建立的關係與信任，可能在一夕間瓦解。
+### Bridge Builders Are the Key to Civic Tech Collaboration
 
-## 4-3. 公文郵遞管理系統：數位工具改善行政流程
+Taipei City is uniquely well-suited for developing civil tech collaborations compared to other counties and cities in Taiwan. The political will of its leaders and support of mid-level management ensured that Taipei City’s experience in promoting open data and civic participation has been relatively smooth. Taipei is also home to an important cluster of technology communities. Crucially, Taipei City Hall also had staffers who were willing to serve as contact points for community cooperation. Saul Peng and Tseng I-hsin served as important bridge builders within City Hall, skilled at both seeking external assistance as well as internal communication and coordination. Faced with the very different cultures and languages of the government and civic society, these bridge builders are both a buffer between the two sides and an engine for action.
 
-> 案例：公文郵遞管理系統
-> 處理的問題：行政流程的繁瑣與冗事
-> 政府單位：台北市政府社會局
-> 協作人員：王景弘
+Civic tech collaboration is not just about outsourcing technology. The political will of leaders and the social capital of these bridge builders are essential for integrating civic tech into government operations. However, an over-reliance on a few bridge builders, and the lack of institutionalized procedures and mature collaborative networks, has become a predicament for civic technology collaboration in Taiwan. Once a bridge builder departs from their position, the relationships and trust that have been built up may vanish in the blink of an eye.
 
-### 用數位的力量改造行政流程
+## 4-3. Document Delivery Management System: Using Digital Tools to Improve Administrative Processes
 
-將公民科技應用在防災救援，為政府打開傳統資訊採購外的另一種可能。但不論是物資地圖或是災民證，都不是常態使用的資訊系統。如何運用數位化的工具與資料治理的概念來改造整體行政流程，是公民科技的下一個課題。
+> Case: Official document delivery management system
+> Problem statement: Administrative processes are unnecessarily convoluted
+> Government collaborator(s): Taipei City Department of Social Welfare
+> Civil society collaborator(s): TonyQ
 
-前文曾提及彭盛韶在 2015 年於八仙塵爆後召開的會議，讓社會局公務員與技術社群相互認識。不久後，當社會局專員曾苡馨在個人的臉書上分享公文郵遞追蹤的困擾時，社群朋友王景弘便主動聯繫，自告奮勇為社會局用數位化的方式解決這個問題。
+### Reforming Administrative Processes with the Power of Digital Technology
 
-台北市社會局是北市府規模最龐大的局處，處理台北市各類社會福利案件。民眾申請補助後，社會局會郵寄紙本公文，告知民眾申請結果，並以掛號或雙掛號的方式追蹤送達狀況。但這套流程缺乏數位化，讓承辦人得管理成千上萬的回執聯，當民眾提出訴願時，又必須從散亂的回執聯中找到該筆送達證明。這個看似極小的問題，成為業務單位沉重的負擔。
+In the previous case, applying civic tech to disaster relief opened up new possibilities beyond traditional IT procurement for governments. However, donation maps and disaster victim identification systems are not IT systems that see everyday use. Reforming overall administrative processes using digital tools and data governance is the next challenge for civic tech.
 
-王景弘提出的解法很簡單，運用 QR code 來對郵遞公文進行追蹤管理。但簡單的解法在政府裡往往伴隨複雜的溝通。王景弘與社會局夥伴必須訪視社會局數個科室、資訊局、郵局三方，深入了解公文從產生、送達到收取回執聯的過程，並解決新工具如何納入既有系統的問題。對王景弘來說，公私協作是「專挑那些『小到沒有資源開標案』，但是看起來『對解決問題有潛力』的案子」，從而創造出行政數位化的範例，讓協作的模式與文化可以在政府內生根。儘管個案的經驗很難被複製，但是協作的想法與精神可以被擴散[^second]。
+The previous case mentioned meetings convened by Saul Peng after the Formosa Fun Coast explosion in 2015 that formed connections between Department of Social Welfare (DOSW) staffers and tech communities. Soon after the meetings, Tseng I-hsin of the DOSW shared her troubles with tracking the delivery of official documents on her personal Facebook page. TonyQ, a community member, volunteered to help the DOSW solve this problem with digital technology. 
 
-### 長期陪伴，從問問題開始學習
+The DOSW is the Taipei City government’s largest agency, and is responsible for administering the city’s various social welfare systems. After an application for a subsidy is received, the DOSW will mail a physical copy of an official document notifying the applicant of whether the application was granted. The delivery of the document is tracked using the post office’s registered mail system. However, the process is completely non-digital. Staffers must keep track of thousands of physical mail receipts, and identify the receipt involved whenever an appeal is filed regarding a decision. Though this problem seems extremely minor, it nonetheless creates a heavy workload for the department.
 
-政府是一台龐大複雜的機械，過去數十年，公務體系透過會議、公文、檔案等方式傳遞資訊與溝通，每個部門都衍生出獨特的資訊流。因此，要用單一系統將整個政府數位化根本是天方夜譚。公民科技的野心不大，它旨在解決微小而具體的問題，進而導入數位化的管理流程。
+TonyQ proposed a simple solution: tracking the delivered documents using a QR code. However, simple solutions often require complicated communication when the government is involved. TonyQ and the collaborating staffers had to visit several offices in the DOSW as well as the Department of Information Technology and Chunghwa Post (Taiwan’s official post office) in order to gain an in-depth understanding of how a document is produced, delivered, and the receipt obtained. After understanding the entire process, he had to tackle the problems of incorporating the new tool into existing systems. For TonyQ, civic tech collaboration is "especially for those solutions that are too small to receive the resources to open a formal bid, but have the potential to solve critical problems." This case created an example for digitalizing administrative processes, allowing the collaboration model and culture to take root in the government. Although the specifics of the case cannot be copied directly, the idea and spirit of collaboration is something that can spread [^second]. 
 
-但是，最困難的，正是找到明確而具體的問題。
+### Long-term Partnership: Start by Identifying the Right Problems
 
-首先，業務單位須要檢視流程來釐清需求。但在公務員的養成中，缺乏流程管理的知識，加上業務繁重，公務員連找出時間提問題、釐清流程都十分困難。沒有資訊背景的業務單位，多半並不能清楚地描述系統需求，而廠商則無法理解政府內部複雜的運作。雙方之間語彙與文化的落差，再經過公務體系一層一層的翻譯，加上評選委員與廠商間複雜的利益關係，往往讓資訊標案的成果荒腔走板，不是做出公務員操作困難的系統，就是人民怨聲載道的資訊服務。
+Government is an enormous and complex machine. Over the past few decades, the civil service has exchanged information and communicated through meetings, official documents, and files, creating a unique information flow in every department. It is therefore impossible to digitalize the entire government using a single system, and civic tech has no such ambitions. Its goal is to solve small but concrete problems and introduce digitalization to administrative processes.
 
-公民科技所提供的，並不只是一個程式或是一個網站，而是外部協作者直接與需求單位互動，透過長期陪伴來釐清問題的一整套過程。王景弘做的系統並不難，但要像他一樣願意以外部協作的身分，深蹲在政府基層，傾聽並溝通的人並不多。而這樣的外部角色，又須得到公務體系的信任、中高階長官的許可，這些條件綜合下，才能讓王景弘在郵遞系統後持續與社會局互動，並得以開啟其他協作專案。
+However, identifying these small but concrete problems is precisely the challenge. 
 
-### 公民科技導入政府的困境
+Government agencies must first clarify their needs through reviewing their processes. However, civil service training does not include process management skills. In addition, government staffers are usually too overworked to even find the time to articulate problems and clarify processes. Agencies with no IT background are usually unable to clearly describe their needs, while contractors are unable to understand the complicated inner workings of government. The enormous rift in language and culture between the two parties, the misunderstandings that arise as communication passes through level after level of the bureaucracy, coupled with complex webs of interest between bid reviewers and contractors, all contribute to the frequently absurd outcomes of IT tenders. Such tenders often result in systems that are difficult for staffers to use, or e-government services that draw waves of complaints.
 
-當前，公民科技導入政府存在許多困境。其一，參與協作的志願者即便投注時間與精力，並無法得到相應的報酬，多數協作者僅有在每次進政府開會時，才會得到微薄的車馬費。長遠來說，協作者如何不被視為免費的勞工，得到應有的尊重與回饋，讓協作關係可以長久維持，從而鼓勵更多協作者加入，這是公民科技導入政府必須思考的問題。
+Civic tech provides more than a single system or website; it allows external collaborators to interact directly with the agency, clearly identifying problems through long-term partnership. The system that TonyQ created is not difficult, but few are willing to spend as much time as he did as an external collaborator in low-level government offices, listening and communicating. Such external players also require the trust of the civil service system and the approval of mid- and high-level leaders. Under these conditions, TonyQ was able to continue working with the DOWS after developing the mail tracking system and begin more collaboration projects. 
 
-其二，公民科技開發的成果，基本上都是以敏捷式開發，產出最小可行性產品後就上線，用來解決任務型的問題。系統開發後，後續的維運可能因協作關係結束而無以為繼。數位化政府往往需要更穩定且長期維運的系統，因此也傾向依賴有穩定資金且依契約執行的廠商，而尋求非公民科技的協助。因此，如何讓公民科技協助機關釐清需求、確認問題，並讓敏捷式開發產生的系統，可以透過回饋與優化納入政府既有平台裡，成為公民科技導入政府的另一個關鍵。
+### Difficulties Faced by Civic Tech in Government
 
-## 4-4. 空氣盒子：打造政府、廠商、社群之間的生態圈
+Civic tech currently faces many difficulties regarding its use in government. First, volunteers who participate in collaboration cannot receive adequate compensation for their time and energy. Most collaborators receive only a small stipend when they attend meetings in person at government agencies. In the long run, how to give collaborators the respect and remuneration they deserve, so that collaborative relationships can be sustained and more collaborators encouraged to join, is a question that will require more thought.
 
-> 案例：空氣盒子
-> 處理的問題：環境議題
-> 單位：八個地方縣市政府
-> 外部協作人員：LASS 社群、中研院資訊科學研究所、資訊廠商
+Second, civic tech development almost always uses agile development to create a minimum feasible product that immediately goes online to solve a specific task-based problem. It can become impossible to maintain operations of a system once a collaborative relationship ends. Government often requires more stable and long-term systems, giving contractors with stable funding and concrete agreements an advantage over civil tech. Whether civic tech can integrate systems created through agile development into existing government platforms through feedback and optimization, will become another key to bringing civic tech into government.
 
-### 打造公民科技生態圈
+## 4-4. AirBox: Building a Civic Tech Ecosystem
 
-在前面的案例裡，我們點出目前公民科技的兩個困境：無酬的協作者可能被視為免費的廠商，且公民科技在長期維運上也充滿不確定性。台灣急須形成政府－企業－社群的生態圈，作為公民科技發展的基底。空氣盒子的案例，提供我們一個思考的方向。
+> Case: AirBox
+> Problem statement: Environmental issues
+> Government collaborator(s): 8 county and city governments [^third]
+> Civil society collaborator(s): LASS community, Academia Sinica Institute of Information Science, and IT companies
 
-空氣盒子是一套即時感測系統。手掌大的裝置可以讓民眾裝設在家中，用來追查即時溫度、濕度與 PM2.5 濃度，收到的資料會同步上傳到雲端平台，再透過開放資料的整合與視覺化的呈現，供民眾了解所在地點的空污情形，以補足環保署測站數量稀少[^third]的問題。
+### A Civic Tech Ecosystem of Governments, Companies, and Communities
 
-台灣號稱擁有全球密集度最高的微型空氣品質監測點，直至今日，監測點已急速成長超過 2000 個[^forth]。事實上，LASS（Location Aware Sensing System）社群、中研院資訊科學研究所，與瑞昱半導體等企業，早已各自在開發空氣感測系統。2016 年台北市推動智慧城市，為空氣感測提供舞台，正式串連起社群、學界、企業三方的合作，並催生空氣盒子，讓它從實驗走向產品，從社群向外接觸群眾。
+In the previous case, we identified two major difficulties currently faced by civic tech: First, that unpaid collaborators may be treated as free contractors; and second, that maintaining long-term operation of civic tech is often filled with uncertainty. Taiwan urgently needs governments, companies, and communities to form an ecosystem that can act as a foundation for developing civic tech. The case of AirBox may point to one way forward.
 
-### 小政府是公私協作的起點
+AirBox is a real-time sensor, that can be installed in homes to conduct monitoring of temperature, humidity, and PM2.5 concentration. It is a compact mechanism, about the size of a hand. The data collected is synced to a cloud platform and open to the public. Through visualization of the data, the platform then provides information on local air pollution to the general public. The system fills in the gaps left by the low number [^fourth] of official Environmental Protection Administration air quality monitoring systems.
 
-以阿姆斯特丹為標竿，台北市資訊局在擬訂智慧城市政策時，便設定政府應該扮演媒合者，提供誘因來鼓勵企業與社群橫向串連，由下而上共同打造智慧城市。半導體大廠瑞昱是當時主動上門的廠商之一。在資訊局的媒合下，廠商與創客社群 LASS 開始技術上的切磋，並透過中研院協助數據校準，打造出空氣盒子。
+Thanks to AirBox, Taiwan has the highest density of air quality monitoring micro-stations in the world, with over 2000 monitoring locations across the country [^fifth]. As a matter of fact, development of air quality sensing systems had long been under way separately in the LASS (Location Aware Sensing System) community, as well as within Academia Sinica’s Institute of Information Science, and IT companies like Realtek. Taipei’s smart city initiative in 2016 became the catalyst for the community, academia, and companies to work together on air quality sensing. Their joint efforts eventually took AirBox from an experiment to a product and brought it from the community to the general public.
 
-空氣盒子不只是一個感測 PM2.5 的商品，它與創客運動（Maker Movement）結合，鼓勵使用者動手改裝，發揮創意靈活運用，使得使用者成為生產鏈的一部分。台北市政府進一步將空氣盒子作為環境與資訊教育的一環，媒合廠商捐贈空氣盒子給國中小學，同時也從教育裡深耕動手做的創客文化。在台北市成功推廣空氣盒子後，2016 年共有八個縣市政府[^fifth]陸續加入計畫，瑞昱半導體、訊舟科技、華碩雲端、研揚科技等廠商助陣，讓空氣盒子在全台遍地開花。
+### Small Government Is the Starting Point for Public-Private Collaboration
 
-空氣盒子能順利推廣仰賴幾個因素。在技術上，感測相關的技術並不新穎，但是系統的各個環結直至晚近才開源，因而能與創客運動結合。在環境意識上，民眾對空氣污染與 PM 2.5 的議題已不再陌生，空氣盒子則提供民眾參與環境感測議題的方式。在政治面上，台北市所建立的典範更讓其他地方政府願意跟進。
+Taking Amsterdam as a role model, Taipei City’s Department of Information Technology (DOIT) formulated a smart city policy that positioned City Hall as a matchmaker, providing incentives to encourage connections between companies and communities and building a smart city in a bottom-up way. Realtek was a company that actively reached out to become part of the initiative. The DOIT connected Realtek with the LASS maker community. The two parties began working together to improve the technology, and Academia Sinica provided assistance with data calibration. The result of their efforts was AirBox.
 
-在這個案例裡，政府協助媒合，並提供教育環境作為舞台，從而推動了智慧城市的政策。廠商捐贈空氣盒子，不但取得宣傳效益，更在城市背書下，得到跨出台灣市場的機會。社群提供技術協助，也隨著空氣盒子的全台擴散而迅速成長。學界幫助校準，推動公民科學成長，並取得更多數據進行分析。政府、廠商、社群、學界共享資源與資訊，也各自得到相應的回饋。空氣盒子的案例，正說明政府應從傳統的統治思維，轉變為聯繫多邊利益關係人的媒合者。將大政府化為小政府，才是公私協作發展的起點。
+AirBox is more than just a PM2.5 sensor. It is part of the Maker Movement, encouraging users to modify it and use their creativity to come up with new uses. Users become part of its production chain. Taipei City went one step further, making AirBox part of environmental and IT education programs. Companies were commissioned to donate AirBoxes to elementary schools and junior high schools, allowing maker culture to take root in education. After the success of AirBox in Taipei City, eight counties and cities joined the project in 2016. Companies like Realtek, Edimax, Asus Cloud, and Aaeon helped AirBox expand across all of Taiwan.
 
-## 4-5. vTaiwan：開放協作創造審議空間
+The success of AirBox relied on several factors. In terms of technology, the sensor technologies it employs are not new, but the various facets of the system were made open source only recently, allowing the maker movement to adopt the technology. In terms of environmental awareness, the public is now increasingly familiar with the issues of air pollution and PM2.5, and AirBox provides citizens with a way to participate in environmental monitoring. In terms of politics, the paradigm set by Taipei City made other local governments more willing to participate.
 
-> 案例：vTaiwan
-> 處理的問題：數位時代如何調整老舊法規
-> 單位：行政院、資策會
-> 外部協作人員：零時政府參與者
+This case displayed a successful private-public collaboration by building an ecosystem of civic tech. Each collaborative party benefited from this project. The government implemented its smart city policy by matching companies and communities and providing them with a place to show the results of their work—the city’s schools. Companies that donated AirBoxes were not only granted a public relations boon, they were also given an opportunity to expand beyond the Taiwan market with the city’s good will. Communities that provided technical assistance were rewarded with rapid growth as the AirBox project expanded throughout Taiwan. Academic institutions that assisted with calibration were given the opportunity to promote citizen science education and obtained more data for analysis. Government, companies, communities, and academia all shared resources and information, and each was rewarded for it. The AirBox case shows that governments should go beyond its traditional self-conception as a ruler over society and become a matchmaker for multi-stakeholders. Only when big government becomes small government can public-private collaboration begin to develop.
 
-### 黑客松搬救兵，政府與社群共造線上審議平台
+## 4-5. vTaiwan: Civic Tech Collaboration to Create an Open Space for Deliberation
 
-2014 年 12 月 20 日，時任政務委員蔡玉玲來到零時政府黑客松[^sixth]，主動向黑客們拋出一個問題：「可以不去開曼設公司嗎？」在一整天黑客松的激盪後，黑客們的結論是，與其回答怎麼讓新創公司根留台灣，不如開放這個問題，打造出數位公共參與的平台，邀請更多人一起來回答這個問題。於是，法律背景的政務委員與數位原民的公民黑客，開始建構 vTaiwan 虛擬世界法規調適交流平台（以下簡稱 vTaiwan），用來討論老舊的法規該怎麼修改，以跟上數位時代的步伐。
+> Case: vTaiwan
+> Problem statement: How old and outdated laws and regulations can be adapted for the digital age
+> Government collaborator(s): Executive Yuan, Institute for Information Industry
+> Civil society collaborator(s): g0v participants
 
-將法規調適的審議過程標準化並數位化，是 vTaiwan 最大的貢獻。為了接觸更多網路實際參與者，vTaiwan 運用了 Discourse、Pol.is、Sli.do 等程式架設線上討論空間，並融合線下的實體會議。至 2016 年底， vTaiwan 已經操作過 18 個議題，其中半數已完成修改法規或細則，另外半數則仍在院會或是在草案研擬的階段。
+### Building an Online Deliberation Platform in a Hackathon
 
-### 開放的不應只是參與的過程，而是權力與關係
+On December 20, 2014, then-Minister without Portfolio Jaclyn Tsai went to a g0v hackathon [^sixth] with one question: "Is it possible for companies not to headquarter in the Cayman Islands?" After a whole day of discussion in the hackathon, the participants concluded that, instead of having them answer the question of how to convince start-ups to stay in Taiwan, the question should be opened up to the general public by building a digital public participation platform. Minister Tsai and these civic hackers, bringing together Tsai’s legal background and their familiarity with the digital world, began to build the vTaiwan Virtual World Laws and Regulations Adaptation Exchange Platform. The platform particularly focuses on digital policies and allows discussion of how old and outdated laws and regulations can be amended for the digital age.
 
-由零時政府社群打造出來的 vTaiwan，後續的運作並非交回官方主導，而是繼續由政府與公民社會協作。一共有三組人馬進行維運，提案方：主管該法令的相關部會，在平台上提出各種即將制訂的法規草案；編輯群：由資策會科技法律研究所負責將法規草案編輯整理，方便網友討論；版主群：由 vTaiwan 專案社群貢獻者所組成，共同維護線上系統與內容更新。此外，每個提案的過程中，版主群會邀請積極參與者組成工作組，進行實體與線上聚會，來釐清爭議點、收斂議題，並提出相應的修正建議。工作組的任何會議文字、影像紀錄，都會公開在網路上供民眾查閱。
+Standardizing and digitalizing the deliberation process is vTaiwan’s biggest contribution. To bring in more online participants, vTaiwan used technologies such as Discourse, Pol.is, and Sli.do to build online discussion spaces, and integrated them with physical offline meetings. As of the end of 2016, vTaiwan has been used to deliberate 18 issues. Amendments to laws and regulations have been enacted for half of the issues, while amendments for the remaining half are still in the drafting stage or awaiting legislative approval.
 
-vTaiwan 不僅打造出開放的公民參與平台，它更在自身發展與營運的過程中，也盡可能地維持開放參與。參與 vTaiwan 沒有身分與資格的限制，任何有興趣的人皆可以參加每週的聚會。聚會辦在政府機關外，沒有主席與議程，也免除了官僚體系的制式文化。正是因為這樣的開放性，讓 vTaiwan 所形成的協作網絡，能夠維持一個平等且無主從地位的關係。
+### Power and Relationships Should Be Opened Up
 
-比起地方政府，要在中央導入公民科技的難度更高。vTaiwan 推動者的社會資本與政治位置是它順利運作的關鍵。vTaiwan 最初由蔡玉玲推動，社群參與者協助系統建置，後續維運則多由當時仍是零時政府參與者的唐鳳負責。當唐鳳在 2016 年十月成為政務委員後，蔡玉玲則轉為公民社會的身分主持 vTaiwan。從這個脈絡裡，可以看見 vTaiwan 很大程度仰賴蔡玉玲與唐鳳兩位政委先後的背書。
+After the g0v community built vTaiwan, they did not hand over the operation of the platform to the government. Instead, the collaboration between the government and civic society has continued. Three parties are now in charge of operating the platform. (1) Issue sponsors: the government agencies which submit drafts of laws and regulations that they are proposing. (2) Editors: affiliated with the Institute for Information Industry, a government-sponsored NGO, which collect and organize the drafts into a format more conducive to discussion. (3) Administrators: g0v’s vTaiwan task force, which works together to maintain the online system and update the content. In addition, the administrators will invite active participants of each proposal to form working groups, which hold online and offline meetings to clarify points of disagreement, keep the issue focused, and suggest modifications. All working group meetings are recorded in text or video and made public online.
 
-### vTaiwan 要如何玩真的？
+vTaiwan not only built an open platform for civic participation in digital-related law amendments, it also maintained an open approach during its system’s development and operation. There are no requirements or qualifications needed to participate in vTaiwan’s operation. Anyone interested can join their weekly meetings. The meetings are held outside of any government agency, with no chairperson or set agenda, to avoid the restrictive culture of the bureaucracy. This spirit of openness allows vTaiwan’s collaboration network to maintain equal and non-hierarchical relationships.
 
-vTaiwan 雖然已納入行政院法規調適的機制中，但是如 UBER、網路賣酒[^seventh]等案例，皆曾在送出草案後，因為社會爭議過大，而面臨立法停擺的狀況。vTaiwan 要如何「玩真的」，進而發揮實際的影響力，正面臨著以下挑戰：
+vTaiwan is an influential case since it is much more difficult to introduce civic tech to central government than to local governments. The social capital and political position held by vTaiwan proponents have been the key to its success. vTaiwan was first spearheaded by Jaclyn Tsai, with community participants helping to build the platform. Its later operations were mostly headed by Audrey Tang, who was then still a g0v participant. When Tang became Minister without Portfolio in October 2016, Tsai took over the running of vTaiwan as a member of civic society. These developments show that vTaiwan very much relied on the support of Ministers Tsai and Tang. 
 
-其一，vTaiwan 要如何擴大參與者的代表性？由於 vTaiwan 以討論虛擬世界的法規調適為主，在相對艱深的議題下，所能觸及的利益相關人與社會大眾皆有所侷限。vTaiwan 需要更積極串聯重要議題社群，並且培養更多的中介者來進行溝通與轉譯，降低操作門檻、擴大參與程度。
+### How Can vTaiwan Deepen Its Impact?
 
-其二，vTaiwan 要如何不被政黨政治的對立給綁架，並透過審議機制讓人民的聲音取得政治影響力？在網路賣酒的爭議中，即便 vTaiwan 已向立法院送出修正案並列為當期優先法案，但在 2016 年民進黨政府上台後，行政院便主動向立法院撤回草案，至今仍懸而未決。此案顯示政黨政治仍遠遠凌駕在審議民主之上。
+Although vTaiwan has become an institutionalized mechanism for adapting laws and regulations, there have been several cases (such as the issues of Uber and online liquor sales [^seventh]), in which draft legislations were eventually stalled in the legislature due to societal backlash. vTaiwan faces the following challenges in deepening its impact:
 
-其三，這種新興參與機制如何與既有的參與機制（如公聽會）整合，並在初期階段即納入立法院的聲音，避免審議與代議制度的斷裂？
+First, how can vTaiwan gain more active participants from the stakeholders of each issue? As vTaiwan aims at adapting laws and regulations for the virtual world, a rather difficult and obscure mission, it is hard to raise interests even among stakeholders. So far, the number and diversity of participants has been limited. vTaiwan needs to move beyond a mere online platform and be more active in connecting with communities to include more representative participants. Also, it is important to train more mediators to conduct communication and facilitation, in order to lower the platform’s barrier to entry and expand participation.
 
-其四，各部會中是否具有足夠授權且有彈性的人擔任政府與公民社會的窗口，讓雙向溝通順暢，進而確保 vTaiwan 的政治授權與影響力。
+Second, how can vTaiwan avoid being caught up in divisive party politics, and give the voice of the people political influence through the deliberative process? In the online liquor sales controversy, vTaiwan had submitted an amendment bill to the legislature, which was identified as one of the session’s priority bills; however, the Executive Yuan withdrew the bill after the DPP took office in 2016, and no action has been taken on the issue since. This shows that party politics maintains primacy over deliberative democracy.
 
-## 4-6. 如何促成公民科技協作關係
+Third, how can this new mechanism for participation be integrated with existing mechanisms (such as public hearings); and how can legislators be brought into the process from the beginning, so that the deliberative democracy does not become cut off from representative democracy?
 
-### 公民科技與資訊採購
+Fourth, are there enough staffers in various government agencies who are empowered and flexible enough to act as a contact between the government and civic society, ensuring clear communication and thus the political authority and influence of vTaiwan?
 
-前文曾將公民科技與資訊採購對比。事實上，兩者雖然皆試圖以數位的方式提供解方，但所適合的問題類型並不相同。公民科技適合突發型任務，或問題與流程尚未釐清的情形。透過協作者與需求單位直接互動與溝通，敏捷式的公民科技可以有彈性地開發系統。資訊採購適合需求明確且長期營運的系統，由資訊單位作為廠商與需求單位的中介者，進行瀑布式的開發，再委由廠商後續維運。
+## 4-6. How to Facilitate Civic Tech Collaboration
 
-公民科技與資訊採購雖然適合不同任務，但是，我們發現繁複的資訊採購在實際操作中正面臨許多困境（圖表 4.1），而這些困境是可以透過公民科技來改善的。
+### Civic Tech vs IT Procurement
+
+Earlier in this chapter, a contrast was drawn between civic tech and IT procurement. Though both approaches attempt to provide governments with solutions through digital means, they are in fact appropriate for different types of problems. Civic tech is well suited to emergencies or situations in which problems and processes have not been clearly identified; collaborators can directly interact and communicate with the agency in need, using agile development to flexibly develop systems to solve the problem. IT procurement is well suited to systems with clear needs and long operational life cycles; government IT agencies can act as a mediator between the contractor and the agency in need, using the waterfall model to develop systems that are contracted out for operation and maintenance. However, we have also identified many difficulties with IT procurement in practice [^eighth] (Table 4.1).
 
 <table>
   <tr>
-    <td>資訊採購流程</td>
-    <td>實際操作時遇到的問題</td>
+    <td>IT Procurement Phase</td>
+    <td>Problem Encountered in Practice</td>
   </tr>
   <tr>
-    <td>1. 前一年預算編列</td>
-    <td>基層業務繁重，只有在送預算前幾天，才開始緊急自行規畫，或是找熟悉的廠商寫文件。</td>
+    <td>1.  Budgeting in previous fiscal year</td>
+    <td>Overworked staffers begin planning out the budget days before the proposal is submitted, or the budget is written by contractors they know.</td>
   </tr>
   <tr>
-    <td>2. 議會審查通過</td>
-    <td>預算被議會調整。</td>
+    <td>2. Legislature reviews and passes budget</td>
+    <td>Budget goes through changes by legislators.</td>
   </tr>
   <tr>
-    <td>3. 採購規畫（廠商訪談、需求初步訪談）</td>
-    <td>長官有新想法，重新再進行規畫。</td>
+    <td>3. Procurement planning </td>
+    <td>Higher-ups have new ideas and planning must begin from scratch.</td>
   </tr>
   <tr>
-    <td>4. 撰寫 RFP 與規格文件</td>
-    <td>資訊素養不足的單位找廠商幫忙寫 RFP（需求建議書）。</td>
+    <td>4. RFP and specification documents are written</td>
+    <td>Agencies without necessary IT expertise outsource the RFP writing to contractors.</td>
   </tr>
   <tr>
-    <td>5. 簽呈並公告招標</td>
-    <td>大半年過去了。</td>
+    <td>5. The tender is approved and published</td>
+    <td>Months pass.</td>
   </tr>
   <tr>
-    <td>6. 邀集評選委員</td>
-    <td>多半邀集單位已熟識的評委，常是退休人士，並不熟悉現下的產業脈動。部分甚至有利益連結，導致產官學共犯結構。</td>
+    <td>6. Bid reviewers are invited</td>
+    <td>Many bid reviewers are retired and unfamiliar with current industry trends. Some even have inappropriate connections to contractors, leading to collusion between industry, government, and academia.</td>
   </tr>
   <tr>
-    <td>7. 辦理評選</td>
-    <td>在上述這些過程下，多半是已與政府長期互動的系統廠商得標。</td>
+    <td>7. Bid reviews are conducted</td>
+    <td>Under the above processes, winning bidders are often system contractors that have worked with the agency for years.</td>
   </tr>
   <tr>
-    <td>8. 決標</td>
-    <td>決標後才正式與業務單位進行需求訪談。甚至因為時間不足，直接依照 RFP 開發。</td>
+    <td>8. The winning bidder is chosen</td>
+    <td>Official discussions of the agency’s needs are conducted only after the bidder is chosen. Sometimes due to time constraints development goes ahead based on the unmodified RFP.</td>
   </tr>
   <tr>
-    <td>9. 履約管理</td>
-    <td>在資訊能力不足的單位，常常是由廠商來主導履約管理。</td>
+    <td>9. Bid implementation management</td>
+    <td>In agencies without the necessary IT expertise, the contractor is often in charge of managing the implementation.</td>
   </tr>
   <tr>
-    <td>10. 驗收</td>
-    <td>業務單位不清楚如何測試，也沒有專案管理的方式來執行、運作該系統，因此仰賴廠商。</td>
+    <td>10. Final acceptance</td>
+    <td>The agency is unfamiliar with how to test the system, and lack the project management know-how to implement and operate the system. The agency therefore must again rely on the contractor.</td>
   </tr>
 </table>
 
+Table 4.1 Problems faced with IT procurement
 
-<圖表 4.1> 資訊採購所面臨的問題[^eighth]
+The biggest difficulty faced in IT procurement is identifying user needs. This difficulty means that many systems are incompatible with needs from the planning stage. In contrast to IT procurement, civic tech emphasizes interaction and communication in real practice. The collaborating parties work closely together to identify problems and ways to improve processes, instead of simply providing new tools. Civic tech is still unable to solve large-scale structural problems, but it has introduced new ways of thinking and culture, in the hopes of spurring governments to keep pace with the industry and listen to users’ needs. Civic tech can also provide more flexible solutions when existing IT procurement processes remain unimproved.
 
-資訊採購的最大困境是缺乏對使用者需求的釐清與盤點，讓系統從規畫之初便與需求有顯著落差。相較於資訊採購，公民科技重視實際操作中的互動與溝通。透過緊密的陪伴，協作雙方共同尋找問題和改善流程的方法，而非單純提供新的工具而已。當前，公民科技尚無法解決龐大的結構性問題，但它引入新的思維與文化，以期讓政府跟上業界的節奏，並傾聽公民的需求。同時，在既有的資訊採購流程尚未調整前，更彈性地提供解方。
+Civic tech is not necessarily mutually exclusive with IT procurement. For example, in the senior welfare center case with Taipei City, needs were first identified through a civic tech collaborative process, then the system was built through procurement and integrated into government operations. This case revealed the possibility for institutionalizing civic tech. However, as we have emphasized, civic tech does not only provide systems. Without reforming current IT procurement systems, purchasing civic tech may lead to reasonable compensation for collaborators, but it is not the best long-term way to institutionalize civic tech collaboration. How the influence of civic tech can be scaled up remains an unsolved problem.
 
-公民科技與資訊採購並非站在對立面。例如，台北市社會局老福據點的案例，即是透過協作關係先釐清需求，再進一步以採購的方式建置系統，並納入政府運作中，打開公民科技制度化的可能性。但正如我們所強調的，公民科技並不是提供系統而已，用硬體採購的邏輯來購入公民科技，雖然可以提供協作者報酬，但長遠來說，並不是讓公民科技協作關係制度化的最佳方法。同時，如何讓公民科技產生規模化的影響力，仍是一項待解的難題。
+### Four Models for Civic Tech
 
-### 公民科技的四種模式
-
-我們可以依互動模式與緊密程度，將台灣現有的公民科技協作，簡略地分為以下四種模式：
+From the above cases, we identify four models for civic tech collaboration based on the interactive models and how closely the parties work together:
 
 <table>
   <tr>
-    <td>模式 (依互動由淺入深排列)</td>
-    <td>案例</td>
+    <td>Model (least in-depth interaction to most)</td>
+    <td>Examples</td>
   </tr>
   <tr>
-    <td>A. 政府開放資料，公民社會開發應用</td>
-    <td>八仙粉塵爆炸傷者開放資料查詢、藥要看、掌蚊人、預算視覺化</td>
+    <td>A. Government provides open data; civil society develops applications</td>
+    <td>Formosa Fun Coast victim search platform, Drug certification search system, The Mosquito Man, budget visualization</td>
   </tr>
   <tr>
-    <td>B. 政府媒合公民社會不同群體開發</td>
-    <td>空氣盒子</td>
+    <td>B. Government connects different parties in civil society to develop systems</td>
+    <td>AirBox</td>
   </tr>
   <tr>
-    <td>C. 政府與公民社會協作開發</td>
-    <td>物資捐贈地圖、數位災民證、vTaiwan</td>
+    <td>C. Government and civil society collaborate to develop systems</td>
+    <td>Donation map, victim identification system, vTaiwan</td>
   </tr>
   <tr>
-    <td>D. 公民進政府協助改善行政流程</td>
-    <td>公文郵遞管理系統</td>
+    <td>D. Civil society collaborators enter government agencies to assist in improving administrative processes</td>
+    <td>Official document delivery management system</td>
   </tr>
 </table>
 
-<圖表 4.2> 公民科技協作的四種模式
+Table 4.2 Four models for civic tech collaboration
 
-A、B 兩種模式主要面對公民的需求，政府僅扮演輔助性角色，不論是提供開放資料，或是提供實驗場域，鼓勵公民社群自主發展，甚至鼓勵在此之上建立商業模式。在這兩種模式中，政府不應該將自己視為公共服務的唯一提供者，相反的， A、B 兩種模式需要「小」政府，透過完善的政策為底、扎實的基礎建設為骨架，鼓勵公民社會與企業投入公共服務的領域，打造公民科技的生態圈。
+In models A and B, the government plays only an auxiliary role and the focus is on the needs of citizens. The government provides open data or experimental spaces, and encourages the autonomous development of civic communities. In these two models, the government should not see itself as the sole provider of public services. On the contrary, models A and B require small government. With good policy as a foundation and solid infrastructure as a backbone, the government then encourages civil society and companies to provide public services and build a civic tech ecosystem.
 
-C、D 模式以處理政府的運作為主，政府與公民社會則有更深度的互動。由於這兩種模式下的公民科技，都需要與政府內部的系統和流程銜接，因此，協作雙方得花費更多時間溝通，並且評估可能的政治影響力。在此種模式下，政府應該是「開放的」政府，扮演著多方利益關係人之一，平等地與公民社會協作。
+Models C and D are more focused on government operations, and involve more in-depth interaction between the government and civil society. Civic tech under these two models may require integration with internal government systems and processes, so the collaborating parties must spend more time communicating and assessing possible political influences. These models require an open government, one of many stakeholders collaborating with civil society on an equal basis. 
 
-不論是上述哪一種模式，要促成政府與公民社會在公共領域相互協作，我們歸納出五個重點：
+For all of the above models, we have identified five key points for facilitating government connection and collaboration with civil society in the public sphere:
 
-1. 上位者政治意志的重要性	
-2. 好的中介者讓協作關係事半功倍
-3. 協作雙方共同學習尋找對的問題
-4. 協作過程須開放權力與關係
-5. 翻轉治理思維，從小政府到開放政府
+1. The political will and support of leaders are important.
+2. Good mediators make the collaborative relationship smooth and efficient.
+3. Collaborating parties must learn together to identify the right problems.
+4. The collaboration process requires an opening up of power and relationships.
+5. The approach to governance must be re-thought, from small government to open government.
 
-### 化困境為挑戰
+### Turning Difficulties Into Challenges
 
-公民科技協作關係在台灣仍是罕有的。本章節所呈現的每個案例都有它的天時、地利、人和，難以簡單複製，也有其侷限之處。事實上，公民科技協作關係在台灣仍面臨著四大面向的困境：
+Civic tech collaboration remains rare in Taiwan. Every case discussed in this chapter relied on good timing, favorable conditions, and dedicated people. It is difficult to copy any of them, and each has its limitations. In Taiwan, civic tech collaboration still faces difficulty in four major aspects:
 
-> 制度面：如何整合新舊的機制或系統？
-> 管理面：如何管理、維運，甚至課責非正式關係建立的公民科技？
-> 人才面：如何不依賴少數的搭橋者，讓公民科技不再只是單點式的協作？
-> 社會面：如何建立成熟的公民科技生態圈來支持協作關係？
+> The institutional aspect: How can new and existing mechanisms or systems be integrated?
+> The management aspect: How can civic tech developed through informal relationships be managed, maintained, and even held accountable?
+> The talent aspect: How can the reliance on a few bridge builders be broken, so that civic tech collaboration can be beyond single unique cases?
+> The societal aspect: How can a mature civic tech ecosystem be built to support collaborative relationships? 
 
-當實驗性質的公民科技取得了初步的成果，我們要問，它可能擴大規模並且邁向制度化以處理上述的困境嗎？
+As experimental civic tech collaborations begin to bear fruit, we must ask: Can they be scaled up and institutionalized in order to solve the aforementioned difficulties? 
 
-在台灣，公民科技協作關係仍是單點式、偶發性的。但在國際上，系統性的協作計畫已經成真。美國 Code for America 與巴基斯坦 Code for Pakistan 各自在其國家發起了 Fellowship Program，由公民組織募資，與地方政府合作，將工程師、設計師等人才送入政府半年至一年，與公務員協作改善資訊服務。在社會組織比較嚴密的日本，則透過與企業合作 Corporate Fellowship，提供三個月的獎助金，讓企業內的數位人才，每週兩天進入政府擔任顧問。
+While civic tech collaboration in Taiwan is still limited to ad-hoc single cases, systemic collaboration programs have been put into practice in other countries. Code for American and Code for Pakistan have started fellowship programs in their respective countries, using funds raised by civic groups to place engineers and designers into local governments for six months to a year. The engineers and designers then collaborate with government staffers to improve IT services. In Japan, governments work with companies to provide corporate fellowships, offering three-month grants for digital talent in companies to offer consultancy services at government agencies twice a week.
 
-相似的討論，在台灣也曾發生過。台北市在八仙塵爆案例後，曾與社群討論 Fellowship 的可能性[^ninth]，但受限於政府人員聘用與採購法規的限制，始終沒有付諸實行。另一個現實的障礙是，投資者從哪裡來？政府至今的資訊採購傾向將資訊服務以硬體的思維購入，阻礙了軟體產業在公共服務上的發展。當公民科技在台灣未能成為一個產業時，要如同美國般有穩定注入的投資，是十分艱難的事。
+Similar programs have been discussed in Taiwan. After the Formosa Fun Coast explosion, Taipei City had consulted the community regarding the possibility of a fellowship program [^ninth]. However, the limitations of government personnel and procurement laws meant that such a program was never put into place. In addition, a funding model of civic tech has not been established. Where the investment comes from is a practical problem faced by civic tech advocates. Even today, government IT procurement treats IT services the same as hardware. This has hindered the development the software industry in public services. It will be difficult for civic tech to receive stable investment funding like in the US, when no civic tech industry has formed.
 
-政府是台龐大而階序嚴密的機器，它要如何接納來自外部不同的聲音與做法？雙方如何建立信賴的基礎，以互惠、平等的方式協作？法規制度如何打開一扇互動的門？公民科技的市場與商業價值在哪？面對這些大哉問，公民科技不能只停留在一種理想、一個實驗，我們必須要面對公民科技背後的政治、經濟問題，正如同它希望解決這些問題一樣。
+Government is an enormous and intricate machine. How can government take in different voices and approaches from the outside? How can it build a foundation of trust with another party, so that they can collaborate in an equal and mutually beneficial manner? How can laws and regulations open the door for interaction? What is the market and commercial value for civic tech? In the face of these big questions, civic tech cannot be content to remain an ideal or an experiment. We must face the political and economic questions behind civic tech, just as civic tech hopes to solve political and economic problems in society.
 
+### Note
 
-### 註解
-
-[^first]:二次會議分別舉辦於 2015 年 7 月與 10 月。
-[^second]:參考自曾苡馨，2017 年 6 月的演講「行政數位化的經驗分享」。
-[^third]:全台僅有 76 個測站。
-[^forth]:參考 [AirBox status report](https://pm25.lass-net.org/AirBox/)。
-[^fifth]:加入空氣盒子計畫的地方政府有：台北市、新北市、台中市、台南市、高雄市、嘉義市、嘉義縣、雲林縣。2017 年 桃園市也加入空氣盒子計畫中。
-[^sixth]:參考[零時政府第拾壹次開放報禁黑客松](https://g0v-tw.kktix.cc/events/g0v-hackath11n)
-[^seventh]:參考 2016/06/17 數位時代報導[「網路賣酒喊卡！政策大轉彎，行政院從立法院撤案」](https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44)
-[^eighth]:本報告並非以檢討資訊採購為主題，因此僅以簡單的表格來做比較與分析。若想更了解當前資訊採購的問題，可參考〈政府的資訊採購，出了什麼問題？〉（林雨蒼 2017）。
-[^ninth]:參考 [g0v.taipei fellowship](https://g0v.hackpad.tw/g0v.taipei-fellowship-LJZw6OzdO9g)
+[^first]:The two meetings were held in July and October 2015.
+[^second]:From Tseng I-hsin’s lecture "Experiences on Digitalization of Government Operations" in June 2017.
+[^third]:Local governments that joined in the AirBox project before the end of 2016 were: Taipei City, New Taipei City, Taichung City, Tainan City, Kaohsiung City, Chiayi City, Chiayi County, and Yunlin County. In 2017 Taoyuan County also joined.
+[^fourth]:There are only 76 EPA monitoring stations across Taiwan.
+[^fifth]:See the [AirBox status report](https://pm25.lass-net.org/AirBox/)
+[^sixth]:Please see [g0v’s 11th hackathon event page](https://g0v-tw.kktix.cc/events/g0v-hackath11n)
+[^seventh]:See [Business Next report on the issue](https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44)
+[^eighth]:The problems with IT procurement are not the focus of this paper, so only a simple table is presented for comparison. For a deeper understanding of current problems with IT procurement, see "What Are the Problems with Government IT Procurement?" (Lin, 2017).
+[^ninth]:See ["g0v.taipei fellowship"](https://g0v.hackpad.com/g0v.taipei-fellowship-LJZw6OzdO9g)
 
