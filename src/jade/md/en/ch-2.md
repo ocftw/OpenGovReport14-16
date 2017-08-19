@@ -1,430 +1,446 @@
-# 2. 開放資料
+# 2. Open Government Data
+
+//插圖
+Figure 2.1 Results of Open Data Survey
 
 :::info
-## 關鍵結論
+## Key Findings
 
-### 推動強調經濟發展，而忽略政府課責、社會平等
+### Too much focus on economic development and not enough on government accountability and social justice
 
-過去三年台灣開放資料的推動著重經濟發展，但缺乏整體產業政策。關於政府透明與課責的資料相對低度開放，且幾乎沒有以改善弱勢、促進平等為目標的開放資料策略。
+For the past three years, open data has been promoted for its economic benefits without an overall industry policy. Taiwan has performed relatively poorly in terms of opening data regarding government transparency and accountability and there is no open data strategy targeting the disadvantaged and promoting equality.
 
-### 資料數量遠勝過品質，許多關鍵資料仍散落在不同網頁
+## Quantity over quality, many key datasets were scattered across multiple websites
 
-重量不重質的發展，使得資料集品質參差不齊，許多資料集仍需人工進一步處理才能使用。此外，各機關依《政府資訊公開法》將資訊各自公布在機關網站上，但是內容完整度不一。若能進一步將公開資訊結構化，並整合進政府資料開放平台，可增加資料搜尋與使用的便利性。
+Government agencies have tried to open more and more data but neglected data quality. As a result, the quality of datasets is jagged and many have to be manually processed to be used. Additionally, Taiwan’s agencies release data on their websites according to the country’s Information Law, yet the data is mostly not in open formats. If the data can be further structured and integrated into DATA.GOV.TW, it will be more searchable and easier to use.
 
-### 影響力不彰，須加強以公民與公務員的需求為出發點
+## Not enough impact, policy should be driven by what citizens and civil servants need
 
-截至今日，開放資料對推動開放政府、公民參與，甚至是資料經濟，皆尚未有顯著的影響。政府需要重新思考開放資料的價值，針對使用者進行需求調查，這些使用者可能包括：監督政府的公民團體、應用資料的技術社群、創新開發的產業界，以及既是資料生產者也是使用者的公務員。
+Up to today, open data still has no significant impact on open government, citizen participation, and even the data economy. The government needs to rethink the value of open data, conduct surveys to find out the needs of potential users, and develop policy directions that make the data more "useful". The users can include civil society organizations that monitor the government, tech communities that use the data, entrepreneurs and businesses that elevate data value, and civil servants who are both producers and users.
 
-### 公務員數位量能不足，體系變革迫在眉睫
+## Civil service is short of "digital power", system reform is much needed
 
-由於官僚體系的僵化、資訊系統的老舊，且缺乏跨部門溝通整合的機制，使得開放資料難以改善行政效率，更成為公務員沉重的業務壓力。政府必須針對現有的公務體系，從選人任用、教育訓練、法規秩序、資訊系統等各方面，進行全盤的檢討與改革。
+Due to rigid bureaucracy, an obsolete information system, and lack of coordination between government bodies, open data has been prevented from improving administrative efficiency and even become a heavy workload for civil servants. The government needs to go beyond promises, stop giving more and more policy instructions, and conduct a comprehensive review and reform of the civil service system, which includes hiring, training, laws and regulations, and information system.
 
-### 過份強調 KPI，而未全盤思考開放資料在政府治理中的角色
+## KPI driven, failed to picture what role open data should play in governance
 
-開放資料在台灣已推行數年，政府從推動平台、資料集數量、舉辦黑客松等等，無不追求各種能創造短期亮點的 KPI，卻缺乏開放資料在行政流程、數位治理、資料經濟上的整體規畫。不論是法制與政策的不完整，或是系統老舊與資料治理的概念不足，都讓開放資料的發展往往得仰賴上位者的意志來推動。
+The Taiwanese Government has worked on open data for many years and made various achievements, such as the DATA.GOV.TW website, the rising quantity of open datasets, and numerous hackathons. Yet these achievements were meant to create short-term, high performance marks that are measured by KPIs. The government does not yet have an overall plan covering key aspects of open data, including administrative procedures, digital governance, and data economy. Factors such as a lack of comprehensive legislation and policy, as well as outdated systems and personnel management mean that the success of open data initiatives rely heavily on the will of the political leader. Without implicit policy or orders from the top, open data brings little tangible change.
+
 :::
 
+## 2-1. Introduction
 
-## 2-1. 緒論
+### Background
 
-### 前言
+As "open government" became an important trend in national governance in the 21st century, “open government data” (“open data”) also became a key means of promoting digital transformation and deepening democracy. The modern state is built on the census of people and territory. As a result, national governments collect a large amount of data and information on its people. Government data is not the property of the government or of any particular politician. Data collection is paid for by people’s taxes and the data is about the people. Government agencies simply collect, preserve, and manage all the information on behalf of its people as this is their duty (Chen, Lin, & Chuang, 2013). Therefore, government data should be returned to the public domain through open licensing to demonstrate that democratic countries are open, transparent, and accountable.
 
-伴隨著「開放政府」運動在二十一世紀成為國家治理的新趨勢，「政府開放資料」（以下簡稱為「開放資料」）也在 2012 年起，成為各國推動數位轉型與民主深化的重要手段。現代國家治理建立在對人民與領土的普查之上，因此國家蒐集大量關於人民的資訊與資料。這些政府資料並非為政府或是特定政治人物所擁有，它的蒐集仰賴人民的稅賦，它的內容也關乎人民，政府機構僅是依其職責代全民蒐集、保存並管理各項資訊 （陳舜伶、林珈宏、莊庭瑞 2013）。因此，政府資料應以開放的授權回歸到公眾領域，展現民主國家公開透明、可被問責的態度。
+The 2005 Information Law stipulates that apart from the restricted information defined (under Article 18), the government should "actively" make all government information open to the public. Opening government information can increase government transparency to a certain extent. In terms of government operation, however, the information presented in statistics provided by executive units usually only reveals the tip of the iceberg. With the rapid development of ICT, the Taiwanese Government began to open data in 2012. The ultimate goal is to release raw data  in structured formats on a unified data platform and to make the data "useful" instead of simply “for display” through big data computing. Through analysis and application, open data becomes a resource that "people, companies, and organizations can use to launch new business ventures, analyze patterns and trends, make data-driven decisions, and solve complex problems" (Joel Gurin, 2014, as cited by Zhu & Zeng, 2016) and data governance goals can, therefore, be reached.
 
-2005 年發布的《政府資訊公開法》明定政府在該法所列的例外情形外 （見第十八條），有責任「主動公開」政府資訊（public information）。公開的資訊可為政府帶來一定程度的透明，但是，已經過業務單位統計後的公開資訊，往往只能瞥見政府運作的冰山一角。在資通訊技術的快速發展下，台灣於 2012 年起，開始推動政府開放資料（open data），強調將資訊進一步以更完整的數據與結構化的格式形成資料，並在統一的資料平台上釋出，藉由大數據的運算，讓政府資料不只是可以「看」，更能拿來「用」，透過對政府開放資料的分析與應用，「讓民眾、公司以及組織可用於創立新事業、分析型態與趨勢、做出資料導向決策，以及解決複雜問題」（Joel Gurin 2014，引自朱斌妤、曾憲立 2016），進而達成資料治理的願景。
-
-在上述理念下，開放資料不僅肩負政府透明與問責，更進一步以提升政府服務品質與效能，並創造經濟價值為目標。我們強調，開放資料不只是為了經濟發展，它是政府透明與公民參與的根基。推動開放資料的同時，政府應以數位化行政流程為基石、建立起共享的知識庫，人民才能在此之上與政府協作出新的治理模型。
-
-<table>
-  <tr>
-    <td></td>
-    <td>政府資訊公開</td>
-    <td>開放政府資料</td>
-  </tr>
-  <tr>
-    <td>法源</td>
-    <td>《政府資訊公開法》（2005）</td>
-    <td>無法源依據，僅有行政規範
-「政院及所屬各級機關政府資料開放作業原則」（2013）</td>
-  </tr>
-  <tr>
-    <td>內容</td>
-    <td>公部門依治理需求，所蒐集關於人民、政府的公共資訊。</td>
-    <td>具結構化的公共資料，並以開放授權與開放格式公開在固定網址。</td>
-  </tr>
-  <tr>
-    <td>目的</td>
-    <td>政府公開透明、促進公民監督，並維護人民基本權利。</td>
-    <td>除左欄目的外，更可促進公部門與私部門間的協作，以及資料經濟的發展。</td>
-  </tr>
-</table>
-
-<圖表2.2> 政府資訊公開 vs 開放政府資料
-
-### 開放資料定義 
-
-開放資料是指「資料能被任何人自由地使用，重新使用與散布。我們至多只能要求來源標示，與以相同方式分享」（參考 Open Data Handbook[^first]）。不同於傳統著作權對於知識與資料在使用、重製與散布的限制，「開放」強調知識的公共性與自由流通，在開放的基礎上，才能推動一個強健、任何人都可以在最大互通性下進行參與的共享領域。
-
-國際上，關於開放資料有兩個重要的定義：「開放定義」（Open Definition 2.1[^second]）與「開放資料五顆星」[^third]。開放知識基金會（Open Knowledge International）的「開放定義」 ，指出開放資料須滿足「開放授權」、「機器可讀」、「方便近用」、「開放格式 」四項條件（圖表 2.3）。
+Based on this idea, open data not only makes the government more transparent and accountable but also improves the quality and efficacy of government services and creates economic value. We want to stress, however, that open data is not just about economic development. It is the foundation for government transparency and citizen participation. As the government promotes open data, it should also digitalize administrative processes and build a knowledge base for sharing information, which enables citizens and the government to collaboratively build a new governance model.
 
 <table>
   <tr>
-    <td>開放授權</td>
-    <td>該資料必須以開放的授權條款進行提供。任何附加於該資料的額外條款，皆不得與前述授權條款產生衝突。</td>
+    <td> </td>
+    <td>Freedom of Government Information</td>
+    <td>Open Government Data</td>
   </tr>
   <tr>
-    <td>機器可讀</td>
-    <td>該資料應以可被電腦所運算的格式提供，讓使用者可以輕易地存取與修改。</td>
+    <td>Legal Basis</td>
+    <td>the Freedom of Government Information Law (2005)</td>
+    <td>no legal basis, only administrative guidelines, the Open Government Data Operating Principle for Agencies of the Executive Yuan (2013)</td>
   </tr>
   <tr>
-    <td>方便近用</td>
-    <td>該作品應以其完整狀態，且僅收取一次性合理重製工本費的方式來提供。任何授權遵循所需要的額外資訊，也必須伴隨資料一併提供。</td>
+    <td>Scope</td>
+    <td>any public data of the people or the government collected by government agencies for governance should be made public</td>
+    <td>public data should be structured and opened with a URL under an open license and in an open format</td>
   </tr>
   <tr>
-    <td>開放格式</td>
-    <td>該作品必須以合宜且可修改的格式來提供，或可被至少一款的自由開源軟體工具進行處理。</td>
+    <td>Purpose</td>
+    <td>making the government more open and transparent, encouraging citizen monitoring, and protecting people’s basic rights</td>
+    <td>apart from the left column, facilitating public-private collaboration and developing data economy</td>
   </tr>
 </table>
 
+ Table 2.2 Freedom of Government Information vs Open Government Data
 
-<圖表 2.3> 開放定義四項條件
+### Definition of Open Data
 
-相較於開放知識基金會嚴格的「開放定義」，網際網路發明者之一的柏內茲-李（Tim Berners-Lee）則用五顆星的等級（圖表 2.4）來評判資料開放的程度。比較兩者定義，皆可見「開放授權」、「機器可讀」、「方便近用」、「開放格式 」在開放資料中的重要性，但要達到四顆星以上，則除了上述四個條件外，須進一步讓資料可以相互鏈結，產生更大的應用效益。
+Open data is "data that can be freely used, reused and redistributed by anyone--subject only, at most, to the requirement to attribute and share-alike" (Open Data Handbook, n.d.) [^first]. While conventional copyrights restrict the use, reproduction, and distribution of knowledge and data, “open” data puts emphasis on the free flow and the public nature of knowledge. This “openness” with respect to knowledge promotes a robust commons in which anyone may participate, and interoperability is maximized. 
+
+There are two internationally recognized definitions of open data, one by the Open Definition 2.1 [^second] and the other by the 5-Star Open Data [^third]. The Open Definition 2.1 is published by Open Knowledge International and defines that an open work must satisfy the following four requirements: open license or status, machine readable, easy access, and open format (Table 2.3).
+
+<table>
+  <tr>
+    <td>Open License or Status</td>
+    <td>The work must be in the public domain or provided under an open license. Any additional terms accompanying the work must not contradict the work’s public domain status or terms of the license.</td>
+  </tr>
+  <tr>
+    <td>Machine Readability</td>
+    <td>The work must be provided in a form readily processable by a computer and where the individual elements of the work can be easily accessed and modified.</td>
+  </tr>
+  <tr>
+    <td>Access</td>
+    <td>The work must be provided as a whole and at no more than a reasonable one-time reproduction cost, and should be downloadable via the Internet without charge.</td>
+  </tr>
+  <tr>
+    <td>Open Format</td>
+    <td>The work must be provided in an open format. An open format is one which places no restrictions, monetary or otherwise, upon its use and can be fully processed with at least one free/libre/open-source software tool.</td>
+  </tr>
+</table>
+
+Table 2.3 The Open Definition 2.1
+
+Compared to this relatively strict definition, Tim Berners-Lee, one of the inventors of the Web, suggested a 5-star deployment scheme for Open Data (Table 2.4) to evaluate how open a dataset is. When the two definitions are put side by side, it is easy to see that the four requirements of the former also play key roles in the latter. To get four stars or more, however, apart from the requirements, the data also needs to be connected, put on the Web, and generate more benefits in terms of application.
 
 <table>
   <tr>
     <td>✭</td>
-    <td>採用開放授權，資料公開在網路上，但不限格式。</td>
+    <td>available on the Web (whatever format) under an open license</td>
   </tr>
   <tr>
     <td>✭✭</td>
-    <td>讓資料進一步以結構化的方式取得。</td>
+    <td>available as structured data (e.g. Excel instead of image scan of a table)</td>
   </tr>
   <tr>
     <td>✭✭✭</td>
-    <td>使用開放格式以取代專屬格式，例如以 CSV 取代 Excel 檔案。</td>
+    <td>available in a non-proprietary open format (e.g. CSV instead of Excel)</td>
   </tr>
   <tr>
     <td>✭✭✭✭</td>
-    <td>進一步以固定網址來表示資料</td>
+    <td>use URIs to denote things, so that people can point at your stuff</td>
   </tr>
   <tr>
     <td>✭✭✭✭✭</td>
-    <td>鏈結該開放資料與其他的開放資料，以提供資料集之間的脈絡關係。</td>
+    <td>link your data to other data to provide context</td>
   </tr>
 </table>
 
+Table  2.4  5-Star Open Data
 
-<圖表 2.4> 開放資料的五顆星
+### Research Method and Data Source
 
-### 研究方法與資料來源
+This research conducted both quantitative and qualitative analyses on the **readiness**, **implementation**, and **impact** of open data policies in Taiwan from 2014 to 2016. Our research method [^fourth] is based on the third edition of Open Data Barometer (ODB), developed by the World Wide Web Foundation. The works of many open data researchers were also taken into account in the writing of this chapter.
 
-本章節兼採質性與量化的分析，針對台灣 2014 年到 2016 年開放資料的政策脈絡、資料現況，與影響力進行評析。我們採用世界網路基金會（World Wide Web Foundation）在 Open Data Barometer（以下簡稱 ODB）第三版使用的研究方法[^forth] 為骨架，並參考學者們的相關文獻，綜合整理為本章節的論述。
+In terms of readiness and impact, our researchers used the ODB questionnaire for survey and analysis. We, following the ODB method, also invited relevant agencies to fill out the questionnaire not only to use the answers as a reference but also to encourage the agencies to rethink open data policy directions. The draft document produced by the survey was finished in April 2017 and opened for civic tech and open data communities to review and comment from April 17th to May 7th. The researchers then took the comments and compiled the final document [^fifth], which served as the key reference to this report.
 
-開放資料的「政策脈絡」與「影響力」兩部分，是以 ODB 的題目作為基礎，由研究員進行調查分析。我們同時邀請相關主管機關另外作答，作為參考資料，希望這種互動能促進主管機關重新思考開放資料的政策方向，而不僅僅在衝高資料集開放的數量。初步的調查文件由研究員蒐集資料與撰文，並依據 ODB 各題的評量標準給分。我們並於 4 月 17 日至 5 月 7 日開放社群檢視調查文件，並提供更多參考資料與評論，再由研究員於 5 月 7 日將意見回收，整理成最後的調查文件[^fifth]，成為本文重要的參考資料。
-
-「資料集現況」的部分，不同於 ODB 的 15 項資料類別，我們採用 g0v 社群所編寫的〈Data-Centric Government 的 20 大類資料〉（見圖表 2.5）[^sixth]。這 20 大類資料，呈現開放資料從促進政府透明、公眾權利到經濟應用的架構，相對於 ODB 的 15 項資料，更符合台灣的脈絡與現況，也利於結構性分析。我們在每一類別中，依據相關性與重要性挑選了 3 到 5 項的資料集，檢視其是否符合圖表 2.6 中 1~10 項的指標，以判斷該資料集的開放程度。這項盤點由 g0v 社群協作蒐集、檢視與審查，貢獻者與審查者的名單可參考 GitHub 上的原始資料頁[^seventh]。盤點後的結果，再以圖表 2.7 的加權比重計算出總分。
+In terms of implementation, we did not adopt the 15 dataset categories used in the ODB, instead, we applied the "20 Dataset Categories of a Data-Centric Government" [^sixth] (Table 2.5) written and edited by “g0v” (Taiwan's biggest civic tech community). These 20 categories touch upon important aspects of open data, including government transparency, rights of the public, the framework of economic applications, and so on. Compared to the ODB’s 15 dataset categories, these 20 types better represent the context and implementation of open data in Taiwan and are easier to conduct structured analysis on. Within each category, we picked the three to five most fundamental and significant datasets and assessed whether they met the 10 requirements in Table 2.6 to evaluate their openness. The datasets were collected, examined and reviewed by the g0v community. The list of the contributors and reviewers can be found on the github repository of this report [^seventh]. The results of this assessment were then calculated based on the weighting of Table 2.7.
 
 <table>
   <tr>
-    <td></td>
-    <td>20 大類資料</td>
+    <td>Tier</td>
+    <td>Category</td>
   </tr>
   <tr>
-    <td>0 政府組織</td>
-    <td>0.1 法律、0.2 政府架構與人事、0.3 司法及判決</td>
+    <td>0 Law and Organization</td>
+    <td>0.1 Laws and Regulations
+0.2 Government Structure and Personnel
+0.3 Judiciary and Judgment</td>
   </tr>
   <tr>
-    <td>1 政府課責</td>
-    <td>1.1 選舉與罷免、1.2 預決算與財政收支、1.3 政風與課責</td>
+    <td>1 Government Accountability</td>
+    <td>1.1 Election and Recall
+1.2 Budgets and Fiscal Balance
+1.3 Civil Service Ethics and Accountability</td>
   </tr>
   <tr>
-    <td>2 政府運作</td>
-    <td>2.1 普查資料、2.2 法人基本資訊、2.3 採購、2.4 國防與外交</td>
+    <td>2 Government Operations</td>
+    <td>2.1 Census Data
+2.2 Basic Information of Incorporated Foundations
+2.3 Procurement
+2.4 National Defense and Diplomacy</td>
   </tr>
   <tr>
-    <td>3 公共安全</td>
-    <td>3.1 公共檢查及違法事項、3.2 犯罪與事故 、3.3 環境</td>
+    <td>3 Public Safety</td>
+    <td>3.1 Public Inspection and Violation
+3.2 Crime and Incident
+3.3 Environment</td>
   </tr>
   <tr>
-    <td>4 公營服務</td>
-    <td>4.1 基礎建設、4.2 健康醫療、4.3 基礎教育</td>
+    <td>4 Public Services</td>
+    <td>4.1 Infrastructure
+4.2 Healthcare
+4.3 Basic Education</td>
   </tr>
   <tr>
-    <td>5 經濟活動</td>
-    <td>5.1 生產及各類執照、5.2 不動產與金融、5.3 國際貿易、5.4 勞動</td>
+    <td>5 Economic Activities</td>
+    <td>5.1 Production and Various Licenses
+5.2 Real Estate and Finance
+5.3 International Trade
+5.4 Labor</td>
   </tr>
 </table>
 
-
-〈圖表 2.5〉20 大類資料
+ Table 2.5 20 Dataset Categories of a Data-Centric Government
 
 <table>
   <tr>
-    <td>指標</td>
-    <td>權重</td>
+    <td>Question</td>
+    <td>Weight</td>
   </tr>
   <tr>
-    <td>1. 資料是否存在？</td>
+    <td>1. Does the data exist?</td>
     <td>5%</td>
   </tr>
   <tr>
-    <td>2. 可否線上取得？</td>
+    <td>2. Is it available online from government  in any form?</td>
     <td>10%</td>
   </tr>
   <tr>
-    <td>3. 是否為機器可讀？</td>
+    <td>3. Is the dataset provided in machine-readable formats?</td>
     <td>15%</td>
   </tr>
   <tr>
-    <td>4. 是否可整批下載？</td>
+    <td>4. Is the machine-readable data available in bulk?</td>
     <td>15%</td>
   </tr>
   <tr>
-    <td>5. 是否免費？</td>
+    <td>5. Is the dataset available free of charge?</td>
     <td>15%</td>
   </tr>
   <tr>
-    <td>6. 是否有開放授權？</td>
+    <td>6. Is the data openly licensed?</td>
     <td>15%</td>
   </tr>
   <tr>
-    <td>7. 是否為最新版本？</td>
+    <td>7. Is the dataset up to date?</td>
     <td>10%</td>
   </tr>
   <tr>
-    <td>8. 是否定期更新？</td>
+    <td>8. Is the publication of the dataset sustainable?</td>
     <td>5%</td>
   </tr>
   <tr>
-    <td>9. 相關訊息是否容易找到？</td>
+    <td>9. Was it easy to find information about this dataset?</td>
     <td>5%</td>
   </tr>
   <tr>
-    <td>10.是否是關聯性資料 （linked data）？</td>
+    <td>10. Are (linked) data URIs provided for key elements of the data?</td>
     <td>5%</td>
   </tr>
 </table>
 
-
-〈圖表 2.6〉10 項資料集評量指標及權重
+Table 2.6 Questions for Dataset Survey and the Weights
 
 <table>
   <tr>
-    <td>政策基礎 35%</td>
-    <td>資料現況 35%</td>
-    <td>影響力 30%</td>
+    <td align='center' valign="middle">Readiness 35%</td>
+    <td align='center' valign="middle">Implementation 35%</td>
+    <td align='center' valign="middle">Impact 30%</td>
   </tr>
   <tr>
-    <td align='center' valign="middle">政府政策<br />政府執行<br />經濟與企業<br />公民社會<br />各 1/4</td>
-    <td align='center' valign="middle">20 大類資料</br>各 1/20</td>
-    <td align='center' valign="middle">政治面<br />經濟面<br />社會面<br />各1/3</td>
+    <td align='center' valign="middle">Government Policies<br />Government Action<br />
+Entrepreneurs & Business<br /> Citizens & Civil Society<br />
+Each Aspect 1/4</td>
+    <td align='center' valign="middle">Each Category<br />1/20</td>
+    <td align='center' valign="middle">Political<br />
+Economical<br />
+Social<br />
+Each Aspect 1/3</td>
   </tr>
 </table>
 
-〈圖表 2.7〉評分權重表
 
-## 2-2 開放資料政策基礎
+Table 2.7 Weightings
 
-### 法規政策 
+## 2-2 Readiness of Open Data
 
-> 無開放資料法源，而是以行政規範與命令推動</br>平台與授權已具備，但個別資料集品質參差不齊
+### Government Policies
 
-台灣現無開放資料的基礎法源，目前僅有《政府資訊公開法》（2005） 作為資訊公開的依據，並搭配行政規範「行政院及所屬各級機關政府資料開放作業原則」（2013） 來推行開放資料。由於開放資料並無專法明定，使得上位者的政治意志與政策指令，成為推動開放資料的關鍵。行政院曾將 2015 年訂為「Open Data 深化應用元年」，帶動一波衝數量但不重品質的資料開放。但在那之後，因為缺乏法源與資料治理的基礎，擁有資料的各機關單位，傾向被動開放而非主動開放資料。
+> No legal basis, open data has been promoted by administrative guidelines and orders;
+> Platform and licensing ready but data quality jagged 
 
-法規與政策雖不完備，但國發會於 2013 年建立「政府資料開放平台[^eighth]，作為台灣第一個開放資料平台，具有指標性的意義。此平台所採用的授權條款「政府資料開放授權條款第一版」，由國發會與社群協作編寫，在 2017 年獲得開放知識基金會認證，成為少數符合「開放定義」的國家級授權條款[^ninth]。政府資料開放平台上線後，在資料集數量上雖有成長，但並未從資料產生端進行系統性的統整，造成資料品質參差不齊。「資料集品質評鑑機制研究計畫」 （聯經數位 2016）指出，政府資料開放平台上，有高達五成的資料不利於機器讀取，阻礙跨機關串接與資料加值應用。
+There is no legal basis for open data in Taiwan. There are only the 2005 Information Law and the administrative guideline, the 2013 Operating Principle, for open data operations. Due to a lack of a separate act on open data, the will and policy instruction of the political leader has been critical. The Executive Yuan appointed 2015 as the "Starting Year of Deepening Open Data Applications", which led to a wave of open data with little regard to quality. After that, due to lack of legal and data governance basis, agencies and units that have data grew passive. 
 
-### 政府執行
+Although laws, regulations, and policies are yet to be ready, the National Development Council (NDC) setup DATA.GOV.TW in 2013 as the first open data platform in Taiwan, which was symbolic. The license terms of the platform, Open Data License Terms Edition One, were written collaboratively by the NDC and open data communities. The document was recognized by the Open Knowledge International as one of the few national license terms that are in accordance with Open Definition 2.1 [^eighth]. After the platform was launched, datasets have grown in quantity, but there has been no systematic integration from the production ends, resulting in varied data quality. The Study of Dataset Quality Review Mechanism (UDN Digital, 2016) pointed out that on DATA.GOV.TW, 50% of data had poor machine readability, hindering data flow between agencies and value-adding data applications.
 
-> 資料治理的流程未建立，無法改善行政效率  
-> 業務單位缺乏相關的概念與技術課程  
-> 地方政府皆已提供開放資料，但發展上有嚴重城鄉差異
+### Government Action
 
-政府在開放資料的執行上，並無單一的統籌機關，資料集的開放由各機關單位的資訊人員來協調業務單位釋出手中資料。由於資訊部門屬於輔助單位，非資料管理者，而業務單位多數未具有資訊背景，並不熟悉開放資料的概念與實作技術，政府也缺乏相關的系統性課程，因此開放資料仍無法與政府決策的流程整合。相反的，在行政流程沒有完善的數位化管理之前，對基層公務員來說，每多一份開放資料，就又多一項列管的業務與更新的壓力，不但成為基層公務員沉重的負擔，也讓所提供的資料集品質低落。
+> No data governance procedure yet, cannot improve administrative efficiency;
+> Executive units lack knowledge and technical training;
+> Local governments do open data but with a wide urban-rural gap
 
-至於地方政府方面，台灣 22 個地方政府中，已有 13 個地方政府架設自己的資料開放平台，其他 9 個地方政府則是將資料提供於國發會所架設的政府資料開放平台上。未自行架設資料開放平台的縣市，多為非都會區，於政府資料開放平台上提供的開放資料數量也相對稀少[^tenth]，可見開放資料的發展仍有嚴重的城鄉差距。 
+Currently, there is not a coordinating government agency for open data. Instead, it is the IT personnel in each agency that coordinate the executive units to open their datasets. On the one hand, the IT departments support open data but do not manage the data while the executive units lack IT skills, knowledge of open data, and practical techniques. The government offers no systematic training, so open data is yet to be integrated into the government’s decision-making process. On the other hand, before administrative procedures are completely digitalized, for civil servants in executive units, one more dataset to open means one more item to manage and update. This not only increases their workload but also drops data quality.
 
-### 公民社會
+As for local governments, 13 out of 22 local governments have set up their own open data platforms while the other 9 use the NDC’s DATA.GOV.TW platform to open their data. Most of the local governments that do not own an open data platform are of rural areas and they tend to open much less data [^ninth], indicating a severe urban-rural divide.
 
-> 有《政府資訊公開法》，但申請政府資料仍有重重阻礙  
-> 有《個人資料保護法》，但機關易以去識別化為方法規避  
-> 開放資料諮詢小組運作不一，部分成為形式會議
 
-開放資料與公民社會的互動上，有兩個面向需要關注：其一，如何保障政府的開放資料不會侵害個人隱私權；其二，政府如何回應公民社會的資料需求。
+### Citizens and Civil Rights
 
-我國有《個人資料保護法》（2012 年施行，2016 年修正），內容包括個人資料同意權、個人取得自身個資及修正權、受侵害時的罰則與補償機制。雖有此法，當政府在開放部分爭議性極高的資料時，會以去識別化的方式避免此法的限制。例如 2015 年高公局開放 ETC 行駛路徑資料，遭台灣人權促進會批評，該資料雖然有經過去識別化處理，但仍有高度再識別的風險，不適宜以開放資料釋出[^eleventh]。
+> There is the Information Law but it is very difficult to request for government information;
+> There is the Personal Information Protection Act but agencies tend to dodge the Act by de-identification;
+> The open data advisory teams do not operate in a unified manner and some meetings become mere formality
 
-至於在索取資料上，《政府資訊公開法》明定政府資訊應主動公開，或應於人民提出 15 日內做出准駁的決定。在政府資料開放平台上，有設置索取資料的功能，但是人民向申請政府資料仍有重重阻礙，尤其在爭議事件上，儘管法律要求公開，索取資料卻得仰賴行政訴訟，曠日費時。例如：台灣人權促進會 2014 年向教育部要求公開「十二年國民基本教育課程審議會」的會議資料，遭教育部拒絕，台權會於是提出行政訴訟後，直到  2016 年，教育部才提供台權會提訴請求的各項文件。此外，政府機關經常以《個人資料保護法》為由拒絕開放資料，例如中選會原先以涉及候選人的個人資料為由，不願將選舉公報以數位且開放的格式提供，在公民社會的倡議下， 中選會於 2016 年大選時，已經將選舉公報轉為開放資料。
+In terms of open data, citizens and civil rights, there are two issues that need attention. One, how to make sure that the government does not breach personal privacy while opening data, and two, how the government responds to civic society’s requests for data.
 
-除了法規之外，自 2015 年起，行政院及其以下二級機關皆設有開放資料諮詢小組，由機關代表與公民社會代表組成，每季或每半年召開會議，分別針對策略規畫、資料盤點、溝通推廣、資料品質四大方向進行討論。會中，也會檢視民眾索取的資料，並確保機關有回應民眾需求。但是，委員會的組成並非全部是熟悉開放資料的專家學者，且數個月才有一次會議，使得各諮詢小組效能不如預期，部分淪為形式會議。
+In Taiwan, the 2012 Personal Information Protection Act (amended in 2016) covers issues such as required consent, the right to access and correct your own data, and penalties and compensation of violation. However, when the government opens some highly controversial data, it tends to avoid the restriction of the Act by de-identification. For example, in 2015, the Taiwan Area National Freeway Bureau opened the driving routes recorded by the ETC (Electronic Toll Collection) service, the Bureau was criticized by the Taiwan Association for Human Rights (TAHR). The TAHR pointed out that though the data was de-identified, it was highly possible that it could be re-identified and therefore should not be opened [^tenth].
 
-### 經濟創新
+As for requesting for information, the Information Law stipulates that government information shall be made available to the public actively and that within 15 days of receiving the request for government information by any person, the government agency shall determine whether to approve such a request or not. On DATA.GOV.TW, people can also make a request for data. However, it is very difficult for citizens to acquire requested data in practice. This is especially true when it comes to controversial matters, for which people often have to rely on time-consuming administrative litigation to get data despite the Information Law. For example, in 2014, the TAHR requested the Ministry of Education (MOE) to open the records of the 12-year Basic Education Advisory Meeting but was refused. The TAHR then started administrative litigation and it was not until 2016 that the MOE provided the documents requested. In addition, the government often uses the Personal Information Protection Act as an excuse not to open data. Take the Central Election Commission (CEC) for instance. The CEC originally refused to provide election bulletins in a digital and open format, saying that it involves candidates’ personal information. After advocacy from civil society, election bulletins finally became open data in the 2016 election.
 
-> 過度仰賴短期的活動、黑客松  
-> 缺乏資料經濟產業政策
+Apart from laws and regulations, open data advisory teams have been set up in the Executive Yuan and all second-level agencies under it since 2015. A team consists of representatives from the agency and the society and holds several meetings in a year, covering strategic planning, data inventory, communication and promotion, and data quality. In the meeting, the team also looks into the data that people requested to make sure the agency respond to people’s needs. However, the teams are not always made up of experts and academics on open data and meet only once every few months, thus leaving the results unsatisfactory and the meeting a formality.
 
-台灣推動開放資料將資料經濟視為一大重點，由工業局統籌，近三年積極透過舉辦各類競賽、黑客松，鼓勵以開放資料為基礎的經濟創新。但是競賽型黑客松囿於時間所限，往往只成為一、兩天熱鬧的嘉年華。黑客松所產出的作品，在缺乏產業鏈的支持又沒有政府政策輔助下，很少能持續開發成為可應用的產品。此外，機關針對黑客松推動開放資料，往往也在黑客松結束後停擺。整體而言，台灣的資料經濟產業缺乏完善的產業政策，過度仰賴短期的活動、競賽、黑客松。
+### Entrepreneur and Business
+> Too much emphasis on short-term activities and hackathons;
+> Lack of industrial policy for the data economy
 
-## 2-3 資料集現況
+In terms of open data, the Taiwanese Government attaches much importance to the data economy. The Industrial Development Bureau (IDB) of the Ministry of Economic Affairs (MOEA), as the coordinator of such efforts, has organized numerous competitions and hackathons in the past three years to boost the open-data-based innovative economy. The hackathons were wonderful indeed but they were short-term events that lasted only a couple of days. Without the support of an industry supply chain and a robust data economy policy, the products of hackathons were rarely developed into marketable ones. Also, open data activities driven by hackathons usually ceased after the event. All in all, there has been no comprehensive industrial policy but mostly short-term activities and competitions.
 
-//插入圖片//
-<圖表 2.8> 
 
-### 政府組織
-
-> 多數關鍵資料集仍未以開放資料的標準釋出
+## 2-3 Implementation of Open Data
 
 //插入圖片//
-<圖表 2.9> 政府組織各項分數
+Table 2.8 Scores of the subcategory of implementation 
 
-在關於政府組織的各項資料集（法規、人事、司法）中，我們比對政府資料開放平台上的資料集與各機關提供在個別網站的資料集，發現前者的資料內容相對簡略（例如司法相關的資料），或者無更新到最新版本（例如人事資料）。是故，在選取評量的資料集時，我們挑選了在各機關網站上提供的版本，但這些版本多以資訊公開的形式發布，缺乏開放資料的概念。比方說，人事總處針對行政院所屬暨地方政府機關有十分詳盡的統計數據，但非以開放格式提供，且表格內含有合併儲存格，因此不利於機器讀取。同樣的，司法院在司法統計頁上有比法務部更詳盡的統計數據，可是前者無法以機器讀取，且不能整批下載，不符合開放資料的原則[^twelfth]。此外，法務部於全國法規資料庫上，提供 XML 格式的中英文法規下載，但所使用的授權條款《全國法規資料庫公開資料使用規範》，並不符合開放定義。
+### Law and Organization
 
-### 政府課責
-
-> 政府支出與陽光法案主題網須加速提供開放資料
+> Most Key Datasets Are Still not Released by Open Data Standards
 
 //插入圖片//
-<圖表 2.10>  政府課責各項分數
+Table 2.9 Scores of law and organization datasets
 
-此類資料集有著與上一類相同的問題。關鍵資料集，尤其是陽光法案主題網上關於政治獻金、財產申報、行政罰鍰等資料，仍然只能用系統查詢，而不是整理成開放資料提供使用者整筆下載，非常不利於機器讀取，更難以被公民科技應用。另外，雖然政府預算已提供開放資料，但是實際的支出則仍以年報、月報的方式，公布在不便於使用者查找的地方，大大降低人民透過資料監督政府的可能性。值得一提的是，中選會提供的選舉資料相對完整，但目前罷免統計尚未提供於政府資料開放平台上。
+Among all datasets under law and organization, we compared those released on DATA.GOV.TW and those released by the individual agency on its website. We found that the former to be relatively simple (ex. judiciary datasets) or not updated (ex. personnel datasets). Therefore, in our assessment, we chose the version released on the agency website. However, the data on agency websites is often published as public information instead of open data. For example, the Directorate-General of Personnel Administration of the Executive Yuan has extensive statistics regarding all local government agencies under the Executive Yuan, yet these statistics are not offered in an open format and contained merged cells which make machine reading very difficult. Also, the Judicial Yuan [^eleventh] has far more judiciary datasets than the Ministry of Justice (MOJ) but most of them are not machine-readable or available for batch download. In addition, the MOJ provides both Traditional Chinese and English versions of laws and regulations in XML format, but its licensing terms are not in accordance with the Open Definition 2.1.
 
-### 政府運作
+### Government Accountability
 
-> 黑箱般的國防與外交、無法監督的政府捐助財團法人
-
-//插入圖片//
-<圖表 2.11>  政府運作各項分數
-
-在此大類中，採購資料與部分普查資料相對開放，但是普查類的地圖圖資開放程度不足，所提供的圖資並非機器可讀的 vector data。法人基本資訊中，有關政府捐助的財團法人，雖領有大筆政府預算，理應受人民監督，但卻無法找到相關資訊，不但易淪為肥貓組織，且可能形成重大弊端。至於國防與外交，更僅次於司法最不開放的資料項目，各種重要資料，例如條約協定、援外成果，四散在政府網站各處，且多以非開放資料的方式提供，無清楚的授權標示、更新時間也不明。
-
-### 公共安全
-
-> 犯罪與環境資料相對開放，而地方公共檢查資料彙整程度低
+> Need to Accelerate the Opening of Government Spending Data and Data on the Sunshine Acts Website
 
 //插入圖片//
-<圖表 2.12>  公共安全各項分數
+Table 2.10  Scores of government accountability
 
-在此大類中，關於犯罪與環境的資料開放程度較佳，而公共檢查的資料則散亂且殘缺。由於公共檢查多以各地方政府為執法單位，因此資料集經常是提供各地方政府的網頁連結。而各地區資料開放程度不一，使得資料須進一步人工處理，才能串連做整合性的分析與應用。環保相關的資料則開放程度較高，且水質與空氣皆有提供即時監測資料。
+This type of datasets shared the same issue as the last type. Key datasets, especially those opened on the Sunshine Acts website, such as political donations, property declaration, and administrative penalties, can only be accessed through system inquiry instead of being organized into open data available for batch download. This makes the data very difficult to be read by a machine or used in technological applications by citizens. Moreover, although government budgets are already open on DATA.GOV.TW, the actual spending is still released in an annual or monthly report not easy to access or search, making it almost impossible for the people to monitor the government through the data. The Central Election Commission (CEC) does offer comparatively complete election data but the recall statistics are yet to be opened on DATA.GOV.TW.
 
-### 公營服務
 
-> 開放程度高，交通資料已符合四星級的鏈結資料
+### Government Operations
 
-//插入圖片//
-<圖表 2.13>  公營服務各項分數
-
-此大類有相當高的開放程度，可見開放資料作為改善民生服務的基礎，在應用面上較廣，因此開放程度高。基礎建設中，交通資料的表現最佳，已達成鏈結資料（linked data）。水力與電力資料則在經濟部 2016 年大力推動公營事業開放資料下，開放程度高。健康醫療資料的表現也不俗，健保署並自設有「健康保險資料開放服務」 [^thirteenth]，提供豐富的開放資料集。教育資料中，有部分較完整的資料是公布在教育統計查詢網[^fourteenth]中，雖然資料豐富且機器可讀，但是並無標示開放的授權條款。
-
-### 經濟活動
-
-> 開放程度高，但地價仍未提供開放資料
+> National Defense and Diplomacy a Black Box, Government-Endowed Incorporated Foundations not Monitor-able
 
 //插入圖片//
-<圖表 2.14>  經濟活動各項分數
+Table 2.11  Scores of government operations 
 
-此大類的資料開放程度高，反映政府在推動開放資料上，是以經濟發展為優先。多項重要資料集已整合在政府資料開放平台上。其中，地價資料並無提供開放資料供使用者下載，僅僅以查詢的方式提供。
+In this type of datasets, the procurement and part of the census datasets were relatively open with room for improvement in mapping and cartographic census data. As for the dataset regarding basic information of incorporated foundations, little could be found regarding government-endowed incorporated foundations despite that fact that these foundations receive huge budgets from the government and should, therefore, be monitored by the people. This means that this type of foundation can easily be manipulated by fat cats and lead to serious corruption. The national defense and diplomacy datasets were the least open ones, second only to judiciary data. Various key data, such as treaties and agreements, and results of assistant diplomacy, is scattered across government websites and offered in a non-open manner with indistinct license indication, unclear update times, and more.
 
-## 2-4 開放資料影響力評估
+### Public Safety
 
-### 政治面影響
+> Criminal and Environment Datasets were Relatively Open While Local Public Inspection Dataset was Barely Organized
 
-> 促進部分政府透明，但許多關鍵資料集尚未開放  
-> 未能有效提升政府效率與執行力
+//插入圖片//
+Table 2.12  Scores of public safety
 
-開放資料對於政府的透明與公共問責有部分正面影響，可見於選舉與預算兩類資料的應用。2016 年總統與立委選舉後，技術社群應用中選會的資料，推出「選票分布地圖」進一步分析選舉結果。此外，台北市也在 2015 年與社群專家合作，將下年度的預算資料，以互動且視覺化的方式呈現，讓民眾可以簡單而快速了解預算使用情形。此做法後續也應用在高雄市、嘉義縣、台中市、宜蘭縣、新北市等地方政府。但是，除了選舉與預算資料外，仍有許多關於政府透明與問責的關鍵資料尚未公開，或未達開放三星等的資料集，例如：政治獻金、公職人員財產申報、政府採購與支出等，須加速開放且統整進政府資料開放平台，以促進施政透明與公共問責。
+The crime and the environment datasets were comparatively open but the public inspection dataset was scattered and fragmentary. Since public inspections are conducted by local governments, relevant datasets are scattered across local government websites. However, local governments open their data in varying degrees so the data needed to be manually processed before integrated analysis and application could be carried out. Environmental datasets were relatively open and there was real-time monitoring data of both water quality and air quality.
 
-在改善行政效率上，開放資料的影響仍待觀察。開放資料的確有促成零星的公私協作個案，例如：台南市登革熱地圖、八仙粉塵爆炸傷者開放資料查詢。這些個案顯示，公民社會可以透過開放資料，進行群眾外包與社群協作，幫助政府提升處理急難事件的效率。但是，就公務系統而言，由於各機關文化與資料格式尚無彙整，開放資料因而無法具體改善跨機關間溝通。相反的，開放資料經常是在原有業務上新增的負擔。由於疊床架屋的研考流程、 依法行政的保守文化、概念與技術訓練不足、對於政令的不信任感等因素[^fifteenth]，使得開放資料在改善政府效率與執行力上，大大受限。
+### Public Services
 
-### 社會面影響
+> Very Open, Traffic Data Could be Ranked as 4-Start Linked Data
 
-> 有助於民眾進一步了解公共事務，並促進公民參與  
-> 無實際改善對弱勢群體的公共服務
+//插入圖片//
+Table 2.13 Scores of public services
 
-開放資料有助於民眾進一步了解公共事務，並促進公民參與。在環保上，開放資料能提升民眾的環保意識，並且成為環保團體監督政府與企業的工具。例如，由各地方縣市政府與企業、創客社群 LASS（Location Aware Sensor System），以及中研院資訊科學研究共同合作的「空氣盒子」計畫，將溫濕度環境感應器提供給學校單位，並將資料以開放的格式在雲端串接，補足官方測站不足的問題，同時提供學校在環保議題上的實作教學。
+These types of datasets were very open, proving that open data is the foundation for better public services. In the infrastructure datasets, traffic data was the most open and could be considered as linked data. Water and electricity data was also quite open thanks to the hard work of the Ministry of the Economic Affairs (MOEA), which has encouraged public service corporations to open their data since 2016. Healthcare data was rather open, too. The Ministry of Health and Healthcare setup an open data platform [^twelfth] to provide many open datasets on medical and healthcare. As for education datasets, part of the more complete data was published on the statistics and inquiry website of the Ministry of Education (MOE) [^thirteenth]. The MOE offers a lot of machine-readable data but has no license terms that indicate the data is open.
 
-此外，綠色公民行動聯盟（綠盟）在 2016 年比對台塑六輕工廠即時監測數據與官方提供事後整理的開放資料，指出約有兩萬多筆的超標記錄在官方數據消失了，且最後只開出一筆 10 萬元的罰單，顯示政府提供的開放資料與實際的監測數據有所落差。綠盟於是發起「透明足跡」[^sixteenth]計畫，試圖推動更正確、更細緻的開放資料（例如：完整的裁罰名單），來監督政府對工廠污染的實際作為。
+### Economic Activities
 
-但是，當前台灣的開放資料極少運用在改善弱勢群體的生活，截至 2016 年底仍不見產生正面影響的案例。台北市社會局與社群共同推出的「家暴地圖」，將已去個資識別的家暴資料，以地圖方式呈現，希望讓社工人員能更有效地掌握家暴潛在區域，並且提升地方社區鄰里守望相助的意識。但是，學者與社會團體也提出異議，認為將家暴以地圖的方式呈現，容易簡化家暴議題，實質上無助解決問題，更有可能造成特定鄰里污名化。
+> Relatively Open Except for Land Value
 
-### 經濟面影響力
+//插入圖片//
+Table 2.14 Scores of economic activities
 
-> 已促成零星的新興商業模式，但仍無成形的資料經濟產業鏈  
-> 政府以資料擁有者的優勢搶占應用市場，扼殺資料經濟的發展
+This type of datasets was highly open, which reveals that economic development takes priority in the government’s open data efforts. Multiple key datasets were already integrated on DATA.GOV.TW. Among the datasets, land value data can only be accessed through an inquiry and is offered as open data available for user download.
 
-台灣自推動開放資料以來，將資料經濟視為重要發展方向。工業局於過去三年，投注企業補助與創新獎勵，並舉辦相關的產品發表會，促成零星以開放資料為基礎的新興商業模式，例如三商行的選址系統或是宸訊科技的農地履歷。但是，上述個案尚未能推動資料經濟的發展。此外，過去三年，政府除了推動機關內部開放資料外，為了短期績效表現，也投注經費於長期標案合作的系統廠商開發網站、App 等應用程式。政府一面開放資料，另一面卻以資料擁有者的優勢開發應用、搶占市場，使規模小的新創公司無法發展，因而阻礙了台灣資料經濟的整體成長（陳坤助 2016）。
+## 2-4 Impact of Open Data
+
+### Political Impact
+
+> Transparency: has facilitated government transparency to a degree but many key datasets are not open;
+> Efficiency: has not improved government efficiency and implementation
+
+Open data has had some positive impact on transparency and public accountability and this can be seen in the application of election and budget data. After Taiwan’s 2016 general elections, civic tech communities used the Central Election Commission (CEC)’s data and produced an Election Distribution Map to further analyze the results of the election. In 2015, the Taipei City Government also worked with experts in the communities and displayed the budgets of the second half of the year in an interactive and visualized way so that people could understand how the budgets would be used quickly and easily. This method was later adopted by other local governments. However, apart from elections and budgets, much key data regarding government transparency and accountability is not open or has not become 3-start data yet. For example, data about political donations, public officer property declarations, and government procurement and spending needs to be opened and organized on DATA.GOV.TW as quickly as possible to promote government transparency and public accountability.
+
+The impact of open data on improving administrative efficiency has not been obvious. Open data did facilitate a few public-private collaborations, such as the Dengue Fever Map of Tainan City and the search system for the victims of Formosa Fun Coast explosion. These collaborations indicate that, through open data, working with crowdsourcing and civic tech communities can indeed help the government deal with emergencies. However, in terms of the overall administration system, due to differences in agency personnel, organization culture, and data format, open data has not improved cross-agency communication with tangible results. On the contrary, open data is often an additional burden for the agency. Because of complex research and evaluation procedures, conservative administrative culture, lack of knowledge and technical training, and lack of trust of government policy, open data has had very limited impact on improving government efficiency and implementation [^fourteenth].
+
+### Social Impact
+
+> The environment: open data has empowered citizens and NGOs to advocate environmental policy reform;
+> The disadvantaged: no tangible improvements on public services offered to disadvantaged people
+
+Open data has empowered citizens to take active roles in public issues. Open data helps raise people’s awareness of environmental protection and is a tool that environmental protection groups use to monitor the government and enterprises. For example, local governments are working together with a maker community called Location Aware Sensor System (LASS) and the Institute of Information Science of Academia Sinica on the Airbox project. They offered handy air quality sensors to schools and the data collected is streamed to the cloud in an open format to make up for the lack of government survey stations and to provide practical education on environmental protection issues for the schools.
+
+Moreover, in 2016, the Green Citizens' Action Alliance (GCAA) compared the real-time monitoring data of the No. 6 Naphtha Cracker Complex and the government’s edited open data and found that more than 20,000 entries of emission that exceeded standards were missing in the latter and that only one NTD 100,000 penalty was issued, revealing the gap between the two sources of data. The GCAA then started the Transparency Footprint project [^fifteenth] which attempts to promote more correct and refined open data (ex. the full list of penalized parties) to monitor the actual government action on factory pollution.
+
+In Taiwan, open data is rarely employed to help disadvantaged people. There was still no known positive impact till the end of 2016. The Department of Social Welfare under the Taipei City Government and civic tech communities did work together and developed the Domestic Violence Map which displays de-identified domestic violence data on a map so that social workers better know which are the potential DV districts and that local neighbourhood watches can be more aware. However, scholars and social groups argued that displaying DV incidents on a map can oversimplify the issue, that it offers no tangible solution, and that it can cause the stigmatization of certain neighbourhoods. 
+
+### Economic Impact
+
+> A few new business models but no data economy industrial chain;
+> As the data owner, the government seizes the market and is killing the data economy
+
+The data economy has always been an important aspect of open data to the government. For the past three years, the Industrial Development Bureau (IDB) has invested in enterprise subsidies and incentives for innovation and held product launch events. There are already a few open-data-based new business models as the result, such as the site choosing system of the Mercuies & Associates Holding and the AGRI-GIS service developed by EMCT are good examples. However, the above-mentioned cases did not facilitate the forming of a data economy industrial chain. Moreover, in the past three years, the government has worked with long-term system vendors and built websites and apps. These apps have few users, create no profit for the government, increase public servants’ workload, and are destroying many start-up business opportunities (Chen, 2016).
 
 <table>
   <tr>
-    <td></td>
-    <td>現況</td>
-    <td>困境</td>
-    <td>改善方式</td>
+    <td> </td>
+    <td>Current Situation</td>
+    <td>Problems</td>
+    <td>Possible Solutions</td>
   </tr>
   <tr>
-    <td>政府效率 
-</td>
-    <td>未能有效提升政府效率與執行力</td>
-    <td>繁瑣的研考、保守的文化、教育訓練不足、對政令的不信任感</td>
-    <td>導入行政數位化，加強概念、法規與技術的教育訓練</td>
+    <td>Government Efficiency</td>
+    <td>cannot improve government efficiency and implementation</td>
+    <td>complex research and evaluation procedures, conservative culture, lack of training, and lack of trust of government policy</td>
+    <td>introduce administration digitalization and increase training on knowledge, laws and regulations, and technology</td>
   </tr>
   <tr>
-    <td>政府透明 
-</td>
-    <td>促進部分政府透明，但仍有許多開放空間</td>
-    <td>資料開放不足，或是內容缺失，難以用來監督政府</td>
-    <td>盤點關鍵資料集，並盡快以最完整的方式釋出</td>
+    <td>Government Transparency</td>
+    <td>some positive impact but much more data can be open</td>
+    <td>not enough open or complete data to monitor the government</td>
+    <td>conduct an inventory check on the datasets and release the results as completely and as fast as possible</td>
   </tr>
   <tr>
-    <td>環境問題 
-</td>
-    <td>有助提升民眾環保意識</td>
-    <td>政府釋出的開放資料遭到整理與刪改</td>
-    <td>完善資料產製的數位流程與規範，減少人為操作的因素</td>
+    <td> 
+Environmental Issues</td>
+    <td>people’s awareness of environmental protection much preceded data-driven government reform</td>
+    <td>open data released by the government is edited</td>
+    <td>improve digital procedures and guidelines of data production to reduce human interference</td>
   </tr>
   <tr>
-    <td>弱勢族群
-</td>
-    <td>無實際改善弱勢群體的公共服務</td>
-    <td>缺少可應用的資料集</td>
-    <td>與相關社群協作，思考資料如何為人民服務</td>
+    <td>The Disadvantaged</td>
+    <td>no tangible positive impact on the public services for the disadvantaged</td>
+    <td>lack applicable datasets</td>
+    <td>collaborate with relevant civic tech communities and think about how data can be employed to serve the people</td>
   </tr>
   <tr>
-    <td>經濟創新 </td>
-    <td>政府獎勵促成零星的商業模式</td>
-    <td>未產生資料經濟產業鏈</td>
-    <td>政府停止開發應用，將資源轉入開放資料的基礎建設</td>
+    <td>Entrepreneur and Business</td>
+    <td>government incentives has led to a few new business models</td>
+    <td>no data economy industrial chain</td>
+    <td>stop developing apps and use the resources on open data infrastructure</td>
   </tr>
 </table>
 
-<圖表 2.15> 開放資料影響力整理
+Table 2.15 Possible solutions to increase the impact of open data
 
-## 2-5 開放資料全球評量 
+## 2-5 Global Open Data Evaluations
 
-開放資料是近年政府治理的顯學之一，因此也催生數個全球評比的機制。Global Open Data Index（GODI）由編寫開放定義的開放知識基金會所主持，始於 2013 年，每年對約 100 個國家進行評比（各年度參與國家數量不一），至 2016 年已有四次成果。GODI 向全球資料社群蒐集各國現況，透過群眾外包的方式，針對 16 項關鍵資料集的開放程度評分，再由 GODI 內部審查者做最後判定。台灣自 2013 年加入評比，四年來，從中段班的 36 名，到 2015 年及 2016 年爬升至第一名。但是，GODI 第一名的殊榮，反映的不完全是台灣開放資料的進展，而是政府為了評比，而針對這 16 項資料集開放所導致的成果。此外， GODI 評比也有其侷限：第一，它只著重資料集本身的開放程度，無法看出整體政策是否完備以及後續產生的影響力；第二，為了讓全球各國可以有比較的基礎，它簡化了不同地區的政治、社會脈絡，並限制評比的資料類別，因此被選入的資料集不超過 20 筆，讓 GODI 的代表性大受侷限。
+Open data has been an important area of study in government governance and there are many global evaluation mechanisms. The Global Open Data Index (GODI) was developed by Open Knowledge International. The GODI evaluates around 100 countries annually (number of participating counties varies every year) and has conducted 4 evaluations, from 2013 to 2016. The GODI collects information regarding the status of countries’ open data from open data enthusiasts/communities, and then scores each country’s openness level based on 16 key datasets through crowdsourcing. The GODI’s reviewers then determine the final ranking. Taiwan became a participant in 2013 and for the past 4 years, we have moved upward in the ranking from no.36 to no.1 in 2015 and 2016. However, ranking top in the GODI does not reflect Taiwan’s open data progress but the government’s intentional efforts on improving those 16 datasets. In addition, the GODI has some limitations. First, it only focuses on the openness of datasets and cannot reveal the overall policy readiness or the following impact of open data in a country. Secondly, to provide a basis for comparison, it simplifies the politics and social context of each country, develops clear definitions for types of data to be evaluated, and chooses less than 20 datasets. This greatly limits its representativeness. Lastly, the GODI does not conduct any further research or investigation on the data and global development beyond ranking participating countries.
 
-另一個全球評比機制 ODB，則採取質性與量化兼具的方法論，並撰有深入的調查報告。ODB 由世界網路基金會主持，同樣始於 2013 年，至 2016 年已有四屆 115 個國家加入，但台灣不在評比中。本章節以 ODB 的方法論，針對開放資料的政策基礎、資料現況、影響力三大領域進行分析，但採用更符合台灣現狀的資料集類別。與 ODB 第四版（2016 年）比較的話，台灣約在第 16 名。但由於評比時間的差異與方法上略有不同，此排名僅供參考。值得注意的是，台灣的表現與前段班國家有著不同的模式，前十名國家多數在政策基礎的表現優於資料現況與影響力，但台灣卻是資料現況的成績高於另外兩者，且在影響力的表現上，遠低於前段班國家，這提醒我們在衝資料量的同時，在政策人事的基礎建設以及和資料使用者的互動上，仍有長足的進步空間。只有當我們對開放資料質量並重，並挹注足夠的資源與人事訓練，同時以資料使用者——公民與公務員的需求為中心後，開放資料才能成為邁向開放政府的扎實基礎。
+Another global evolution, the Open Data Barometer (ODB), adopts a methodology that is both qualitative and quantitative and produces in-depth investigation reports.  The ODB was developed by the World Wide Web Foundation, also in 2013. Till 2016, there have been 115 participants in its four evaluations. However, Taiwan has never been included. This chapter already described how the ODB’s methodology was utilized in our research. Taiwan would rank about no.16 in the 4th edition of the ODB (2016). This number is merely a reference as Taiwan is not officially participating in the ODB. Still, Taiwan’s performance exhibited a distinct pattern when compared to top countries in the ODB. While most top 10 countries performed best in readiness, Taiwan performed best in implementation and performed relatively poorly in terms of impact. This shows that although the amount of open data has increased rapidly in Taiwan, we should put more focus on the infrastructure, such as policy and properly trained personnel, and interaction with data users.  Attaching equal emphasis on data quality and quantity, investing enough resources and personnel training, and putting data users, citizens and public servants at the center is the best way to turn open data into a firm foundation for open government. 
 
-### 原始資料
+### Data and Documents
 
 * [https://github.com/ocftw/OpenGovReport14-16/tree/master/data](https://github.com/ocftw/OpenGovReport14-16/tree/master/data)
-* [https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact](https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact) 
+* [https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact](https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact)
 
-### 註解
-
-[^first]:請參考 [Open Data Handbook](http://opendatahandbook.org/guide/en/introduction/)
-[^second]:請參考 [Open Definition 2.1](http://opendefinition.org/od/2.1/en/)
-[^third]:請參考[開放資料五顆星](http://5stardata.info/zh-TW/)
-[^forth]:請參考 [ODB 方法論文件](http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf)
-[^fifth]:調查文件已公開在本報告的 [github 頁面](https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact)
-[^sixth]:[Data-Centric Government 的二十大類資料](https://g0v.hackpad.tw/ep/pad/static/NoJ1mbwsqkQ)
-[^seventh]:原始資料已公開在本報告的 [github 頁面](https://github.com/ocftw/OpenGovReport14-16/tree/master/data)
-[^eighth]:[政府資料開放平台](http://data.gov.tw)
-[^ninth]:參考 http://opendefinition.org/licenses/
-[^tenth]:參考[各地方政府資料開放情形](http://data.gov.tw/visual/1)
-[^eleventh]:參考[〈我的行車紀錄，你的開放資料？ 鑽個資法漏洞，政府大量開放人民資料！〉](https://www.tahr.org.tw/node/1656)
-[^twelfth]:2017 年起，司法院已陸續在政府資料開放平台上提供各級法院的裁判書資料。
-[^thirteenth]:http://data.nhi.gov.tw/
-[^fourteenth]:[教育統計查詢網](https://stats.moe.gov.tw/qframe.aspx?qno=MgA3AA2)
-[^fifteenth]:參考匿名，2017，[〈公務員匿名共筆〉](https://g0v.news/%E5%85%AC%E5%8B%99%E5%93%A1%E5%8C%BF%E5%90%8D%E5%85%B1%E7%AD%86%E2%85%B0-%E5%B0%8D%E6%96%BC%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E5%AF%A6%E8%B8%90%E7%8F%BE%E6%B3%81%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%8B%E8%A7%80%E5%AF%9F-dc93e7ab19cf)，g0v news，2017/03/22。
-[^sixteenth]:由綠色公民行動聯盟發起的[「透明足跡」](https://thaubing.gcaa.org.tw)計畫 
+### Note
+[^first]:See [Open Data Handbook](http://opendatahandbook.org/guide/en/introduction/)
+[^second]:See [Open Definition 2.1](http://opendefinition.org/od/2.1/en/)
+[^third]:See [5 Star Open Data](http://5stardata.info/zh-TW/)
+[^fourth]:See [Open Data Barometer Research Handbook 3rd Edition](http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf)
+[^fifth]:https://github.com/ocftw/OpenGovReport14-16/wiki/OGR14-16-Readiness-and-Impact
+[^sixth]:See [20 Dataset Categories of a Data-Centric Government](https://g0v.hackpad.com/ep/pad/static/NoJ1mbwsqkQ), accessed on 2017/5/15, CC BY-clkao & g0v contributors.
+[^seventh]:Raw Data can be found here on [the github page](https://github.com/ocftw/OpenGovReport14-16/tree/master/data) of this report 
+[^eighth]:See http://opendefinition.org/licenses/
+[^ninth]:http://data.gov.tw/visual/1
+[^tenth]:https://www.tahr.org.tw/node/1656
+[^eleventh]:From 2017, the Judicial Yuan has started to speed up releasing open data on DATA.GOV.TW.
+[^twelfth]:http://data.nhi.gov.tw/
+[^thirteenth]:https://stats.moe.gov.tw/qframe.aspx?qno=MgA3AA2
+[^fourteenth]:Please see [g0v.news](https://g0v.news/%E5%85%AC%E5%8B%99%E5%93%A1%E5%8C%BF%E5%90%8D%E5%85%B1%E7%AD%86%E2%85%B0-%E5%B0%8D%E6%96%BC%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E5%AF%A6%E8%B8%90%E7%8F%BE%E6%B3%81%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%8B%E8%A7%80%E5%AF%9F-dc93e7ab19cf), 2017/03/22. 
+[^fifteenth]:See [Transparency Footprint project](https://thaubing.gcaa.org.tw)
 
