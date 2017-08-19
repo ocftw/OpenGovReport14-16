@@ -20,5 +20,5 @@ This term is used to describe the situation in which a government pretends to be
 ```
 
 ### Note
-[^first]:Criticism can be found in the following reports: "Public Hearing on the Forward-looking Program Was Not Open to the Public, Is This Open Government?" (Chang 2017) & “Infrastructure Development Program Proved Open Government an Empty Promise” (CK 2017)
+[^first]:Criticism can be found in the following reports: ["Public Hearing on the Forward-looking Program Was Not Open to the Public, Is This Open Government?"](https://udn.com/news/story/7238/2393866)(Chang 2017) & [“Infrastructure Development Program Proved Open Government an Empty Promise”](http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html) (CK 2017)
 
