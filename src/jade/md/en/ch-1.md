@@ -1,195 +1,198 @@
-# 1. 法律及政策
+# 1. Laws, Regulations, and Policies
+
 :::success
-## 關鍵結論
 
-### 台灣現無開放政府、開放資料專法
+## Key Findings
 
-現行開放資料相關規定，多以行政命令方式規範。公民參與除了《行政程序法》中對於聽證的規範外，尚未能將審議式、開放的公民參與制度化。
+### No dedicated law on open government and open data in Taiwan.
 
-### 2012 年因應國際趨勢及台灣社會氛圍開始一連串政策制定
+There is no dedicated law on open government and open data in Taiwan. Promotion mostly relies on executive orders. Except for the Administrative Procedure Law, citizen participation process and deliberative participation is not yet institutionalized.
 
-早期透過《行政程序法》 及《政府資訊公開法》規範政府資訊公開，直到 2012 年因為國際開放政府趨勢及台灣社會氛圍對於政府透明治理的要求，開始展開一連串針對開放政府的相關政策及行政命令制定。
+### Taiwan Government started a series of policies making on open data in 2012.
 
-### 開放資料政策由行政院二級制及諮詢小組為架構，然而成效不彰
+In the early days, the Administrative Procedure Law and the Freedom of Government Information Law were the key laws stipulating that government information should be made public. In 2012, thanks to the call for open government worldwide and for transparent governance in Taiwan, the government started to put many efforts into formulating policies and executive orders related to open government.
 
-目前相關政策由行政院主導，科技會報及 NICI 諮詢委員作為幕僚機關，國發會負責制定資料開放原則，經濟部工業局負責開放資料的加值應用，而行政院所有二級機關皆設有開放資料諮詢小組，然而因公務員普遍對開放資料了解不多，二級制架構施行上仍有困難。
+### Open data is mainly driven by the Executive Yuan and supported by the advisory teams composed of agencies and civil society representatives. However, this structure does not work well as expected. 
 
-### 開放政府缺乏整體規畫，在推動上高度依賴政務官的政治意志
+In Taiwan, open government and open data policies were mainly driven by the Executive Yuan with the Board of Science and Technology (BOST) and the National Information and Communications Initiative Committee (NICI) as its staff organizations. All second-level agencies under the Executive Yuan have an open data advisory team. However, due to the lack of knowledge in open data among administrative agencies, the above structure does not work as expected. 
 
-現在的台灣政府至今仍未將開放政府的概念鑲嵌進現有的政治結構中，以至於空有價值面向的政策宣示，卻缺乏架構、政治文化、法制的明確策略規畫。
+### The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees. 
+
+The government does not have a clear blueprint of open government and how it works in current governmental structure. That is why the government has made many political valuable promises yet lack concrete strategic planning for the framework, political culture, and legislation.
 
 :::
 
-## 1-1. 台灣開放資料、開放政府的法律及政策
 
-### 開放資料相關法制歷程
+## 1-1. Laws, Regulations, and Policies on Open Data and Open Government in Taiwan
 
-開放資料、開放政府的實現有賴於健全的法律環境支持。台灣的法制化過程歷經許久的時間，早在 1998 年台灣便開始推動電子化政府，雖然此時期的電子化政府較偏重於提升行政效率，但數位資料的使用已經受到關注。1999 年通過的《行政程序法》，便針對政府資訊公開有了初步的規範，但此時僅從維護公民權利為出發點。 
+### Legislative History of Relevant Laws and Regulations
 
-2005 年通過的《政府資訊公開法》是台灣第一個明訂政府資訊應公開的法律，其立法目的明確指出「為建立政府資訊公開制度，便利人民共享及公平利用政府資訊，保障人民知的權利，增進人民對公共事務之了解、信賴及監督，並促進民主參與。」《政府資訊公開法》也明確定義了政府應公開的資訊包括法規命令、解釋法令、政府機關之組織聯絡資訊、行政指導、施政計畫、預算及決算書、請願結果、訴願決定、公共工程採購契約、補助及合議制機關之會議紀錄等，並應以主動公開為原則、不公開為例外。
+The realization of open data and open government relies on the support of a healthy legal environment. In Taiwan, the legislation began rather early. The government started promoting e-government as early as 1989. Although the focus was on improving government efficiency, the use of digital data was already an important topic. In the 1999 Administrative Procedure Law, there were early-stage guidelines for making government information public but with the purpose of protecting civil rights.
 
-然而《政府資訊公開法》雖然強調政府必須「主動且適時」的公開資訊，卻沒有明確定義何為「適時」，也未特別要求其公開的形式和管道。該法對於政府資訊仍侷限於「人民有知的權利」，而非資訊應用的層面（朱斌妤、曾憲立 2016）。
+The 2005 Freedom of Government Information Law (referred hereafter as the Information Law) is the first law in Taiwan stipulating that government information should be made public. Its purpose is very clear: "This Law is enacted to establish the institution for the publication of government information, facilitate people to share and fairly utilize government information, protect people's right to know, further people's understanding, trust and oversight of public affairs, and encourage citizen participation in democracy."
+ 
+The Information Law also clearly defines that government information should be made public, and that all information shall be actively made available to the public unless otherwise specified as being exempt. Such information to be made public includes regulations and orders, structures and communication of government agencies, administrative guidance, administrative plans, budgets and audits, results of petitions, decisions of administrative appeals, documents related to public works and procurements, subsidies, and meeting records of agencies based on a collegiate system. 
 
-國際上，隨著科技及民主化運動的發展，人民對於政府透明及開放的需求益發加深。2008 年美國聯邦政府首開先例大力推動開放政府資料，2009 年時任美國總統歐巴馬上任後立即簽署《透明與開放政府備忘錄》，強調開放政府須具備「透明」、「參與」、「協作」三項原則。2011 年開放政府夥伴聯盟（OGP）正式成立，開放政府的風潮席捲全球，至今已有 75 個國家加入此聯盟，共同推動開放政府資料及透明治理。
+However, even though the Information Law does require the government to make information public in an "active and timely" manner, it does not clearly define what “timely” is or specify the form and channel through which the information should be made public. The scope of the Law is confined to safeguarding “people’s right to know” and does not touch upon the aspects relevant to information application (Zhu & Zeng, 2016).
 
-這股國際風潮也影響了台灣有關當局對於開放政府資料的看法。同一時期，台灣社會開始有更多要求透明治理、政府課責的訴求，包括 2014 年三一八佔領運動對於「反黑箱」的主張，都顯示了公民社會因為資訊不夠公開、決策無法課責，而缺乏對政府的信任。
+Across the globe, as technology and democratization movements advance, people’s demand for transparent and open government grows. In 2008, the US Federal Government took the first initiative to open government data on a large scale. When Barack Obama became the US President in 2009, he immediately signed a memorandum on "Transparency and Open Government". The memorandum stressed that government should be a system of “transparency, public participation, and collaboration”. By 2011, open government became an unstoppable movement worldwide and the Open Government Partnership (OGP) was established. The OGP now has 75 member countries that work together to open government data and achieve transparent governance.
 
-國際間的開放風潮以及台灣的政治氛圍，促使台灣政府開始思考開放資料、開放政府的議題。2011 年，政務委員朱敬一試圖推動開放資料，然而當時各部門對於開放資料尚未凝聚共識。2012 年，時任政委（後於 2016 年就職行政院長）的張善政大力推動開放資料。同時，開放資料與技術社群也從外部鼓吹與倡議。社群不但深入政府各機關進行觀念的傳播與諮詢，也扮演政府機關和公民之間的橋樑，讓政府機關加速資料開放。更重要的是，社群與政府展開協作，訂定開放資料的規範與授權。這時期的公私協作加速了台灣開放資料的進程。
+This trend also influenced how the Taiwanese Government viewed open government data. In this period, Taiwanese society began to call for a more transparent government and government accountability. The 2014 Sunflower Movement is a good example of people’s distrust of the government due to a lack of public information and accountability in decision-making on the Cross-Strait Service Trade Agreement with China.
 
-政策面上，2012 年「第四階段電子化政府」計畫中納入了「開放資料的加值應用」之概念，有別於過去三個階段的電子化政府計畫多關注政府服務電子化的面向，第四階段更強調資料的應用。2012 年 10 月 國家資訊通信發展推動（NICI）小組[^first]第 31 次會議研議「政府資料開放推動策略」，2012 年 11 月行政院第 3322 次院會決議，積極規畫政府開放資料（李治安、林誠夏、莊庭瑞 2014）。「行政院第 3322 次院會決議文」對於台灣後續開放資料的立法非常關鍵，影響了後續許多開放資料的相關法規，包括 2013 年訂定的「行政院及所屬各級機關政府資料開放作業原則」及「政府資料開放資料集管理要項」，國發會更在此政策下，架設政府資料開放平台 data.gov.tw，開始督導各二級機關開放資料。
+The global wave of open government and changes in Taiwan’s political environment drove the government to consider the importance of open data and open government. In 2011, Minister without Portfolio Cyrus Chu tried to implement open data yet the departments still lacked motivation and consensus. In 2012, Minister without Portfolio Simon Chang (who later became the Premier of the Executive Yuan in 2016) also strongly supported open data. At the same time, open data and civic tech communities began advocating the idea from outside the government. The communities engaged in in-depth communication with and gave consultation to government agencies and acted as the bridge between the government and citizens. More importantly, they collaborated with the government to develop open data formats and licenses. This public-private collaboration accelerated open data in Taiwan.
 
-2015 年公布的「ide@Taiwan 2020（創意臺灣）政策白皮書」，揭示政府對於開放資料和公民參與的重視。它並針對共享經濟、虛擬貨幣、跨境網路交易課稅、網路連署及網路投票、數位資產及遺產、調整著作權等數位時代的新興領域，研擬法規鬆綁與行政規則的建立。2016 年公布的「第五階段電子化政府」計畫，更以資料驅動、公私協作、以民為本的核心理念，希望「透過巨量資料（big data）分析彙集民眾需求，藉由開放資料（open data）促進政府透明公開，並善用個人資料（my data）完備為民服務需求」。
+In October 2013, the "Strategy to Promote Open Government Data" was discussed in the 31st NICI meeting [^first]. A month later, at the the 3322nd Executive Yuan Meeting, the Executive Yuan (a Yuan is a first-level government agency in Taiwan) took the initiative to plan for open government data (Lee, Lin, & Chuang, 2014). The “Resolution of the 3322nd Executive Yuan Meeting” became critical to later open data legislation and affected many relevant laws and regulations, including the 2014 “Open Government Data Operating Principle for Agencies of the Executive Yuan” (referred to hereafter as the Operating Principle) and the “Essential Requirements for Open Government Datasets”. Under this policy, the National Development Council (NDC) established the open government data platform, DATA.GOV.TW, to supervise open data in second-level agencies.
 
-在開放資料與技術社群的呼籲及協作之下，2015 年行政院國發會發布了《政府資料開放授權條款》，以取代原先規定在「政府資料開放資料集管理要項」中的政府開放資料授權。此授權條款涵蓋所有政府資料開放平台中的資料，並和國際創用CC授權條款接軌，保障著作權授權不會收回、不限使用目的、允許再授權。
+*The ide@Taiwan 2020 Policy White Paper* published in 2015 reveals that the government attaches great importance to open data and citizen participation. Also, it looks into and plans for deregulation on advancements of the digital era, such as the sharing economy, virtual currency, cross-border online transaction tax, online petitioning and voting, digital assets and legacy, and copyright laws and regulations amendments. The "Fifth Stage E-Government" project launched in 2016 is data driven, people-centric, and relies heavily on public-private collaboration. The purpose is to “gather and analyze people’s needs through **big data**, improve government transparency and public information through **open data**, and provide more comprehensive services that meet people’s needs through personal data (**my data**).”
 
-目前，台灣開放資料、開放政府相關的規範以行政命令居多，而非經過立法程序的法律。也因為如此，目前現有的開放資料規範具有一定的限制，只能規範行政院附屬機關，對於開放資料的格式也沒有詳細規範。因此部分開放資料社群的參與者認為台灣應有開放資料的專法，法務部過去也試圖將開放資料的概念透過修法加入《政府資訊公開法》，不過因為各界當時對於開放資料尚無共識，因此並未成功修法。
+After the advocacy and collaboration of open data and tech communities, the NDC under the Executive Yuan published the "Open Data License Terms" to replace relevant terms in the “Essential Requirements for Open Government Datasets”. This license covers all data on DATA.GOV.TW and is in accordance with internationally accepted Creative Commons (CC) licenses. It ensures that copyright will not be reclaimed, no utilization is limited, and sublicense is allowed.
 
-直至今日，政府機關及公民社會對於開放資料如何納入法律並沒有定論。反對訂定專法論者認為台灣政府體制不同於其他國家，立法所需要的時間相對較長，如果執著於先立法，反而會使開放資料的腳步更慢，如今以行政命令的方式處理反而更快速且有彈性。支持訂定專法論者則認為法源依據應該是追求開放透明政府的基礎建設之一。目前開放政府資料相關法源，一為《政府資訊公開法》，一為「行政院及所屬各級機關政府資料開放作業原則」。前者最大問題是只說要公開，但公開不等於要上網（政府公報即可），上網也不等於開放格式及開放授權，空有此法無法推動開放資料。而後者只規範行政院所屬單位，無法涵蓋其他四院[^second]。
+Currently, guidelines for open data and open government in Taiwan mostly come in the form of executive orders instead of laws and regulations that went through the legislative process. Therefore, current open data guidelines have some limitations and only apply to agencies under the Executive Yuan. There are also no detailed guidelines regarding the open data formats. Therefore, some members of open data communities support a separate open data act and the Ministry of Justice also attempted to amend the Information Law to manifest the spirit of open data. However, due to lack of consensus on open data between all stakeholders, the amendment never came through.
 
-### 參與和協作的法制歷程
-相較於開放資料在過去三年有較明確的法規與政策，開放政府的另一大核心——「參與」，則因為它屬於原則性又須具備彈性操作的空間，因此並無單一法規明訂，而是在各種行政程序中運作。部分既有的行政程序已納入公民參與的精神，但尚未能將審議式、開放的公民參與制度化。
+Up to today, government and society have still not reached an agreement on how open data should be included in laws and regulations. Those who are opposed to a separate act say that Taiwan’s government structure is different from that of other countries and that legislation takes more time in Taiwan. Therefore, insisting on passing a separate act first may actually slow down open data while executive orders provide speed and flexibility. Supporters of a separate act argue that this legal basis should be part of the foundation of a more open and transparent government. The current legal basis consists of the Information Law and the Operating Principle. The former, on the one hand, requires government information to be made "public", but not “public online” (only needs to be published in the Government Gazette). Even if the information is made public online, the Law says nothing about data format and licensing. Therefore, the Law in itself is not enough to truly promote open data. The Operating Principle, on the other hand, only applies to agencies and units under the Executive Yuan and not to the other four Yuan's [^second] of the government.
 
-1999 年公布之《行政程序法》，首度明確規範無論在行政處分、法規命令或行政計畫，皆應該讓人民有參與表達意見之機會。依據立法目的可以將《行政程序法》進行功能性分類，將之分為透明化、參與化、辯論化、一般化及夥伴化等面向。其中透明化面向指對民眾公開決策過程，強化責任監督機制；參與化面向則指在行政決策過程中納入民眾參與精神；辯論化面向是指以辯論方式取代片面決策；一般化面向則代表行政程序從個案式朝向一般性制度化延伸；夥伴化面向則指行政機關和當事人合作的行政模式（葉俊榮、郭銘松 1999）。
+
+### Legislative History of Citizen Participation and Collaboration
+
+While there have been relatively specified laws, regulations, and policies on open data in the past three years, there has been none on "citizen participation", another key element of open government. Since citizen participation is more of a principle and there are multiple operating models, the concept is incorporated into various administrative procedures. Some existing administrative procedures have already included citizen participation processes, but deliberative participation is not yet institutionalized.
+
+The 1999 Administrative Procedure Law was the first law to clearly stipulate that people should have the opportunity to participate in administrative dispositions, regulations and orders, or administrative plans and express their opinions. Based on its purpose, the Law has promoted citizen participation in five aspects, which are transparency, participation, debate, generalization, and partnership. Transparency: opening the decision-making process to the people, enhancing accountability and monitoring mechanisms. Participation: embracing citizen participation in administrative decision making. Debate: replacing one-sided decision making with debates. Generalization: administrative procedures turned from case-by-case dispositions into a generalized institution. Partnership: administrative agencies working with parties intervening into administrative procedures (Yeh & Kuo, 1999).
 
 <table>
   <tr>
-    <td>面向</td>
-    <td>意涵</td>
-    <td>內容</td>
+    <td>Aspects</td>
+    <td>Implication</td>
+    <td>In the Law</td>
   </tr>
   <tr>
-    <td>透明化面向</td>
-    <td>對民眾公開決策過程，強化責任監督機制</td>
-    <td>資訊公開、程序外接觸、行政契約之公告、命令之刊登、行政規則之公報刊登。
-</td>
+    <td>Transparency</td>
+    <td>opening decision-making process to the people, enhancing accountability and supervising mechanisms</td>
+    <td>making information public, opening documents of contact for a purpose other than that of administrative procedure, publishing information of administrative contracts, promulgating legal orders, releasing administrative rules published in the Government Gazette</td>
   </tr>
   <tr>
-    <td>參與化面向</td>
-    <td>行政決策過程中納入民眾參與精神</td>
-    <td>通知相關人到場陳述、法規命令之公告與評論、陳情。
-</td>
+    <td>Citizen Participation</td>
+    <td>embracing citizen participation in administrative decision making</td>
+    <td>inviting relevant parties to make a statement, promulgating legal orders and allowing comments as well as petitions regarding the orders</td>
   </tr>
   <tr>
-    <td>辯論化面向</td>
-    <td>以辯論方式取代片面決策</td>
-    <td>聽證、行政處分的理由及效力、法規命令之聽證、行政計畫裁決之聽證。
-</td>
+    <td>Debate</td>
+    <td>replacing one-sided decision making with debates</td>
+    <td>holding hearings, regulating the provisions incidental and effect of administrative disposition, and holding hearings on legal orders and finalizing decisions on administrative plans</td>
   </tr>
   <tr>
-    <td>一般化面向</td>
-    <td>行政程序從個案式朝向一般性制度化延伸</td>
-    <td>法規命令與行政規則。</td>
+    <td>Generalization</td>
+    <td>administrative procedures turned from case-by-case dispositions into a generalized institution</td>
+    <td>legal orders and administrative rules</td>
   </tr>
   <tr>
-    <td>夥伴化面向</td>
-    <td>行政機關和當事人合作的行政模式</td>
-    <td>行政處分之附款、行政契約、行政指導。</td>
+    <td>Partnership</td>
+    <td>administrative agencies working with parties intervening into administrative procedures</td>
+    <td>involving the parties in incidental provisions of administrative dispositions, administrative contracts, and administrative guidance</td>
   </tr>
 </table>
 
-<圖表 1.1> 《行政程序法》的五個面向和內容
+Table 1.1 Five Aspects of Citizen Participation the Administrative Procedure Law Promotes
 
-於 1994 年通過的《環境影響評估法》，也是目前少數明確規範公民參與管道的法律條文，包括公開說明會、現場勘查之民眾參與、公聽會組成等等。不過這些公民參與管道實際施行的狀況卻不盡理想。研究環境影響評估的學者（杜文苓 2011, 2012；范玫芳 2007, 2008；徐世榮、許紹峰 2001；引自戴興盛、黃斐悅 2014）皆指出，環評中的民眾參與徒具形式，無法真正達成「參與」。
 
-另外，行政院於 2014 年發布「強化政府治理效能實施要點」，強調各部會可辦理政策擬案座談會，或利用社群媒體擴大民眾參與，然而因未有具體評量指標，其實際施行狀況難以觀察。
+The 1994 Environmental Impact Assessment Act is another piece of legislation incorporating citizen participation. This Act stipulates that an environmental impact assessment should include a stakeholder meeting, environmental impact assessment report, an on-site inspection and hold a public hearing. Although it seems that citizen participation is in every stage of environmental impact assessment according to the Act, it is not the case in practice. According to leading scholars of Taiwan’s environmental impact assessment, citizen participation is, at best, preliminary and incomplete in the process. That is because that the over-reliance on experts and science in the narrow sense renders citizen participation a mere formality (Du, 2011/2012; Fan, 2007/2008; S. R. Xu & S. F. Xu 2001, as cited from Tai & Huang, 2014). Some researchers proposed to add formal and legal binding hearings to the process while others proposed introducing deliberative democracy to draw attention to the importance of discussion (Tai & Huang, 2014). 
 
-目前公私協作的相關法規制度並未完備，其管道也仰賴委員會、顧問、發包等形式，至今未有較制度化的法規規範。其中值得一提的是，由國發會建構的「公共政策網路參與平台」則有較完備的行政法規。
+Laws and regulations on public-private collaboration are not yet comprehensive and the private sector usually participates in the collaboration by being a member of a committee, a consultant or a contractor. Neither citizen participation nor public-private collaboration is supported by institutionalized laws and regulations.
+
+However, the online petition website, JOIN.GOV.TW, is worth mentioning because of its stronger administrative regulation basis.
+
+## 1-2. Structure of Agencies Working on Open Government in Taiwan
+
+### Current Organizational Structure
+
+//插圖
+Figure 1.2 Organizational Structure
+
+Currently, open data policy is mainly driven and implemented by the Executive Yuan. All second-level agencies under the Executive Yuan are required to set up an open government data advisory team and upload the data to DATA.GOV.TW pursuant to the Operating Principle. On the other hand, the Industrial Development Bureau (IDB) is responsible for encouraging the development of open data applications to create value-added, which includes promoting the innovation of relevant industries. 
+
+For local governments, open data is practiced based on the Information Law. However, due to a lack of comprehensive laws and regulations on "open government", each local government has different organizational structures and operation when it comes to open data. Most local governments actually assigned their department of information technology (ex. Taipei City), department of information (ex. New Taipei City), or other departments to handle this work. Since these departments are at the same administrative level as all other departments, open data can only be realized at the local level when there is strong support from the mayor or magistrate.
+
+All second-level agencies under the Executive Yuan have an open data advisory team which regularly conducts inspections on the progress of open data in the agency. A subordinate agency must report its open data progress to the second-level agency which it is under. An open data advisory team of a second-level agency holds 2~4 review meetings annually to look into the agency’s performance. The Executive Yuan itself holds 2 review meetings annually, announces its annual open data goals at the beginning of the year, and reviews the result at the end of the year. Second-level agencies must send information regarding their open data status to the Executive Yuan for future reference.
+
+Under this two-level mechanism and the principle that "unless otherwise specified as an exception, all information shall be open", when a citizen requests a second-level agency to open a specific dataset and the agency refuses, it must provide a reason. If the citizen is not convinced by the reason, he or she can make an appeal to the Executive Yuan and it can overthrow the original decision and request the agency to open the data.
 
  
+//插圖
+Figure 1.3 The Process of Requesting Open Data
 
-## 1-2. 台灣開放政府相關政府組織架構
+### Challenges under Current Framework
 
-### 現行組織架構
+In theory, the advisory team acts as a decision maker instead of a consultant. In reality, the team rarely performs actual decision-making. After the agency receives a person’s request to open up data, if the case officer determines that the data cannot be opened under the law or the data is incomplete, of poor quality, the request will not be sent to the team at all. In addition, since only one-third of the team members are citizens and the members have different understanding of open data, their discussion sometimes fails to respond to what civic tech communities and the society expect. Many second-level agencies choose not to open the meeting minutes of their advisory team in full, which has limited the impact of the team as well.
 
-//插入圖//
-<圖表 1.2> 組織架構
+Also, even though second-level agencies do send their open data status to the Executive Yuan for future reference, at least in formality, the advisory team in the Executive Yuan cannot, in fact, achieve due diligence. The government does not have enough manpower to conduct a preliminary review on the content and quality of information submitted or organize the information before the meeting for the team to have a meaningful discussion. This greatly hinders the function of the advisory team. However, the meetings at the Executive Yuan-level still play a role in terms of politically showing the importance of open data because the heads of second-level agencies are gathered in the meeting to re-confirm policy directions.
 
-目前開放政府資料相關施政由行政院主導，行政院科技會報及國家資訊通信發展推動（NICI）電子化政府組作為幕僚單位，國家發展委員會及經濟部工業局作為督導單位。以開放政府資料的分工上，國發會負責督導行政院各二級機關的資料開放，並制定資料開放作業原則及研擬台灣所適用的規範，以行政命令的方式頒布。根據《政府資料開放諮詢小組設置要點》規定，行政院轄下各二級機關皆須設置開放資料諮詢小組，並依據「行政院及所屬各級機關政府資料開放作業原則」將資料上傳至政府資料開放平台。經濟部工業局則負責資訊的加值應用，包括相關產業的創新及推廣。
+Apart from the advisory teams at both levels, open data is mainly conducted by the case officer in the agency, yet many of them do not truly understand the concept of open data. There is no standard format for data that all agencies generate that can serve as a reference for the executive units, nor is there a specific process for handling people’s requests for data. Legally speaking, the case officer should follow the process of handling petitions stipulated in the Administrative Procedure Law, but many of the case officers do not think they need to do so. Therefore, the requests are not processed smoothly. Civic tech communities expect agencies to design a dedicated process to deal with open data requests.
 
-地方政府的開放資料，則以《政府資訊公開法》為原則，不過因為目前缺乏具有「開放政府」精神的法律規範，因此每個地方政府有不同的組織及操作，多數將開放資料的業務歸於資訊局（台北市）或新聞局（新北市）等單位負責，因為這些開放資料主責機關和其他局處是平行位階，操作上仍有賴地方首長強力推動，方能有實現可能。
+Promoting open data requires proper legal and policy readiness yet sufficient dedicated personnel are also critical. The government did attempt to institutionalize dedicated open data coordinators within and between second-level agencies. Confined by government structure, however, the NDC is currently not able to coordinate the agencies and the case officers inside the agencies often have other tasks or inadequate authority, which has significantly limited the impact of policy implementation.
 
-行政院作為政策的制定者及決策者，同時也是政治宣誓的角色。行政院所屬各二級機關自行訂定「開放資料行動策略方針」，依此作為資料開放與否的依據，並設有開放資料諮詢小組，定期檢視各部會開放資料的狀況，其所屬局處必須將當年度資料開放情形呈報給二級機關。
+The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees. Once the appointee is no longer in the position to support the policy, its implementation often loses steam. There is neither effort put into organizing and summarizing opinions nor mechanism for adjusting next stage policy. In terms of policy adjustment, the government fully depends on the feedback from the society and has therefore wasted much energy in meetings with various actors while little progress has been made on the overall policy.
 
-二級機關的諮詢小組每年開二至四次檢討會議，檢討該機關開放資料的情形。行政院則是一年主持兩次檢討會議，年初時宣布今年開放資料的重點，年末時則檢討當年度開放資料的成效，而二級機關須將開放資料的相關訊息送至行政院備查。
+In sum, perhaps the government’s real issue is that it does not have a clear blueprint of open government. That is why the government has made many political valuable promises yet lacks concrete strategic planning for the framework, political culture, and legislation.
 
-透過二級制，民眾可以向行政院各部會要求開放特定資料集。依據「開放為原則，不開放為例外」的精神，如果二級機關拒絕開放特定資料集，則須回應民眾不開放的原因，如果民眾不服其理由，可再往上追溯至行政院，行政院可以推翻其不開放的決定，並要求相關部會開放。此資料請求的程序法理上應為陳情程序，不過由於資料請求的流程尚未統一規範，各局處的處理情形會有所不同。
+## 1-3. International Comparisons
 
-//插入圖//
-<圖表 1.3> 資料請求的流程
+This part of the chapter discusses three international cases of how open government has been developed in the context of three different countries. In the US, the political will of politicians has been the key drive. Their tool was executive orders, and after some progress, the effort went into institutionalization and legislation. This process is the most similar to that of Taiwan. In Taiwan, however, the bureaucracy has prevented open government from making institutions or legislation. Whenever there is a transfer of power between parties, the current open government framework is very likely to face big challenges.
 
-### 現行架構中遇到的困難
-設計上諮詢小組並非顧問，而是具有決策權的角色，然而在實際運作上，諮詢小組通常無法進行決策。各機關開放資料承辦人收到民眾對於資料開放的請求後，如認定依法無法公開，或所開放的資料有缺漏、質量不佳，這些問題都不會進入諮詢小組討論。另外，由於各諮詢小組中的民間委員僅占三分之一，部分諮詢委員對開放資料的概念不一，實際討論中有時難以符合社群及民間期待，許多部會諮詢小組會議紀錄也非完整公開，使諮詢小組的作用有限。
-
-此外，雖然各部會形式上仍然會將開放資料的內容送至行政院備查，但行政院諮詢小組並無發揮實質審查的效果。尤其因為作為幕僚單位的國發會人力不足，無法在行政院檢討會議前，將當年度開放資料的內容及品質做初期檢討，並將內容整理給行政院諮詢小組討論，讓諮詢小組的功能大打折扣。不過藉由行政院諮詢小組會議的機會，能將各部會首長聚集，重新確認對開放資料的方向，此舉仍具政治宣誓的意義。 
-
-除了二級制的諮詢小組外，開放資料仍是由各機關業務承辦人各自進行，但許多承辦人並沒有開放資料的概念，針對一些通用型的資料，也無規範範本可供業務單位參考。目前民間請求資料的流程並無明確規範，法理上雖然各業務承辦人應依《行政程序法》的民眾陳情流程處理，但許多承辦人無此認知，使此流程並不順暢，社群仍期待未來各部會能設立相關專屬流程。
-
-少數推動開放資料較為順利的部會，通常是因為部門中有熟悉此領域的人才。事實上，公務員從考選到教育的過程中，都缺乏開放資料相關知識與技能的訓練，使得開放資料在實務運作上十分困難，也讓二級制的架構無法如規畫運作。
-
-開放資料的推動，除了需要法律及政策的基礎建設外，培養專責協調人力更是關鍵。過去，政府亦試圖制度化專責開放資料的協調窗口，然而受限於政府架構，目前國發會無力銜接各部會，各部會間的主責承辦往往也須肩負其他業務，或是被賦予的權責不夠，都大大限縮了執行的效果。
-
-目前台灣的開放政府缺乏整體規畫，在推動上高度依賴政務官的政治意志，一旦政務官離開可以有效推動的位置，就容易出現人走政息的狀況。也因為缺乏整體規畫，目前並沒有綜整意見、調整下一階段政策的機制，在政策調整上完全仰賴公民社會回饋。因此運作時間久後，反而將能量耗在諸多的諮詢會議中，整體政策顯得無進展。
-
-最後，更關鍵的問題或許是，現在的台灣政府對於未來「開放政府」並沒有具體的藍圖。「ide@Taiwan 2020（創意臺灣）政策白皮書」中雖點出五個構面的發展方向，卻仍未將開放政府的概念鑲嵌進現有的政治結構中，以至於空有價值面向的政策宣示，卻缺乏架構、政治文化、法制的明確策略規畫。
-
-## 1-3. 國際比較
-此節討論三個不同發展脈絡的國際案例。美國的開放政府發展是以政治人物的政治意志貫穿，透過行政命令大力推動，並在初具規模後開始一連串制度化及立法的過程。這和台灣的發展脈絡最為相似，不過因台灣推動者來自行政部門，且在發展後續也因官僚體制的限制並未完成制度及立法，在政黨輪替之後，現行開放政府架構便容易面臨更大的挑戰。
-
-韓國則是完全相反的路徑，在政策確定之初便迅速推動立法，且立法層面完整。而台灣至今沒有開放政府或開放資料的專法，部分受訪者認為是因為台灣立法速度過慢的原因。歐洲則是以歐盟為單位提出明確的政策目標，再依據各國現況立法。台灣目前雖然已有相關白皮書，但其中無明確運作策略，也未依據白皮書立法。 
+South Korea took the opposite direction. When the government put forward its open government policy, the legislative process began immediately and the resulting laws and regulations are rather comprehensive. In comparison, there is no separate law or act on open government or open data in Taiwan. In Europe, the European Union proposed clear policy goals on open government while each country passed laws and regulations based on local conditions accordingly. In Taiwan, there is also a policy white paper on open government, yet it neither touches upon specific operational strategies nor leads to any legislation.
 
 <table>
   <tr>
-    <td></td>
-    <td>推動模式</td>
+    <td>Government</td>
+    <td>Development Model</td>
   </tr>
   <tr>
-    <td>台灣</td>
-    <td>以行政命令方式推動，至今未立專法。</td>
+    <td>Taiwan</td>
+    <td>By executive orders. No separate law or act.</td>
   </tr>
   <tr>
-    <td>美國</td>
-    <td>推動之初以總統行政命令及總統備忘錄的方式執行，後通過《數位責任與透明法》。目前《開放政府資料法》已於立法程序中，如通過意味著將之前的行政命令以法律定調。</td>
+    <td>The Us</td>
+    <td>By President executive orders and memorandums at first and then by the Digital Accountability and Transparency Act (DATA Act). The OPEN Government Data Act is in the legislative process now and will turn preceding executive orders into laws once passed.</td>
   </tr>
   <tr>
-    <td>歐盟</td>
-    <td>歐盟於 2003 年通過「公部門資訊再利用指令」，初期著重經濟發展面向，2013 年修改後提出了一個較完整的發展面向及目標，會員國將這些目標內化成各國國內法。</td>
+    <td>The EU</td>
+    <td>Passed the Directive 2003/98/EC on the re-use of public sector information, focusing on the economic benefits. It was amended in 2013 and the focus was shifted toward more comprehensive aspects and goals. Member countries then internalized the goals into their national laws and regulations.</td>
   </tr>
   <tr>
-    <td>韓國</td>
-    <td>2012 年加入「開放政府夥伴聯盟」。2013 年開始推動 Government 3.0，通過 Open Data 專法後再開始大力推動開放資料。</td>
+    <td>South Korea</td>
+    <td>Became a member of the Open Government Partnership (OGP) in 2012, started promoting Government 3.0 in 2013 and open data after passing a separate open data act.</td>
   </tr>
-</table>
+</table> 
 
-<圖表 1.4> 各國推動開放資料模式比較
+Table 1.4 Comparison of Open Data Development Models
 
-### 美國
+### The US
 
-美國在推動開放政府及開放資料之初，並未以專法規範，而是以總統行政命令及總統備忘錄的方式執行。2009 年美國總統歐巴馬在上任第二天便簽署《透明與開放政府備忘錄》，此份備忘錄揭示了「透明」、「參與」 及「協作」三項行動方針。這份備忘錄指示美國行政管理和預算辦公室（Office of Management and Budget，簡稱 OMB）發布「開放政府指令」（Open Government Directive），要求各機關落實執行，並以《政府資訊公開法》、《著作權法》第 105 條與行政管理與預算辦公室「第 A-130 號函」為依據，來實行開放資料。此外，美國也於 2009 年設置政府資料平台 data.gov（戴豪君、 顧振豪 2015）。
+When open government was first introduced to the US, the concept was implemented through Presidential executive orders and President Memorandums instead of a separate act. In 2009, when President Obama took office, he immediately signed a memorandum on "Transparency and Open Government". It stressed that the government should be a system of “transparency, participation, and collaboration”. This memorandum directed the Office of Management and Budget (OMB) to issue the Open Government Directive, requesting all government agencies to open data pursuant to the Freedom of Information Act, Article 105 of the Copyright Law, and the OMB Circular A-130. In addition, the US government set up the DATA.GOV platform in 2009 (Dai & Gu, 2015).
 
-美國於 2014 年通過了《數位責任與透明法》（Digital Accountability and Transparency Act of 2014），此法主要關注政府預算支出的透明化。2016 年初，國會議員夏茲（Brian Schatz）提出《開放政府資料法》（Open Government Data Act），這個法案將會以法律的層次確定政府資料以開放為原則、不開放為例外，並將之前通過的行政命令以法律定調。該法於 2017 年 5 月已經通過委員會審議，後續只須再經過辯論及表決便可通過，因兩黨都表態支持《開放政府資料法》，因此通過的可能性偏高（Jonathan Haggerty 2017[^third] 。
+The US’s 2014 Digital Accountability and Transparency Act serves the purpose of making government budgets and expenses transparent. In early 2016, Senator Brian Schatz sponsored the OPEN Government Data Act, which will be the legal basis for opening all government data with narrow exceptions and codifying preceding executive orders. After the Committee markup in May 2017, the Act is now cleared for the Senate. Given that it has support from both parties, it is very likely to pass (Haggerty, 2017) [^third]. 
 
-### 歐盟
+### The EU
 
-歐盟於 2003 年通過「公部門資訊再利用指令」（Re-use of Public Sector Information Directive, 2003/98/EC），該指令著重政府資訊再利用的經濟效益（林誠夏 2016）。2013 年歐盟執委會修正「公部門資訊再利用指令」，這項修正中有三個重點：
+The EU passed Directive 2003/98/EC on the re-use of public sector information which focuses on creating economic benefits from reusing public information (Lin, 2016). In 2013, the European Commission made an amendment to the Directive and there are a few key points worth mentioning:
 
-1. 公共資料提供及資訊再利用的收費基準，由費用上限（Upper Ceiling for Charges）改為邊際成本（Marginal Costs）計算模式。
-2. 擴大適用對象，包括公有圖書館、大學圖書館、博物館。
-3. 明確規範政府釋出的資訊必須以機器可讀的格式處理。
+1. The basis for pricing data reuse is changed from "Upper Ceiling for Charges" to “Marginal Costs”.
+2. The Directive now also applies public libraries, university libraries, and museums.
+3. It now specifies that the government must release information in a machine-readable format.
 
-「公部門資訊再利用指令」提出了一個完整的發展面向及目標，而其他規範則有賴歐盟會員國將這些目標內化成各國國內法。
+The amended Directive now has more comprehensive development directions and goals and member countries then internalized the goals to develop their national laws and regulations.
 
-### 韓國
+### South Korea
 
-韓國於 2012 年加入「開放政府夥伴聯盟」。2013 年開始推動 Government 3.0，希望以資訊技術改變公務機關的文化。同年，通過了《公共資料提供及再利\用活化法》（Open Data 專法），該法以平等原則保障公民對資訊近用的權利，並明確規範應開放及不開放的資料。
+South Korea became an OGP participant in 2012 and the government started to promote Government 3.0 in 2013 to change government agency culture with information technology. Also in 2013, the Promotion Availability and Use of Public Data Act was passed to safeguard citizen’s right to access information based on the principle of equality. It also specifies what data should be open and what should not.
 
-《公共資料提供及再利用活化法》明定設置「公共資料策略委員會」，進行開放資料相關的政策審議，並針對資料盤點結果進行評估。此外，為避免資料使用過程中發生糾紛，也設置「公共資料紛爭調解委員會」，以尋求有效率的解決方案。
+This Act also stipulates the establishment of the "Open Data Strategy Council" to deliberate open data policy and assess the result of data inventory. Apart from that, to avoid disputes over using data, the “Open Data Medication Committee” was established to find efficient solutions.
 
-根據韓國《著作權法》規定，由國家或地方政府機關公開的著作，不須取得機關授權即可使用。在《著作權法施行細則》則規定須建置「公共機關著作使用授權的系統」。韓國也在推動 Government 3.0 後建置了開放資料平台 data.go.kr（經濟部工業局 2015）。
+According to the Copyright Act of South Korea, open publications of national or local government agencies can be used without licensing. The enforcement rules of the Copyright Act also stipulate the establishment of a copyright licensing system for public agencies. The South Korean Government also built the data.go.kr platform after developing the Government 3.0 policy (Industrial Development Bureau, 2015).
 
-### 註解
+### Note
 
-[^first]:2017 年 5 月起改組為「行政院數位國家創新經濟推動小組」，NICI 要點停止適用。
-參考 http://www.ey.gov.tw/News_Content.aspx?n=4E506D8D07B5A38D&s=5C49032AC4D46C4D
-[^second]:參考g0v 社群[〈開放政府資料法〉](https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY)。文件授權 CC BY 4.0。
-[^third]:參考 ["OPEN Government Data Act moves to Senate floor after markup"](http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/)
+[^first]:As of May 2017, the NICI was reorganized as the "Digital Nation & Innovative Economy Taskforce, Executive Yuan" (DIGI+) and the NICI Guidelines are no longer applicable. http://chuchi.cyhg.gov.tw/News_Content.aspx?n=AFDE5898784A405A&sms=4F8F3F800B36E0EF&s=CDDF9C9CC2973F57
+[^second]:Refer to the [discussion of the Information Law in the g0v community](https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY)(Taiwan's biggest civic tech community).
+[^third]:http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/
+
+ 
 
