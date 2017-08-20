@@ -140,14 +140,14 @@ backend = do
       user: express.Router!
       api: express.Router!
 
-    backend.csrfProtection = csurf!
-    app.use backend.csrfProtection
+    #backend.csrfProtection = csurf!
+    #app.use backend.csrfProtection
     app.use "/e", extapi!
 
-    app.get \/js/global.js, backend.csrfProtection, (req, res) ->
+    app.get \/js/global.js, /*backend.csrfProtection,*/ (req, res) ->
       res.setHeader \content-type, \application/javascript
       payload = JSON.stringify({
-        user: req.user, global: true, csrfToken: req.csrfToken!, production: config.is-production
+        user: req.user, global: true, /*csrfToken: req.csrfToken!,*/ production: config.is-production
       })
       if req.user => delete req.user.{}payment.strip
       res.send """(function() { var req = #payload;
