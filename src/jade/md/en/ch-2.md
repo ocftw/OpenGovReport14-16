@@ -1,8 +1,5 @@
 # 2. Open Government Data
 
-//插圖
-Figure 2.1 Results of Open Data Survey
-
 :::info
 ## Key Findings
 
@@ -27,6 +24,9 @@ Due to rigid bureaucracy, an obsolete information system, and lack of coordinati
 The Taiwanese Government has worked on open data for many years and made various achievements, such as the DATA.GOV.TW website, the rising quantity of open datasets, and numerous hackathons. Yet these achievements were meant to create short-term, high performance marks that are measured by KPIs. The government does not yet have an overall plan covering key aspects of open data, including administrative procedures, digital governance, and data economy. Factors such as a lack of comprehensive legislation and policy, as well as outdated systems and personnel management mean that the success of open data initiatives rely heavily on the will of the political leader. Without implicit policy or orders from the top, open data brings little tangible change.
 
 :::
+
+//插圖
+Figure 2.1 Results of Open Data Survey
 
 ## 2-1. Introduction
 
