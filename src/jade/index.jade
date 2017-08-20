@@ -12,7 +12,7 @@ block body
       .btn.btn-crystal.btn-lg English Report
   #report(ng-controller="report",style="max-width:100%;margin:0")
     #summary
-      - var colors = [{"value":"#f5e6c8"},{"value":"#a0c8d7"},{"value":"#c8dc96"},{"value":"#afa5cd"}].map(function(d,i) { return d.value; });
+      - var colors = [{"value":"#ffc8c8"},{"value":"#a0c8d7"},{"value":"#c8dc96"},{"value":"#afa5cd"}].map(function(d,i) { return d.value; });
       - var icons = ["0.1", "2.1", "5.4", "10"];
       each item in data
         .summary-block(data-color=colors[$index],style="color:#222;background:" + colors[$index])
