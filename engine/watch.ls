@@ -111,10 +111,10 @@ base = do
   md: do
     handle: {}
     queye: {}
-    summary: ->
-      output = fs.readdir-sync \src/jade/partial/report/
+    summary: (lang) ->
+      output = fs.readdir-sync "src/jade/partial/report/#lang"
         .filter -> !/summary/.exec it
-        .map -> "src/jade/partial/report/#it"
+        .map -> "src/jade/partial/report/#lang#it"
         .map ->
           $ = cheerio.load(fs.read-file-sync it .toString!)
           head = $ \h1
@@ -124,12 +124,13 @@ base = do
         .map -> 
           return """<div class="summary-block">""" + it.head + it.body + "</div>"
         .join \\n
-      fs.write-file-sync \src/jade/partial/report/summary.html, output
+      fs.write-file-sync "src/jade/partial/report/#{lang}summary.html", output
     handler: (src) ->
-      toc = "src/jade/partial/toc/#{path.basename(src).replace /\.md$/, '.html'}"
-      report = "src/jade/partial/report/#{path.basename(src).replace /\.md$/, '.html'}"
-      fs-extra.ensure-dir-sync \src/jade/partial/toc/
-      fs-extra.ensure-dir-sync \src/jade/partial/report/
+      lang = if /\/en\//.exec(src) => \en/ else ''
+      toc = "src/jade/partial/toc/#lang#{path.basename(src).replace /\.md$/, '.html'}"
+      report = "src/jade/partial/report/#lang#{path.basename(src).replace /\.md$/, '.html'}"
+      fs-extra.ensure-dir-sync "src/jade/partial/toc/#lang"
+      fs-extra.ensure-dir-sync "src/jade/partial/report/#lang"
       @handle[src] = null
       buf = fs.read-file-sync src .toString!
       buf = md.render buf, docId: path.basename(src)
@@ -149,7 +150,7 @@ base = do
       output = md.render output
       fs.write-file-sync toc, output
       console.log "[BUILD] #src --> #toc"
-      @summary!
+      @summary lang
 
     watcher: (src) ->
       if @handle[src] => clearTimeout @handle[src]
