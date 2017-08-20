@@ -5,3 +5,4 @@ secret.ls
 !.gitignore
 npm-debug.log
 _public
+secret-middle2.ls
