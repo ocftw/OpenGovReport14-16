@@ -74,10 +74,7 @@ ret = (config) ->
         @query("select key from sessions where key = $1", [sid])
           .then (r={}) ~>
             return if r.rows and r.rows.length => @query("update sessions set detail = $1", [session])
-            else @query([
-              "insert into sessions (key,detail) values"
-              "($1, $2) on conflict (key) do update set detail=$2"].join(" "), [sid, session]
-            )
+            else @query("insert into sessions (key,detail) values ($1, $2)", [sid, session])
           .then ->
             cb!
             return null
