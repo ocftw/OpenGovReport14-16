@@ -11,6 +11,7 @@ qids = questions.map -> it.id
 api.post \/score/, (req, res) ->
   payload = req.body.payload or {}
   data = {}
+  sum = {}
   for id in qids => data[id] = (if isNaN(+payload[id]) => 0 else +payload[id]) or 0 
   session = req.sessionID
   io.query(
@@ -19,13 +20,14 @@ api.post \/score/, (req, res) ->
     .then (r={})-> 
       io.query "select data from score where session = '0' for update"
     .then (r={}) ->
-      sum = (if !r.rows or !r.rows.length or !r.rows.0 => {} else r.rows.0).data or {}
+      sum := (if !r.rows or !r.rows.length or !r.rows.0 => {} else r.rows.0).data or {}
       for k,v of data => sum[k] = (sum[k] or 0) + v
       sum.total = (sum.total or 0) + 1
-      io.query([
-        "insert into score (session, data, updatedtime) values ($1, $2, $3)"
-        "on conflict (session) do update set (session, data, updatedtime) = ($1, $2, $3)"
-      ].join(" "), ['0', sum, new Date!])
+      io.query("select session from score where session = $1", ["0"])
+    .then (r={}) ->
+      return if r.rows and r.rows.length =>
+        io.query "update session set (session, data, updatedtime) = ($1, $2, $3)", ['0', sum, new Date!]
+      else io.query( "insert into score (session, data, updatedtime) values ($1, $2, $3)", ['0', sum, new Date!])
     .then (r={}) -> io.query "commit;"
     .then -> res.send!
     .catch -> return aux.r403 res
