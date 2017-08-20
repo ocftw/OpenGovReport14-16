@@ -23,7 +23,10 @@ block body
               p.desc #{item.summary}
               .btn.btn-link.btn-lg: i.fa.fa-chevron-down
           .collapse.detail(id="summary-" + $index,data-toggle="collapse", data-target="#summary-" + $index)
-            .block800 !{item.detail}
+            .block800
+              h2 關鍵結論
+              .sep
+              div !{item.detail}
             a.btn.btn-block.btn-link.btn-lg.text-center(href="/report")
               span Read the Report 
               i.fa.fa-chevron-right
