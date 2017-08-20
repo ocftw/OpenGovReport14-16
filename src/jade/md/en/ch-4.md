@@ -1,7 +1,7 @@
 # 4. Collaborative Relationships in Civic Tech
 
 :::danger
-### Key Findings
+## Key Findings
 
 ### People are the key factor in the current development of civic tech
 
