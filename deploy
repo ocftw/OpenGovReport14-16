@@ -7,3 +7,4 @@ cp -R ../static/ ./
 git add *
 git commit -m "regen for $REV" 
 git push
+git push -u middle2 master gh-pages
