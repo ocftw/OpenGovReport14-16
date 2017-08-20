@@ -28,8 +28,9 @@ angular.module \ogr
           method: \GET
         .then ~>
           @values = it.data
-          @update @values, "您的評分"
-          @done = true
+          if [k for k of @values].length =>
+            @update @values, "您的評分"
+            @done = true
         .catch ->
       get-mean: ->
         $http do
