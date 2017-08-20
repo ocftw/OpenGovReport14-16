@@ -30,7 +30,9 @@ api.post \/score/, (req, res) ->
       else io.query( "insert into score (session, data, updatedtime) values ($1, $2, $3)", ['0', sum, new Date!])
     .then (r={}) -> io.query "commit;"
     .then -> res.send!
-    .catch -> return aux.r403 res
+    .catch ->
+      console.log it
+      return aux.r403 res
 
 api.get \/score/, (req, res) ->
   io.query "select data from score where session = $1", [req.sessionID]
