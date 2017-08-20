@@ -11,17 +11,20 @@
           | OGR #[sup: small 2014-16]
       #nav-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav.pull-right
-          li: a(href="/report/")
+          li: a(href=(lang == "en" ? "/en" : "") + "/report/")
             div 報告
             div Report
-          li: a(href="/data/")
+          li: a(href=(lang == "en" ? "/en" : "") + "/data/")
             div 資料
             div Data
-          li: a(href="/download/")
+          li: a(href=(lang == "en" ? "/en" : "") + "/download/")
             div 下載
             div Download
-          li: a(href="/about/")
+          li: a(href=(lang == "en" ? "/en" : "") + "/about/")
             div 關於
             div about
-          li: a: span 中文/EN
+          if lang == "zh"
+            li: a(href="/en/" + dir): span EN #[i.fa.fa-globe]
+          if lang == "en"
+            li: a(href="/" + dir): span 中文 #[i.fa.fa-globe]
 #nav-top-placeholder

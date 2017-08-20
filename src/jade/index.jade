@@ -13,7 +13,7 @@ block body
     #summary
       - var colors = [{"value":"#ffc8c8"},{"value":"#a0c8d7"},{"value":"#c8dc96"},{"value":"#afa5cd"}].map(function(d,i) { return d.value; });
       - var icons = ["0.1", "2.1", "5.4", "10"];
-      each item in data
+      each item in data[lang]
         .summary-block(data-color=colors[$index],style="color:#222;background:" + colors[$index])
           .row.block1024.clickable(data-toggle="collapse", data-target="#summary-" + $index)
             .col-sm-5

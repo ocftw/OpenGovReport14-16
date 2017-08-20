@@ -111,10 +111,11 @@ base = do
   md: do
     handle: {}
     queye: {}
-    summary: (lang) ->
+    summary: (lang = "") ->
       output = fs.readdir-sync "src/jade/partial/report/#lang"
         .filter -> !/summary/.exec it
         .map -> "src/jade/partial/report/#lang#it"
+        .filter -> !fs.stat-sync(it).is-directory!
         .map ->
           $ = cheerio.load(fs.read-file-sync it .toString!)
           head = $ \h1
@@ -124,6 +125,8 @@ base = do
         .map -> 
           return """<div class="summary-block">""" + it.head + it.body + "</div>"
         .join \\n
+
+      fs-extra.ensure-dir-sync "src/jade/partial/report/#lang"
       fs.write-file-sync "src/jade/partial/report/#{lang}summary.html", output
     handler: (src) ->
       lang = if /\/en\//.exec(src) => \en/ else ''
@@ -244,8 +247,11 @@ base = do
           if !fs.exists-sync(desdir) or !fs.stat-sync(desdir).is-directory! => mkdir-recurse desdir
           if /^src\/jade\/index.jade$/.exec(src) =>
             try
-              cfg = js-yaml.safe-load fs.read-file-sync "src/jade/yaml/landing.yaml", \utf8
-              for item in cfg => item.detail = md.render item.detail
+              cfg = {}
+              cfg.zh = js-yaml.safe-load fs.read-file-sync "src/jade/yaml/landing.yaml", \utf8
+              for item in cfg.zh => item.detail = md.render item.detail
+              cfg.en = js-yaml.safe-load fs.read-file-sync "src/jade/yaml/landing-en.yaml", \utf8
+              for item in cfg.en => item.detail = md.render item.detail
             catch e
               console.log "[ERROR] Summary Yaml parse failed."
               cfg = {}
@@ -257,10 +263,19 @@ base = do
               console.log "[ERROR] Question Yaml parse failed."
               cfg = {}
           try
-            fs.write-file-sync(des, jade.render(
-              code,
-              {filename: src, basedir: path.join(cwd,\src/jade/)} <<< {config: data} <<< {data: cfg or {}}
-            ))
+            i18n = JSON.parse(fs.read-file-sync \engine/i18n.json .toString!)
+          catch e
+            logs.push "[BUILD]   #src failed: i18n parse failed."
+            logs.push e.message
+          try
+            config = {filename: src, basedir: path.join(cwd,\src/jade/)}
+            config <<< {config: data} <<< {data: cfg or {}} <<< {i18n}
+            for lang in <[en zh]> =>
+              config <<< {lang, dir: path.dirname(des).replace(/^static\/?/, '')}
+              lang-des = des
+              if lang != \zh => lang-des = des.replace /^static/, "static/en"
+              fs-extra.ensure-dir-sync path.dirname lang-des
+              fs.write-file-sync(lang-des, jade.render( code, config ))
             logs.push "[BUILD]   #src --> #des"
           catch
             logs.push "[BUILD]   #src failed: "
