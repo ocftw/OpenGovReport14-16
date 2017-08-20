@@ -23,7 +23,7 @@ block body
               .btn.btn-link.btn-lg: i.fa.fa-chevron-down
           .collapse.detail(id="summary-" + $index,data-toggle="collapse", data-target="#summary-" + $index)
             .block800
-              h2 關鍵結論
+              h2 #{_("關鍵結論")}
               .sep
               div !{item.detail}
             a.btn.btn-block.btn-link.btn-lg.text-center(href="/report/")
@@ -31,7 +31,7 @@ block body
               i.fa.fa-chevron-right
     .sep.huge-gap
     +nbr(1)
-    h3.text-center 有任何想法嗎？歡迎在這裡跟大家討論！
+    h3.text-center #{_("有任何想法嗎？歡迎在這裡跟大家討論！")}
     .block1024
       script.
         var disqus_config = function () {
