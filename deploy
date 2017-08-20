@@ -11,5 +11,5 @@ rm -rf .git/
 git init
 git add *
 git commit -m "deploy"
-git remote add middle2 git@git.middle2.com:kinmen-chi-308579
+git remote add middle2 git@git.middle2.com:changhua-chen-104268
 git push -f -u middle2 master

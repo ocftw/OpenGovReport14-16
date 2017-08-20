@@ -5,11 +5,10 @@ block head
 block body
   #landing
     #banner
-    +nbr(11)
-    .text-center
-      .btn.btn-crystal.btn-lg 中文報告
+    .abs(style="bottom:10px;left:10px")
+      .btn.btn-dark.btn-lg 中文報告
       span &nbsp;
-      .btn.btn-crystal.btn-lg English Report
+      .btn.btn-dark.btn-lg English Report
   #report(ng-controller="report",style="max-width:100%;margin:0")
     #summary
       - var colors = [{"value":"#ffc8c8"},{"value":"#a0c8d7"},{"value":"#c8dc96"},{"value":"#afa5cd"}].map(function(d,i) { return d.value; });
@@ -27,7 +26,7 @@ block body
               h2 關鍵結論
               .sep
               div !{item.detail}
-            a.btn.btn-block.btn-link.btn-lg.text-center(href="/report")
+            a.btn.btn-block.btn-link.btn-lg.text-center(href="/report/")
               span Read the Report 
               i.fa.fa-chevron-right
     .sep.huge-gap

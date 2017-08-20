@@ -5,12 +5,10 @@ block head
 block body
   a.btn.btn-default(style="position:fixed;bottom:10px;right:10px",href="#landing") 回頁首 #[i.fa.fa-arrow-up]
   #landing
-    #banner
-      +nbr(11)
-      .text-center
-        .btn.btn-crystal.btn-lg 中文報告
-        span &nbsp;
-        .btn.btn-crystal.btn-lg English Report
+    .abs(style="bottom:10px;left:10px")
+      .btn.btn-dark.btn-lg 中文報告
+      span &nbsp;
+      .btn.btn-dark.btn-lg English Report
   #report(ng-controller="report")
     ul.nav.nav-tabs
       li.clickable(ng-click="tab=0",ng-class="{'active':tab==0}"): a 0. 前言
