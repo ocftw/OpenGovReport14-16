@@ -71,7 +71,7 @@ ret = (config) ->
           .catch -> [console.error("session.get", it), cb it]
         return null
       set: (sid, session, cb) ~>
-        @query("select key from sessions where key = $1", [sid]a)
+        @query("select key from sessions where key = $1", [sid])
           .then (r={}) ~>
             return if r.rows and r.rows.length => @query("update sessions set detail = $1", [session])
             else @query([
