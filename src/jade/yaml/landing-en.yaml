@@ -1,91 +1,91 @@
-- name: 法律政策
-  summary: 打造開放政府穩固的基礎建設
+- name: Laws, Regulations, and Policies
+  summary: Build a Solid Foundation of Open Government 
   detail: |
     * 
-      ### 台灣現無開放政府、開放資料專法
+      ### No dedicated law on open government and open data in Taiwan
 
-      現行開放資料相關規定，多以行政命令方式規範。公民參與除了《行政程序法》中對於聽證的規範外，尚未能將審議式、開放的公民參與制度化。
+      There is no dedicated law on open government and open data in Taiwan. Promotion mostly relies on executive orders. Except for the Administrative Procedure Law, citizen participation process and deliberative participation is not yet institutionalized.
     *
-      ### 2012 年因應國際趨勢及台灣社會氛圍開始一連串政策制定
+      ### Taiwan Government started a series of policies making on open data in 2012
       
-      早期透過《行政程序法》 及《政府資訊公開法》規範政府資訊公開，直到 2012 年因為國際開放政府趨勢及台灣社會氛圍對於政府透明治理的要求，開始展開一連串針對開放政府的相關政策及行政命令制定。
+      In the early days, the Administrative Procedure Law and the Freedom of Government Information Law were the key laws stipulating that government information should be made public. In 2012, thanks to the call for open government worldwide and for transparent governance in Taiwan, the government started to put many efforts into formulating policies and executive orders related to open government.
+    *    
+      ### Open data is mainly driven by the Executive Yuan and supported by the advisory teams composed of agencies and civil society representatives. However, this structure does not work well as expected
+      
+      In Taiwan, open government and open data policies were mainly driven by the Executive Yuan with the Board of Science and Technology (BOST) and the National Information and Communications Initiative Committee (NICI) as its staff organizations. All second-level agencies under the Executive Yuan have an open data advisory team. However, due to the lack of knowledge in open data among administrative agencies, the above structure does not work as expected. 
     *
-      ### 開放資料政策由行政院二級制及諮詢小組為架構，然而成效不彰
+      ### The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees
       
-      目前相關政策由行政院主導，科技會報及 NICI 諮詢委員作為幕僚機關，國發會負責制定資料開放原則，經濟部工業局負責開放資料的加值應用，而行政院所有二級機關皆設有開放資料諮詢小組，然而因公務員普遍對開放資料了解不多，二級制架構施行上仍有困難。
-    *
-      ### 開放政府缺乏整體規畫，在推動上高度依賴政務官的政治意志
-      
-      現在的台灣政府至今仍未將開放政府的概念鑲嵌進現有的政治結構中，以至於空有價值面向的政策宣示，卻缺乏架構、政治文化、法制的明確策略規畫。
-    
-- name: 開放資料
-  summary: 從透明、問責、到應用的開放之路
+      The government does not have a clear blueprint of open government and how it works in current governmental structure. That is why the government has made many political valuable promises yet lack concrete strategic planning for the framework, political culture, and legislation.    
+
+- name: Open Government Data
+  summary: Transparency, Accoutability, and Application
   detail: |
     *
-      ### 推動強調經濟發展，而忽略政府課責、社會平等
+      ### Too much focus on economic development and not enough on government accountability and social justice
 
-      過去三年台灣開放資料的推動著重經濟發展，但缺乏整體產業政策。關於政府透明與課責的資料相對低度開放，且幾乎沒有以改善弱勢、促進平等為目標的開放資料策略。
+      For the past three years, open data has been promoted for its economic benefits without an overall industry policy. Taiwan has performed relatively poorly in terms of opening data regarding government transparency and accountability and there is no open data strategy targeting the disadvantaged and promoting equality.
     *
-      ### 資料數量遠勝過品質，許多關鍵資料仍散落在不同網頁
+      ### Quantity over quality, many key datasets were scattered across multiple websites
 
-      重量不重質的發展，使得資料集品質參差不齊，許多資料集仍需人工進一步處理才能使用。此外，各機關依《政府資訊公開法》將資訊各自公布在機關網站上，但是內容完整度不一。若能進一步將公開資訊結構化，並整合進政府資料開放平台，可增加資料搜尋與使用的便利性。
+      Government agencies have tried to open more and more data but neglected data quality. As a result, the quality of datasets is jagged and many have to be manually processed to be used. Additionally, Taiwan’s agencies release data on their websites according to the country’s Information Law, yet the data is mostly not in open formats. If the data can be further structured and integrated into DATA.GOV.TW, it will be more searchable and easier to use.
     *
-      ### 影響力不彰，須加強以公民與公務員的需求為出發點
+      ### Not enough impact, policy should be driven by what citizens and civil servants need
 
-      截至今日，開放資料對推動開放政府、公民參與，甚至是資料經濟，皆尚未有顯著的影響。政府需要重新思考開放資料的價值，針對使用者進行需求調查，這些使用者可能包括：監督政府的公民團體、應用資料的技術社群、創新開發的產業界，以及既是資料生產者也是使用者的公務員。
+      Up to today, open data still has no significant impact on open government, citizen participation, and even the data economy. The government needs to rethink the value of open data, conduct surveys to find out the needs of potential users, and develop policy directions that make the data more “useful”. The users can include civil society organizations that monitor the government, tech communities that use the data, entrepreneurs and businesses that elevate data value, and civil servants who are both producers and users.
     *
-      ### 公務員數位量能不足，體系變革迫在眉睫
+      ### Civil service is short of “digital power”, system reform is much needed
 
-      由於官僚體系的僵化、資訊系統的老舊，且缺乏跨部門溝通整合的機制，使得開放資料難以改善行政效率，更成為公務員沉重的業務壓力。政府必須針對現有的公務體系，從選人任用、教育訓練、法規秩序、資訊系統等各方面，進行全盤的檢討與改革。
+      Due to rigid bureaucracy, an obsolete information system, and lack of coordination between government bodies, open data has been prevented from improving administrative efficiency and even become a heavy workload for civil servants. The government needs to go beyond promises, stop giving more and more policy instructions, and conduct a comprehensive review and reform of the civil service system, which includes hiring, training, laws and regulations, and information system.
     *
-      ### 過份強調 KPI，而未全盤思考開放資料在政府治理中的角色
+      ### KPI driven, failed to picture what role open data should play in governance
 
-      開放資料在台灣已推行數年，政府從推動平台、資料集數量、舉辦黑客松等等，無不追求各種能創造短期亮點的 KPI，卻缺乏開放資料在行政流程、數位治理、資料經濟上的整體規畫。不論是法制與政策的不完整，或是系統老舊與資料治理的概念不足，都讓開放資料的發展往往得仰賴上位者的意志來推動。
+      The Taiwanese Government has worked on open data for many years and made various achievements, such as the DATA.GOV.TW  website, the rising quantity of open datasets, and numerous hackathons. Yet these achievements were meant to create short-term, high performance marks that are measured by KPIs. The government does not yet have an overall plan covering key aspects of open data, including administrative procedures, digital governance, and data economy. Factors such as a lack of comprehensive legislation and policy, as well as outdated systems and personnel management mean that the success of open data initiatives rely heavily on the will of the political leader. Without implicit policy or orders from the top, open data brings little tangible change.
 
-- name: 公民參與
-  summary: 將治理的權力交回人民手中
+- name: Citizen Participation
+  summary: Return the Power Back to the People
   detail: |
     *
-      ### 具開放精神的公民參與萌芽，以降低門檻與廣大參與為目標
+      ### Citizen participation has taken root in Taiwan and the goal has been to lower the threshold to broaden participation
 
-      受審議民主、開放政府概念影響而產生的公民參與模式，過程中經常使用網路工具，並以相對不嚴謹的討論形式試圖降低參與門檻，和過去常見的公民參與管道有所區別（例如公聽會），也並非嚴格定義下、小規模且形式嚴謹的審議民主。
+      Citizen participation models built on deliberative democracy and open government have emerged. They mostly employ online tools and are designed to lower the threshold of participation through less rigorous forms of discussion. They are distinct from conventional forms of citizen participation (such as public hearings) and from deliberative democracy in the narrow sense which is small in scale and with strict forms.
     *
-      ### 上位者的政治意志在公民參與中扮演重要關鍵
+      ### The political will of political leaders plays a critical role in citizen participation 
 
-      具開放精神的公民參與有賴於政治人物的政治意志推動，此政治意志是否能在官僚體制中橫向串聯整合，讓負責不同業務的局處、部門積極參與，是推動參與的重要關鍵。
+      Realization of citizen participation relies on the political will of politicians. The success of promoting participation lies in horizontal connections and the willingness of leaders to be integrated into this process, which then pushes the agencies and departments within the bureaucracy to get involved.
     *
-      ### 公民參與發生的時機，直接影響了參與的實質意義
+      ### The stage of policy making at which citizen participation is introduced directly affects its significance 
 
-      公民參與發生在政策制定的哪個階段，對於參與的影響力有決定性的意義。此外，公民參與的議程設定、議題決定，及公民是否具有倡議權至關重要，參與的機制與過程亦決定了參與的品質。
+      The stage of policy making at which citizen participation is introduced has a decisive influence on the impact of participation. In addition, agenda setting, choice of issues, and the initiatives all play important roles. The method and process of participation also determine the quality of participation.
     *
-      ### 當前公民參與以實驗性個案為主，部分正試圖制度化
+      ### Citizen participation is still largely experimental while some models are being institutionalized
 
-      具開放精神的公民參與模式，大部分是實驗性的個案，少部分以行政命令的方式執行，有些公民參與模式正在試圖走向常態化或制度化，例如地方的參與式預算。
+      Most cases of citizen participation in this chapter were experimental. A few were implemented through administrative orders and some are being normalized or institutionalized, such as participatory budgeting at the local level.
     *
-      ### 透過公務員的培力與中介者的轉譯來增進參與的品質
+      ### To improve the quality of participation, it is important to train civil servants in deliberative skills and invite intermediaries to help simplify the language and connect different parties
 
-      執行單位、市政府、公民三者的角色定位十分重要。其中，公務人員的培力是當前須處理的重要課題。另外，透過中介者的轉譯，公民參與才能兼顧降低參與門檻及充分知情，同時又能確保有品質的討論。
+      Currently, empowering and training civil servants is the most urgent task. It is also important to invite intermediaries to help simplify the language used during discussion in order to lower the threshold of participation. These intermediaries can also help inform citizens, and at the same time, guarantee quality discussion.
 
-- name: 公民科技
-  summary: 創造政府與公民嶄新的協作關係
+- name: Civic Tech Collaboration
+  summary: Create a Collaborative Relationship Between the Government and Citizens 
   detail: |
     *
-      ### 「人」是當前公民科技發展的關鍵
+      ### People are the key factor in the current development of civic tech
 
-      在現行的制度不完備前，公民科技協作仰賴不同角色的努力，包括：上位者的政治意志、中介者的溝通協調、協作雙方分享目標與價值，並願意學習彼此的語彙與文化。
+      In the face of inadequate systems, civic tech collaboration requires effort from people in a variety of roles: leaders must contribute political support, mediators must engage in communication and coordination, and the collaborating parties must share goals and values and be willing to learn each other’s language and culture.
     *
-      ### 公民科技強調平等互惠，開放權力與關係
+      ### Civic tech emphasizes equality, mutual benefit, and an open approach to power and relationships
 
-      公民科技是為了打造平等而互惠的協作關係，而非提供免費的資訊服務。透過協作雙方共同尋找問題、整理流程，公民科技開放的不只是工具與機制，同時也是互動過程的權力與關係。
+      The goal of civic tech is to establish equal and mutually beneficial collaborative relationships, not to provide IT services for free. As the collaborating parties identify problems and streamline processes together, civic tech provides not only open tools and mechanisms, but also an open approach to power and relationships in the interaction process.
     *
-      ### 政府須翻轉治理思維，從小政府到開放政府
+      ### Governments must re-think their approach to governance and shift first toward “small government” and finally toward “open government”
 
-      公民科技打破傳統由上而下的官僚治理，希望藉由橫向連結，將政府從統治者的思維，轉變為開放的協作者，一步步從大政府走向小政府，最後往開放的政府邁進。
+      Civic tech goes beyond the traditional top-down model of bureaucratic governance, emphasizing a network of horizontal connections that transforms the government from a ruler to an open collaborator. This transformation enables a shift from big government toward small government, and finally toward open government.
     *
-      ### 未來挑戰一：如何整合新舊的機制或系統？
+      ### Future challenges: How can both old and new mechanisms and systems be integrated?
 
-      公民科技協作關係在台灣至今只有單點式、偶發性的案例，尚未能制度化地運作，因此無法產生具有規模的影響力。同時，公民科技的維運與課責對象也尚未有明確的規則。如何將公民科技產生的系統與程序整合進原有的機制中，是當前一大挑戰。
+      Thus far, civic tech collaboration in Taiwan has been limited to single ad-hoc cases. With no institutionalized model for co-operation, the scale of influence remains limited. There are also no clear rules on where the responsibility for operational maintenance lies, and who is ultimately accountable. How systems and processes created by civic tech can be integrated into existing mechanisms is currently a major challenge.
     *
-      ### 未來挑戰二：如何建立成熟的公民科技生態圈？
+      ### Future challenges: How can a mature civic tech ecosystem be established?
 
-      台灣急須由政府、社群、企業形成公民科技生態圈，才能擴大公民科技的規模與影響力，而非倚賴少數個人的努力與串聯。
+      Taiwan urgently needs a civic tech ecosystem that incorporates governments, communities, and corporations, instead of relying on the efforts and networks of a few, in order to expand the scale and influence of civic tech.
