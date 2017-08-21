@@ -28,6 +28,7 @@ The Taiwanese Government has worked on open data for many years and made various
 //插圖
 Figure 2.1 Results of Open Data Survey
 
+
 ## 2-1. Introduction
 
 ### Background
@@ -246,8 +247,8 @@ Table 2.7 Weightings
 
 ### Government Policies
 
-> No legal basis, open data has been promoted by administrative guidelines and orders;
-> Platform and licensing ready but data quality jagged 
+> * No legal basis, open data has been promoted by administrative guidelines and orders
+> * Platform and licensing ready but data quality jagged 
 
 There is no legal basis for open data in Taiwan. There are only the 2005 Information Law and the administrative guideline, the 2013 Operating Principle, for open data operations. Due to a lack of a separate act on open data, the will and policy instruction of the political leader has been critical. The Executive Yuan appointed 2015 as the "Starting Year of Deepening Open Data Applications", which led to a wave of open data with little regard to quality. After that, due to lack of legal and data governance basis, agencies and units that have data grew passive. 
 
@@ -255,9 +256,9 @@ Although laws, regulations, and policies are yet to be ready, the National Devel
 
 ### Government Action
 
-> No data governance procedure yet, cannot improve administrative efficiency;
-> Executive units lack knowledge and technical training;
-> Local governments do open data but with a wide urban-rural gap
+> * No data governance procedure yet, cannot improve administrative efficiency
+> * Executive units lack knowledge and technical training
+> * Local governments do open data but with a wide urban-rural gap
 
 Currently, there is not a coordinating government agency for open data. Instead, it is the IT personnel in each agency that coordinate the executive units to open their datasets. On the one hand, the IT departments support open data but do not manage the data while the executive units lack IT skills, knowledge of open data, and practical techniques. The government offers no systematic training, so open data is yet to be integrated into the government’s decision-making process. On the other hand, before administrative procedures are completely digitalized, for civil servants in executive units, one more dataset to open means one more item to manage and update. This not only increases their workload but also drops data quality.
 
@@ -266,9 +267,9 @@ As for local governments, 13 out of 22 local governments have set up their own o
 
 ### Citizens and Civil Rights
 
-> There is the Information Law but it is very difficult to request for government information;
-> There is the Personal Information Protection Act but agencies tend to dodge the Act by de-identification;
-> The open data advisory teams do not operate in a unified manner and some meetings become mere formality
+> * There is the Information Law but it is very difficult to request for government information
+> * There is the Personal Information Protection Act but agencies tend to dodge the Act by de-identification
+> * The open data advisory teams do not operate in a unified manner and some meetings become mere formality
 
 In terms of open data, citizens and civil rights, there are two issues that need attention. One, how to make sure that the government does not breach personal privacy while opening data, and two, how the government responds to civic society’s requests for data.
 
@@ -279,8 +280,8 @@ As for requesting for information, the Information Law stipulates that governmen
 Apart from laws and regulations, open data advisory teams have been set up in the Executive Yuan and all second-level agencies under it since 2015. A team consists of representatives from the agency and the society and holds several meetings in a year, covering strategic planning, data inventory, communication and promotion, and data quality. In the meeting, the team also looks into the data that people requested to make sure the agency respond to people’s needs. However, the teams are not always made up of experts and academics on open data and meet only once every few months, thus leaving the results unsatisfactory and the meeting a formality.
 
 ### Entrepreneur and Business
-> Too much emphasis on short-term activities and hackathons;
-> Lack of industrial policy for the data economy
+> * Too much emphasis on short-term activities and hackathons
+> * Lack of industrial policy for the data economy
 
 In terms of open data, the Taiwanese Government attaches much importance to the data economy. The Industrial Development Bureau (IDB) of the Ministry of Economic Affairs (MOEA), as the coordinator of such efforts, has organized numerous competitions and hackathons in the past three years to boost the open-data-based innovative economy. The hackathons were wonderful indeed but they were short-term events that lasted only a couple of days. Without the support of an industry supply chain and a robust data economy policy, the products of hackathons were rarely developed into marketable ones. Also, open data activities driven by hackathons usually ceased after the event. All in all, there has been no comprehensive industrial policy but mostly short-term activities and competitions.
 
@@ -292,7 +293,7 @@ Table 2.8 Scores of the subcategory of implementation
 
 ### Law and Organization
 
-> Most Key Datasets Are Still not Released by Open Data Standards
+> * Most Key Datasets Are Still not Released by Open Data Standards
 
 //插入圖片//
 Table 2.9 Scores of law and organization datasets
@@ -301,7 +302,7 @@ Among all datasets under law and organization, we compared those released on DAT
 
 ### Government Accountability
 
-> Need to Accelerate the Opening of Government Spending Data and Data on the Sunshine Acts Website
+> * Need to Accelerate the Opening of Government Spending Data and Data on the Sunshine Acts Website
 
 //插入圖片//
 Table 2.10  Scores of government accountability
@@ -311,7 +312,7 @@ This type of datasets shared the same issue as the last type. Key datasets, espe
 
 ### Government Operations
 
-> National Defense and Diplomacy a Black Box, Government-Endowed Incorporated Foundations not Monitor-able
+> * National Defense and Diplomacy a Black Box, Government-Endowed Incorporated Foundations not Monitor-able
 
 //插入圖片//
 Table 2.11  Scores of government operations 
@@ -320,7 +321,7 @@ In this type of datasets, the procurement and part of the census datasets were r
 
 ### Public Safety
 
-> Criminal and Environment Datasets were Relatively Open While Local Public Inspection Dataset was Barely Organized
+> * Criminal and Environment Datasets were Relatively Open While Local Public Inspection Dataset was Barely Organized
 
 //插入圖片//
 Table 2.12  Scores of public safety
@@ -329,7 +330,7 @@ The crime and the environment datasets were comparatively open but the public in
 
 ### Public Services
 
-> Very Open, Traffic Data Could be Ranked as 4-Start Linked Data
+> * Very Open, Traffic Data Could be Ranked as 4-Start Linked Data
 
 //插入圖片//
 Table 2.13 Scores of public services
@@ -338,7 +339,7 @@ These types of datasets were very open, proving that open data is the foundation
 
 ### Economic Activities
 
-> Relatively Open Except for Land Value
+> * Relatively Open Except for Land Value
 
 //插入圖片//
 Table 2.14 Scores of economic activities
@@ -349,8 +350,8 @@ This type of datasets was highly open, which reveals that economic development t
 
 ### Political Impact
 
-> Transparency: has facilitated government transparency to a degree but many key datasets are not open;
-> Efficiency: has not improved government efficiency and implementation
+> * Transparency: has facilitated government transparency to a degree but many key datasets are not open
+> * Efficiency: has not improved government efficiency and implementation
 
 Open data has had some positive impact on transparency and public accountability and this can be seen in the application of election and budget data. After Taiwan’s 2016 general elections, civic tech communities used the Central Election Commission (CEC)’s data and produced an Election Distribution Map to further analyze the results of the election. In 2015, the Taipei City Government also worked with experts in the communities and displayed the budgets of the second half of the year in an interactive and visualized way so that people could understand how the budgets would be used quickly and easily. This method was later adopted by other local governments. However, apart from elections and budgets, much key data regarding government transparency and accountability is not open or has not become 3-start data yet. For example, data about political donations, public officer property declarations, and government procurement and spending needs to be opened and organized on DATA.GOV.TW as quickly as possible to promote government transparency and public accountability.
 
@@ -358,8 +359,8 @@ The impact of open data on improving administrative efficiency has not been obvi
 
 ### Social Impact
 
-> The environment: open data has empowered citizens and NGOs to advocate environmental policy reform;
-> The disadvantaged: no tangible improvements on public services offered to disadvantaged people
+> * The environment: open data has empowered citizens and NGOs to advocate environmental policy reform
+> * The disadvantaged: no tangible improvements on public services offered to disadvantaged people
 
 Open data has empowered citizens to take active roles in public issues. Open data helps raise people’s awareness of environmental protection and is a tool that environmental protection groups use to monitor the government and enterprises. For example, local governments are working together with a maker community called Location Aware Sensor System (LASS) and the Institute of Information Science of Academia Sinica on the Airbox project. They offered handy air quality sensors to schools and the data collected is streamed to the cloud in an open format to make up for the lack of government survey stations and to provide practical education on environmental protection issues for the schools.
 
@@ -369,8 +370,8 @@ In Taiwan, open data is rarely employed to help disadvantaged people. There was 
 
 ### Economic Impact
 
-> A few new business models but no data economy industrial chain;
-> As the data owner, the government seizes the market and is killing the data economy
+> * A few new business models but no data economy industrial chain
+> * As the data owner, the government seizes the market and is killing the data economy
 
 The data economy has always been an important aspect of open data to the government. For the past three years, the Industrial Development Bureau (IDB) has invested in enterprise subsidies and incentives for innovation and held product launch events. There are already a few open-data-based new business models as the result, such as the site choosing system of the Mercuies & Associates Holding and the AGRI-GIS service developed by EMCT are good examples. However, the above-mentioned cases did not facilitate the forming of a data economy industrial chain. Moreover, in the past three years, the government has worked with long-term system vendors and built websites and apps. These apps have few users, create no profit for the government, increase public servants’ workload, and are destroying many start-up business opportunities (Chen, 2016).
 
