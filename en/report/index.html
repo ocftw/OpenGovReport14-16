@@ -1,14 +1,7 @@
-<!DOCTYPE html><html lang="en"><head prefix="og: http://ogp.me/ns#"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title></title><meta property="og:locale" content="zh_TW"><meta property="og:image" content="thumbnail.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:type" content="website"><meta property="og:url" content="undefined"><meta property="og:title" content="undefined"><meta property="og:description" content="undefined"><meta property="fb:admins" content="586097167"><meta property="fb:app_id" content="538062799648166"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@loadingio"><meta name="twitter:title" content="undefined"><meta name="twitter:description" content="undefined"><meta name="twitter:creator" content="@loadingio"><meta name="twitter:image" content="thumbnail.png"><link rel="icon" type="image/x-icon" href="/assets/img/logo.png"><link rel="stylesheet" type="text/css" href="/assets/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/assets/fontawesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="/assets/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/assets/angular/1.3.15/angular.min.js"></script><script type="text/javascript" src="/assets/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="/assets/plotdb/plotdb.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading-btn.css"><script type="text/javascript" src="/assets/plotdb/plotdb.js"></script><script type="text/javascript" src="/assets/plotdb/dependency.bundle.js"></script><script type="text/javascript" src="/assets/plotdb/ogr-project.js"></script><link rel="stylesheet" type="text/css" href="/css/index.css?26"><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/einojbmllcjnkcapgajdbjjnpibkjnhh"><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><script type="text/javascript" src="/js/global.js"></script><script type="text/javascript" src="/js/index.js"></script><script type="text/javascript" src="/js/report/index.js"></script></head><body ng-app="ogr" class="en"><div id="nav-top"><nav role="navigation" class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button data-toggle="collapse" data-target="#nav-collapse" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">OGR <sup><small>2014-16</small></sup></a></div><div id="nav-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav pull-right"><li><a href="/en/report/"><div>報告</div><div>Report</div></a></li><li><a href="/en/data/"><div>資料</div><div>Data</div></a></li><li><a href="/en/download/"><div>下載</div><div>Download</div></a></li><li><a href="/en/about/"><div>關於</div><div>about</div></a></li><li><a href="/report"><span>中文 <i class="fa fa-globe"></i></span></a></li></ul></div></div></nav></div><div id="nav-top-placeholder"></div><div id="notifications"><div ng-repeat="n in notifications" ng-class="'notify-'+n.type" ng-cloak class="notify">{{n.message}}</div></div><a style="position:fixed;bottom:10px;right:10px" href="#landing" class="btn btn-default">回頁首 <i class="fa fa-arrow-up"></i></a><div id="landing"><div style="bottom:10px;left:10px" class="abs"><div class="btn btn-dark btn-lg">中文報告</div><span>&nbsp;</span><div class="btn btn-dark btn-lg">English Report</div></div></div><div id="report" ng-controller="report"><ul class="nav nav-tabs"><li ng-click="tab=0" ng-class="{'active':tab==0}" class="clickable"><a>0. chien yien</a></li><li ng-click="tab=1" ng-class="{'active':tab==1}" class="clickable"><a>1. fa liu</a></li><li ng-click="tab=2" ng-class="{'active':tab==2}" class="clickable"><a>2. kai fan</a></li><li ng-click="tab=3" ng-class="{'active':tab==3}" class="clickable"><a>3. gon min</a></li><li ng-click="tab=4" ng-class="{'active':tab==4}" class="clickable"><a>4. kerzi</a></li><li ng-click="tab=5" ng-class="{'active':tab==5}" class="clickable"><a>5. jieruen</a></li></ul><div class="row"><div id="toc" ng-click="toc.handle($event)" class="col-sm-4"><div ng-show="tab==0"><p><ul>
+<!DOCTYPE html><html lang="en"><head prefix="og: http://ogp.me/ns#"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title></title><meta property="og:locale" content="zh_TW"><meta property="og:image" content="thumbnail.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:type" content="website"><meta property="og:url" content="undefined"><meta property="og:title" content="undefined"><meta property="og:description" content="undefined"><meta property="fb:admins" content="586097167"><meta property="fb:app_id" content="538062799648166"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@loadingio"><meta name="twitter:title" content="undefined"><meta name="twitter:description" content="undefined"><meta name="twitter:creator" content="@loadingio"><meta name="twitter:image" content="thumbnail.png"><link rel="icon" type="image/x-icon" href="/assets/img/logo.png"><link rel="stylesheet" type="text/css" href="/assets/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/assets/fontawesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="/assets/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/assets/angular/1.3.15/angular.min.js"></script><script type="text/javascript" src="/assets/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="/assets/plotdb/plotdb.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading-btn.css"><script type="text/javascript" src="/assets/plotdb/plotdb.js"></script><script type="text/javascript" src="/assets/plotdb/dependency.bundle.js"></script><script type="text/javascript" src="/assets/plotdb/ogr-project.js"></script><link rel="stylesheet" type="text/css" href="/css/index.css?26"><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/einojbmllcjnkcapgajdbjjnpibkjnhh"><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><script type="text/javascript" src="/js/global.js"></script><script type="text/javascript" src="/js/index.js"></script><script type="text/javascript" src="/js/report/index.js"></script></head><body ng-app="ogr" class="en"><div id="nav-top"><nav role="navigation" class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button data-toggle="collapse" data-target="#nav-collapse" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">OGR <sup><small>2014-16</small></sup></a></div><div id="nav-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav pull-right"><li><a href="/en/report/"><div>報告</div><div>Report</div></a></li><li><a href="/en/data/"><div>資料</div><div>Data</div></a></li><li><a href="/en/download/"><div>下載</div><div>Download</div></a></li><li><a href="/en/about/"><div>關於</div><div>about</div></a></li><li><a href="/report"><span>中文 <i class="fa fa-globe"></i></span></a></li></ul></div></div></nav></div><div id="nav-top-placeholder"></div><div id="notifications"><div ng-repeat="n in notifications" ng-class="'notify-'+n.type" ng-cloak class="notify">{{n.message}}</div></div><a style="position:fixed;bottom:20px;right:20px;z-index:10" href="#landing" class="btn btn-default"><i class="fa fa-arrow-up"></i></a><div id="landing"><div style="bottom:10px;left:10px" class="abs"><div class="btn btn-dark btn-lg">中文報告</div><span>&nbsp;</span><div class="btn btn-dark btn-lg">English Report</div></div></div><div id="report" ng-controller="report"><ul class="nav nav-tabs"><li ng-click="tab=0" ng-class="{'active':tab==0}" class="clickable"><a>0. Introduction</a></li><li ng-click="tab=1" ng-class="{'active':tab==1}" class="clickable"><a>1. Laws, Regulations, and Policies</a></li><li ng-click="tab=2" ng-class="{'active':tab==2}" class="clickable"><a>2. Open Government Data</a></li><li ng-click="tab=3" ng-class="{'active':tab==3}" class="clickable"><a>3. Citizen Participation</a></li><li ng-click="tab=4" ng-class="{'active':tab==4}" class="clickable"><a>4. Collaborative Relationships in Civic Tech</a></li><li ng-click="tab=5" ng-class="{'active':tab==5}" class="clickable"><a>5. Conclusion</a></li></ul><div class="row"><div id="toc" ng-click="toc.handle($event)" class="col-sm-4"><div ng-show="tab==0"><p><ul>
 <li>Note</li>
 </ul></p></div><div ng-show="tab==1"><p><ul>
-<li>Key Findings
-<ul>
-<li>No dedicated law on open government and open data in Taiwan.</li>
-<li>Taiwan Government started a series of policies making on open data in 2012.</li>
-<li>Open data is mainly driven by the Executive Yuan and supported by the advisory teams composed of agencies and civil society representatives. However, this structure does not work well as expected.</li>
-<li>The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees.</li>
-</ul>
-</li>
+<li>Key Findings</li>
 <li>1-1. Laws, Regulations, and Policies on Open Data and Open Government in Taiwan
 <ul>
 <li>Legislative History of Relevant Laws and Regulations</li>
@@ -30,15 +23,7 @@
 </ul>
 </li>
 </ul></p></div><div ng-show="tab==2"><p><ul>
-<li>Key Findings
-<ul>
-<li>Too much focus on economic development and not enough on government accountability and social justice</li>
-</ul>
-</li>
-<li>Quantity over quality, many key datasets were scattered across multiple websites</li>
-<li>Not enough impact, policy should be driven by what citizens and civil servants need</li>
-<li>Civil service is short of “digital power”, system reform is much needed</li>
-<li>KPI driven, failed to picture what role open data should play in governance</li>
+<li>Key Findings</li>
 <li>2-1. Introduction
 <ul>
 <li>Background</li>
@@ -78,15 +63,7 @@
 </ul>
 </li>
 </ul></p></div><div ng-show="tab==3"><p><ul>
-<li>Key Findings
-<ul>
-<li>Citizen participation has taken root in Taiwan and the goal has been to lower the threshold to broaden participation</li>
-<li>The political will of political leaders plays a critical role in citizen participation</li>
-<li>The stage of policy making at which citizen participation is introduced directly affects its significance<strong></li>
-<li>Citizen participation is still largely experimental while some models are being institutionalized</strong></li>
-<li>To improve the quality of participation, it is important to train civil servants in deliberative skills and invite intermediaries to help simplify the language and connect different parties.</li>
-</ul>
-</li>
+<li>Key Findings</li>
 <li>3-1. Development of Citizen Participation in Taiwan
 <ul>
 <li>Existing Participation Models</li>
@@ -146,11 +123,6 @@
 </li>
 </ul></p></div><div ng-show="tab==4"><p><ul>
 <li>Key Findings</li>
-<li>People are the key factor in the current development of civic tech</li>
-<li>Civic tech emphasizes equality, mutual benefit, and an open approach to power and relationships</li>
-<li>Governments must re-think their approach to governance and shift first toward “small government” and finally toward “open government”</li>
-<li>Future challenges: How can both old and new mechanisms and systems be integrated?</li>
-<li>Future challenges: How can a mature civic tech ecosystem be established?</li>
 <li>4-1. Civic tech: A New Possibility for Public-Private Collaboration</li>
 <li>4-2. Donation Maps and Victim Identification: Civic Tech in Emergencies
 <ul>
@@ -344,20 +316,20 @@ Figure 1.3 The Process of Requesting Open Data</p>
 </li>
 </ol>
 </section></p></div><div ng-show="tab==2" class="ch-2"><p><h1>2. Open Government Data</h1>
-<p>//插圖
-Figure 2.1 Results of Open Data Survey</p>
 <div class="panel panel-conclusion"><div class="panel-body"><h2>Key Findings</h2>
 <h3>Too much focus on economic development and not enough on government accountability and social justice</h3>
 <p>For the past three years, open data has been promoted for its economic benefits without an overall industry policy. Taiwan has performed relatively poorly in terms of opening data regarding government transparency and accountability and there is no open data strategy targeting the disadvantaged and promoting equality.</p>
-<h2>Quantity over quality, many key datasets were scattered across multiple websites</h2>
+<h3>Quantity over quality, many key datasets were scattered across multiple websites</h3>
 <p>Government agencies have tried to open more and more data but neglected data quality. As a result, the quality of datasets is jagged and many have to be manually processed to be used. Additionally, Taiwan’s agencies release data on their websites according to the country’s Information Law, yet the data is mostly not in open formats. If the data can be further structured and integrated into <a href="http://DATA.GOV.TW">DATA.GOV.TW</a>, it will be more searchable and easier to use.</p>
-<h2>Not enough impact, policy should be driven by what citizens and civil servants need</h2>
+<h3>Not enough impact, policy should be driven by what citizens and civil servants need</h3>
 <p>Up to today, open data still has no significant impact on open government, citizen participation, and even the data economy. The government needs to rethink the value of open data, conduct surveys to find out the needs of potential users, and develop policy directions that make the data more “useful”. The users can include civil society organizations that monitor the government, tech communities that use the data, entrepreneurs and businesses that elevate data value, and civil servants who are both producers and users.</p>
-<h2>Civil service is short of “digital power”, system reform is much needed</h2>
+<h3>Civil service is short of “digital power”, system reform is much needed</h3>
 <p>Due to rigid bureaucracy, an obsolete information system, and lack of coordination between government bodies, open data has been prevented from improving administrative efficiency and even become a heavy workload for civil servants. The government needs to go beyond promises, stop giving more and more policy instructions, and conduct a comprehensive review and reform of the civil service system, which includes hiring, training, laws and regulations, and information system.</p>
-<h2>KPI driven, failed to picture what role open data should play in governance</h2>
+<h3>KPI driven, failed to picture what role open data should play in governance</h3>
 <p>The Taiwanese Government has worked on open data for many years and made various achievements, such as the <a href="http://DATA.GOV.TW">DATA.GOV.TW</a> website, the rising quantity of open datasets, and numerous hackathons. Yet these achievements were meant to create short-term, high performance marks that are measured by KPIs. The government does not yet have an overall plan covering key aspects of open data, including administrative procedures, digital governance, and data economy. Factors such as a lack of comprehensive legislation and policy, as well as outdated systems and personnel management mean that the success of open data initiatives rely heavily on the will of the political leader. Without implicit policy or orders from the top, open data brings little tangible change.</p>
-</div></div><h2>2-1. Introduction</h2>
+</div></div><p>//插圖
+Figure 2.1 Results of Open Data Survey</p>
+<h2>2-1. Introduction</h2>
 <h3>Background</h3>
 <p>As “open government” became an important trend in national governance in the 21st century, “open government data” (“open data”) also became a key means of promoting digital transformation and deepening democracy. The modern state is built on the census of people and territory. As a result, national governments collect a large amount of data and information on its people. Government data is not the property of the government or of any particular politician. Data collection is paid for by people’s taxes and the data is about the people. Government agencies simply collect, preserve, and manage all the information on behalf of its people as this is their duty (Chen, Lin, &amp; Chuang, 2013). Therefore, government data should be returned to the public domain through open licensing to demonstrate that democratic countries are open, transparent, and accountable.</p>
 <p>The 2005 Information Law stipulates that apart from the restricted information defined (under Article 18), the government should “actively” make all government information open to the public. Opening government information can increase government transparency to a certain extent. In terms of government operation, however, the information presented in statistics provided by executive units usually only reveals the tip of the iceberg. With the rapid development of ICT, the Taiwanese Government began to open data in 2012. The ultimate goal is to release raw data  in structured formats on a unified data platform and to make the data “useful” instead of simply “for display” through big data computing. Through analysis and application, open data becomes a resource that “people, companies, and organizations can use to launch new business ventures, analyze patterns and trends, make data-driven decisions, and solve complex problems” (Joel Gurin, 2014, as cited by Chu &amp; Tseng, 2016) and data governance goals can, therefore, be reached.</p>
@@ -746,7 +718,7 @@ Environmental Issues</td>
 <h3>The Seeds of Open Citizen Participation</h3>
 <p>Since the beginning of the 21st century, democracies have met massive challenges around the world. Many so-called democratic governments merely keep the appearance of democracy with elections but have taken despotic actions that jeopardize human rights and democratic values (The Economist, 2014). People feel frustrated, disappointed, and unsatisfied by the performance of democracy (Lin, 2016) and initiated one street demonstration after another. The 2014 Sunflower Movement in Taiwan is an example of the people standing up to oppose a malfunctioning representative democracy.</p>
 <p>In the face of weakening representative democracy, deliberative democracy became a highly anticipated possibility in Taiwan. It started during the second-generation National Health Insurance (2nd-gen NHI) reform process, in 2001. The reform was a three-year project. The Ministry of Health and Welfare (MOHW) invited scholars to establish a citizen participation team in its planning committee. The scholars brought consensus conferences and the idea of deliberative democracy into the reform. In 2003, some Taiwanese scholars visited the Danish Board of Technology (DBT). They brought back various practices of deliberative democracy (Chen, 2012) and began to experiment on consensus conferences and scenario workshops after 2004.</p>
-<pre><code class="language-!">Consensus Conference
+<pre><code class="language-!">CONSENSUS CONFERENCE 
 Volunteers are selected from different backgrounds and take relevant classes before the conference. In the conference, volunteers consult invited experts about the issue at hand. Then, the volunteers start a discussion which leads to a final report. This process usually takes 5 days.
 </code></pre>
 <p>In the 2014 Sunflower Movement, participants occupied the legislative chamber for 24 days, during which the idea of “D-Street” (citizen deliberation on the street) was created. D-Street was proposed to balance the representative power among different parties participating in the Movement. The occupation was divided into groups of protesters “inside” and “outside” the legislative chamber. While the protesters inside won more attentions from the public and the media, protesters outside the chamber felt disregarded and alienated. To expand participation, and give those outside a chance to express their views, and eventually, form a consensus, protesters began to practice D-Street (Shi, 2014). The 10-day D-Street experiment was carried out simultaneously in various locations at the demonstration site, with over 100 participants per day. Although the power relations inside and outside the legislative chamber did not truly “flip,” the practice drew public attention to deliberative democracy and the seeds of citizen participation were planted in civil society.</p>
@@ -856,7 +828,7 @@ Digital utilization: meeting minutes, relevant information and live streaming of
 <p><strong>Scenario Workshop—Stakeholders and the City Government Clarified the Issue, Collected and Organized Information</strong></p>
 <p>The scenario workshops were organized by a task force formed by different bureaus of Tainan City Government, experts and scholars, representatives from CSOs, Farglory and local residents. The purpose of the scenario workshops was to have stakeholders talk about the issue and develop future scenarios through dialogue and to propose corresponding action plans. Through this process, scenarios were turned into work principles that would eventually become guidelines of the City Government.</p>
 <p>There were three scenario workshops on “protection for trees within the development area,” “impact of development volume on the region,” and “reuse of archeological site and monuments” separately. Participants communicated, discussed, and made conclusions, which served as a reference for the Rural-Urban Forum at the next stage.</p>
-<pre><code class="language-!">Scenario workshop
+<pre><code class="language-!">SCENARIO WORKSHOP 
 The organizer first prepares several &quot;scenarios,&quot; each describes a possible situation. In the workshop, participants first share their views on the “scenarios” based on their experiences, which are then used as a basis for forming their preferred future scenario and eventually proposing a plan of action to make it come true. 
 </code></pre>
 <h3>Rural-Urban Forum—Citizen Group Discussion</h3>
@@ -886,7 +858,7 @@ The organizer first prepares several &quot;scenarios,&quot; each describes a pos
 Method: local referendum in electronic and physical forms
 Digital utilization: electronic voting system, meetings were recorded on one platform</p>
 </blockquote>
-<pre><code class="language-!">i-Voting System
+<pre><code class="language-!">I-VOVTING SYSTEM
 The i-Voting is an electronic voting system for deciding public issues in Taipei. The proposals on the i-Voting platform can be either from administrative departments or from citizens. However, the procedure to propose a vote is comparatively difficult for citizens than for departments. As a result, until the end to 2016, there were only 10 proposals and all were put forward by administrative departments.
 </code></pre>
 <h3>Directions for Developing Shezidao</h3>
@@ -918,7 +890,7 @@ Digital utilization: online platform</p>
 <h3>The Join Platform</h3>
 <p>As one of the conclusions of the National Conference on Trade and Economic Affairs, the Join Platform was set up by the<a href="http://www.ndc.gov.tw/"> National Development Council</a> (NDC) in 2015 to encourage online citizen participation. It took reference from the White House website, We the People <sup class="footnote-ref"><a href="#fn-ch-3.md-7" id="fnref-ch-3.md-7">[7]</a></sup>. The platform serves as a channel of revealing policy information and enhancing citizen participation in public affairs on a regular basis.</p>
 <p>There are four functions on the Join platform: “Propose an Idea” (by citizens), “Have a Discussion” (consultation before a policy is formed), “Let’s Oversee” (key policies), and “Talk to the Ministers” (links to mailboxes of Ministers for citizens to express their views). Through the Join platform, citizens can make policy proposals online and the responsible agency is bound to respond openly and in detail on the platform within two months.</p>
-<pre><code class="language-!">Proposals on the Join Platform
+<pre><code class="language-!">THE JOIN PLATFORM
 All proposals on the Join Platform have to go through two stages of petition. There has to be 250 signatures in 15 days at the first stage and 5000 signatures in 30 days at the second stage for a proposal to become a case. After that, the responsible agency has to give a response in two month. The agency can hold consultation meetings and invite the proposer to attend. All of the meeting materials has to be open on the platform.
 </code></pre>
 <h3>Fast and Convenient but Difficult to Have a Discussion</h3>
@@ -938,7 +910,7 @@ All proposals on the Join Platform have to go through two stages of petition. Th
 <p>The Join platform is simply a petition platform. While it can stimulate public attention on the issue at hand, whether later stages of policy-making are open depends on the responsible agency. Still, since the platform is supported by an administrative order, its prospect of policy continuity is comparatively good.</p>
 <p>//插圖</p>
 <h2>3-7. Participatory Budgeting</h2>
-<pre><code class="language-!">Participatory Budgeting
+<pre><code class="language-!">PARTICIPATORY BUDGETING 
 Participatory Budgeting (PB) started in Porto Alegre, Brazil in 1988. The elected Workers' Party Mayor wanted to reprioritize City Government Budgets so he invited local communities to decide the priority of part of the public spending. Generally speaking, PB is a process in which representatives of the local communities and residents discuss and make proposals, which are later put to vote. PB has spread across the world. More than 1,500 cities and communities have practiced or are practicing PB.
 </code></pre>
 <p>Compared to other forms of citizen participation, PB is a relatively complex and highly experimental process. PB has become an international trend. In Taiwan, PB was one of Ko Wen-je’s key political promises in the 2014 election for the Taipei City Mayor. Since then, many city mayors and county magistrates have seen PB as an important political promise. Currently, PB is mostly practiced at the local government level.</p>
@@ -962,7 +934,7 @@ Method: a village chief was tasked by the councillor to conduct PB
 Digital utilization: one unified platform recording all PB projects in New Taipei City</p>
 </blockquote>
 <p>The first attempt of PB in New Taipei City was initiated by councillor Chen Yi-chun. She took the example of the “Chicago Model” from the US and utilized her discretionary fund to conduct PB in Daguan Village with the assistance of the village chief. Through proposal making, committee review, and voting, there were three winning proposals at the end.</p>
-<pre><code class="language-!">The Chicago Model
+<pre><code class="language-!">THE CHICAGO MODEL 
 The first PB practice in the US was in Chicago City. An alderman of Chicago City has about USD 1.32 million of discretionary fund per year which can only be used on infrastructure. The allocation of the fund is completely at the alderman’s discretion. In 2007, Alderman Joe Moore practiced PB in his ward to allocate his discretionary fund for the first time. Now, there are also PB projects in New York City initiated by aldermen working with local communities and NPOs. There are currently 24 aldermen supporting PB in New York City.
 </code></pre>
 <p>The Daguan Village case was small scale and was pushed forward by a councillor, so the coordination with administrative departments went rather smoothly. However, there was no oversight in the process and one of the three proposals has not been implemented. Also, since it was the village chief that mobilized residents to participate, some suspected that the chief was using PB to solidify his own position.</p>
@@ -1023,7 +995,7 @@ Digital utilization: Taichung digital platform and an online proposal map</p>
 </li>
 </ol>
 </section></p></div><div ng-show="tab==4" class="ch-4"><p><h1>4. Collaborative Relationships in Civic Tech</h1>
-<div class="panel panel-conclusion"><div class="panel-body"><h3>Key Findings</h3>
+<div class="panel panel-conclusion"><div class="panel-body"><h2>Key Findings</h2>
 <h3>People are the key factor in the current development of civic tech</h3>
 <p>In the face of inadequate systems, civic tech collaboration requires effort from people in a variety of roles: leaders must contribute political support, mediators must engage in communication and coordination, and the collaborating parties must share goals and values and be willing to learn each other’s language and culture.</p>
 <h3>Civic tech emphasizes equality, mutual benefit, and an open approach to power and relationships</h3>
