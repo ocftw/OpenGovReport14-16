@@ -7,9 +7,5 @@ cp -R ../static/ ./
 git add *
 git commit -m "regen for $REV" 
 git push
-rm -rf .git/
-git init
-git add *
-git commit -m "deploy"
-git remote add middle2 git@git.middle2.com:changhua-chen-104268
+cd ..
 git push -f -u middle2 master
