@@ -40,10 +40,10 @@ And yet, large-scale influence remains elusive for civic tech in Taiwan due to a
 
 ## 4-2. Donation Maps and Victim Identification: Civic Tech in Emergencies
 
-> Case: Patient search systems, maps of donated goods, and digital identification of victims
-> Problem statement: In an emergency, needs cannot be filled through traditional procurement processes.
-> Government collaborator(s): Taipei City Department of Information Technology and Department of Social Welfare
-> Civil society collaborator(s): Online volunteers and g0v participants
+> * Case: Patient search systems, maps of donated goods, and digital identification of victims
+> * Problem statement: In an emergency, needs cannot be filled through traditional procurement processes.
+> * Government collaborator(s): Taipei City Department of Information Technology and Department of Social Welfare
+> * Civil society collaborator(s): Online volunteers and g0v participants
 
 ### An Explosion Results in Taipei’s First Civic Tech Collaboration
 
@@ -69,10 +69,10 @@ Civic tech collaboration is not just about outsourcing technology. The political
 
 ## 4-3. Document Delivery Management System: Using Digital Tools to Improve Administrative Processes
 
-> Case: Official document delivery management system
-> Problem statement: Administrative processes are unnecessarily convoluted
-> Government collaborator(s): Taipei City Department of Social Welfare
-> Civil society collaborator(s): TonyQ
+> * Case: Official document delivery management system
+> * Problem statement: Administrative processes are unnecessarily convoluted
+> * Government collaborator(s): Taipei City Department of Social Welfare
+> * Civil society collaborator(s): TonyQ
 
 ### Reforming Administrative Processes with the Power of Digital Technology
 
@@ -102,10 +102,10 @@ Second, civic tech development almost always uses agile development to create a 
 
 ## 4-4. AirBox: Building a Civic Tech Ecosystem
 
-> Case: AirBox
-> Problem statement: Environmental issues
-> Government collaborator(s): 8 county and city governments [^third]
-> Civil society collaborator(s): LASS community, Academia Sinica Institute of Information Science, and IT companies
+> * Case: AirBox
+> * Problem statement: Environmental issues
+> * Government collaborator(s): 8 county and city governments [^third]
+> * Civil society collaborator(s): LASS community, Academia Sinica Institute of Information Science, and IT companies
 
 ### A Civic Tech Ecosystem of Governments, Companies, and Communities
 
@@ -127,10 +127,10 @@ This case displayed a successful private-public collaboration by building an eco
 
 ## 4-5. vTaiwan: Civic Tech Collaboration to Create an Open Space for Deliberation
 
-> Case: vTaiwan
-> Problem statement: How old and outdated laws and regulations can be adapted for the digital age
-> Government collaborator(s): Executive Yuan, Institute for Information Industry
-> Civil society collaborator(s): g0v participants
+> * Case: vTaiwan
+> * Problem statement: How old and outdated laws and regulations can be adapted for the digital age
+> * Government collaborator(s): Executive Yuan, Institute for Information Industry
+> * Civil society collaborator(s): g0v participants
 
 ### Building an Online Deliberation Platform in a Hackathon
 
@@ -262,10 +262,10 @@ For all of the above models, we have identified five key points for facilitating
 
 Civic tech collaboration remains rare in Taiwan. Every case discussed in this chapter relied on good timing, favorable conditions, and dedicated people. It is difficult to copy any of them, and each has its limitations. In Taiwan, civic tech collaboration still faces difficulty in four major aspects:
 
-> The institutional aspect: How can new and existing mechanisms or systems be integrated?
-> The management aspect: How can civic tech developed through informal relationships be managed, maintained, and even held accountable?
-> The talent aspect: How can the reliance on a few bridge builders be broken, so that civic tech collaboration can be beyond single unique cases?
-> The societal aspect: How can a mature civic tech ecosystem be built to support collaborative relationships? 
+* The institutional aspect: How can new and existing mechanisms or systems be integrated?
+* The management aspect: How can civic tech developed through informal relationships be managed, maintained, and even held accountable?
+* The talent aspect: How can the reliance on a few bridge builders be broken, so that civic tech collaboration can be beyond single unique cases?
+* The societal aspect: How can a mature civic tech ecosystem be built to support collaborative relationships? 
 
 As experimental civic tech collaborations begin to bear fruit, we must ask: Can they be scaled up and institutionalized in order to solve the aforementioned difficulties? 
 
@@ -286,3 +286,4 @@ Government is an enormous and intricate machine. How can government take in diff
 [^seventh]:See [Business Next report on the issue](https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44)
 [^eighth]:The problems with IT procurement are not the focus of this paper, so only a simple table is presented for comparison. For a deeper understanding of current problems with IT procurement, see "What Are the Problems with Government IT Procurement?" (Lin, 2017).
 [^ninth]:See ["g0v.taipei fellowship"](https://g0v.hackpad.com/g0v.taipei-fellowship-LJZw6OzdO9g)
+
