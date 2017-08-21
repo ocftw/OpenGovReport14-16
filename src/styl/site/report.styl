@@ -29,11 +29,10 @@
 
 #toc
   padding: 20px
+  ul, ol
+    list-style-type: none
   li
     cursor: pointer
-    white-space: nowrap
-    overflow: hidden
-    text-overflow: ellipsis
     &:before
       content: "◆"
       font-size: 12px
@@ -41,6 +40,7 @@
       top: -1px
       display: inline
       margin-right: 4px
+      margin-left: -10px
   div > ul > li > ol > li:before, div > ul > li > ul > li:before
     content: "◇"
   div > ul > li li li:before
