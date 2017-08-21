@@ -7,19 +7,19 @@
 
 For the past three years, open data has been promoted for its economic benefits without an overall industry policy. Taiwan has performed relatively poorly in terms of opening data regarding government transparency and accountability and there is no open data strategy targeting the disadvantaged and promoting equality.
 
-## Quantity over quality, many key datasets were scattered across multiple websites
+### Quantity over quality, many key datasets were scattered across multiple websites
 
 Government agencies have tried to open more and more data but neglected data quality. As a result, the quality of datasets is jagged and many have to be manually processed to be used. Additionally, Taiwan’s agencies release data on their websites according to the country’s Information Law, yet the data is mostly not in open formats. If the data can be further structured and integrated into DATA.GOV.TW, it will be more searchable and easier to use.
 
-## Not enough impact, policy should be driven by what citizens and civil servants need
+### Not enough impact, policy should be driven by what citizens and civil servants need
 
 Up to today, open data still has no significant impact on open government, citizen participation, and even the data economy. The government needs to rethink the value of open data, conduct surveys to find out the needs of potential users, and develop policy directions that make the data more "useful". The users can include civil society organizations that monitor the government, tech communities that use the data, entrepreneurs and businesses that elevate data value, and civil servants who are both producers and users.
 
-## Civil service is short of "digital power", system reform is much needed
+### Civil service is short of "digital power", system reform is much needed
 
 Due to rigid bureaucracy, an obsolete information system, and lack of coordination between government bodies, open data has been prevented from improving administrative efficiency and even become a heavy workload for civil servants. The government needs to go beyond promises, stop giving more and more policy instructions, and conduct a comprehensive review and reform of the civil service system, which includes hiring, training, laws and regulations, and information system.
 
-## KPI driven, failed to picture what role open data should play in governance
+### KPI driven, failed to picture what role open data should play in governance
 
 The Taiwanese Government has worked on open data for many years and made various achievements, such as the DATA.GOV.TW website, the rising quantity of open datasets, and numerous hackathons. Yet these achievements were meant to create short-term, high performance marks that are measured by KPIs. The government does not yet have an overall plan covering key aspects of open data, including administrative procedures, digital governance, and data economy. Factors such as a lack of comprehensive legislation and policy, as well as outdated systems and personnel management mean that the success of open data initiatives rely heavily on the will of the political leader. Without implicit policy or orders from the top, open data brings little tangible change.
 
