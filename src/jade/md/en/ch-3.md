@@ -109,9 +109,9 @@ Figure 3.4 Blulu Meter
 
 ## 3-2. The Grassroots Forums of Civic Constitutional Convention
 
-> Feature: bottom-up citizen participation
-> Method: Occupy movement hand signals and group discussion
-> Digital utilization: meeting manuals and minutes were published on a website 
+> * Feature: bottom-up citizen participation
+> * Method: Occupy movement hand signals and group discussion
+> * Digital utilization: meeting manuals and minutes were published on a website 
 
 ### Bottom-up Constitutional Reform
 
@@ -157,9 +157,9 @@ The Civil Movement for Constitutional Reform was relatively open as it was initi
 
 ## 3-3. Youth World Café
 
-> Feature: failure of citizen participation on specific issues
-> Method: World Café
-> Digital utilization: open meeting minutes online
+> * Feature: failure of citizen participation on specific issues
+> * Method: World Café
+> * Digital utilization: open meeting minutes online
 
 ### Broaden Participation in the National Conference on Trade and Economic Affairs
 
@@ -203,9 +203,9 @@ The National Conference can be thought of as a crisis management mechanism that 
 
 ## 3-4. Feiyan New Village
 
-> Feature: citizen participation on a specific issue with a relatively complete procedure
-> Method: scenario workshop and Rural-Urban Forum
-> Digital utilization: meeting minutes, relevant information and live streaming of meetings were all released on one website
+> * Feature: citizen participation on a specific issue with a relatively complete procedure
+> * Method: scenario workshop and Rural-Urban Forum
+> * Digital utilization: meeting minutes, relevant information and live streaming of meetings were all released on one website
 
 ### Feiyan New Village Urban Renewal Project
 
@@ -269,9 +269,9 @@ From the above analysis, it can be observed that the participation in the Feiyan
 
 ## 3-5. Taipei City’s i-Voting
 
-> Feature: the first electronic voting system in Taiwan
-> Method: local referendum in electronic and physical forms
-> Digital utilization: electronic voting system, meetings were recorded on one platform
+> * Feature: the first electronic voting system in Taiwan
+> * Method: local referendum in electronic and physical forms
+> * Digital utilization: electronic voting system, meetings were recorded on one platform
  
 ```!
 I-VOVTING SYSTEM
@@ -320,9 +320,9 @@ The i-Voting system is not a very healthy process of citizen participation. Its 
 
 ## 3-6. The Join Platform
 
-> Feature: the first public policy discussion platform in Taiwan
-> Method: provide policy suggestion on an online platform
-> Digital utilization: online platform
+> * Feature: the first public policy discussion platform in Taiwan
+> * Method: provide policy suggestion on an online platform
+> * Digital utilization: online platform
 
 ### The Join Platform
 
@@ -378,9 +378,9 @@ Compared to other forms of citizen participation, PB is a relatively complex and
 
 ### Taipei City: Administration Driven
 
-> Feature: administration driven
-> Method: five stages, which are promotion, proposal & review, budget evaluation, budget review, city council oversight
-> Digital utilization: using an internet platform to organize proposals and information on workshops [^eighth]
+> * Feature: administration driven
+> * Method: five stages, which are promotion, proposal & review, budget evaluation, budget review, city council oversight
+> * Digital utilization: using an internet platform to organize proposals and information on workshops [^eighth]
 
 **PB Driven by Administrative Units**
 
@@ -398,9 +398,9 @@ Many winning proposals were later rejected by the responsible departments due to
 
 **Councillor Discretionary Fund Allocation**
 
-> Feature: councillor discretionary fund allocation
-> Method: a village chief was tasked by the councillor to conduct PB
-> Digital utilization: one unified platform recording all PB projects in New Taipei City
+> * Feature: councillor discretionary fund allocation
+> * Method: a village chief was tasked by the councillor to conduct PB
+> * Digital utilization: one unified platform recording all PB projects in New Taipei City
 
 The first attempt of PB in New Taipei City was initiated by councillor Chen Yi-chun. She took the example of the "Chicago Model" from the US and utilized her discretionary fund to conduct PB in Daguan Village with the assistance of the village chief. Through proposal making, committee review, and voting, there were three winning proposals at the end.
 
@@ -413,9 +413,9 @@ The Daguan Village case was small scale and was pushed forward by a councillor, 
 
 ### Themed PB Conducted by Commissioned Community College
 
-> Feature: PB on a designated fund
-> Method: the government commissioned a community college to conduct PB
-> Digital utilization: one unified platform recording all PB projects in New Taipei City
+> * Feature: PB on a designated fund
+> * Method: the government commissioned a community college to conduct PB
+> * Digital utilization: one unified platform recording all PB projects in New Taipei City
 
 Apart from the case of the city councillor initiating PB in 2015, the Economic Development Department of New Taipei City Government also commissioned Ludi Community College to implement PB on an energy conservation fund in Ludi.
 
@@ -433,9 +433,9 @@ The intermediary or the organizer played a very important role. PB not only empo
 
 ### Taichung City: Outsourcing PB
 
-> Feature: outsource PB through bidding
-> Method: the Taichung City Government commissioned a CSO to implement PB
-> Digital utilization: Taichung digital platform and an online proposal map
+> * Feature: outsource PB through bidding
+> * Method: the Taichung City Government commissioned a CSO to implement PB
+> * Digital utilization: Taichung digital platform and an online proposal map
 
 PB began in Taichung City after its announcement by Mayor Lin Chia-lung in 2015. The Taichung City Government outsourced PB to a local CSO. A project office ran by the CSO was then set up and the Department of Civic Affairs was its staff unit. Therefore, the relationship between the executor of PB and the City Government was vendor to client.
 
