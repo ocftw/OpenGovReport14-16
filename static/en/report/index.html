@@ -1,14 +1,7 @@
 <!DOCTYPE html><html lang="en"><head prefix="og: http://ogp.me/ns#"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title></title><meta property="og:locale" content="zh_TW"><meta property="og:image" content="thumbnail.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:type" content="website"><meta property="og:url" content="undefined"><meta property="og:title" content="undefined"><meta property="og:description" content="undefined"><meta property="fb:admins" content="586097167"><meta property="fb:app_id" content="538062799648166"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@loadingio"><meta name="twitter:title" content="undefined"><meta name="twitter:description" content="undefined"><meta name="twitter:creator" content="@loadingio"><meta name="twitter:image" content="thumbnail.png"><link rel="icon" type="image/x-icon" href="/assets/img/logo.png"><link rel="stylesheet" type="text/css" href="/assets/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/assets/fontawesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="/assets/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/assets/angular/1.3.15/angular.min.js"></script><script type="text/javascript" src="/assets/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="/assets/plotdb/plotdb.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading-btn.css"><script type="text/javascript" src="/assets/plotdb/plotdb.js"></script><script type="text/javascript" src="/assets/plotdb/dependency.bundle.js"></script><script type="text/javascript" src="/assets/plotdb/ogr-project.js"></script><link rel="stylesheet" type="text/css" href="/css/index.css?26"><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/einojbmllcjnkcapgajdbjjnpibkjnhh"><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><script type="text/javascript" src="/js/global.js"></script><script type="text/javascript" src="/js/index.js"></script><script type="text/javascript" src="/js/report/index.js"></script></head><body ng-app="ogr" class="en"><div id="nav-top"><nav role="navigation" class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button data-toggle="collapse" data-target="#nav-collapse" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">OGR <sup><small>2014-16</small></sup></a></div><div id="nav-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav pull-right"><li><a href="/en/report/"><div>報告</div><div>Report</div></a></li><li><a href="/en/data/"><div>資料</div><div>Data</div></a></li><li><a href="/en/download/"><div>下載</div><div>Download</div></a></li><li><a href="/en/about/"><div>關於</div><div>about</div></a></li><li><a href="/report"><span>中文 <i class="fa fa-globe"></i></span></a></li></ul></div></div></nav></div><div id="nav-top-placeholder"></div><div id="notifications"><div ng-repeat="n in notifications" ng-class="'notify-'+n.type" ng-cloak class="notify">{{n.message}}</div></div><a style="position:fixed;bottom:20px;right:20px;z-index:10" href="#landing" class="btn btn-default"><i class="fa fa-arrow-up"></i></a><div id="landing"><div style="bottom:10px;left:10px" class="abs"><div class="btn btn-dark btn-lg">中文報告</div><span>&nbsp;</span><div class="btn btn-dark btn-lg">English Report</div></div></div><div id="report" ng-controller="report"><ul class="nav nav-tabs"><li ng-click="tab=0" ng-class="{'active':tab==0}" class="clickable"><a>0. Introduction</a></li><li ng-click="tab=1" ng-class="{'active':tab==1}" class="clickable"><a>1. Laws, Regulations, and Policies</a></li><li ng-click="tab=2" ng-class="{'active':tab==2}" class="clickable"><a>2. Open Government Data</a></li><li ng-click="tab=3" ng-class="{'active':tab==3}" class="clickable"><a>3. Citizen Participation</a></li><li ng-click="tab=4" ng-class="{'active':tab==4}" class="clickable"><a>4. Collaborative Relationships in Civic Tech</a></li><li ng-click="tab=5" ng-class="{'active':tab==5}" class="clickable"><a>5. Conclusion</a></li></ul><div class="row"><div id="toc" ng-click="toc.handle($event)" class="col-sm-4"><div ng-show="tab==0"><p><ul>
 <li>Note</li>
 </ul></p></div><div ng-show="tab==1"><p><ul>
-<li>Key Findings
-<ul>
-<li>No dedicated law on open government and open data in Taiwan.</li>
-<li>Taiwan Government started a series of policies making on open data in 2012.</li>
-<li>Open data is mainly driven by the Executive Yuan and supported by the advisory teams composed of agencies and civil society representatives. However, this structure does not work well as expected.</li>
-<li>The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees.</li>
-</ul>
-</li>
+<li>Key Findings</li>
 <li>1-1. Laws, Regulations, and Policies on Open Data and Open Government in Taiwan
 <ul>
 <li>Legislative History of Relevant Laws and Regulations</li>
@@ -30,11 +23,7 @@
 </ul>
 </li>
 </ul></p></div><div ng-show="tab==2"><p><ul>
-<li>Key Findings
-<ul>
-<li>Too much focus on economic development and not enough on government accountability and social justice</li>
-</ul>
-</li>
+<li>Key Findings</li>
 <li>Quantity over quality, many key datasets were scattered across multiple websites</li>
 <li>Not enough impact, policy should be driven by what citizens and civil servants need</li>
 <li>Civil service is short of “digital power”, system reform is much needed</li>
@@ -78,15 +67,7 @@
 </ul>
 </li>
 </ul></p></div><div ng-show="tab==3"><p><ul>
-<li>Key Findings
-<ul>
-<li>Citizen participation has taken root in Taiwan and the goal has been to lower the threshold to broaden participation</li>
-<li>The political will of political leaders plays a critical role in citizen participation</li>
-<li>The stage of policy making at which citizen participation is introduced directly affects its significance<strong></li>
-<li>Citizen participation is still largely experimental while some models are being institutionalized</strong></li>
-<li>To improve the quality of participation, it is important to train civil servants in deliberative skills and invite intermediaries to help simplify the language and connect different parties.</li>
-</ul>
-</li>
+<li>Key Findings</li>
 <li>3-1. Development of Citizen Participation in Taiwan
 <ul>
 <li>Existing Participation Models</li>
@@ -145,15 +126,7 @@
 </ul>
 </li>
 </ul></p></div><div ng-show="tab==4"><p><ul>
-<li>Key Findings
-<ul>
-<li>People are the key factor in the current development of civic tech</li>
-<li>Civic tech emphasizes equality, mutual benefit, and an open approach to power and relationships</li>
-<li>Governments must re-think their approach to governance and shift first toward “small government” and finally toward “open government”</li>
-<li>Future challenges: How can both old and new mechanisms and systems be integrated?</li>
-<li>Future challenges: How can a mature civic tech ecosystem be established?</li>
-</ul>
-</li>
+<li>Key Findings</li>
 <li>4-1. Civic tech: A New Possibility for Public-Private Collaboration</li>
 <li>4-2. Donation Maps and Victim Identification: Civic Tech in Emergencies
 <ul>

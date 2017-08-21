@@ -146,9 +146,9 @@ base = do
       skip = false
       for i from 0 til list.length =>
         item = $(list[i])
-        if item.0.name == \h2 and item.text!trim! != \關鍵結論 => skip = false
+        if item.0.name == \h2 and !(item.text!trim! in ["關鍵結論","Key Findings"]) => skip = false
         if !skip => output.push "#{map[item.0.name]}#{item.text!}"
-        if item.0.name == \h2 and item.text!trim! == \關鍵結論 => skip = true
+        if item.0.name == \h2 and item.text!trim! in ["關鍵結論","Key Findings"] => skip = true
       output = output.join("\n")
       output = md.render output
       fs.write-file-sync toc, output
