@@ -40,7 +40,7 @@ Since the beginning of the 21st century, democracies have met massive challenges
 In the face of weakening representative democracy, deliberative democracy became a highly anticipated possibility in Taiwan. It started during the second-generation National Health Insurance (2nd-gen NHI) reform process, in 2001. The reform was a three-year project. The Ministry of Health and Welfare (MOHW) invited scholars to establish a citizen participation team in its planning committee. The scholars brought consensus conferences and the idea of deliberative democracy into the reform. In 2003, some Taiwanese scholars visited the Danish Board of Technology (DBT). They brought back various practices of deliberative democracy (Chen, 2012) and began to experiment on consensus conferences and scenario workshops after 2004.
 
 ```!
-Consensus Conference
+CONSENSUS CONFERENCE 
 Volunteers are selected from different backgrounds and take relevant classes before the conference. In the conference, volunteers consult invited experts about the issue at hand. Then, the volunteers start a discussion which leads to a final report. This process usually takes 5 days.
 ```
 
@@ -220,7 +220,7 @@ The scenario workshops were organized by a task force formed by different bureau
 There were three scenario workshops on "protection for trees within the development area," “impact of development volume on the region,” and “reuse of archeological site and monuments” separately. Participants communicated, discussed, and made conclusions, which served as a reference for the Rural-Urban Forum at the next stage.
 
 ```!
-Scenario workshop
+SCENARIO WORKSHOP 
 The organizer first prepares several "scenarios," each describes a possible situation. In the workshop, participants first share their views on the “scenarios” based on their experiences, which are then used as a basis for forming their preferred future scenario and eventually proposing a plan of action to make it come true. 
 ```
 
@@ -274,7 +274,7 @@ From the above analysis, it can be observed that the participation in the Feiyan
 > Digital utilization: electronic voting system, meetings were recorded on one platform
  
 ```!
-i-Voting System
+I-VOVTING SYSTEM
 The i-Voting is an electronic voting system for deciding public issues in Taipei. The proposals on the i-Voting platform can be either from administrative departments or from citizens. However, the procedure to propose a vote is comparatively difficult for citizens than for departments. As a result, until the end to 2016, there were only 10 proposals and all were put forward by administrative departments.
 ```
 
@@ -331,7 +331,7 @@ As one of the conclusions of the National Conference on Trade and Economic Affai
 There are four functions on the Join platform: "Propose an Idea" (by citizens), “Have a Discussion” (consultation before a policy is formed), “Let’s Oversee” (key policies), and “Talk to the Ministers” (links to mailboxes of Ministers for citizens to express their views). Through the Join platform, citizens can make policy proposals online and the responsible agency is bound to respond openly and in detail on the platform within two months.
 
 ```!
-Proposals on the Join Platform
+THE JOIN PLATFORM
 All proposals on the Join Platform have to go through two stages of petition. There has to be 250 signatures in 15 days at the first stage and 5000 signatures in 30 days at the second stage for a proposal to become a case. After that, the responsible agency has to give a response in two month. The agency can hold consultation meetings and invite the proposer to attend. All of the meeting materials has to be open on the platform.
 ```
 
@@ -370,7 +370,7 @@ The Join platform is simply a petition platform. While it can stimulate public a
 ## 3-7. Participatory Budgeting
 
 ```!
-Participatory Budgeting
+PARTICIPATORY BUDGETING 
 Participatory Budgeting (PB) started in Porto Alegre, Brazil in 1988. The elected Workers' Party Mayor wanted to reprioritize City Government Budgets so he invited local communities to decide the priority of part of the public spending. Generally speaking, PB is a process in which representatives of the local communities and residents discuss and make proposals, which are later put to vote. PB has spread across the world. More than 1,500 cities and communities have practiced or are practicing PB.
 ```
 
@@ -405,7 +405,7 @@ Many winning proposals were later rejected by the responsible departments due to
 The first attempt of PB in New Taipei City was initiated by councillor Chen Yi-chun. She took the example of the "Chicago Model" from the US and utilized her discretionary fund to conduct PB in Daguan Village with the assistance of the village chief. Through proposal making, committee review, and voting, there were three winning proposals at the end.
 
 ```!
-The Chicago Model
+THE CHICAGO MODEL 
 The first PB practice in the US was in Chicago City. An alderman of Chicago City has about USD 1.32 million of discretionary fund per year which can only be used on infrastructure. The allocation of the fund is completely at the alderman’s discretion. In 2007, Alderman Joe Moore practiced PB in his ward to allocate his discretionary fund for the first time. Now, there are also PB projects in New York City initiated by aldermen working with local communities and NPOs. There are currently 24 aldermen supporting PB in New York City.
 ``` 
 
