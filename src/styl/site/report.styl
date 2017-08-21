@@ -9,6 +9,7 @@
 #report pre code
   font-family: lato
   font-size: 1.2em
+  font-weight: 400
 
 #report pre
   line-height: 1.8em
@@ -30,6 +31,10 @@
     padding: 10px
     border: 4px solid #eee
 
+#report .nav.nav-tabs
+  li.active a
+    border: 1px solid #ddd
+    border-radius: 3px
 
 #toc
   padding: 20px
@@ -50,12 +55,22 @@
   div > ul > li li li:before
     content: "○"
     
-
+@media (max-width: 768px)
+  #toc
+    display: none
 
 #content
   overflow-x: hidden
   border-left: 1px solid #ccc
   padding: 20px 40px
+@media (max-width: 768px)
+  #report .row
+    margin: 0
+  #content
+    border-left: 0
+    padding: 10px
+    pre
+      margin: 50px 10px
 
 #toc
   ol, ul
