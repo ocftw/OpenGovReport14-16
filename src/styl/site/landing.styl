@@ -23,6 +23,7 @@
       opacity: 0.75
     .detail
       opacity: 0.65
+      background: #fff
       a.btn
         margin-top: 30px
       ul
@@ -30,12 +31,16 @@
       li
         list-style-type: none
         margin-bottom: 40px
+      .block800
+        padding: 30px 0
     color: #fff
     padding: 20px 50px 20px
     h1
       font-size: 3.2em
       letter-spacing: 10px
       margin: 40px 0
+    .text-right h1
+      display: none
     .desc
       font-weight: 100
       opacity: 0.9
@@ -48,7 +53,7 @@
       margin: 0 10px
       font-size: 1.4em
       vertical-align: middle
-    .col-sm-7
+    .row > .text-right
       padding: 50px 0 20px
       p
         font-size: 1.5em
@@ -78,15 +83,35 @@
         margin-top: 8px
       h1
         margin: 10px 0 20px
-      .col-sm-7
+      .row > .text-right
         padding: 10px 0
       .btn.btn-link.btn-lg
         font-size: 14px
         padding: 0 0 10px
 
+
 body.en
   #summary
     .summary-block
+      .text-left h1 span
+        display: none
+      .text-right h1
+        display: block
+        margin-bottom: 5px
+      .text-right
+        padding: 10px 0
       h1
         letter-spacing: 0
-        font-size: 3em
+        font-size: 2.3em
+        font-weight: 900
+        margin: 0
+      h1, h2, h3, p
+        font-family: lato
+      .detail
+        h1, h2, h3
+          word-spacing: 2px
+        p
+          font-weight: 300
+      img
+        width: 144px
+

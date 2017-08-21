@@ -2,6 +2,9 @@
 @import '../vars'
 @import '../basic'
 
+//rank = ( #d77d7d #e6c9c7 #bee5e8 #32aab4 )
+rank = ( #e6e6e6 #b7d2ca #80bfba #32aab4 )
+
 .chart
   width: 500px
   height: 400px
@@ -35,13 +38,13 @@
       margin: 2px 5px
       vertical-align: middle
   .level3
-    color: #4d4
+    color: rank[3]
   .level2
-    color: #9e9
+    color: rank[2]
   .level1
-    color: #ded
+    color: rank[1]
   .level0
-    color: #ddd
+    color: rank[0]
   .square
     width: 26px
     height: 18px
@@ -49,24 +52,14 @@
     margin: -3px 1px 0 0
     vertical-align: middle
   .square.level3
-    background: #4d4
+    background: rank[3]
   .square.level2
-    background: #9e9
+    background: rank[2]
   .square.level1
-    background: #ded
+    background: rank[1]
   .square.level0
-    background: #ddd
+    background: rank[0]
 
-  /*
-  .level3
-    color: #9f9
-  .level2
-    color: #fc9
-  .level1
-    color: #f99
-  .level0
-    color: #ddd
-  */
 .rank-table
   max-width: 1024px
   margin: 20px auto
@@ -89,23 +82,13 @@
     height: 24px
 
   .block.level3
-    background: #4d4
+    background: rank[3]
   .block.level2
-    background: #9e9
+    background: rank[2]
   .block.level1
-    background: #ded
+    background: rank[1]
   .block.level0
-    background: #ddd
-  /*
-  .block.level3
-    background: #9f9
-  .block.level2
-    background: #fc9
-  .block.level1
-    background: #f99
-  .block.level0
-    background: #ddd
-  */
+    background: rank[0]
 
 .rank-table.tiny
   table
