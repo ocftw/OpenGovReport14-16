@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head prefix="og: http://ogp.me/ns#"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title></title><meta property="og:locale" content="zh_TW"><meta property="og:image" content="thumbnail.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:type" content="website"><meta property="og:url" content="undefined"><meta property="og:title" content="undefined"><meta property="og:description" content="undefined"><meta property="fb:admins" content="586097167"><meta property="fb:app_id" content="538062799648166"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@loadingio"><meta name="twitter:title" content="undefined"><meta name="twitter:description" content="undefined"><meta name="twitter:creator" content="@loadingio"><meta name="twitter:image" content="thumbnail.png"><link rel="icon" type="image/x-icon" href="/assets/img/logo.png"><link rel="stylesheet" type="text/css" href="/assets/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/assets/fontawesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="/assets/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/assets/angular/1.3.15/angular.min.js"></script><script type="text/javascript" src="/assets/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="/assets/plotdb/plotdb.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading-btn.css"><script type="text/javascript" src="/assets/plotdb/plotdb.js"></script><script type="text/javascript" src="/assets/plotdb/dependency.bundle.js"></script><script type="text/javascript" src="/assets/plotdb/ogr-project.js"></script><link rel="stylesheet" type="text/css" href="/css/index.css?26"><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/einojbmllcjnkcapgajdbjjnpibkjnhh"><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><script type="text/javascript" src="/js/global.js"></script><script type="text/javascript" src="/js/index.js"></script><script type="text/javascript" src="/js/report/index.js"></script></head><body ng-app="ogr" class="en"><div id="nav-top"><nav role="navigation" class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button data-toggle="collapse" data-target="#nav-collapse" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">OGR <sup><small>2014-16</small></sup></a></div><div id="nav-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav pull-right"><li><a href="/en/report/"><div>報告</div><div>Report</div></a></li><li><a href="/en/data/"><div>資料</div><div>Data</div></a></li><li><a href="/en/download/"><div>下載</div><div>Download</div></a></li><li><a href="/en/about/"><div>關於</div><div>about</div></a></li><li><a href="/report"><span>中文 <i class="fa fa-globe"></i></span></a></li></ul></div></div></nav></div><div id="nav-top-placeholder"></div><div id="notifications"><div ng-repeat="n in notifications" ng-class="'notify-'+n.type" ng-cloak class="notify">{{n.message}}</div></div><a style="position:fixed;bottom:20px;right:20px;z-index:10" href="#landing" class="btn btn-default"><i class="fa fa-arrow-up"></i></a><div id="landing"><div style="bottom:10px;left:10px" class="abs"><div class="btn btn-dark btn-lg">中文報告</div><span>&nbsp;</span><div class="btn btn-dark btn-lg">English Report</div></div></div><div id="report" ng-controller="report"><ul class="nav nav-tabs"><li ng-click="tab=0" ng-class="{'active':tab==0}" class="clickable"><a>0. Introduction</a></li><li ng-click="tab=1" ng-class="{'active':tab==1}" class="clickable"><a>1. Laws, Regulations, and Policies</a></li><li ng-click="tab=2" ng-class="{'active':tab==2}" class="clickable"><a>2. Open Government Data</a></li><li ng-click="tab=3" ng-class="{'active':tab==3}" class="clickable"><a>3. Citizen Participation</a></li><li ng-click="tab=4" ng-class="{'active':tab==4}" class="clickable"><a>4. Collaborative Relationships in Civic Tech</a></li><li ng-click="tab=5" ng-class="{'active':tab==5}" class="clickable"><a>5. Conclusion</a></li></ul><div class="row"><div id="toc" ng-click="toc.handle($event)" class="col-sm-4"><div ng-show="tab==0"><p><ul>
+<!DOCTYPE html><html lang="en"><head prefix="og: http://ogp.me/ns#"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Taiwan Open Government Report</title><meta property="og:locale" content="zh_TW"><meta property="og:image" content="https://opengovreport.ocf.tw/assets/img/thumbnail.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:type" content="website"><meta property="og:url" content="https://opengovreport.ocf.tw/en/report"><meta property="og:title" content="Taiwan Open Government Report"><meta property="og:description" content="This is a research project conducted by the Open Culture Foundation to review the practice and impacts of open government policies in Taiwan from 2014 to 2016."><meta property="fb:admins" content="586097167"><meta property="fb:app_id" content="538062799648166"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@loadingio"><meta name="twitter:title" content="Taiwan Open Government Report"><meta name="twitter:description" content="This is a research project conducted by the Open Culture Foundation to review the practice and impacts of open government policies in Taiwan from 2014 to 2016."><meta name="twitter:creator" content="@loadingio"><meta name="twitter:image" content="https://opengovreport.ocf.tw/assets/img/thumbnail.png"><link rel="icon" type="image/x-icon" href="/assets/img/logo.png"><link rel="stylesheet" type="text/css" href="/assets/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/assets/fontawesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="/assets/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/assets/angular/1.3.15/angular.min.js"></script><script type="text/javascript" src="/assets/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="/assets/plotdb/plotdb.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading.css"><link rel="stylesheet" type="text/css" href="/assets/loadingio/loading-btn.css"><script type="text/javascript" src="/assets/plotdb/plotdb.js"></script><script type="text/javascript" src="/assets/plotdb/dependency.bundle.js"></script><script type="text/javascript" src="/assets/plotdb/ogr-project.js"></script><link rel="stylesheet" type="text/css" href="/css/index.css?26"><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/einojbmllcjnkcapgajdbjjnpibkjnhh"><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><script type="text/javascript" src="/js/global.js"></script><script type="text/javascript" src="/js/index.js"></script><script type="text/javascript" src="/js/report/index.js"></script></head><body ng-app="ogr" class="en"><div id="nav-top"><nav role="navigation" class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button data-toggle="collapse" data-target="#nav-collapse" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">OGR <sup><small>2014-16</small></sup></a></div><div id="nav-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav pull-right"><li><a href="/en/report/"><div>報告</div><div>Report</div></a></li><li><a href="/en/data/"><div>資料</div><div>Data</div></a></li><li><a href="/en/download/"><div>下載</div><div>Download</div></a></li><li><a href="/en/about/"><div>關於</div><div>about</div></a></li><li><a href="/report"><span>中文 <i class="fa fa-globe"></i></span></a></li></ul></div></div></nav></div><div id="nav-top-placeholder"></div><div id="notifications"><div ng-repeat="n in notifications" ng-class="'notify-'+n.type" ng-cloak class="notify">{{n.message}}</div></div><a style="position:fixed;bottom:20px;right:20px;z-index:10" href="#landing" class="btn btn-default"><i class="fa fa-arrow-up"></i></a><div id="landing"><div class="abs"><div class="btn btn-dark btn-lg">中文報告</div><span>&nbsp;</span><div class="btn btn-dark btn-lg">English Report</div></div></div><div id="report" ng-controller="report"><ul class="nav nav-tabs"><li ng-click="tab=0" ng-class="{'active':tab==0}" class="clickable"><a>0. Introduction</a></li><li ng-click="tab=1" ng-class="{'active':tab==1}" class="clickable"><a>1. Laws, Regulations, and Policies</a></li><li ng-click="tab=2" ng-class="{'active':tab==2}" class="clickable"><a>2. Open Government Data</a></li><li ng-click="tab=3" ng-class="{'active':tab==3}" class="clickable"><a>3. Citizen Participation</a></li><li ng-click="tab=4" ng-class="{'active':tab==4}" class="clickable"><a>4. Collaborative Relationships in Civic Tech</a></li><li ng-click="tab=5" ng-class="{'active':tab==5}" class="clickable"><a>5. Conclusions</a></li><li ng-click="tab=6" ng-class="{'active':tab==6}" class="clickable"><a>6. Reference</a></li></ul><div class="row"><div id="toc" ng-click="toc.handle($event)" class="col-sm-4"><div ng-show="tab==0"><p><ul>
 <li>Note</li>
 </ul></p></div><div ng-show="tab==1"><p><ul>
 <li>Key Findings</li>
@@ -165,6 +165,12 @@
 <li>Citizen Participation</li>
 <li>Collaborative Relationships In Civic Tech</li>
 <li>Final Note</li>
+</ul></p></div><div ng-show="tab==6"><p><ul>
+<li>Introduction</li>
+<li>Laws, Regulations, and Policies</li>
+<li>Open Government Data</li>
+<li>Citizen Participation</li>
+<li>Collaborative Relationships in Civic Tech</li>
 </ul></p></div></div><div id="content" class="col-sm-8"><div ng-show="tab==0" class="ch-0"><p><h1>0. Introduction</h1>
 <p>On January 21st, 2009, the day after US President Barack Obama took office, he signed a memorandum on “Transparency and Open Government.” The memorandum stressed that the government should be transparent, embrace citizen participation, and facilitate public-private collaboration to regain people’s trust in government. It not only reveals civil society’s strong desire for government transparency, openness, and participation but indicates that open government is a new model of governance. From Occupy Wall Street to the Arab Spring, from Taiwan’s Sunflower Movement to Hong Kong’s Umbrella Revolution, the ideas of transparency and openness have become the drive behind the wave of democratization movements of the 21st century.</p>
 <p>What is <strong>open government</strong>? The 2009 Presidential Memorandum stressed that <strong>transparency</strong>, <strong>participation,</strong> and <strong>collaboration</strong> are the keys to open government. In 2011, eight countries (Brazil, Indonesia, Mexico, Norway, the Philippines, South Africa, the UK, and the US) launched the Open Government Partnership (OGP), which is committed to promoting <strong>transparency</strong>, <strong>participation</strong>, <strong>accountability</strong>, and <strong>inclusion</strong>. Open government is not just a slogan of reform but a political movement. It redefines the relationship between government and civil society and connects government, NPOs, international society, and individual citizens to form a network of stakeholders so as to break bureaucratic hierarchy and facilitate open governance.</p>
@@ -183,7 +189,7 @@ This term is used to describe the situation in which a government pretends to be
 <li id="fn-ch-0.md-1" class="footnote-item"><p>Criticism can be found in the following reports: <a href="https://udn.com/news/story/7238/2393866">“Public Hearing on the Forward-looking Program Was Not Open to the Public, Is This Open Government?”</a>(Chang 2017) &amp; <a href="http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html">“Infrastructure Development Program Proved Open Government an Empty Promise”</a> (CK 2017) <a href="#fnref-ch-0.md-1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
-</section></p></div><div ng-show="tab==1" class="ch-1"><p><h1>1. Laws, Regulations, and Policies</h1>
+</section></p><div class="sep huge-gap"></div><div class="text-center"><div ng-click="gotab(1)" class="btn btn-success btn-lg">Next Chapter</div></div></div><div ng-show="tab==1" class="ch-1"><p><h1>1. Laws, Regulations, and Policies</h1>
 <div class="panel panel-conclusion"><div class="panel-body"><h2>Key Findings</h2>
 <h3>No dedicated law on open government and open data in Taiwan.</h3>
 <p>There is no dedicated law on open government and open data in Taiwan. Promotion mostly relies on executive orders. Except for the Administrative Procedure Law, citizen participation process and deliberative participation is not yet institutionalized.</p>
@@ -315,7 +321,7 @@ Figure 1.3 The Process of Requesting Open Data</p>
 <li id="fn-ch-1.md-3" class="footnote-item"><p><a href="http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/">http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/</a> <a href="#fnref-ch-1.md-3" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
-</section></p></div><div ng-show="tab==2" class="ch-2"><p><h1>2. Open Government Data</h1>
+</section></p><div class="sep huge-gap"></div><div class="text-center"><div ng-click="gotab(2)" class="btn btn-success btn-lg">Next Chapter</div></div></div><div ng-show="tab==2" class="ch-2"><p><h1>2. Open Government Data</h1>
 <div class="panel panel-conclusion"><div class="panel-body"><h2>Key Findings</h2>
 <h3>Too much focus on economic development and not enough on government accountability and social justice</h3>
 <p>For the past three years, open data has been promoted for its economic benefits without an overall industry policy. Taiwan has performed relatively poorly in terms of opening data regarding government transparency and accountability and there is no open data strategy targeting the disadvantaged and promoting equality.</p>
@@ -520,24 +526,30 @@ Each Aspect 1/3</td>
 <h2>2-2 Readiness of Open Data</h2>
 <h3>Government Policies</h3>
 <blockquote>
-<p>No legal basis, open data has been promoted by administrative guidelines and orders;
-Platform and licensing ready but data quality jagged</p>
+<ul>
+<li>No legal basis, open data has been promoted by administrative guidelines and orders</li>
+<li>Platform and licensing ready but data quality jagged</li>
+</ul>
 </blockquote>
 <p>There is no legal basis for open data in Taiwan. There are only the 2005 Information Law and the administrative guideline, the 2013 Operating Principle, for open data operations. Due to a lack of a separate act on open data, the will and policy instruction of the political leader has been critical. The Executive Yuan appointed 2015 as the “Starting Year of Deepening Open Data Applications”, which led to a wave of open data with little regard to quality. After that, due to lack of legal and data governance basis, agencies and units that have data grew passive.</p>
 <p>Although laws, regulations, and policies are yet to be ready, the National Development Council (NDC) setup <a href="http://DATA.GOV.TW">DATA.GOV.TW</a> in 2013 as the first open data platform in Taiwan, which was symbolic. The license terms of the platform, Open Data License Terms Edition One, were written collaboratively by the NDC and open data communities. The document was recognized by the Open Knowledge International as one of the few national license terms that are in accordance with Open Definition 2.1 <sup class="footnote-ref"><a href="#fn-ch-2.md-8" id="fnref-ch-2.md-8">[8]</a></sup>. After the platform was launched, datasets have grown in quantity, but there has been no systematic integration from the production ends, resulting in varied data quality. The Study of Dataset Quality Review Mechanism (UDN Digital, 2016) pointed out that on <a href="http://DATA.GOV.TW">DATA.GOV.TW</a>, 50% of data had poor machine readability, hindering data flow between agencies and value-adding data applications.</p>
 <h3>Government Action</h3>
 <blockquote>
-<p>No data governance procedure yet, cannot improve administrative efficiency;
-Executive units lack knowledge and technical training;
-Local governments do open data but with a wide urban-rural gap</p>
+<ul>
+<li>No data governance procedure yet, cannot improve administrative efficiency</li>
+<li>Executive units lack knowledge and technical training</li>
+<li>Local governments do open data but with a wide urban-rural gap</li>
+</ul>
 </blockquote>
 <p>Currently, there is not a coordinating government agency for open data. Instead, it is the IT personnel in each agency that coordinate the executive units to open their datasets. On the one hand, the IT departments support open data but do not manage the data while the executive units lack IT skills, knowledge of open data, and practical techniques. The government offers no systematic training, so open data is yet to be integrated into the government’s decision-making process. On the other hand, before administrative procedures are completely digitalized, for civil servants in executive units, one more dataset to open means one more item to manage and update. This not only increases their workload but also drops data quality.</p>
 <p>As for local governments, 13 out of 22 local governments have set up their own open data platforms while the other 9 use the NDC’s <a href="http://DATA.GOV.TW">DATA.GOV.TW</a> platform to open their data. Most of the local governments that do not own an open data platform are of rural areas and they tend to open much less data <sup class="footnote-ref"><a href="#fn-ch-2.md-9" id="fnref-ch-2.md-9">[9]</a></sup>, indicating a severe urban-rural divide.</p>
 <h3>Citizens and Civil Rights</h3>
 <blockquote>
-<p>There is the Information Law but it is very difficult to request for government information;
-There is the Personal Information Protection Act but agencies tend to dodge the Act by de-identification;
-The open data advisory teams do not operate in a unified manner and some meetings become mere formality</p>
+<ul>
+<li>There is the Information Law but it is very difficult to request for government information</li>
+<li>There is the Personal Information Protection Act but agencies tend to dodge the Act by de-identification</li>
+<li>The open data advisory teams do not operate in a unified manner and some meetings become mere formality</li>
+</ul>
 </blockquote>
 <p>In terms of open data, citizens and civil rights, there are two issues that need attention. One, how to make sure that the government does not breach personal privacy while opening data, and two, how the government responds to civic society’s requests for data.</p>
 <p>In Taiwan, the 2012 Personal Information Protection Act (amended in 2016) covers issues such as required consent, the right to access and correct your own data, and penalties and compensation of violation. However, when the government opens some highly controversial data, it tends to avoid the restriction of the Act by de-identification. For example, in 2015, the Taiwan Area National Freeway Bureau opened the driving routes recorded by the ETC (Electronic Toll Collection) service, the Bureau was criticized by the Taiwan Association for Human Rights (TAHR). The TAHR pointed out that though the data was de-identified, it was highly possible that it could be re-identified and therefore should not be opened <sup class="footnote-ref"><a href="#fn-ch-2.md-10" id="fnref-ch-2.md-10">[10]</a></sup>.</p>
@@ -545,8 +557,10 @@ The open data advisory teams do not operate in a unified manner and some meeting
 <p>Apart from laws and regulations, open data advisory teams have been set up in the Executive Yuan and all second-level agencies under it since 2015. A team consists of representatives from the agency and the society and holds several meetings in a year, covering strategic planning, data inventory, communication and promotion, and data quality. In the meeting, the team also looks into the data that people requested to make sure the agency respond to people’s needs. However, the teams are not always made up of experts and academics on open data and meet only once every few months, thus leaving the results unsatisfactory and the meeting a formality.</p>
 <h3>Entrepreneur and Business</h3>
 <blockquote>
-<p>Too much emphasis on short-term activities and hackathons;
-Lack of industrial policy for the data economy</p>
+<ul>
+<li>Too much emphasis on short-term activities and hackathons</li>
+<li>Lack of industrial policy for the data economy</li>
+</ul>
 </blockquote>
 <p>In terms of open data, the Taiwanese Government attaches much importance to the data economy. The Industrial Development Bureau (IDB) of the Ministry of Economic Affairs (MOEA), as the coordinator of such efforts, has organized numerous competitions and hackathons in the past three years to boost the open-data-based innovative economy. The hackathons were wonderful indeed but they were short-term events that lasted only a couple of days. Without the support of an industry supply chain and a robust data economy policy, the products of hackathons were rarely developed into marketable ones. Also, open data activities driven by hackathons usually ceased after the event. All in all, there has been no comprehensive industrial policy but mostly short-term activities and competitions.</p>
 <h2>2-3 Implementation of Open Data</h2>
@@ -554,42 +568,54 @@ Lack of industrial policy for the data economy</p>
 Table 2.8 Scores of the subcategory of implementation</p>
 <h3>Law and Organization</h3>
 <blockquote>
-<p>Most Key Datasets Are Still not Released by Open Data Standards</p>
+<ul>
+<li>Most Key Datasets Are Still not Released by Open Data Standards</li>
+</ul>
 </blockquote>
 <p>//插入圖片//
 Table 2.9 Scores of law and organization datasets</p>
 <p>Among all datasets under law and organization, we compared those released on <a href="http://DATA.GOV.TW">DATA.GOV.TW</a> and those released by the individual agency on its website. We found that the former to be relatively simple (ex. judiciary datasets) or not updated (ex. personnel datasets). Therefore, in our assessment, we chose the version released on the agency website. However, the data on agency websites is often published as public information instead of open data. For example, the Directorate-General of Personnel Administration of the Executive Yuan has extensive statistics regarding all local government agencies under the Executive Yuan, yet these statistics are not offered in an open format and contained merged cells which make machine reading very difficult. Also, the Judicial Yuan <sup class="footnote-ref"><a href="#fn-ch-2.md-11" id="fnref-ch-2.md-11">[11]</a></sup> has far more judiciary datasets than the Ministry of Justice (MOJ) but most of them are not machine-readable or available for batch download. In addition, the MOJ provides both Traditional Chinese and English versions of laws and regulations in XML format, but its licensing terms are not in accordance with the Open Definition 2.1.</p>
 <h3>Government Accountability</h3>
 <blockquote>
-<p>Need to Accelerate the Opening of Government Spending Data and Data on the Sunshine Acts Website</p>
+<ul>
+<li>Need to Accelerate the Opening of Government Spending Data and Data on the Sunshine Acts Website</li>
+</ul>
 </blockquote>
 <p>//插入圖片//
 Table 2.10  Scores of government accountability</p>
 <p>This type of datasets shared the same issue as the last type. Key datasets, especially those opened on the Sunshine Acts website, such as political donations, property declaration, and administrative penalties, can only be accessed through system inquiry instead of being organized into open data available for batch download. This makes the data very difficult to be read by a machine or used in technological applications by citizens. Moreover, although government budgets are already open on <a href="http://DATA.GOV.TW">DATA.GOV.TW</a>, the actual spending is still released in an annual or monthly report not easy to access or search, making it almost impossible for the people to monitor the government through the data. The Central Election Commission (CEC) does offer comparatively complete election data but the recall statistics are yet to be opened on <a href="http://DATA.GOV.TW">DATA.GOV.TW</a>.</p>
 <h3>Government Operations</h3>
 <blockquote>
-<p>National Defense and Diplomacy a Black Box, Government-Endowed Incorporated Foundations not Monitor-able</p>
+<ul>
+<li>National Defense and Diplomacy a Black Box, Government-Endowed Incorporated Foundations not Monitor-able</li>
+</ul>
 </blockquote>
 <p>//插入圖片//
 Table 2.11  Scores of government operations</p>
 <p>In this type of datasets, the procurement and part of the census datasets were relatively open with room for improvement in mapping and cartographic census data. As for the dataset regarding basic information of incorporated foundations, little could be found regarding government-endowed incorporated foundations despite that fact that these foundations receive huge budgets from the government and should, therefore, be monitored by the people. This means that this type of foundation can easily be manipulated by fat cats and lead to serious corruption. The national defense and diplomacy datasets were the least open ones, second only to judiciary data. Various key data, such as treaties and agreements, and results of assistant diplomacy, is scattered across government websites and offered in a non-open manner with indistinct license indication, unclear update times, and more.</p>
 <h3>Public Safety</h3>
 <blockquote>
-<p>Criminal and Environment Datasets were Relatively Open While Local Public Inspection Dataset was Barely Organized</p>
+<ul>
+<li>Criminal and Environment Datasets were Relatively Open While Local Public Inspection Dataset was Barely Organized</li>
+</ul>
 </blockquote>
 <p>//插入圖片//
 Table 2.12  Scores of public safety</p>
 <p>The crime and the environment datasets were comparatively open but the public inspection dataset was scattered and fragmentary. Since public inspections are conducted by local governments, relevant datasets are scattered across local government websites. However, local governments open their data in varying degrees so the data needed to be manually processed before integrated analysis and application could be carried out. Environmental datasets were relatively open and there was real-time monitoring data of both water quality and air quality.</p>
 <h3>Public Services</h3>
 <blockquote>
-<p>Very Open, Traffic Data Could be Ranked as 4-Start Linked Data</p>
+<ul>
+<li>Very Open, Traffic Data Could be Ranked as 4-Start Linked Data</li>
+</ul>
 </blockquote>
 <p>//插入圖片//
 Table 2.13 Scores of public services</p>
 <p>These types of datasets were very open, proving that open data is the foundation for better public services. In the infrastructure datasets, traffic data was the most open and could be considered as linked data. Water and electricity data was also quite open thanks to the hard work of the Ministry of the Economic Affairs (MOEA), which has encouraged public service corporations to open their data since 2016. Healthcare data was rather open, too. The Ministry of Health and Healthcare setup an open data platform <sup class="footnote-ref"><a href="#fn-ch-2.md-12" id="fnref-ch-2.md-12">[12]</a></sup> to provide many open datasets on medical and healthcare. As for education datasets, part of the more complete data was published on the statistics and inquiry website of the Ministry of Education (MOE) <sup class="footnote-ref"><a href="#fn-ch-2.md-13" id="fnref-ch-2.md-13">[13]</a></sup>. The MOE offers a lot of machine-readable data but has no license terms that indicate the data is open.</p>
 <h3>Economic Activities</h3>
 <blockquote>
-<p>Relatively Open Except for Land Value</p>
+<ul>
+<li>Relatively Open Except for Land Value</li>
+</ul>
 </blockquote>
 <p>//插入圖片//
 Table 2.14 Scores of economic activities</p>
@@ -597,23 +623,29 @@ Table 2.14 Scores of economic activities</p>
 <h2>2-4 Impact of Open Data</h2>
 <h3>Political Impact</h3>
 <blockquote>
-<p>Transparency: has facilitated government transparency to a degree but many key datasets are not open;
-Efficiency: has not improved government efficiency and implementation</p>
+<ul>
+<li>Transparency: has facilitated government transparency to a degree but many key datasets are not open</li>
+<li>Efficiency: has not improved government efficiency and implementation</li>
+</ul>
 </blockquote>
 <p>Open data has had some positive impact on transparency and public accountability and this can be seen in the application of election and budget data. After Taiwan’s 2016 general elections, civic tech communities used the Central Election Commission (CEC)’s data and produced an Election Distribution Map to further analyze the results of the election. In 2015, the Taipei City Government also worked with experts in the communities and displayed the budgets of the second half of the year in an interactive and visualized way so that people could understand how the budgets would be used quickly and easily. This method was later adopted by other local governments. However, apart from elections and budgets, much key data regarding government transparency and accountability is not open or has not become 3-start data yet. For example, data about political donations, public officer property declarations, and government procurement and spending needs to be opened and organized on <a href="http://DATA.GOV.TW">DATA.GOV.TW</a> as quickly as possible to promote government transparency and public accountability.</p>
 <p>The impact of open data on improving administrative efficiency has not been obvious. Open data did facilitate a few public-private collaborations, such as the Dengue Fever Map of Tainan City and the search system for the victims of Formosa Fun Coast explosion. These collaborations indicate that, through open data, working with crowdsourcing and civic tech communities can indeed help the government deal with emergencies. However, in terms of the overall administration system, due to differences in agency personnel, organization culture, and data format, open data has not improved cross-agency communication with tangible results. On the contrary, open data is often an additional burden for the agency. Because of complex research and evaluation procedures, conservative administrative culture, lack of knowledge and technical training, and lack of trust of government policy, open data has had very limited impact on improving government efficiency and implementation <sup class="footnote-ref"><a href="#fn-ch-2.md-14" id="fnref-ch-2.md-14">[14]</a></sup>.</p>
 <h3>Social Impact</h3>
 <blockquote>
-<p>The environment: open data has empowered citizens and NGOs to advocate environmental policy reform;
-The disadvantaged: no tangible improvements on public services offered to disadvantaged people</p>
+<ul>
+<li>The environment: open data has empowered citizens and NGOs to advocate environmental policy reform</li>
+<li>The disadvantaged: no tangible improvements on public services offered to disadvantaged people</li>
+</ul>
 </blockquote>
 <p>Open data has empowered citizens to take active roles in public issues. Open data helps raise people’s awareness of environmental protection and is a tool that environmental protection groups use to monitor the government and enterprises. For example, local governments are working together with a maker community called Location Aware Sensor System (LASS) and the Institute of Information Science of Academia Sinica on the Airbox project. They offered handy air quality sensors to schools and the data collected is streamed to the cloud in an open format to make up for the lack of government survey stations and to provide practical education on environmental protection issues for the schools.</p>
 <p>Moreover, in 2016, the Green Citizens’ Action Alliance (GCAA) compared the real-time monitoring data of the No. 6 Naphtha Cracker Complex and the government’s edited open data and found that more than 20,000 entries of emission that exceeded standards were missing in the latter and that only one NTD 100,000 penalty was issued, revealing the gap between the two sources of data. The GCAA then started the Transparency Footprint project <sup class="footnote-ref"><a href="#fn-ch-2.md-15" id="fnref-ch-2.md-15">[15]</a></sup> which attempts to promote more correct and refined open data (ex. the full list of penalized parties) to monitor the actual government action on factory pollution.</p>
 <p>In Taiwan, open data is rarely employed to help disadvantaged people. There was still no known positive impact till the end of 2016. The Department of Social Welfare under the Taipei City Government and civic tech communities did work together and developed the Domestic Violence Map which displays de-identified domestic violence data on a map so that social workers better know which are the potential DV districts and that local neighbourhood watches can be more aware. However, scholars and social groups argued that displaying DV incidents on a map can oversimplify the issue, that it offers no tangible solution, and that it can cause the stigmatization of certain neighbourhoods.</p>
 <h3>Economic Impact</h3>
 <blockquote>
-<p>A few new business models but no data economy industrial chain;
-As the data owner, the government seizes the market and is killing the data economy</p>
+<ul>
+<li>A few new business models but no data economy industrial chain</li>
+<li>As the data owner, the government seizes the market and is killing the data economy</li>
+</ul>
 </blockquote>
 <p>The data economy has always been an important aspect of open data to the government. For the past three years, the Industrial Development Bureau (IDB) has invested in enterprise subsidies and incentives for innovation and held product launch events. There are already a few open-data-based new business models as the result, such as the site choosing system of the Mercuies &amp; Associates Holding and the AGRI-GIS service developed by EMCT are good examples. However, the above-mentioned cases did not facilitate the forming of a data economy industrial chain. Moreover, in the past three years, the government has worked with long-term system vendors and built websites and apps. These apps have few users, create no profit for the government, increase public servants’ workload, and are destroying many start-up business opportunities (Chen, 2016).</p>
 <table>
@@ -699,7 +731,7 @@ Environmental Issues</td>
 <li id="fn-ch-2.md-15" class="footnote-item"><p>See <a href="https://thaubing.gcaa.org.tw">Transparency Footprint project</a> <a href="#fnref-ch-2.md-15" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
-</section></p></div><div ng-show="tab==3" class="ch-3"><p><h1>3. Citizen Participation</h1>
+</section></p><div class="sep huge-gap"></div><div class="text-center"><div ng-click="gotab(3)" class="btn btn-success btn-lg">Next Chapter</div></div></div><div ng-show="tab==3" class="ch-3"><p><h1>3. Citizen Participation</h1>
 <div class="panel panel-conclusion"><div class="panel-body"><h2>Key Findings</h2>
 <h3>Citizen participation has taken root in Taiwan and the goal has been to lower the threshold to broaden participation</h3>
 <p>Citizen participation models built on deliberative democracy and open government have emerged. They mostly employ online tools and are designed to lower the threshold of participation through less rigorous forms of discussion. They are distinct from conventional forms of citizen participation (such as public hearings) and from deliberative democracy in the narrow sense which is small in scale and with strict forms.</p>
@@ -765,9 +797,11 @@ Figure 3.3 Blulu Pizza</p>
 Figure 3.4 Blulu Meter</p>
 <h2>3-2. The Grassroots Forums of Civic Constitutional Convention</h2>
 <blockquote>
-<p>Feature: bottom-up citizen participation
-Method: Occupy movement hand signals and group discussion
-Digital utilization: meeting manuals and minutes were published on a website</p>
+<ul>
+<li>Feature: bottom-up citizen participation</li>
+<li>Method: Occupy movement hand signals and group discussion</li>
+<li>Digital utilization: meeting manuals and minutes were published on a website</li>
+</ul>
 </blockquote>
 <h3>Bottom-up Constitutional Reform</h3>
 <p>Constitutional reform has been discussed for many years. Issues such as voting age and number of seats in the Legislative Yuan often spark discussion on constitutional reform. However, after article 12 of the Additional Articles of the Constitution of the Republic of China was passed by the last ad hoc National Assembly in 2005, it became significantly more difficult to make an amendment to the Constitution <sup class="footnote-ref"><a href="#fn-ch-3.md-2" id="fnref-ch-3.md-2">[2]</a></sup>. In 2014, some civic groups established an alliance called the “Civil Movement for Constitutional Reform” to stimulate reform within government institutions, through grassroots meetings outside.</p>
@@ -792,9 +826,11 @@ Digital utilization: meeting manuals and minutes were published on a website</p>
 <p>//插圖</p>
 <h2>3-3. Youth World Café</h2>
 <blockquote>
-<p>Feature: failure of citizen participation on specific issues
-Method: World Café
-Digital utilization: open meeting minutes online</p>
+<ul>
+<li>Feature: failure of citizen participation on specific issues</li>
+<li>Method: World Café</li>
+<li>Digital utilization: open meeting minutes online</li>
+</ul>
 </blockquote>
 <h3>Broaden Participation in the National Conference on Trade and Economic Affairs</h3>
 <p>After the 2014 Sunflower Movement, the Executive Yuan convened the National Conference on Trade and Economic Affairs. However, the agenda setting of the conference failed to meet society’s expectations, and it was criticized for not being open enough to citizen participation. As a response to the criticism, the Executive Yuan organized a Youth World Café to diversify channels of participation.</p>
@@ -818,9 +854,11 @@ Digital utilization: open meeting minutes online</p>
 <p>//插圖</p>
 <h2>3-4. Feiyan New Village</h2>
 <blockquote>
-<p>Feature: citizen participation on a specific issue with a relatively complete procedure
-Method: scenario workshop and Rural-Urban Forum
-Digital utilization: meeting minutes, relevant information and live streaming of meetings were all released on one website</p>
+<ul>
+<li>Feature: citizen participation on a specific issue with a relatively complete procedure</li>
+<li>Method: scenario workshop and Rural-Urban Forum</li>
+<li>Digital utilization: meeting minutes, relevant information and live streaming of meetings were all released on one website</li>
+</ul>
 </blockquote>
 <h3>Feiyan New Village Urban Renewal Project</h3>
 <p>In 2010, Feiyan New Village, which covers 3.52 hectares in Tainan City, was selected to conduct urban renewal. In 2013, Farglory Land Development Co. won the bid to execute the project in Feiyan New Village and planned to build eleven skyscrapers. However, the development plan was protested by the locals because it would destroy large pieces of greenland and the Lioujiading Archeological Site, which was unearthed during the land survey.</p>
@@ -854,9 +892,11 @@ The organizer first prepares several &quot;scenarios,&quot; each describes a pos
 <p>//插圖</p>
 <h2>3-5. Taipei City’s i-Voting</h2>
 <blockquote>
-<p>Feature: the first electronic voting system in Taiwan
-Method: local referendum in electronic and physical forms
-Digital utilization: electronic voting system, meetings were recorded on one platform</p>
+<ul>
+<li>Feature: the first electronic voting system in Taiwan</li>
+<li>Method: local referendum in electronic and physical forms</li>
+<li>Digital utilization: electronic voting system, meetings were recorded on one platform</li>
+</ul>
 </blockquote>
 <pre><code class="language-!">I-VOVTING SYSTEM
 The i-Voting is an electronic voting system for deciding public issues in Taipei. The proposals on the i-Voting platform can be either from administrative departments or from citizens. However, the procedure to propose a vote is comparatively difficult for citizens than for departments. As a result, until the end to 2016, there were only 10 proposals and all were put forward by administrative departments.
@@ -883,9 +923,11 @@ The i-Voting is an electronic voting system for deciding public issues in Taipei
 <p>//插圖</p>
 <h2>3-6. The Join Platform</h2>
 <blockquote>
-<p>Feature: the first public policy discussion platform in Taiwan
-Method: provide policy suggestion on an online platform
-Digital utilization: online platform</p>
+<ul>
+<li>Feature: the first public policy discussion platform in Taiwan</li>
+<li>Method: provide policy suggestion on an online platform</li>
+<li>Digital utilization: online platform</li>
+</ul>
 </blockquote>
 <h3>The Join Platform</h3>
 <p>As one of the conclusions of the National Conference on Trade and Economic Affairs, the Join Platform was set up by the<a href="http://www.ndc.gov.tw/"> National Development Council</a> (NDC) in 2015 to encourage online citizen participation. It took reference from the White House website, We the People <sup class="footnote-ref"><a href="#fn-ch-3.md-7" id="fnref-ch-3.md-7">[7]</a></sup>. The platform serves as a channel of revealing policy information and enhancing citizen participation in public affairs on a regular basis.</p>
@@ -916,9 +958,11 @@ Participatory Budgeting (PB) started in Porto Alegre, Brazil in 1988. The electe
 <p>Compared to other forms of citizen participation, PB is a relatively complex and highly experimental process. PB has become an international trend. In Taiwan, PB was one of Ko Wen-je’s key political promises in the 2014 election for the Taipei City Mayor. Since then, many city mayors and county magistrates have seen PB as an important political promise. Currently, PB is mostly practiced at the local government level.</p>
 <h3>Taipei City: Administration Driven</h3>
 <blockquote>
-<p>Feature: administration driven
-Method: five stages, which are promotion, proposal &amp; review, budget evaluation, budget review, city council oversight
-Digital utilization: using an internet platform to organize proposals and information on workshops <sup class="footnote-ref"><a href="#fn-ch-3.md-8" id="fnref-ch-3.md-8">[8]</a></sup></p>
+<ul>
+<li>Feature: administration driven</li>
+<li>Method: five stages, which are promotion, proposal &amp; review, budget evaluation, budget review, city council oversight</li>
+<li>Digital utilization: using an internet platform to organize proposals and information on workshops <sup class="footnote-ref"><a href="#fn-ch-3.md-8" id="fnref-ch-3.md-8">[8]</a></sup></li>
+</ul>
 </blockquote>
 <p><strong>PB Driven by Administrative Units</strong></p>
 <p>Taipei City is the pioneer of PB in Taiwan. After Mayor Ko made the promise in 2014, Taipei started to hold training workshops and set up a series of procedures before implementing PB in 2016. PB was implemented by administrative units in the Taipei City Government. There were five stages in the process—promotion, proposal &amp; review, budget evaluation, budget review, and city council oversight.</p>
@@ -929,9 +973,11 @@ Digital utilization: using an internet platform to organize proposals and inform
 <h3>New Taipei City: Councillor Discretionary Fund and Themed PB</h3>
 <p><strong>Councillor Discretionary Fund Allocation</strong></p>
 <blockquote>
-<p>Feature: councillor discretionary fund allocation
-Method: a village chief was tasked by the councillor to conduct PB
-Digital utilization: one unified platform recording all PB projects in New Taipei City</p>
+<ul>
+<li>Feature: councillor discretionary fund allocation</li>
+<li>Method: a village chief was tasked by the councillor to conduct PB</li>
+<li>Digital utilization: one unified platform recording all PB projects in New Taipei City</li>
+</ul>
 </blockquote>
 <p>The first attempt of PB in New Taipei City was initiated by councillor Chen Yi-chun. She took the example of the “Chicago Model” from the US and utilized her discretionary fund to conduct PB in Daguan Village with the assistance of the village chief. Through proposal making, committee review, and voting, there were three winning proposals at the end.</p>
 <pre><code class="language-!">THE CHICAGO MODEL 
@@ -940,9 +986,11 @@ The first PB practice in the US was in Chicago City. An alderman of Chicago City
 <p>The Daguan Village case was small scale and was pushed forward by a councillor, so the coordination with administrative departments went rather smoothly. However, there was no oversight in the process and one of the three proposals has not been implemented. Also, since it was the village chief that mobilized residents to participate, some suspected that the chief was using PB to solidify his own position.</p>
 <h3>Themed PB Conducted by Commissioned Community College</h3>
 <blockquote>
-<p>Feature: PB on a designated fund
-Method: the government commissioned a community college to conduct PB
-Digital utilization: one unified platform recording all PB projects in New Taipei City</p>
+<ul>
+<li>Feature: PB on a designated fund</li>
+<li>Method: the government commissioned a community college to conduct PB</li>
+<li>Digital utilization: one unified platform recording all PB projects in New Taipei City</li>
+</ul>
 </blockquote>
 <p>Apart from the case of the city councillor initiating PB in 2015, the Economic Development Department of New Taipei City Government also commissioned Ludi Community College to implement PB on an energy conservation fund in Ludi.</p>
 <p>The process was rather comprehensive. It included seminars, a proposal workshop, a deliberation workshop, a finalization workshop and a voting fair. There were six seminars targeting six groups of people who potentially had a stake in energy conservation. Knowing the possibility that existing organizations might mobilize supporters to take over PB, the College had multiple small-scale promotions on the street to invite more people to attend the seminars. There were different energy conservation lessons in each seminar and proposal sheets were handed out to collect ideas. After the seminars, counsellors contacted the attendees and encouraged them to continue participation.</p>
@@ -953,9 +1001,11 @@ Digital utilization: one unified platform recording all PB projects in New Taipe
 <p>The intermediary or the organizer played a very important role. PB not only empowered the citizens but stimulated the development of the local community. However, the task of the College was finished after the proposals were selected and sent to the government. It was a shame that citizens participation stopped after the government department took over.</p>
 <h3>Taichung City: Outsourcing PB</h3>
 <blockquote>
-<p>Feature: outsource PB through bidding
-Method: the Taichung City Government commissioned a CSO to implement PB
-Digital utilization: Taichung digital platform and an online proposal map</p>
+<ul>
+<li>Feature: outsource PB through bidding</li>
+<li>Method: the Taichung City Government commissioned a CSO to implement PB</li>
+<li>Digital utilization: Taichung digital platform and an online proposal map</li>
+</ul>
 </blockquote>
 <p>PB began in Taichung City after its announcement by Mayor Lin Chia-lung in 2015. The Taichung City Government outsourced PB to a local CSO. A project office ran by the CSO was then set up and the Department of Civic Affairs was its staff unit. Therefore, the relationship between the executor of PB and the City Government was vendor to client.</p>
 <p>Taichung’s PB included four stages, “Brainstorming,” “Deliberation &amp; Project Development,” “i-Voting,” and “Implementation &amp; Monitoring.” PB was first promoted in public spaces in district offices, then in public info sessions as well as living room info sessions. There were five main target groups: individual citizens, community building organizations, schools and community colleges, social welfare groups, and village chiefs &amp; neighbourhood wardens. These five groups were invited to come in groups while interested individuals were given a living room info session. A neighbourhood assembly was held next, in which participants discussed proposals through deliberation and form action plans with the ladder method. In the assembly, there was an innovative session called Lottery Marketplace for each team to further discuss the action plans. After the plans were formed, the City Government invited relevant departments and experts to each district to meet with proposers and provide suggestions on laws and regulations, feasibility, and reasonable budgeting.</p>
@@ -994,7 +1044,7 @@ Digital utilization: Taichung digital platform and an online proposal map</p>
 <li id="fn-ch-3.md-9" class="footnote-item"><p>See <a href="http://news.ltn.com.tw/news/life/breakingnews/1902083">“Taipei City Councilor Said Participatory Budgeting Cannot Reflect Public Opinion, Budgets Suspended”</a> <a href="#fnref-ch-3.md-9" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
-</section></p></div><div ng-show="tab==4" class="ch-4"><p><h1>4. Collaborative Relationships in Civic Tech</h1>
+</section></p><div class="sep huge-gap"></div><div class="text-center"><div ng-click="gotab(4)" class="btn btn-success btn-lg">Next Chapter</div></div></div><div ng-show="tab==4" class="ch-4"><p><h1>4. Collaborative Relationships in Civic Tech</h1>
 <div class="panel panel-conclusion"><div class="panel-body"><h2>Key Findings</h2>
 <h3>People are the key factor in the current development of civic tech</h3>
 <p>In the face of inadequate systems, civic tech collaboration requires effort from people in a variety of roles: leaders must contribute political support, mediators must engage in communication and coordination, and the collaborating parties must share goals and values and be willing to learn each other’s language and culture.</p>
@@ -1007,17 +1057,19 @@ Digital utilization: Taichung digital platform and an online proposal map</p>
 <h3>Future challenges: How can a mature civic tech ecosystem be established?</h3>
 <p>Taiwan urgently needs a civic tech ecosystem that incorporates governments, communities, and corporations, instead of relying on the efforts and networks of a few, in order to expand the scale and influence of civic tech.</p>
 </div></div><h2>4-1. Civic tech: A New Possibility for Public-Private Collaboration</h2>
-<p>This chapter will explore civic tech collaboration as a new approach through a variety of case studies. We define civic tech as the use of digital technology on the basis of open data and citizen participation to transform government services, optimize administrative processes, and enable participation in government operations. Civic tech represents a break from the current social contract, in which the people vest power in the government to rule and manage society unilaterally; it is a rethinking of the interaction of power between the government and the people, and a practical exploration of new possibilities in public-private collaboration.</p>
+<p>This chapter will explore civic tech collaboration as a new approach through a variety of case studies. We define civic tech as the use of digital technology on the basis of open data and citizen participation to transform government services, optimize administrative processes, and enable participation in government operations. Civic tech represents a break from the idea of “social contract”, in which the people vest power in the government to rule and manage society unilaterally; it is a rethinking of the interaction of power between the government and the people, and a practical exploration of new possibilities in public-private collaboration.</p>
 <p>Public-private collaboration is not something new to our time. The idea of public-private partnerships (PPP) emerged in the 1990s, though even today academics are still divided over its precise definition. Broadly, the term PPP refers to cooperative relationships between organizations in the public and private sector, whether codified in formal contracts or spontaneously arising from shared values. Chen and Zhang (2010) pointed out that PPP participants create a high level of trust through frequent interaction, and share resources, goals, and values, thereby establishing “collaborative networks.” In this chapter, our conception of public-private collaboration emphasizes civic tech collaboration created through collaborative networks between government agencies and communities or individuals. Unlike traditional PPPs, which usually refer to large-scale cooperation between governments and corporations (e.g. through the Build-Operate-Transfer model), civic tech introduces new models and cultural ideas and practices through small-scale and diverse interactions with governments.</p>
 <p>This chapter provides four case studies using in-depth interviews as the main source. We explore their respective backgrounds, problems to be solved, collaboration models, challenges faced, and possible future effects. We focus on three important facets of each case in particular (sourced from Chen and Zhang, 2010): (1) Whether the parties are equals in the power relationship, and whether they share resources, information, goals, and values; (2) Whether the collaboration process maintains an appropriate balance between collective goals and individual interests; and (3) How the participants use their social capital to create a network and build relationships of mutual trust.</p>
 <p>We have seen impressive examples of civic tech in action over the past three years. Civic tech has provided aid during emergencies, improved administrative processes across organizations, opened up new channels for deliberation on important issues for the digital age, and promoting participation in environmental causes through citizen science initiatives. In Taiwan, however, civic tech collaboration remains experimental. Civic tech has mitigated the administrative inefficiencies brought on by inflexible IT procurement rules, while avoiding the problems of collusion and corruption that traditional PPP models risk.</p>
 <p>And yet, large-scale influence remains elusive for civic tech in Taiwan due to a lack of mature business models and systemic integration into existing government operations. Our intent in discussing civic tech in this final chapter is to invite the reader to join us in thinking to the future, in addition to looking back on the developments of the past three years. What is the potential of civic tech in comparison to other possible approaches for a future governance model? What are the challenges that must be faced before civic tech can become truly influential?</p>
 <h2>4-2. Donation Maps and Victim Identification: Civic Tech in Emergencies</h2>
 <blockquote>
-<p>Case: Patient search systems, maps of donated goods, and digital identification of victims
-Problem statement: In an emergency, needs cannot be filled through traditional procurement processes.
-Government collaborator(s): Taipei City Department of Information Technology and Department of Social Welfare
-Civil society collaborator(s): Online volunteers and g0v participants</p>
+<ul>
+<li>Case: Patient search systems, maps of donated goods, and digital identification of victims</li>
+<li>Problem statement: In an emergency, needs cannot be filled through traditional procurement processes.</li>
+<li>Government collaborator(s): Taipei City Department of Information Technology and Department of Social Welfare</li>
+<li>Civil society collaborator(s): Online volunteers and g0v participants</li>
+</ul>
 </blockquote>
 <h3>An Explosion Results in Taipei’s First Civic Tech Collaboration</h3>
 <p>A dust explosion at the Formosa Fun Coast Amusement Park during a “color party” event on June 27, 2015 shocked Taiwanese society, and sparked the first example of public-private collaboration between the government of Taipei City and its tech communities. Taipei City Hall was overwhelmed with phone calls as staff attention was focused on disaster relief work, and an online platform for searching for victim information was proposed. However, the city’s Department of Information Technology had no open-ended contract in place to acquire temporary workers or equipment in emergencies, and regular procurement processes could not work quickly enough for this need. The city therefore requested aid from the communities.</p>
@@ -1032,10 +1084,12 @@ Civil society collaborator(s): Online volunteers and g0v participants</p>
 <p>Civic tech collaboration is not just about outsourcing technology. The political will of leaders and the social capital of these bridge builders are essential for integrating civic tech into government operations. However, an over-reliance on a few bridge builders, and the lack of institutionalized procedures and mature collaborative networks, has become a predicament for civic technology collaboration in Taiwan. Once a bridge builder departs from their position, the relationships and trust that have been built up may vanish in the blink of an eye.</p>
 <h2>4-3. Document Delivery Management System: Using Digital Tools to Improve Administrative Processes</h2>
 <blockquote>
-<p>Case: Official document delivery management system
-Problem statement: Administrative processes are unnecessarily convoluted
-Government collaborator(s): Taipei City Department of Social Welfare
-Civil society collaborator(s): TonyQ</p>
+<ul>
+<li>Case: Official document delivery management system</li>
+<li>Problem statement: Administrative processes are unnecessarily convoluted</li>
+<li>Government collaborator(s): Taipei City Department of Social Welfare</li>
+<li>Civil society collaborator(s): TonyQ</li>
+</ul>
 </blockquote>
 <h3>Reforming Administrative Processes with the Power of Digital Technology</h3>
 <p>In the previous case, applying civic tech to disaster relief opened up new possibilities beyond traditional IT procurement for governments. However, donation maps and disaster victim identification systems are not IT systems that see everyday use. Reforming overall administrative processes using digital tools and data governance is the next challenge for civic tech.</p>
@@ -1046,16 +1100,18 @@ Civil society collaborator(s): TonyQ</p>
 <p>Government is an enormous and complex machine. Over the past few decades, the civil service has exchanged information and communicated through meetings, official documents, and files, creating a unique information flow in every department. It is therefore impossible to digitalize the entire government using a single system, and civic tech has no such ambitions. Its goal is to solve small but concrete problems and introduce digitalization to administrative processes.</p>
 <p>However, identifying these small but concrete problems is precisely the challenge.</p>
 <p>Government agencies must first clarify their needs through reviewing their processes. However, civil service training does not include process management skills. In addition, government staffers are usually too overworked to even find the time to articulate problems and clarify processes. Agencies with no IT background are usually unable to clearly describe their needs, while contractors are unable to understand the complicated inner workings of government. The enormous rift in language and culture between the two parties, the misunderstandings that arise as communication passes through level after level of the bureaucracy, coupled with complex webs of interest between bid reviewers and contractors, all contribute to the frequently absurd outcomes of IT tenders. Such tenders often result in systems that are difficult for staffers to use, or e-government services that draw waves of complaints.</p>
-<p>Civic tech provides more than a single system or website; it allows external collaborators to interact directly with the agency, clearly identifying problems through long-term partnership. The system that TonyQ created is not difficult, but few are willing to spend as much time as he did as an external collaborator in low-level government offices, listening and communicating. Such external players also require the trust of the civil service system and the approval of mid- and high-level leaders. Under these conditions, TonyQ was able to continue working with the DOWS after developing the mail tracking system and begin more collaboration projects.</p>
+<p>Civic tech provides more than a single system or website; it allows external collaborators to interact directly with the agency, clearly identifying problems through long-term partnership. The system that TonyQ created is not difficult, but few are willing to spend as much time as he did as an external collaborator in low-level government offices, listening and communicating. Such external players also require the trust of the civil service system and the approval of mid- and high-level leaders. Under these conditions, TonyQ was able to continue working with the DOWS after developing the mail tracking system and began more collaboration projects.</p>
 <h3>Difficulties Faced by Civic Tech in Government</h3>
 <p>Civic tech currently faces many difficulties regarding its use in government. First, volunteers who participate in collaboration cannot receive adequate compensation for their time and energy. Most collaborators receive only a small stipend when they attend meetings in person at government agencies. In the long run, how to give collaborators the respect and remuneration they deserve, so that collaborative relationships can be sustained and more collaborators encouraged to join, is a question that will require more thought.</p>
 <p>Second, civic tech development almost always uses agile development to create a minimum feasible product that immediately goes online to solve a specific task-based problem. It can become impossible to maintain operations of a system once a collaborative relationship ends. Government often requires more stable and long-term systems, giving contractors with stable funding and concrete agreements an advantage over civil tech. Whether civic tech can integrate systems created through agile development into existing government platforms through feedback and optimization, will become another key to bringing civic tech into government.</p>
 <h2>4-4. AirBox: Building a Civic Tech Ecosystem</h2>
 <blockquote>
-<p>Case: AirBox
-Problem statement: Environmental issues
-Government collaborator(s): 8 county and city governments <sup class="footnote-ref"><a href="#fn-ch-4.md-3" id="fnref-ch-4.md-3">[3]</a></sup>
-Civil society collaborator(s): LASS community, Academia Sinica Institute of Information Science, and IT companies</p>
+<ul>
+<li>Case: AirBox</li>
+<li>Problem statement: Environmental issues</li>
+<li>Government collaborator(s): 8 county and city governments <sup class="footnote-ref"><a href="#fn-ch-4.md-3" id="fnref-ch-4.md-3">[3]</a></sup></li>
+<li>Civil society collaborator(s): LASS community, Academia Sinica Institute of Information Science, and IT companies</li>
+</ul>
 </blockquote>
 <h3>A Civic Tech Ecosystem of Governments, Companies, and Communities</h3>
 <p>In the previous case, we identified two major difficulties currently faced by civic tech: First, that unpaid collaborators may be treated as free contractors; and second, that maintaining long-term operation of civic tech is often filled with uncertainty. Taiwan urgently needs governments, companies, and communities to form an ecosystem that can act as a foundation for developing civic tech. The case of AirBox may point to one way forward.</p>
@@ -1068,10 +1124,12 @@ Civil society collaborator(s): LASS community, Academia Sinica Institute of Info
 <p>This case displayed a successful private-public collaboration by building an ecosystem of civic tech. Each collaborative party benefited from this project. The government implemented its smart city policy by matching companies and communities and providing them with a place to show the results of their work—the city’s schools. Companies that donated AirBoxes were not only granted a public relations boon, they were also given an opportunity to expand beyond the Taiwan market with the city’s good will. Communities that provided technical assistance were rewarded with rapid growth as the AirBox project expanded throughout Taiwan. Academic institutions that assisted with calibration were given the opportunity to promote citizen science education and obtained more data for analysis. Government, companies, communities, and academia all shared resources and information, and each was rewarded for it. The AirBox case shows that governments should go beyond its traditional self-conception as a ruler over society and become a matchmaker for multi-stakeholders. Only when big government becomes small government can public-private collaboration begin to develop.</p>
 <h2>4-5. vTaiwan: Civic Tech Collaboration to Create an Open Space for Deliberation</h2>
 <blockquote>
-<p>Case: vTaiwan
-Problem statement: How old and outdated laws and regulations can be adapted for the digital age
-Government collaborator(s): Executive Yuan, Institute for Information Industry
-Civil society collaborator(s): g0v participants</p>
+<ul>
+<li>Case: vTaiwan</li>
+<li>Problem statement: How old and outdated laws and regulations can be adapted for the digital age</li>
+<li>Government collaborator(s): Executive Yuan, Institute for Information Industry</li>
+<li>Civil society collaborator(s): g0v participants</li>
+</ul>
 </blockquote>
 <h3>Building an Online Deliberation Platform in a Hackathon</h3>
 <p>On December 20, 2014, then-Minister without Portfolio Jaclyn Tsai went to a g0v hackathon <sup class="footnote-ref"><a href="#fn-ch-4.md-6" id="fnref-ch-4.md-6">[6]</a></sup> with one question: “Is it possible for companies not to headquarter in the Cayman Islands?” After a whole day of discussion in the hackathon, the participants concluded that, instead of having them answer the question of how to convince start-ups to stay in Taiwan, the question should be opened up to the general public by building a digital public participation platform. Minister Tsai and these civic hackers, bringing together Tsai’s legal background and their familiarity with the digital world, began to build the vTaiwan Virtual World Laws and Regulations Adaptation Exchange Platform. The platform particularly focuses on digital policies and allows discussion of how old and outdated laws and regulations can be amended for the digital age.</p>
@@ -1175,12 +1233,12 @@ Civil society collaborator(s): g0v participants</p>
 </ol>
 <h3>Turning Difficulties Into Challenges</h3>
 <p>Civic tech collaboration remains rare in Taiwan. Every case discussed in this chapter relied on good timing, favorable conditions, and dedicated people. It is difficult to copy any of them, and each has its limitations. In Taiwan, civic tech collaboration still faces difficulty in four major aspects:</p>
-<blockquote>
-<p>The institutional aspect: How can new and existing mechanisms or systems be integrated?
-The management aspect: How can civic tech developed through informal relationships be managed, maintained, and even held accountable?
-The talent aspect: How can the reliance on a few bridge builders be broken, so that civic tech collaboration can be beyond single unique cases?
-The societal aspect: How can a mature civic tech ecosystem be built to support collaborative relationships?</p>
-</blockquote>
+<ul>
+<li>The institutional aspect: How can new and existing mechanisms or systems be integrated?</li>
+<li>The management aspect: How can civic tech developed through informal relationships be managed, maintained, and even held accountable?</li>
+<li>The talent aspect: How can the reliance on a few bridge builders be broken, so that civic tech collaboration can be beyond single unique cases?</li>
+<li>The societal aspect: How can a mature civic tech ecosystem be built to support collaborative relationships?</li>
+</ul>
 <p>As experimental civic tech collaborations begin to bear fruit, we must ask: Can they be scaled up and institutionalized in order to solve the aforementioned difficulties?</p>
 <p>While civic tech collaboration in Taiwan is still limited to ad-hoc single cases, systemic collaboration programs have been put into practice in other countries. Code for American and Code for Pakistan have started fellowship programs in their respective countries, using funds raised by civic groups to place engineers and designers into local governments for six months to a year. The engineers and designers then collaborate with government staffers to improve IT services. In Japan, governments work with companies to provide corporate fellowships, offering three-month grants for digital talent in companies to offer consultancy services at government agencies twice a week.</p>
 <p>Similar programs have been discussed in Taiwan. After the Formosa Fun Coast explosion, Taipei City had consulted the community regarding the possibility of a fellowship program <sup class="footnote-ref"><a href="#fn-ch-4.md-9" id="fnref-ch-4.md-9">[9]</a></sup>. However, the limitations of government personnel and procurement laws meant that such a program was never put into place. In addition, a funding model of civic tech has not been established. Where the investment comes from is a practical problem faced by civic tech advocates. Even today, government IT procurement treats IT services the same as hardware. This has hindered the development the software industry in public services. It will be difficult for civic tech to receive stable investment funding like in the US, when no civic tech industry has formed.</p>
@@ -1208,7 +1266,7 @@ The societal aspect: How can a mature civic tech ecosystem be built to support c
 <li id="fn-ch-4.md-9" class="footnote-item"><p>See <a href="https://g0v.hackpad.com/g0v.taipei-fellowship-LJZw6OzdO9g">“g0v.taipei fellowship”</a> <a href="#fnref-ch-4.md-9" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
-</section></p></div><div ng-show="tab==5" class="ch-5"><p><h1>5. Conclusions</h1>
+</section></p><div class="sep huge-gap"></div><div class="text-center"><div ng-click="gotab(5)" class="btn btn-success btn-lg">Next Chapter</div></div></div><div ng-show="tab==5" class="ch-5"><p><h1>5. Conclusions</h1>
 <h3>Laws, Regulations, and Policies</h3>
 <p>Following the changes in Taiwan’s socio-political atmosphere in 2014, the concept of open government has become an unmistakable trend in the country. Open government puts information transparency, citizen participation, and public-private collaboration in the same context. In practice, however, open government is manifested in individual laws and policies. Currently, information transparency is regulated by the Freedom of Government Information Law, and the spirit of participation is revealed in the Administrative Procedure Law. There is no relevant laws or regulations on public-private collaboration.</p>
 <p>In addition to laws, administrative orders and policies are the Taiwanese government’s most important tools to promote open government. Unfortunately, in the past three years, the government has yet to come up with an overall plan to practice open government. Most of the government’s efforts have been put into reaching superficial KPIs instead of building a firm foundation of open government. There is no long-term policy continuity on most open government policies so far. Policies often die when the few political leaders who back them leave office. The concept and practices of open government have yet to take root in the hearts of most political leaders. Open government is viewed only as a popular slogan and its concrete planning as well as execution are lacking.</p>
@@ -1232,7 +1290,51 @@ The societal aspect: How can a mature civic tech ecosystem be built to support c
 <p>Even though we walk in anxiety and uncertainty, there are a few things we are still sure of.</p>
 <p>We know that open government should not be old wine in a new bottle. It is neither an upgraded version of e-government nor is it a new package for deliberative democracy. In the previous chapters, we discussed the core elements of open government: transparency, participation, and collaboration, and analyzed the complex issues involved in each of them. There is no one solution for all. The issues cannot be simplified and every stage has to be handled with care.</p>
 <p>We also know that open government is not simply a technological reform. Digitalization is not the only answer. Open government has to do with politics, with participation, and with the relationship between people and power. Technology can be a tool but how the tool is used and what impact it will have depends on human operation, thinking, and judgment.</p>
-<p>Finally, we know that open government cannot be a fight outside the institution and we cannot wait for institutional reform to happen internally. Open government requires collaboration inside and out, and all parties need to make an effort. Open government does not have a big enemy to defeat on its way. What it needs is for every individual in the government, in corporations, or in communities to see themselves as citizens and use their skills to seek out future directions and answers, together.</p></p></div></div></div><div class="sep huge-gap"></div><br><h3 class="text-center">Any comment? Discuss here!</h3><script>var disqus_config = function () {
+<p>Finally, we know that open government cannot be a fight outside the institution and we cannot wait for institutional reform to happen internally. Open government requires collaboration inside and out, and all parties need to make an effort. Open government does not have a big enemy to defeat on its way. What it needs is for every individual in the government, in corporations, or in communities to see themselves as citizens and use their skills to seek out future directions and answers, together.</p></p><div class="sep huge-gap"></div><div class="text-center"><div ng-click="gotab(6)" class="btn btn-success btn-lg">Next Chapter</div></div></div><div ng-show="tab==6" class="ch-6"><p><h1>Reference</h1>
+<h2>0. Introduction</h2>
+<ul>
+<li>Chang, W. C. 2017. “Public Hearing of Infrastructure Development Program Rejected to Be Open (前瞻公聽會拒旁聽 與會人士問唐鳳：這是開放政府？).” UND News. April 10, 2017. <a href="https://udn.com/news/story/7238/2393866">https://udn.com/news/story/7238/2393866</a></li>
+<li>CK. 2017. &quot;Infrastructure Development Program Proved Open Government An Empty Promise (前瞻基礎建設計畫」證明「開放政府」徒具形式，但是還來得及補救).&quot;April 22, 2017. <a href="http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html">http://citypatterns.blogspot.tw/2017/04/an-open-approach-for-foresight-infrastructure-initiative.html</a></li>
+</ul>
+<h2>1. Laws, Regulations, and Policies</h2>
+<ul>
+<li>Chu, P. Y &amp; Tseng, H. L. 2016. “Open Data Quality (資料開放品質).” Public Governance Quarterly 4(4): 54-66.</li>
+<li>g0v Community. 2015. “Open Government Data Act  (開放政府資料法).” <a href="https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY">https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY</a></li>
+<li>Industrial Development Bureau. 2015. “Open Data Policies and Practices–South Korea (主要國家開放政府資料機制與作法追蹤——韓國).” Project of Data-Driven Service Industry Applications &amp; Development. <a href="http://opendata.tca.org.tw/content<em>detail.php?id=100">http://opendata.tca.org.tw/content</em>detail.php?id=100</a>.</li>
+<li>Haggerty, Jonathan. 2017. &quot;OPEN Government Data Act moves to Senate floor after markup.” The R Street Institute. May 18, 2017. <a href="http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/">http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/</a></li>
+<li>Lin, Lucien C. H. 2016. “The Legislation and Development of Open Government Data (開放政府資料的法制趨勢與發展探討).” <a href="http://DATA.GOV.TW">DATA.GOV.TW</a>, December 19, 2017. <a href="http://data.gov.tw/node/41412">http://data.gov.tw/node/41412</a></li>
+<li>Lee, J. A., Lin, Lucien C. H. &amp; Chuang, T. R. 2014. “The Fundamental Principles and Related Policy Issues of Open Government Data (開放政府資料的基本原則與相關政策議題).” Public Governance Quarterly 2(1): 65-76.</li>
+<li>Tai, H. S. &amp; Huang, F. Y. 2014. “From Meiliwan Development Plan to Cross-Strait Service Trade Agreement: What Is Missing in Taiwan’s Policy Decisions (從美麗灣到服貿：台灣的公共政策決策過程缺了什麼？－－戴興盛、黃斐悅).” Dong Hwa 2014(2). <a href="http://journal.ndhu.edu.tw/e<em>paper/e</em>paper<em>c.php?SID=22">http://journal.ndhu.edu.tw/e</em>paper/e<em>paper</em>c.php?SID=22</a></li>
+<li>Tai, H. C. &amp; Ku, C. H. 2015. “Building an Enabling Legal Environment for Open Data (建構資料開放之良善法制環境).”  Public Governance Quarterly 3(4): 17-26.</li>
+<li>Yeh, J. R. &amp; Kuo, M. S. 1999. “The Impacts of Administrative Procedure Law  on Administrative Agencies and the Correspondent Actions 行政程序法對行政機關的衝擊與因應).” Socioeconomic Law and Institution Review 24: 1-22.</li>
+</ul>
+<h2>2. Open Government Data</h2>
+<ul>
+<li>Chen, Kny. 2016. “Suggestions of Open Data to the New Government–Open Data, New Industries and Private-Public Collaboration (給新政府的開放資料建議 - 開放資料、創造新產業、公私協⼒力合作).” <a href="https://www.slideshare.net/KNYChen/20160604-64067554">https://www.slideshare.net/KNYChen/20160604-64067554</a></li>
+<li>Chen, S. L., Lin, J. H &amp; Chuang, T. R. 2013. Empowering Citizens with Data: An Open Government Data Handbook. Taipei: Academia Sinica.</li>
+<li>Chu, P. Y &amp; Tseng, H. L. 2016. “Open Data Quality (資料開放品質).” Public Governance Quarterly 4(4): 54-66.</li>
+<li>Clkao &amp; g0v Community. 2015. “20 Dataset Categories of a Data-Centric Governmen (Data-Centric Government 的二十大類資料).” <a href="https://g0v.hackpad.tw/ep/pad/static/NoJ1mbwsqkQ">https://g0v.hackpad.tw/ep/pad/static/NoJ1mbwsqkQ</a></li>
+<li>Open Knowledge International. n.d. Open Data Handbook. <a href="http://opendatahandbook.org/guide/en/introduction/">http://opendatahandbook.org/guide/en/introduction/</a></li>
+<li>Open Knowledge International. n.d. “Open Definition 2.1” <a href="http://opendefinition.org/od/2.1/en/">http://opendefinition.org/od/2.1/en/</a></li>
+<li>Open Data Barometer. 2015. Open Data Barometer 3rd Edition Research Handbook. <a href="http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf">http://opendatabarometer.org/doc/3rdEdition/ODB-3rdEdition-ResearchHandbook.pdf</a></li>
+<li>The World Wide Web. 2012. “5 Star Open Data.” <a href="http://5stardata.info/zh-TW/">http://5stardata.info/zh-TW/</a></li>
+<li>UDN Digital. 2016. “The Mechanism of Assessing Open Data Quality (資料集品質評鑑機制研究計畫).” <a href="http://hackfoldr.org/OD<em>ResearchProject/">http://hackfoldr.org/OD</em>ResearchProject/</a></li>
+</ul>
+<h2>3. Citizen Participation</h2>
+<ul>
+<li>Chen, D. S. 2012. “The Road to Deliberation Democracy: The Practices and Reflections in Taiwan (到審議民主之路: 台灣的實踐與反省).” In The Deliberative Democracy Handbook: Strategies for Effective Civic Engagement in the 21st Century (審議民主指南：二十一世紀公民參與的有效策略). Taipei: Socio Publishing.</li>
+<li>Lin, K. M. 2016. “Does Deliberation Foster Civic Activism? Public Deliberation, Social Capital and Political Engagement (審議造就積極公民？公民審議、社會資本與政治參與).” Journal of Social Sciences and Philosophy 28(2): 133–177.</li>
+<li>National Development Council. 2014. “Conclusion Report of the 2014 Youth World Café, National Conference on Trade and Economic Affairs (經貿國是會議青年網聚 World café 論壇結論報告).” <a href="http://www.ndc.gov.tw/cp.aspx?n=6C14E1070C626346&amp;s=0C372D6AA82C8C8A">http://www.ndc.gov.tw/cp.aspx?n=6C14E1070C626346&amp;s=0C372D6AA82C8C8A</a></li>
+<li>Shih, S. W. 2014. “The Innovation and Practice of A Street Movement: The Citizen Deliberation of D-Street (一場街頭社會實踐的創新與嘗試：d-street街頭公民審議紀實).” <a href="http://www.hisp.ntu.edu.tw/news/epapers/16/articles/9">http://www.hisp.ntu.edu.tw/news/epapers/16/articles/9</a></li>
+<li>The Economist, 2014, “What’s gone wrong with democracy.” <a href="http://www.economist.com/news/essays/21596796-democracy-was-most-successful-political-idea-20th-century-why-has-it-run-trouble-and-what-can-be-do">http://www.economist.com/news/essays/21596796-democracy-was-most-successful-political-idea-20th-century-why-has-it-run-trouble-and-what-can-be-do</a></li>
+<li>Tseng, Y. J. 2014. “A Ridiculos Show of the National Conference on Trade and Economic Affairs (我親眼見證經貿國是會議的荒誕).” Apple Daily July 21, 2014. <a href="http://www.appledaily.com.tw/realtimenews/article/new/20140721/437381/">http://www.appledaily.com.tw/realtimenews/article/new/20140721/437381/</a></li>
+</ul>
+<h2>4. Collaborative Relationships in Civic Tech</h2>
+<ul>
+<li>Lin, J. W. 2017. &quot;What’s Going Wrong with Government’s IT Procrument (政府的資訊採購，出了什麼問題？). UDN Opinion. June 22, 2017. <a href="https://opinion.udn.com/opinion/story/11020/2540340">https://opinion.udn.com/opinion/story/11020/2540340</a></li>
+<li>Chen, D. Y. &amp; Chang, S. C. 2010. “The Paradoxes of Public-Private Partnerships (公私協力夥伴關係的弔詭).” Journal of Civil Service 2(3): 17-71.</li>
+<li>Guo, Z. R. 2016. “A Big Turn: Online Liquor Sales Act Suspended (網路賣酒喊卡！政策大轉彎，行政院從立法院撤案).” Business Next. August 27, 2016. <a href="https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44">https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44</a></li>
+</ul></p></div></div></div><div class="sep huge-gap"></div><br><h3 class="text-center">Any comment? Discuss here!</h3><script>var disqus_config = function () {
 this.page.url = "http://opengovreport.ocf.tw/";
 this.page.identifier = "/";
 };</script><div id="disqus_thread"></div><script>(function() { // DON'T EDIT BELOW THIS LINE
@@ -1240,11 +1342,11 @@ var d = document, s = d.createElement('script');
 s.src = 'https://opengovreport-ocf-tw.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
-})();</script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><div id="footer-top"></div><div id="footer"><div class="block1024"><big><b>Taiwan Open Government Report 2014-2016 </b></big><div style="border-top-color:rgba(255,255,255,0.2)" class="sep white"></div></div><div class="row"><div class="col-sm-6"><div>This work is produced by Open Culture Foundation. </div><br><img src="/assets/img/logo-white.png" style="border-radius:5px"></div><div style="line-height:2.0em" class="col-sm-6"><div><a href="https://github.com/ocftw/OpenGovReport14-16" target="_blank">Github <i class="fa fa-github"></i></a></div><div><a href="/about/">Term of Use</a></div><div><a href="mailto:intl@ocf.tw">Contact Us</a></div><div data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true" class="fb-share-button"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fogr.d3b.info" class="fb-xfbml-parse-ignore">分享</a></div><a href="https://twitter.com/intent/tweet?text=http://ogr.d3b.info" class="twitter-share-button"><i class="fa fa-twitter"></i> Tweet</a></div></div></div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+})();</script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><div id="footer-top"></div><div id="footer"><div class="block1024"><big><b>Taiwan Open Government Report 2014-2016 </b></big><div style="border-top-color:rgba(255,255,255,0.2)" class="sep white"></div></div><div class="row"><div class="col-sm-6"><div>This work is produced by Open Culture Foundation. </div><br><img src="/assets/img/logo-white.png" style="border-radius:5px"></div><div style="line-height:2.0em" class="col-sm-6"><div><a href="https://github.com/ocftw/OpenGovReport14-16" target="_blank">Github <i class="fa fa-github"></i></a></div><div><a href="/about/">Term of Use</a></div><div><a href="mailto:intl@ocf.tw">Contact Us</a></div><div data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true" class="fb-share-button"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fopengovreport.ocf.tw" class="fb-xfbml-parse-ignore">分享</a></div><a href="https://twitter.com/intent/tweet?text=https://opengovreport.ocf.tw" class="twitter-share-button"><i class="fa fa-twitter"></i> Tweet</a></div></div></div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-49953904-1', 'loading.io');
+ga('create', 'UA-102190863-3', 'opengovreport.ocf.tw');
 ga('send', 'pageview');</script><div id="fb-root"></div><script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
