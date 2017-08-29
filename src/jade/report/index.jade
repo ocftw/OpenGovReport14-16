@@ -3,6 +3,14 @@ block vars
 block head
   script(type="text/javascript",src="/js/report/index.js")
 block body
+  mixin next_zh(v)
+    .sep.huge-gap
+    .text-center
+      .btn.btn-success.btn-lg(ng-click="gotab(" +v + ")") 下一章
+  mixin next_en(v)
+    .sep.huge-gap
+    .text-center
+      .btn.btn-success.btn-lg(ng-click="gotab(" +v + ")") Next Chapter
   a.btn.btn-default(style="position:fixed;bottom:20px;right:20px;z-index:10",href="#landing") #[i.fa.fa-arrow-up]
   #landing
     .abs
@@ -17,6 +25,7 @@ block body
       li.clickable(ng-click="tab=3",ng-class="{'active':tab==3}"): a 3. #{_("公民參與")}
       li.clickable(ng-click="tab=4",ng-class="{'active':tab==4}"): a 4. #{_("公民科技協作關係")}
       li.clickable(ng-click="tab=5",ng-class="{'active':tab==5}"): a 5. #{_("結論")}
+      li.clickable(ng-click="tab=6",ng-class="{'active':tab==6}"): a 6. #{_("參考書目")}
     .row
       #toc.col-sm-4(ng-click="toc.handle($event)")
         if lang == 'zh'
@@ -32,6 +41,8 @@ block body
             include:markdown /partial/toc/ch-4.html
           div(ng-show="tab==5")
             include:markdown /partial/toc/ch-5.html
+          div(ng-show="tab==6")
+            include:markdown /partial/toc/reference.html
         if lang == 'en'
           div(ng-show="tab==0")
             include:markdown /partial/toc/en/ch-0.html
@@ -45,35 +56,54 @@ block body
             include:markdown /partial/toc/en/ch-4.html
           div(ng-show="tab==5")
             include:markdown /partial/toc/en/ch-5.html
+          div(ng-show="tab==6")
+            include:markdown /partial/toc/en/reference.html
 
       #content.col-sm-8
         if lang == 'zh'
           .ch-0(ng-show="tab==0")
             include:markdown /partial/report/ch-0.html
+            +next_zh(1)
           .ch-1(ng-show="tab==1")
             include:markdown /partial/report/ch-1.html
+            +next_zh(2)
           .ch-2(ng-show="tab==2")
             include:markdown /partial/report/ch-2.html
+            +next_zh(3)
           .ch-3(ng-show="tab==3")
             include:markdown /partial/report/ch-3.html
+            +next_zh(4)
           .ch-4(ng-show="tab==4")
             include:markdown /partial/report/ch-4.html
+            +next_zh(5)
           .ch-5(ng-show="tab==5")
             include:markdown /partial/report/ch-5.html
+            +next_zh(6)
+          .ch-6(ng-show="tab==6")
+            include:markdown /partial/report/reference.html
+
 
         if lang == 'en'
           .ch-0(ng-show="tab==0")
             include:markdown /partial/report/en/ch-0.html
+            +next_en(1)
           .ch-1(ng-show="tab==1")
             include:markdown /partial/report/en/ch-1.html
+            +next_en(2)
           .ch-2(ng-show="tab==2")
             include:markdown /partial/report/en/ch-2.html
+            +next_en(3)
           .ch-3(ng-show="tab==3")
             include:markdown /partial/report/en/ch-3.html
+            +next_en(4)
           .ch-4(ng-show="tab==4")
             include:markdown /partial/report/en/ch-4.html
+            +next_en(5)
           .ch-5(ng-show="tab==5")
             include:markdown /partial/report/en/ch-5.html
+            +next_en(6)
+          .ch-6(ng-show="tab==6")
+            include:markdown /partial/report/en/reference.html
 
     .sep.huge-gap
     +nbr(1)

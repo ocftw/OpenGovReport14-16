@@ -147,7 +147,7 @@ base = do
       for i from 0 til list.length =>
         item = $(list[i])
         if item.0.name == \h2 and !(item.text!trim! in ["關鍵結論","Key Findings"]) => skip = false
-        if !skip => output.push "#{map[item.0.name]}#{item.text!}"
+        if !skip => output.push "#{map[item.0.name]}#{item.text!trim!replace /(\d+\.)?/, ''}"
         if item.0.name == \h2 and item.text!trim! in ["關鍵結論","Key Findings"] => skip = true
       output = output.join("\n")
       output = md.render output

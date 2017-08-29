@@ -1,6 +1,9 @@
 angular.module \ogr
   ..controller \report, <[$scope]> ++ ($scope) ->
     $scope.tab = 0
+    $scope.gotab = ->
+      $scope.tab = it
+      document.body.scrollTop = document.getElementById(\report).getBoundingClientRect!top + document.body.scrollTop
     $scope.toc = do
       handle: (event) ->
         text = Array.from((event.target or event.toElement).childNodes)
