@@ -233,6 +233,9 @@ base = do
         console.log "[BUILD] #src failed: "
         console.log e.message
       _src = src
+      if /partial.+\.html/.exec(src) =>
+        [_src,src,type] = [src, \src/jade/report/index.jade, \other]
+        srcs ++= src
       if srcs.indexOf(_src) < 0 and type == \jade => srcs ++= _src
       if type == \other => srcs = srcs.filter(->it != _src)
       logs = []
