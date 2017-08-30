@@ -192,4 +192,3 @@
 參考 http://www.ey.gov.tw/News_Content.aspx?n=4E506D8D07B5A38D&s=5C49032AC4D46C4D
 [^second]:參考g0v 社群[〈開放政府資料法〉](https://g0v.hackpad.com/ep/pad/static/b6gTMfhXMYY)。文件授權 CC BY 4.0。
 [^third]:參考 ["OPEN Government Data Act moves to Senate floor after markup"](http://www.rstreet.org/2017/05/18/open-government-data-act-moves-to-senate-floor-after-markup/)
-
