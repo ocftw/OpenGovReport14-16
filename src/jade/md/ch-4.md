@@ -209,7 +209,6 @@ vTaiwan 雖然已納入行政院法規調適的機制中，但是如 UBER、網�
     <td>業務單位不清楚如何測試，也沒有專案管理的方式來執行、運作該系統，因此仰賴廠商。</td>
   </tr>
 </table>
-![<some-comment>](https://opengovreport.ocf.tw/assets/img/md/4-1.png)
 
 <圖表 4.1> 資訊採購所面臨的問題[^eighth]
 
@@ -244,7 +243,7 @@ vTaiwan 雖然已納入行政院法規調適的機制中，但是如 UBER、網�
   </tr>
 </table>
 
-![<some-comment>](https://opengovreport.ocf.tw/assets/img/md/4-2.png)
+![Figure 4-2](https://opengovreport.ocf.tw/assets/img/md/4-2.png)
 
 <圖表 4.2> 公民科技協作的四種模式
 
