@@ -79,7 +79,6 @@
 
 本文使用 Blulu 列車量表，以判斷公民參與發生在政策制定過程中的哪一個階段。一般來說，公民參與發生在越早期，後續越不容易出現爭議。	
 
-![](https://i.imgur.com/fZf2Y5w.png)
 	
 ![Figure 3-1](https://opengovreport.ocf.tw/assets/img/md/3-1.png)
 <圖表 3.1> Blulu 列車量表A－－政策制訂週期
