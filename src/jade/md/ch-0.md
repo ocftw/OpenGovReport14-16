@@ -19,7 +19,7 @@
 意指政府以口號與表面工夫裝點出「開放」的態度與形式，但實質上，並沒有納入公民社會的不同意見，讓開放與參與僅成為幫政府背書的宣傳語，而無發揮具體的影響力。開放式洗白表面上擁抱開放，但實際作為卻與開放的精神背道而馳，使得公民社會對開放、參與產生狹隘的想像。
 ```
 
-![<some-comment>](https://opengovreport.ocf.tw/assets/img/md/0-2.png)
+![Figure 0-2](https://opengovreport.ocf.tw/assets/img/md/0-2.png)
 
 
 ### 註解 
