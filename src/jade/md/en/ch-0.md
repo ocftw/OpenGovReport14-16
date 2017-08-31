@@ -20,7 +20,7 @@ The body of this report consists of four chapters. It begins with a review of op
 Taiwan Open Government Report is a research project conducted by the Open Culture Foundation (OCF). The OCF was established in 2014 with the support of multiple open source communities in Taiwan. Its mission is to promote open source, open data, and open government. OCF researchers, Lee Mei-chun and Tseng Po-yu, collected the materials, wrote, and edited this report. During the research, civic tech communities were invited to collaborate in hackathons and workshops. The drafts were also open to public comments. This report could not be possible without the help of many dedicated members from the g0v community, the open data community, and the government. We appreciate all the comments and critiques. This report is published in both Chinese and English, inviting both domestic and international readers to learn about Taiwan’s experiences. We would also like to invite readers to interact with us and play with the data on the report’s official website, OPENGOVREPORT.OCF.TW. We hope that the report served as an open platform for participation so that the conversation will continue long into the future.
 
 
-![Figure 0-1en](https://opengovreport.ocf.tw/assets/img/md/0-1en.png)
+![Figure 0-1en](https://opengovreport.ocf.tw/assets/img/md/en/0-1en.png)
 
 
 ### Note
