@@ -25,9 +25,6 @@ The Taiwanese Government has worked on open data for many years and made various
 
 :::
 
-//插圖
-Figure 2.1 Results of Open Data Survey
-
 
 ## 2-1. Introduction
 
@@ -93,7 +90,7 @@ Table 2.3 The Open Definition 2.1
 
 Compared to this relatively strict definition, Tim Berners-Lee, one of the inventors of the Web, suggested a 5-star deployment scheme for Open Data (Table 2.4) to evaluate how open a dataset is. When the two definitions are put side by side, it is easy to see that the four requirements of the former also play key roles in the latter. To get four stars or more, however, apart from the requirements, the data also needs to be connected, put on the Web, and generate more benefits in terms of application.
 
-![Figure 2-3en](https://opengovreport.ocf.tw/assets/img/md/2-3en.png)
+![Figure 2-3en](https://opengovreport.ocf.tw/assets/img/md/en/2-3en.png)
 
 Table  2.4  5-Star Open Data
 
