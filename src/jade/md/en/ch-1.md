@@ -104,7 +104,7 @@ However, the online petition website, JOIN.GOV.TW, is worth mentioning because o
 
 ### Current Organizational Structure
 
-![Figure 1-1en](https://opengovreport.ocf.tw/assets/img/md/1-1en.png)
+![Figure 1-1en](https://opengovreport.ocf.tw/assets/img/md/en/1-1en.png)
 Figure 1.2 Organizational Structure
 
 Currently, open data policy is mainly driven and implemented by the Executive Yuan. All second-level agencies under the Executive Yuan are required to set up an open government data advisory team and upload the data to DATA.GOV.TW pursuant to the Operating Principle. On the other hand, the Industrial Development Bureau (IDB) is responsible for encouraging the development of open data applications to create value-added, which includes promoting the innovation of relevant industries. 
