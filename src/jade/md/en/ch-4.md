@@ -221,7 +221,7 @@ Civic tech is not necessarily mutually exclusive with IT procurement. For exampl
 
 From the above cases, we identify four models for civic tech collaboration based on the interactive models and how closely the parties work together:
 
-![Figure 4-1en](https://opengovreport.ocf.tw/assets/img/md/4-1en.png) 
+![Figure 4-1en](https://opengovreport.ocf.tw/assets/img/md/en/4-1en.png) 
 
 Table 4.2 Four models for civic tech collaboration
 
