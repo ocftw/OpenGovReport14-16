@@ -93,28 +93,7 @@ Table 2.3 The Open Definition 2.1
 
 Compared to this relatively strict definition, Tim Berners-Lee, one of the inventors of the Web, suggested a 5-star deployment scheme for Open Data (Table 2.4) to evaluate how open a dataset is. When the two definitions are put side by side, it is easy to see that the four requirements of the former also play key roles in the latter. To get four stars or more, however, apart from the requirements, the data also needs to be connected, put on the Web, and generate more benefits in terms of application.
 
-<table>
-  <tr>
-    <td>✭</td>
-    <td>available on the Web (whatever format) under an open license</td>
-  </tr>
-  <tr>
-    <td>✭✭</td>
-    <td>available as structured data (e.g. Excel instead of image scan of a table)</td>
-  </tr>
-  <tr>
-    <td>✭✭✭</td>
-    <td>available in a non-proprietary open format (e.g. CSV instead of Excel)</td>
-  </tr>
-  <tr>
-    <td>✭✭✭✭</td>
-    <td>use URIs to denote things, so that people can point at your stuff</td>
-  </tr>
-  <tr>
-    <td>✭✭✭✭✭</td>
-    <td>link your data to other data to provide context</td>
-  </tr>
-</table>
+![Figure 2-3en](https://opengovreport.ocf.tw/assets/img/md/2-3en.png)
 
 Table  2.4  5-Star Open Data
 
@@ -288,63 +267,131 @@ In terms of open data, the Taiwanese Government attaches much importance to the 
 
 ## 2-3 Implementation of Open Data
 
-//插入圖片//
+<table>
+  <tr>
+  <td td colspan="6" align='center'><b>Implementation 77</b></td>
+  </tr>
+  <tr>
+    <td align='center'>Law and Organization<br>61</td>
+    <td align='center'>Government Accountability<br>68</td>
+    <td align='center'>Government Operations<br>70</td>
+    <td align='center'>Public Safety<br>81</td>
+    <td align='center'>Public Services <br>90</td>
+    <td align='center'>Economic Activities<br>89</td>
+  </tr>
+</table>
 Table 2.8 Scores of the subcategory of implementation 
 
 ### Law and Organization
 
 > * Most Key Datasets Are Still not Released by Open Data Standards
 
-//插入圖片//
-Table 2.9 Scores of law and organization datasets
-
 Among all datasets under law and organization, we compared those released on DATA.GOV.TW and those released by the individual agency on its website. We found that the former to be relatively simple (ex. judiciary datasets) or not updated (ex. personnel datasets). Therefore, in our assessment, we chose the version released on the agency website. However, the data on agency websites is often published as public information instead of open data. For example, the Directorate-General of Personnel Administration of the Executive Yuan has extensive statistics regarding all local government agencies under the Executive Yuan, yet these statistics are not offered in an open format and contained merged cells which make machine reading very difficult. Also, the Judicial Yuan [^eleventh] has far more judiciary datasets than the Ministry of Justice (MOJ) but most of them are not machine-readable or available for batch download. In addition, the MOJ provides both Traditional Chinese and English versions of laws and regulations in XML format, but its licensing terms are not in accordance with the Open Definition 2.1.
+
+<table>
+  <tr>
+  <td td colspan="3" align='center'><b>Law and Organization 65</b></td>
+  </tr>
+  <tr>
+    <td align='center'>Laws and Regulations<br>65</td>
+    <td align='center'>Government Structure and Personnel<br>80</td>
+    <td align='center'>Judiciary and Judgment<br>39</td>
+  </tr>
+</table>
+Table 2.9 Scores of law and organization datasets
 
 ### Government Accountability
 
 > * Need to Accelerate the Opening of Government Spending Data and Data on the Sunshine Acts Website
 
-//插入圖片//
-Table 2.10  Scores of government accountability
-
 This type of datasets shared the same issue as the last type. Key datasets, especially those opened on the Sunshine Acts website, such as political donations, property declaration, and administrative penalties, can only be accessed through system inquiry instead of being organized into open data available for batch download. This makes the data very difficult to be read by a machine or used in technological applications by citizens. Moreover, although government budgets are already open on DATA.GOV.TW, the actual spending is still released in an annual or monthly report not easy to access or search, making it almost impossible for the people to monitor the government through the data. The Central Election Commission (CEC) does offer comparatively complete election data but the recall statistics are yet to be opened on DATA.GOV.TW.
 
+<table>
+  <tr>
+  <td colspan="3" align='center'><b>Government Accountability 68</b></td>
+  </tr>
+  <tr>
+    <td align='center'>Election and Recall<br>83</td>
+    <td align='center'>Budgets and Fiscal Balance<br>76</td>
+    <td align='center'>Civil Service Ethics and Accountability<br>45</td>
+  </tr>
+</table>
+Table 2.10  Scores of government accountability
 
 ### Government Operations
 
 > * National Defense and Diplomacy a Black Box, Government-Endowed Incorporated Foundations not Monitor-able
 
-//插入圖片//
-Table 2.11  Scores of government operations 
-
 In this type of datasets, the procurement and part of the census datasets were relatively open with room for improvement in mapping and cartographic census data. As for the dataset regarding basic information of incorporated foundations, little could be found regarding government-endowed incorporated foundations despite that fact that these foundations receive huge budgets from the government and should, therefore, be monitored by the people. This means that this type of foundation can easily be manipulated by fat cats and lead to serious corruption. The national defense and diplomacy datasets were the least open ones, second only to judiciary data. Various key data, such as treaties and agreements, and results of assistant diplomacy, is scattered across government websites and offered in a non-open manner with indistinct license indication, unclear update times, and more.
+
+<table>
+  <tr>
+  <td colspan="4" align='center'><b>Government Operations 70</b></td>
+  </tr>
+  <tr>
+    <td align='center'>Census Data<br>76</td>
+    <td align='center'>Basic Information of Incorporated Foundations<br>69</td>
+    <td align='center'>Procurement<br>94</td>
+    <td align='center'>National Defense and Diplomacy<br>41</td>
+  </tr>
+</table>
+Table 2.11  Scores of government operations 
 
 ### Public Safety
 
 > * Criminal and Environment Datasets were Relatively Open While Local Public Inspection Dataset was Barely Organized
 
-//插入圖片//
-Table 2.12  Scores of public safety
-
 The crime and the environment datasets were comparatively open but the public inspection dataset was scattered and fragmentary. Since public inspections are conducted by local governments, relevant datasets are scattered across local government websites. However, local governments open their data in varying degrees so the data needed to be manually processed before integrated analysis and application could be carried out. Environmental datasets were relatively open and there was real-time monitoring data of both water quality and air quality.
+
+
+<table>
+  <tr>
+  <td colspan="3" align='center'><b>Public Safety 81</b></td>
+  </tr>
+  <tr>
+    <td align='center'>Public Inspection and Violation<br>67</td>
+    <td align='center'>Crime and Incident<br>90</td>
+    <tdalign='center'>Environment<br>85</td>
+  </tr>
+</table>
+Table 2.12  Scores of public safety
 
 ### Public Services
 
 > * Very Open, Traffic Data Could be Ranked as 4-Start Linked Data
 
-//插入圖片//
-Table 2.13 Scores of public services
-
 These types of datasets were very open, proving that open data is the foundation for better public services. In the infrastructure datasets, traffic data was the most open and could be considered as linked data. Water and electricity data was also quite open thanks to the hard work of the Ministry of the Economic Affairs (MOEA), which has encouraged public service corporations to open their data since 2016. Healthcare data was rather open, too. The Ministry of Health and Healthcare setup an open data platform [^twelfth] to provide many open datasets on medical and healthcare. As for education datasets, part of the more complete data was published on the statistics and inquiry website of the Ministry of Education (MOE) [^thirteenth]. The MOE offers a lot of machine-readable data but has no license terms that indicate the data is open.
+
+<table>
+  <tr>
+  <td colspan="3" align='center'><b>Public Services 90</b></td>
+  </tr>
+  <tr>
+    <td align='center'>Infrastructure<br>96</td>
+    <td align='center'>Healthcare<br>90</td>
+    <td align='center'>Basic Education<br>83</td>
+  </tr>
+</table>
+Table 2.13 Scores of public services
 
 ### Economic Activities
 
 > * Relatively Open Except for Land Value
 
-//插入圖片//
-Table 2.14 Scores of economic activities
-
 This type of datasets was highly open, which reveals that economic development takes priority in the government’s open data efforts. Multiple key datasets were already integrated on DATA.GOV.TW. Among the datasets, land value data can only be accessed through an inquiry and is offered as open data available for user download.
+
+<table>
+  <tr>
+  <td colspan="4" align='center'><b>Economic Activities 89</b></td>
+  </tr>
+  <tr>
+    <td align='center'>Production and Various Licenses<br>86.25</td>
+    <td align='center'>Real Estate and Finance<br>82.5</td>
+    <td align='center'>International Trade<br>95</td>
+    <td align='center'>Labor<br>93</td>
+  </tr>
+</table>
+Table 2.14 Scores of economic activities
 
 ## 2-4 Impact of Open Data
 
@@ -377,7 +424,7 @@ The data economy has always been an important aspect of open data to the governm
 
 <table>
   <tr>
-    <td> </td>
+    <td>Impact on </td>
     <td>Current Situation</td>
     <td>Problems</td>
     <td>Possible Solutions</td>
@@ -442,6 +489,6 @@ Another global evolution, the Open Data Barometer (ODB), adopts a methodology th
 [^eleventh]:From 2017, the Judicial Yuan has started to speed up releasing open data on DATA.GOV.TW.
 [^twelfth]:http://data.nhi.gov.tw/
 [^thirteenth]:https://stats.moe.gov.tw/qframe.aspx?qno=MgA3AA2
-[^fourteenth]:Please see [g0v.news](https://g0v.news/%E5%85%AC%E5%8B%99%E5%93%A1%E5%8C%BF%E5%90%8D%E5%85%B1%E7%AD%86%E2%85%B0-%E5%B0%8D%E6%96%BC%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E5%AF%A6%E8%B8%90%E7%8F%BE%E6%B3%81%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%8B%E8%A7%80%E5%AF%9F-dc93e7ab19cf), 2017/03/22. 
+[^fourteenth]:Please see [“The Anonymous Notes from Civil Servants,” g0v.news, 2017/03/22.](https://g0v.news/%E5%85%AC%E5%8B%99%E5%93%A1%E5%8C%BF%E5%90%8D%E5%85%B1%E7%AD%86%E2%85%B0-%E5%B0%8D%E6%96%BC%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E5%AF%A6%E8%B8%90%E7%8F%BE%E6%B3%81%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%8B%E8%A7%80%E5%AF%9F-dc93e7ab19cf), 2017/03/22. 
 [^fifteenth]:See [Transparency Footprint project](https://thaubing.gcaa.org.tw)
 
