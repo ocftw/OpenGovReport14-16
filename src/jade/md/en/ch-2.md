@@ -348,7 +348,7 @@ The crime and the environment datasets were comparatively open but the public in
   <tr>
     <td align='center'>Public Inspection and Violation<br>67</td>
     <td align='center'>Crime and Incident<br>90</td>
-    <tdalign='center'>Environment<br>85</td>
+    <td align='center'>Environment<br>85</td>
   </tr>
 </table>
 Table 2.12  Scores of public safety
