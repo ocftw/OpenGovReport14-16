@@ -11,16 +11,16 @@ Citizen participation models built on deliberative democracy and open government
 
 Realization of citizen participation relies on the political will of politicians. The success of promoting participation lies in horizontal connections and the willingness of leaders to be integrated into this process, which then pushes the agencies and departments within the bureaucracy to get involved.
 
-### The stage of policy making at which citizen participation is introduced directly affects its significance** 
+### The stage of policy making at which citizen participation is introduced directly affects its significance
 
 The stage of policy making at which citizen participation is introduced has a decisive influence on the impact of participation. In addition, agenda setting, choice of issues, and the initiatives all play important roles. The method and process of participation also determine the quality of participation.
 
-### Citizen participation is still largely experimental while some models are being institutionalized**
+### Citizen participation is still largely experimental while some models are being institutionalized
 
 Most cases of citizen participation in this chapter were experimental. A few were implemented through administrative orders and some are being normalized or institutionalized, such as participatory budgeting at the local level.
 
  
-### To improve the quality of participation, it is important to train civil servants in deliberative skills and invite intermediaries to help simplify the language and connect different parties.
+### To improve the quality of participation, it is important to train civil servants in deliberative skills and invite intermediaries to help simplify the language and connect different parties
 
 Currently, empowering and training civil servants is the most urgent task. It is also important to invite intermediaries to help simplify the language used during discussion in order to lower the threshold of participation. These intermediaries can also help inform citizens, and at the same time, guarantee quality discussion.
 ::: 
@@ -60,7 +60,7 @@ Our first case, the "Grassroots Forums of Civic Constitutional Convention" durin
 
 ### The Blulu Metrics
 
-We adopted the Blulu Metrics [^first] created by Lu Chia-hua and ET Blue to analyze the level and the quality of participation. The analysis looks into both the composition of participants and the impacts of citizen participation on the overall policy-making process. We made some adjustment to the Metrics to make it more suitable for our analysis. Also, to help readers quickly grasp the results of the analysis, the results will be communicated in both commentary and visualized scales. The purpose of Blulu Metrics is to help more people understand the structure of deliberation, the citizen participation process, and its challenges. The following paragraphs will explain how we used the Metrics.
+We adopted the Blulu Metrics [^first] created by Lu Chia-hua and ET Blue to analyze the level and the quality of participation. The analysis looks into both the composition of participants and the impacts of citizen participation on the overall policy-making process. We made some adjustments to the Metrics to make it more suitable for our analysis. Also, to help readers quickly grasp the results of the analysis, the results will be communicated in both commentary and visualized scales. The purpose of Blulu Metrics is to help more people understand the structure of deliberation, the citizen participation process, and its challenges. The following paragraphs will explain how we used the Metrics.
 
 We selected four tools from Blulu Metrics Family—Blulu Train A & B, Blulu Pizza, and Blulu Meter—to answer the following four questions in each case:
 
@@ -69,12 +69,12 @@ We selected four tools from Blulu Metrics Family—Blulu Train A & B, Blulu Pizz
 3. Who were the participants?
 4. What was the level of openness?
 
-**I. Blulu Train A: At Which Stage of Policy Lifecycle Was Citizen Participation Involved?**
+**I. Blulu Train A: At Which Stage of Policy Life Cycle Was Citizen Participation Involved?**
 
 The Blulu Train A was used to determine the stage of the policy-making process at which citizen participation was involved. Generally speaking, the earlier it is involved, the less likely there will be a controversy at later stages.
 
-//插圖
-Figure 3.1 Blulu Train A (Policy Lifecycle)
+![Figure 3-1en](https://opengovreport.ocf.tw/assets/img/md/3-1en.png)
+Figure 3.1 Blulu Train A (Policy Life Cycle)
 
 **II. Blulu Train B: What Was the Quality of Deliberation?**
 
@@ -89,14 +89,14 @@ Blulu Train B divides the deliberation process into eight stages and each corres
 7. Did the government respond to the conclusions in meaningful ways? Did the government make any concrete promise or use the conclusions as the basis for decision-making and judgment?
 8. Could the government be held accountable for the results of deliberation? Was there an appointed executive unit in the government? Was there any feedback mechanism that could be used for evaluation?
 
-//插圖
+![Figure 3-2en](https://opengovreport.ocf.tw/assets/img/md/3-2en.png)
 Figure 3.2 Blulu Train B (Public Deliberation Process)
 
 **III. Blulu Pizza: Who Were the Participants?**
 
 Blule Pizza was used to evaluate the participants. Generally speaking, citizens are welcomed to participate and civil servants are often invited as well to show their political will. Quality citizen participation usually includes civil servants and stakeholders.
  
-//插圖
+![Figure 3-3en](https://opengovreport.ocf.tw/assets/img/md/3-3en.png)
 Figure 3.3 Blulu Pizza
 
 
@@ -104,10 +104,10 @@ Figure 3.3 Blulu Pizza
 
 Blulu Meter evaluates the level of openness in the policy-making process in the long run from three perspectives. The first is the healthiness of the procedure, the second is the openness of participation, and the third is policy continuity.
 
-//插圖 
+![Figure 3-4en](https://opengovreport.ocf.tw/assets/img/md/3-4en.png)
 Figure 3.4 Blulu Meter
 
-## 3-2. The Grassroots Forums of Civic Constitutional Convention
+## 3-2. Case Study: The Grassroots Forums of Civic Constitutional Convention
 
 > * Feature: bottom-up citizen participation
 > * Method: Occupy movement hand signals and group discussion
@@ -135,27 +135,27 @@ In 2015, the drive for change in the society quickly died down. The Civil Moveme
 
 The Civil Movement for Constitutional Reform planned to use the Grassroots Forums as a platform to collect and organize issues regarding constitutional reform. According to Blulu Train A, the forums were held at the problem analysis stage of constitutional reform.
 
-//插圖
+![Figure 3-5en](https://opengovreport.ocf.tw/assets/img/md/3-5en.png)
 
 **II. Quality of Deliberation**
 
 The agendas of Grassroots Forums were set by CSOs with the help of the Civil Movement for Constitutional Reform. The CSOs’ views were taken into account during research and survey and participants were informed by experts’ introduction on the issues. However, since the forums were initiated by civil society and not institutionalized, the organizers could not move to government response and accountability.
 
-//插圖
+![Figure 3-6en](https://opengovreport.ocf.tw/assets/img/md/3-6en.png)
 
 **III. Participants → No Civil Servants**
 
 The Grassroots Forums were organized by CSOs and were open to citizens and, when on specific issues, private stakeholders, but no civil servants participated in the forums.
 
-//插圖
+![Figure 3-7en](https://opengovreport.ocf.tw/assets/img/md/3-7en.png)
 
 **IV. Level of Openness → High, but It Was not a Legal Procedure**
 
 The Civil Movement for Constitutional Reform was relatively open as it was initiated by CSOs and various stakeholders were invited. However, since it was not legalized, the results were not implemented and thus impossible to be evaluated.
 
-//插圖 
+![Figure 3-8en](https://opengovreport.ocf.tw/assets/img/md/3-8en.png)
 
-## 3-3. Youth World Café
+## 3-3. Case Study: Youth World Café
 
 > * Feature: failure of citizen participation on specific issues
 > * Method: World Café
@@ -181,27 +181,27 @@ However, one of the proposals from the World Café was later turned into an onli
 
 The National Conference on Trade and Economic Affairs was convened because of the Sunflower Movement, which occurred during the legalization process of the Cross-Strait Service Trade Agreement (CSSTA).
 
-//插圖 
+![Figure 3-9en](https://opengovreport.ocf.tw/assets/img/md/3-9en.png)
 
 **II. Quality of Deliberation**
 
 The agenda setting, research, and survey of the Word Café were all conducted by the Executive Yuan. There were project reports and presentations during the process, but they failed to achieve open participation and make participants fully informed. There were discussion and voting during the process and the Executive Yuan promised to make modifications accordingly and follow up on the progress of the modifications [^fifth].
 
-//插圖
+![Figure 3-10en](https://opengovreport.ocf.tw/assets/img/md/3-10en.png)
 
 **III. Participants→ Not All Stakeholders Were Invited**
 
 Both political appointees and civil servants attended the National Conference. However, since the entry was on invitation basis, the conference was not open to citizens, and the topics were too big to invite all stakeholders.
 
-//插圖 
+![Figure 3-11en](https://opengovreport.ocf.tw/assets/img/md/3-11en.png)
 
 **VI. Level of Openness→ Low**
 
 The National Conference can be thought of as a crisis management mechanism that only occurs when there is a major policy to be made. It is not a normal procedure for decision-making. The quality of participation is rather low due to the fact that participants are limited and that the stages of participation are far from comprehensive.
 
-//插圖 
+![Figure 3-12en](https://opengovreport.ocf.tw/assets/img/md/3-12en.png) 
 
-## 3-4. Feiyan New Village
+## 3-4. Case Study: Feiyan New Village
 
 > * Feature: citizen participation on a specific issue with a relatively complete procedure
 > * Method: scenario workshop and Rural-Urban Forum
@@ -246,28 +246,29 @@ How to include citizen participation into existing institutions is another key i
 
 In the Feiyan New Village urban renewal project, citizen participation was initiated before the development plan went into the legal process, so it was carried out during the policy planning phase. 
 
-//插圖
+![Figure 3-13en](https://opengovreport.ocf.tw/assets/img/md/3-13en.png) 
 
 **II. Quality of Deliberation**
 
 The agendas of scenario workshops and the Rural-Urban Forum were confirmed by the workshop team and the participants conducted research and surveys on the issue at hand. The City Government also provided sufficient information and officials were on site to respond quickly and to appoint relevant units to take up responsibility, achieving accountability. In the Rural-Urban Forum, the discussion and research materials from the scenario workshops were presented in the forum manual to make participants informed and the discussion in the forum served as a reference for the City Government in decision-making.
 
-//插圖
+![Figure 3-14en](https://opengovreport.ocf.tw/assets/img/md/3-14en.png) 
+![Figure 3-15en](https://opengovreport.ocf.tw/assets/img/md/3-15en.png) 
 
 **III. Participants → Citizens and Government Representatives**
 
 The participants of the scenario workshops included appointed officials, civil servants, and stakeholders while in the Rural-Urban Forum, in addition to the three types of participants mentioned, there were also the chosen citizens.
 
-//插圖
+![Figure 3-16en](https://opengovreport.ocf.tw/assets/img/md/3-16en.png) 
 
 **IV. Level of Openness→ Lack Policy Continuity as It Was Only on One Issue**
 
 From the above analysis, it can be observed that the participation in the Feiyan New Village case had a rather good procedure and high level of openness. However, this case was specially chosen by the City Government to practice citizen participation and did not kick off an overall mechanism. 
 
-//插圖
+![Figure 3-17en](https://opengovreport.ocf.tw/assets/img/md/3-17en.png) 
  
 
-## 3-5. Taipei City’s i-Voting
+## 3-5. Case Study: Taipei City’s i-Voting
 
 > * Feature: the first electronic voting system in Taiwan
 > * Method: local referendum in electronic and physical forms
@@ -298,27 +299,27 @@ The Shezidao case revealed the flaws of the i-Voting system. This online voting 
 
 Citizens participated at the planning stage before the urban planning project went into legal procedures.
 
-//插圖
+![Figure 3-18en](https://opengovreport.ocf.tw/assets/img/md/3-18en.png) 
 
 **II. Quality of Deliberation**
 
 The agenda setting, research and survey of the solutions on the i-Voting in the Shezidao case were conducted by the City Government. Although participants were informed, there was no discussion in the process. Also, the project that won the vote was not the final decision because of the possible revisions by various committees.
 
-//插圖
+![Figure 3-19en](https://opengovreport.ocf.tw/assets/img/md/3-19en.png) 
 
 **III. Participants → Lacked Dialogue**
 
 Even though local residents and Taipei citizens both can vote, there was no dialogue between citizens and the government.
 
-//插圖
+![Figure 3-20en](https://opengovreport.ocf.tw/assets/img/md/3-20en.png) 
 
 **IV. Level of Openness→ Not a Healthy Process but It Has Policy Continuity**
 
 The i-Voting system is not a very healthy process of citizen participation. Its design lacks room for public discussion and its agenda setting is not truly open, which can be seen in the Shezidao case. However, as the system is backed by an administrative order, it is expected that it will have policy continuity.
 
-//插圖
+![Figure 3-21en](https://opengovreport.ocf.tw/assets/img/md/3-21en.png) 
 
-## 3-6. The Join Platform
+## 3-6. Case Study: The Join Platform
 
 > * Feature: the first public policy discussion platform in Taiwan
 > * Method: provide policy suggestion on an online platform
@@ -326,13 +327,13 @@ The i-Voting system is not a very healthy process of citizen participation. Its 
 
 ### The Join Platform
 
-As one of the conclusions of the National Conference on Trade and Economic Affairs, the Join Platform was set up by the[ National Development Council](http://www.ndc.gov.tw/) (NDC) in 2015 to encourage online citizen participation. It took reference from the White House website, We the People [^seventh]. The platform serves as a channel of revealing policy information and enhancing citizen participation in public affairs on a regular basis.
+As one of the conclusions of the National Conference on Trade and Economic Affairs, the Join Platform was set up by the [National Development Council](http://www.ndc.gov.tw/) (NDC) in 2015 to encourage online citizen participation. It took reference from the White House website, We the People [^seventh]. The platform serves as a channel of revealing policy information and enhancing citizen participation in public affairs on a regular basis.
 
 There are four functions on the Join platform: "Propose an Idea" (by citizens), “Have a Discussion” (consultation before a policy is formed), “Let’s Oversee” (key policies), and “Talk to the Ministers” (links to mailboxes of Ministers for citizens to express their views). Through the Join platform, citizens can make policy proposals online and the responsible agency is bound to respond openly and in detail on the platform within two months.
 
 ```!
 THE JOIN PLATFORM
-All proposals on the Join Platform have to go through two stages of petition. There has to be 250 signatures in 15 days at the first stage and 5000 signatures in 30 days at the second stage for a proposal to become a case. After that, the responsible agency has to give a response in two month. The agency can hold consultation meetings and invite the proposer to attend. All of the meeting materials has to be open on the platform.
+All proposals on the Join Platform have to go through two stages of petition. There has to be 250 signatures in 15 days at the first stage and 5000 signatures in 30 days at the second stage for a proposal to become a case. After that, the responsible agency has to give a response in two months. The agency can hold consultation meetings and invite the proposer to attend. All of the meeting materials has to be open on the platform.
 ```
 
 ### Fast and Convenient but Difficult to Have a Discussion
@@ -347,27 +348,27 @@ However, the current design makes it difficult to have a meaningful "discussion.
 
 The Join platform enables citizens to have a voice on policy directions, so they participated at the problem analysis stage.
 
-//插圖
+![Figure 3-22en](https://opengovreport.ocf.tw/assets/img/md/3-22en.png) 
 
 **II. Quality of Deliberation**
 
 The agenda setting, research, and survey of proposals on the Join platform are all conducted by the person proposing the policy. Since they only need to provide the reason for proposing the item, it cannot be certain whether they are well informed. The petition process is practically an open, lax, single-option vote. As the responsible agency is only required to give a response, it is difficult to achieve accountability.
 
-//插圖
+![Figure 3-23en](https://opengovreport.ocf.tw/assets/img/md/3-23en.png) 
 
 **III. Participants → Hard to Tell**
 
 The Join platform is open to all citizens. It does not put any special weight on stakeholders.
 
-//插圖
+![Figure 3-24en](https://opengovreport.ocf.tw/assets/img/md/3-24en.png) 
 
 **IV. Level of Openness→ Not All Stages Are Open for Participation, Good Prospect of Policy Continuity**
 
 The Join platform is simply a petition platform. While it can stimulate public attention on the issue at hand, whether later stages of policy-making are open depends on the responsible agency. Still, since the platform is supported by an administrative order, its prospect of policy continuity is comparatively good.
 
-//插圖
+![Figure 3-25en](https://opengovreport.ocf.tw/assets/img/md/3-25en.png) 
 
-## 3-7. Participatory Budgeting
+## 3-7. Case Study: Participatory Budgeting
 
 ```!
 PARTICIPATORY BUDGETING 
@@ -425,7 +426,7 @@ The counsellors then invited those who handed in the sheet to participate in the
 
 Officials from relevant departments then provided budgeting and feasibility suggestions to the revised plans in the finalization workshop. Negotiation and text revision between the two parties were done on site. The final proposals were voted in the voting fair and there was the option to vote down on the ballots.
 
-**Focus on Empowerment and Learning**
+**Focus on Empowerment**
 
 Compared to other PB cases, the process of the energy conservation PB focused on the "empowerment" of the local community. It was designed to lower the threshold of participation as much as possible. Ludi Community College also put efforts into reaching people who were not frequently mobilized by local political powers. Moreover, the process was designed to increase local proposers’ confidence and competence.
 
@@ -475,4 +476,4 @@ In the cases discussed so far, digital utilization did not play a big role. In m
 [^sixth]:Regarding the controversy, the Taipei City Government proposed a [new process](https://ivoting.taipei/i-voting) in April 2017.
 [^seventh]:https://petitions.whitehouse.gov/
 [^eighth]:An electronic voting system will be used to vote on proposals in 2017
-[^ninth]:See ["Taipei City Councilor Said Participatory Budgeting Cannot Reflect Public Opinion, Budgets Suspended"](http://news.ltn.com.tw/news/life/breakingnews/1902083)
+[^ninth]:See ["Taipei City Councillor Said Participatory Budgeting Cannot Reflect Public Opinion, Budgets Suspended"](http://news.ltn.com.tw/news/life/breakingnews/1902083)
