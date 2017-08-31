@@ -30,7 +30,7 @@ This chapter will explore civic tech collaboration as a new approach through a v
 
 Public-private collaboration is not something new to our time. The idea of public-private partnerships (PPP) emerged in the 1990s, though even today academics are still divided over its precise definition. Broadly, the term PPP refers to cooperative relationships between organizations in the public and private sector, whether codified in formal contracts or spontaneously arising from shared values. Chen and Zhang (2010) pointed out that PPP participants create a high level of trust through frequent interaction, and share resources, goals, and values, thereby establishing "collaborative networks." In this chapter, our conception of public-private collaboration emphasizes civic tech collaboration created through collaborative networks between government agencies and communities or individuals. Unlike traditional PPPs, which usually refer to large-scale cooperation between governments and corporations (e.g. through the Build-Operate-Transfer model), civic tech introduces new models and cultural ideas and practices through small-scale and diverse interactions with governments.
 
-This chapter provides four case studies using in-depth interviews as the main source. We explore their respective backgrounds, problems to be solved, collaboration models, challenges faced, and possible future effects. We focus on three important facets of each case in particular (sourced from Chen and Zhang, 2010): (1) Whether the parties are equals in the power relationship, and whether they share resources, information, goals, and values; (2) Whether the collaboration process maintains an appropriate balance between collective goals and individual interests; and (3) How the participants use their social capital to create a network and build relationships of mutual trust.
+This chapter provides four case studies using in-depth interviews as the main source. We explore their respective backgrounds, problems to be solved, collaboration models, challenges faced, and possible future effects. We focus on three important facets of each case in particular (see Chen and Zhang, 2010): (1) Whether the parties are equals in the power relationship, and whether they share resources, information, goals, and values; (2) Whether the collaboration process maintains an appropriate balance between collective goals and individual interests; and (3) How the participants use their social capital to create a network and build relationships of mutual trust.
 
 
 We have seen impressive examples of civic tech in action over the past three years. Civic tech has provided aid during emergencies, improved administrative processes across organizations, opened up new channels for deliberation on important issues for the digital age, and promoting participation in environmental causes through citizen science initiatives. In Taiwan, however, civic tech collaboration remains experimental. Civic tech has mitigated the administrative inefficiencies brought on by inflexible IT procurement rules, while avoiding the problems of collusion and corruption that traditional PPP models risk.
@@ -47,9 +47,9 @@ And yet, large-scale influence remains elusive for civic tech in Taiwan due to a
 
 ### An Explosion Results in Taipei’s First Civic Tech Collaboration
 
-A dust explosion at the Formosa Fun Coast Amusement Park during a "color party" event on June 27, 2015 shocked Taiwanese society, and sparked the first example of public-private collaboration between the government of Taipei City and its tech communities. Taipei City Hall was overwhelmed with phone calls as staff attention was focused on disaster relief work, and an online platform for searching for victim information was proposed. However, the city’s Department of Information Technology had no open-ended contract in place to acquire temporary workers or equipment in emergencies, and regular procurement processes could not work quickly enough for this need. The city therefore requested aid from the communities.
+A dust explosion at the Formosa Fun Coast Amusement Park during a "color party" event on June 27, 2015 shocked Taiwanese society, and sparked the first example of public-private collaboration between the government of Taipei City and its tech communities. Taipei City Hall was overwhelmed with phone calls as staff attention was focused on disaster relief work, and an online platform for searching for victim information was proposed. However, the city’s Department of Information Technology had no open-ended contract in place to acquire temporary workers or equipment in emergencies, and regular procurement processes could not work quickly enough for this need. The City Government therefore requested aid from the communities.
 
-With this request for aid, City Hall and the community began to work together. Tech community member TonyQ first converted the list of casualties into a structured dataset and published it online. Two hours after the data was made public, volunteers across the internet had programmed ten different systems for searching the data that Taipei City Hall linked in its official website, allowing anxious friends and family to look up the status of injured loved ones.
+With this request for aid, City Hall and the community began to work together. Tech community member TonyQ first converted the list of casualties into a structured dataset and published it online. Two hours after the data was made public, volunteers across the internet had programmed ten different systems for searching the data that Taipei City Hall linked to its official website, allowing anxious friends and family to look up the status of injured loved ones.
 
 ### Open Source Programs in Disaster Prevention and Relief
 
@@ -90,7 +90,7 @@ Government is an enormous and complex machine. Over the past few decades, the ci
 
 However, identifying these small but concrete problems is precisely the challenge. 
 
-Government agencies must first clarify their needs through reviewing their processes. However, civil service training does not include process management skills. In addition, government staffers are usually too overworked to even find the time to articulate problems and clarify processes. Agencies with no IT background are usually unable to clearly describe their needs, while contractors are unable to understand the complicated inner workings of government. The enormous rift in language and culture between the two parties, the misunderstandings that arise as communication passes through level after level of the bureaucracy, coupled with complex webs of interest between bid reviewers and contractors, all contribute to the frequently absurd outcomes of IT tenders. Such tenders often result in systems that are difficult for staffers to use, or e-government services that draw waves of complaints.
+Government agencies must first identify their needs through reviewing their processes. However, civil service training does not include process management skills. In addition, government staffers are usually too overworked to even find the time to articulate problems and clarify processes. Agencies with no IT background are usually unable to clearly describe their needs, while contractors are unable to understand the complicated inner workings of government. The enormous rift in language and culture between the two parties, the misunderstandings that arise as communication passes through level after level of the bureaucracy, coupled with complex webs of interest between bid reviewers and contractors, all contribute to the frequently absurd outcomes of IT tenders. Such tenders often result in systems that are difficult for staffers to use, or e-government services that draw waves of complaints.
 
 Civic tech provides more than a single system or website; it allows external collaborators to interact directly with the agency, clearly identifying problems through long-term partnership. The system that TonyQ created is not difficult, but few are willing to spend as much time as he did as an external collaborator in low-level government offices, listening and communicating. Such external players also require the trust of the civil service system and the approval of mid- and high-level leaders. Under these conditions, TonyQ was able to continue working with the DOWS after developing the mail tracking system and began more collaboration projects. 
 
@@ -174,7 +174,7 @@ Earlier in this chapter, a contrast was drawn between civic tech and IT procurem
     <td>Overworked staffers begin planning out the budget days before the proposal is submitted, or the budget is written by contractors they know.</td>
   </tr>
   <tr>
-    <td>2. Legislature reviews and passes budget</td>
+    <td>2. Legislative reviews and passes budget</td>
     <td>Budget goes through changes by legislators.</td>
   </tr>
   <tr>
@@ -221,28 +221,7 @@ Civic tech is not necessarily mutually exclusive with IT procurement. For exampl
 
 From the above cases, we identify four models for civic tech collaboration based on the interactive models and how closely the parties work together:
 
-<table>
-  <tr>
-    <td>Model (least in-depth interaction to most)</td>
-    <td>Examples</td>
-  </tr>
-  <tr>
-    <td>A. Government provides open data; civil society develops applications</td>
-    <td>Formosa Fun Coast victim search platform, Drug certification search system, The Mosquito Man, budget visualization</td>
-  </tr>
-  <tr>
-    <td>B. Government connects different parties in civil society to develop systems</td>
-    <td>AirBox</td>
-  </tr>
-  <tr>
-    <td>C. Government and civil society collaborate to develop systems</td>
-    <td>Donation map, victim identification system, vTaiwan</td>
-  </tr>
-  <tr>
-    <td>D. Civil society collaborators enter government agencies to assist in improving administrative processes</td>
-    <td>Official document delivery management system</td>
-  </tr>
-</table>
+![Figure 4-1en](https://opengovreport.ocf.tw/assets/img/md/4-1en.png) 
 
 Table 4.2 Four models for civic tech collaboration
 
@@ -286,3 +265,4 @@ Government is an enormous and intricate machine. How can government take in diff
 [^seventh]:See [Business Next report on the issue](https://www.bnext.com.tw/article/40741/BN-2016-08-27-201942-44)
 [^eighth]:The problems with IT procurement are not the focus of this paper, so only a simple table is presented for comparison. For a deeper understanding of current problems with IT procurement, see "What Are the Problems with Government IT Procurement?" (Lin, 2017).
 [^ninth]:See ["g0v.taipei fellowship"](https://g0v.hackpad.com/g0v.taipei-fellowship-LJZw6OzdO9g)
+
