@@ -4,19 +4,19 @@
 
 ## Key Findings
 
-### No dedicated law on open government and open data in Taiwan.
+### No dedicated law on open government and open data in Taiwan
 
 There is no dedicated law on open government and open data in Taiwan. Promotion mostly relies on executive orders. Except for the Administrative Procedure Law, citizen participation process and deliberative participation is not yet institutionalized.
 
-### Taiwan Government started a series of policies making on open data in 2012.
+### Taiwan Government started a series of policy making on open data in 2012
 
 In the early days, the Administrative Procedure Law and the Freedom of Government Information Law were the key laws stipulating that government information should be made public. In 2012, thanks to the call for open government worldwide and for transparent governance in Taiwan, the government started to put many efforts into formulating policies and executive orders related to open government.
 
-### Open data is mainly driven by the Executive Yuan and supported by the advisory teams composed of agencies and civil society representatives. However, this structure does not work well as expected. 
+### Open data is mainly driven by the Executive Yuan and supported by the advisory teams composed of agencies and civil society representatives. However, this structure does not work well as expected 
 
 In Taiwan, open government and open data policies were mainly driven by the Executive Yuan with the Board of Science and Technology (BOST) and the National Information and Communications Initiative Committee (NICI) as its staff organizations. All second-level agencies under the Executive Yuan have an open data advisory team. However, due to the lack of knowledge in open data among administrative agencies, the above structure does not work as expected. 
 
-### The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees. 
+### The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees
 
 The government does not have a clear blueprint of open government and how it works in current governmental structure. That is why the government has made many political valuable promises yet lack concrete strategic planning for the framework, political culture, and legislation.
 
@@ -104,7 +104,7 @@ However, the online petition website, JOIN.GOV.TW, is worth mentioning because o
 
 ### Current Organizational Structure
 
-//插圖
+![Figure 1-1en](https://opengovreport.ocf.tw/assets/img/md/1-1en.png)
 Figure 1.2 Organizational Structure
 
 Currently, open data policy is mainly driven and implemented by the Executive Yuan. All second-level agencies under the Executive Yuan are required to set up an open government data advisory team and upload the data to DATA.GOV.TW pursuant to the Operating Principle. On the other hand, the Industrial Development Bureau (IDB) is responsible for encouraging the development of open data applications to create value-added, which includes promoting the innovation of relevant industries. 
@@ -116,7 +116,7 @@ All second-level agencies under the Executive Yuan have an open data advisory te
 Under this two-level mechanism and the principle that "unless otherwise specified as an exception, all information shall be open", when a citizen requests a second-level agency to open a specific dataset and the agency refuses, it must provide a reason. If the citizen is not convinced by the reason, he or she can make an appeal to the Executive Yuan and it can overthrow the original decision and request the agency to open the data.
 
  
-//插圖
+![Figure 1-2en](https://opengovreport.ocf.tw/assets/img/md/1-2en.png)
 Figure 1.3 The Process of Requesting Open Data
 
 ### Challenges under Current Framework
@@ -131,7 +131,7 @@ Promoting open data requires proper legal and policy readiness yet sufficient de
 
 The Taiwanese government lacks high-level planning when it comes to open government. The result of open data policy highly relies on the political will of political appointees. Once the appointee is no longer in the position to support the policy, its implementation often loses steam. There is neither effort put into organizing and summarizing opinions nor mechanism for adjusting next stage policy. In terms of policy adjustment, the government fully depends on the feedback from the society and has therefore wasted much energy in meetings with various actors while little progress has been made on the overall policy.
 
-In sum, perhaps the government’s real issue is that it does not have a clear blueprint of open government. That is why the government has made many political valuable promises yet lacks concrete strategic planning for the framework, political culture, and legislation.
+In conslusion, perhaps the government’s real issue is that it does not have a clear blueprint of open government. That is why the government has made many political valuable promises yet lacks concrete strategic planning for the framework, political culture, and legislation.
 
 ## 1-3. International Comparisons
 
@@ -149,7 +149,7 @@ South Korea took the opposite direction. When the government put forward its ope
     <td>By executive orders. No separate law or act.</td>
   </tr>
   <tr>
-    <td>The Us</td>
+    <td>The US</td>
     <td>By President executive orders and memorandums at first and then by the Digital Accountability and Transparency Act (DATA Act). The OPEN Government Data Act is in the legislative process now and will turn preceding executive orders into laws once passed.</td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ South Korea became an OGP participant in 2012 and the government started to prom
 
 This Act also stipulates the establishment of the "Open Data Strategy Council" to deliberate open data policy and assess the result of data inventory. Apart from that, to avoid disputes over using data, the “Open Data Medication Committee” was established to find efficient solutions.
 
-According to the Copyright Act of South Korea, open publications of national or local government agencies can be used without licensing. The enforcement rules of the Copyright Act also stipulate the establishment of a copyright licensing system for public agencies. The South Korean Government also built the data.go.kr platform after developing the Government 3.0 policy (Industrial Development Bureau, 2015).
+According to the Copyright Act of South Korea, open publications of national or local government agencies can be used without licensing. The enforcement rules of the Copyright Act also stipulate the establishment of a copyright licensing system for public agencies. The South Korean Government also built the DATA.GO.KR platform after developing the Government 3.0 policy (Industrial Development Bureau, 2015).
 
 ### Note
 
