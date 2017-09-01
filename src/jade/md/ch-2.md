@@ -375,7 +375,7 @@
     <td align='center'>生產及各類執照<br>86.25</td>
     <td align='center'>不動產與金融<br>82.5</td>
     <td align='center'>國際貿易<br>95</td>
-    <tdalign='center' >勞動<br>93</td>
+    <td align='center'>勞動<br>93</td>
   </tr>
 </table>
 
