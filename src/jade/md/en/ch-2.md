@@ -90,9 +90,14 @@ Table 2.3 The Open Definition 2.1
 
 Compared to this relatively strict definition, Tim Berners-Lee, one of the inventors of the Web, suggested a 5-star deployment scheme for Open Data (Table 2.4) to evaluate how open a dataset is. When the two definitions are put side by side, it is easy to see that the four requirements of the former also play key roles in the latter. To get four stars or more, however, apart from the requirements, the data also needs to be connected, put on the Web, and generate more benefits in terms of application.
 
+<div class="figure">
+
 ![Figure 2-3en](https://opengovreport.ocf.tw/assets/img/md/en/2-3en.png)
 
 Table  2.4  5-Star Open Data
+
+</div>
+
 
 ### Research Method and Data Source
 
@@ -147,7 +152,8 @@ In terms of implementation, we did not adopt the 15 dataset categories used in t
   </tr>
 </table>
 
- Table 2.5 20 Dataset Categories of a Data-Centric Government
+Table 2.5 20 Dataset Categories of a Data-Centric Government
+
 
 <table>
   <tr>
@@ -198,6 +204,7 @@ In terms of implementation, we did not adopt the 15 dataset categories used in t
 
 Table 2.6 Questions for Dataset Survey and the Weights
 
+
 <table>
   <tr>
     <td align='center' valign="middle">Readiness 35%</td>
@@ -215,7 +222,6 @@ Social<br />
 Each Aspect 1/3</td>
   </tr>
 </table>
-
 
 Table 2.7 Weightings
 
@@ -277,6 +283,7 @@ In terms of open data, the Taiwanese Government attaches much importance to the 
     <td align='center'>Economic Activities<br>89</td>
   </tr>
 </table>
+
 Table 2.8 Scores of the subcategory of implementation 
 
 ### Law and Organization
@@ -295,6 +302,7 @@ Among all datasets under law and organization, we compared those released on DAT
     <td align='center'>Judiciary and Judgment<br>39</td>
   </tr>
 </table>
+
 Table 2.9 Scores of law and organization datasets
 
 ### Government Accountability
@@ -313,6 +321,7 @@ This type of datasets shared the same issue as the last type. Key datasets, espe
     <td align='center'>Civil Service Ethics and Accountability<br>45</td>
   </tr>
 </table>
+
 Table 2.10  Scores of government accountability
 
 ### Government Operations
@@ -332,6 +341,7 @@ In this type of datasets, the procurement and part of the census datasets were r
     <td align='center'>National Defense and Diplomacy<br>41</td>
   </tr>
 </table>
+
 Table 2.11  Scores of government operations 
 
 ### Public Safety
@@ -351,6 +361,7 @@ The crime and the environment datasets were comparatively open but the public in
     <td align='center'>Environment<br>85</td>
   </tr>
 </table>
+
 Table 2.12  Scores of public safety
 
 ### Public Services
@@ -369,6 +380,7 @@ These types of datasets were very open, proving that open data is the foundation
     <td align='center'>Basic Education<br>83</td>
   </tr>
 </table>
+
 Table 2.13 Scores of public services
 
 ### Economic Activities
@@ -388,6 +400,7 @@ This type of datasets was highly open, which reveals that economic development t
     <td align='center'>Labor<br>93</td>
   </tr>
 </table>
+
 Table 2.14 Scores of economic activities
 
 ## 2-4 Impact of Open Data
