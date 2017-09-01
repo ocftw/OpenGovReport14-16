@@ -221,9 +221,13 @@ Civic tech is not necessarily mutually exclusive with IT procurement. For exampl
 
 From the above cases, we identify four models for civic tech collaboration based on the interactive models and how closely the parties work together:
 
+<div class="figure">
+
 ![Figure 4-1en](https://opengovreport.ocf.tw/assets/img/md/en/4-1en.png) 
 
 Table 4.2 Four models for civic tech collaboration
+
+</div>
 
 In models A and B, the government plays only an auxiliary role and the focus is on the needs of citizens. The government provides open data or experimental spaces, and encourages the autonomous development of civic communities. In these two models, the government should not see itself as the sole provider of public services. On the contrary, models A and B require small government. With good policy as a foundation and solid infrastructure as a backbone, the government then encourages civil society and companies to provide public services and build a civic tech ecosystem.
 
