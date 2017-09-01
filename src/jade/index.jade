@@ -6,9 +6,9 @@ block body
   #landing
     #banner
     .abs
-      .btn.btn-dark.btn-lg 中文報告
+      a.btn.btn-dark.btn-lg(href="/assets/pdf/report-zh.pdf") 中文報告
       span &nbsp;
-      .btn.btn-dark.btn-lg English Report
+      a.btn.btn-dark.btn-lg(href="/assets/pdf/report-en.pdf") English Report
   #report(ng-controller="report",style="max-width:100%;margin:0")
     #summary
       - var colors = [{"value":"#ffc8c8"},{"value":"#a0c8d7"},{"value":"#c8dc96"},{"value":"#afa5cd"}].map(function(d,i) { return d.value; });

@@ -14,9 +14,9 @@ block body
   a.btn.btn-default(style="position:fixed;bottom:20px;right:20px;z-index:10",href="#landing") #[i.fa.fa-arrow-up]
   #landing
     .abs
-      .btn.btn-dark.btn-lg 中文報告
+      a.btn.btn-dark.btn-lg(href="/assets/pdf/report-zh.pdf") 中文報告
       span &nbsp;
-      .btn.btn-dark.btn-lg English Report
+      a.btn.btn-dark.btn-lg(href="/assets/pdf/report-en.pdf") English Report
   #report(ng-controller="report")
     ul.nav.nav-tabs
       li.clickable(ng-click="tab=0",ng-class="{'active':tab==0}"): a 0. #{_("前言")}
