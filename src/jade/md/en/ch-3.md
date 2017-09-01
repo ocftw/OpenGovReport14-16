@@ -73,8 +73,14 @@ We selected four tools from Blulu Metrics Family—Blulu Train A & B, Blulu Pizz
 
 The Blulu Train A was used to determine the stage of the policy-making process at which citizen participation was involved. Generally speaking, the earlier it is involved, the less likely there will be a controversy at later stages.
 
+<div class="figure">
+
 ![Figure 3-1en](https://opengovreport.ocf.tw/assets/img/md/en/3-1en.png)
+
 Figure 3.1 Blulu Train A (Policy Life Cycle)
+
+</div>
+
 
 **II. Blulu Train B: What Was the Quality of Deliberation?**
 
@@ -89,23 +95,40 @@ Blulu Train B divides the deliberation process into eight stages and each corres
 7. Did the government respond to the conclusions in meaningful ways? Did the government make any concrete promise or use the conclusions as the basis for decision-making and judgment?
 8. Could the government be held accountable for the results of deliberation? Was there an appointed executive unit in the government? Was there any feedback mechanism that could be used for evaluation?
 
+<div class="figure">
+
 ![Figure 3-2en](https://opengovreport.ocf.tw/assets/img/md/en/3-2en.png)
+
 Figure 3.2 Blulu Train B (Public Deliberation Process)
+
+</div>
+
+
 
 **III. Blulu Pizza: Who Were the Participants?**
 
 Blule Pizza was used to evaluate the participants. Generally speaking, citizens are welcomed to participate and civil servants are often invited as well to show their political will. Quality citizen participation usually includes civil servants and stakeholders.
  
+<div class="figure">
+ 
 ![Figure 3-3en](https://opengovreport.ocf.tw/assets/img/md/en/3-3en.png)
+
 Figure 3.3 Blulu Pizza
 
+</div>
 
 **IV. Blulu Meter: What Was the Level of Openness?**
 
 Blulu Meter evaluates the level of openness in the policy-making process in the long run from three perspectives. The first is the healthiness of the procedure, the second is the openness of participation, and the third is policy continuity.
 
+<div class="figure">
+
 ![Figure 3-4en](https://opengovreport.ocf.tw/assets/img/md/en/3-4en.png)
+
 Figure 3.4 Blulu Meter
+
+</div>
+
 
 ## 3-2. Case Study: The Grassroots Forums of Civic Constitutional Convention
 
@@ -135,25 +158,42 @@ In 2015, the drive for change in the society quickly died down. The Civil Moveme
 
 The Civil Movement for Constitutional Reform planned to use the Grassroots Forums as a platform to collect and organize issues regarding constitutional reform. According to Blulu Train A, the forums were held at the problem analysis stage of constitutional reform.
 
+<div class="figure">
+
 ![Figure 3-5en](https://opengovreport.ocf.tw/assets/img/md/en/3-5en.png)
+
+</div>
+
 
 **II. Quality of Deliberation**
 
 The agendas of Grassroots Forums were set by CSOs with the help of the Civil Movement for Constitutional Reform. The CSOs’ views were taken into account during research and survey and participants were informed by experts’ introduction on the issues. However, since the forums were initiated by civil society and not institutionalized, the organizers could not move to government response and accountability.
 
+<div class="figure">
+
 ![Figure 3-6en](https://opengovreport.ocf.tw/assets/img/md/en/3-6en.png)
+
+</div>
 
 **III. Participants → No Civil Servants**
 
 The Grassroots Forums were organized by CSOs and were open to citizens and, when on specific issues, private stakeholders, but no civil servants participated in the forums.
 
+<div class="figure">
+
 ![Figure 3-7en](https://opengovreport.ocf.tw/assets/img/md/en/3-7en.png)
+
+</div>
 
 **IV. Level of Openness → High, but It Was not a Legal Procedure**
 
 The Civil Movement for Constitutional Reform was relatively open as it was initiated by CSOs and various stakeholders were invited. However, since it was not legalized, the results were not implemented and thus impossible to be evaluated.
 
+<div class="figure">
+
 ![Figure 3-8en](https://opengovreport.ocf.tw/assets/img/md/en/3-8en.png)
+
+</div>
 
 ## 3-3. Case Study: Youth World Café
 
@@ -181,25 +221,41 @@ However, one of the proposals from the World Café was later turned into an onli
 
 The National Conference on Trade and Economic Affairs was convened because of the Sunflower Movement, which occurred during the legalization process of the Cross-Strait Service Trade Agreement (CSSTA).
 
+<div class="figure">
+
 ![Figure 3-9en](https://opengovreport.ocf.tw/assets/img/md/en/3-9en.png)
+
+</div>
 
 **II. Quality of Deliberation**
 
 The agenda setting, research, and survey of the Word Café were all conducted by the Executive Yuan. There were project reports and presentations during the process, but they failed to achieve open participation and make participants fully informed. There were discussion and voting during the process and the Executive Yuan promised to make modifications accordingly and follow up on the progress of the modifications [^fifth].
 
+<div class="figure">
+
 ![Figure 3-10en](https://opengovreport.ocf.tw/assets/img/md/en/3-10en.png)
+
+</div>
 
 **III. Participants→ Not All Stakeholders Were Invited**
 
 Both political appointees and civil servants attended the National Conference. However, since the entry was on invitation basis, the conference was not open to citizens, and the topics were too big to invite all stakeholders.
 
+<div class="figure">
+
 ![Figure 3-11en](https://opengovreport.ocf.tw/assets/img/md/en/3-11en.png)
+
+</div>
 
 **VI. Level of Openness→ Low**
 
 The National Conference can be thought of as a crisis management mechanism that only occurs when there is a major policy to be made. It is not a normal procedure for decision-making. The quality of participation is rather low due to the fact that participants are limited and that the stages of participation are far from comprehensive.
 
+<div class="figure">
+
 ![Figure 3-12en](https://opengovreport.ocf.tw/assets/img/md/en/3-12en.png) 
+
+</div>
 
 ## 3-4. Case Study: Feiyan New Village
 
@@ -246,26 +302,48 @@ How to include citizen participation into existing institutions is another key i
 
 In the Feiyan New Village urban renewal project, citizen participation was initiated before the development plan went into the legal process, so it was carried out during the policy planning phase. 
 
+<div class="figure">
+
 ![Figure 3-13en](https://opengovreport.ocf.tw/assets/img/md/en/3-13en.png) 
+
+</div>
 
 **II. Quality of Deliberation**
 
 The agendas of scenario workshops and the Rural-Urban Forum were confirmed by the workshop team and the participants conducted research and surveys on the issue at hand. The City Government also provided sufficient information and officials were on site to respond quickly and to appoint relevant units to take up responsibility, achieving accountability. In the Rural-Urban Forum, the discussion and research materials from the scenario workshops were presented in the forum manual to make participants informed and the discussion in the forum served as a reference for the City Government in decision-making.
 
+<div class="figure">
+
 ![Figure 3-14en](https://opengovreport.ocf.tw/assets/img/md/en/3-14en.png) 
+
+</div>
+
+
+<div class="figure">
+
 ![Figure 3-15en](https://opengovreport.ocf.tw/assets/img/md/en/3-15en.png) 
+
+</div>
 
 **III. Participants → Citizens and Government Representatives**
 
 The participants of the scenario workshops included appointed officials, civil servants, and stakeholders while in the Rural-Urban Forum, in addition to the three types of participants mentioned, there were also the chosen citizens.
 
+<div class="figure">
+
 ![Figure 3-16en](https://opengovreport.ocf.tw/assets/img/md/en/3-16en.png) 
+
+</div>
 
 **IV. Level of Openness→ Lack Policy Continuity as It Was Only on One Issue**
 
 From the above analysis, it can be observed that the participation in the Feiyan New Village case had a rather good procedure and high level of openness. However, this case was specially chosen by the City Government to practice citizen participation and did not kick off an overall mechanism. 
 
+<div class="figure">
+
 ![Figure 3-17en](https://opengovreport.ocf.tw/assets/img/md/en/3-17en.png) 
+
+</div>
  
 
 ## 3-5. Case Study: Taipei City’s i-Voting
@@ -299,25 +377,41 @@ The Shezidao case revealed the flaws of the i-Voting system. This online voting 
 
 Citizens participated at the planning stage before the urban planning project went into legal procedures.
 
+<div class="figure">
+
 ![Figure 3-18en](https://opengovreport.ocf.tw/assets/img/md/en/3-18en.png) 
+
+</div>
 
 **II. Quality of Deliberation**
 
 The agenda setting, research and survey of the solutions on the i-Voting in the Shezidao case were conducted by the City Government. Although participants were informed, there was no discussion in the process. Also, the project that won the vote was not the final decision because of the possible revisions by various committees.
 
+<div class="figure">
+
 ![Figure 3-19en](https://opengovreport.ocf.tw/assets/img/md/en/3-19en.png) 
+
+</div>
 
 **III. Participants → Lacked Dialogue**
 
 Even though local residents and Taipei citizens both can vote, there was no dialogue between citizens and the government.
 
+<div class="figure">
+
 ![Figure 3-20en](https://opengovreport.ocf.tw/assets/img/md/en/3-20en.png) 
+
+</div>
 
 **IV. Level of Openness→ Not a Healthy Process but It Has Policy Continuity**
 
 The i-Voting system is not a very healthy process of citizen participation. Its design lacks room for public discussion and its agenda setting is not truly open, which can be seen in the Shezidao case. However, as the system is backed by an administrative order, it is expected that it will have policy continuity.
 
+<div class="figure">
+
 ![Figure 3-21en](https://opengovreport.ocf.tw/assets/img/md/en/3-21en.png) 
+
+</div>
 
 ## 3-6. Case Study: The Join Platform
 
@@ -348,25 +442,41 @@ However, the current design makes it difficult to have a meaningful "discussion.
 
 The Join platform enables citizens to have a voice on policy directions, so they participated at the problem analysis stage.
 
+<div class="figure">
+
 ![Figure 3-22en](https://opengovreport.ocf.tw/assets/img/md/en/3-22en.png) 
+
+</div>
 
 **II. Quality of Deliberation**
 
 The agenda setting, research, and survey of proposals on the Join platform are all conducted by the person proposing the policy. Since they only need to provide the reason for proposing the item, it cannot be certain whether they are well informed. The petition process is practically an open, lax, single-option vote. As the responsible agency is only required to give a response, it is difficult to achieve accountability.
 
+<div class="figure">
+
 ![Figure 3-23en](https://opengovreport.ocf.tw/assets/img/md/en/3-23en.png) 
+
+</div>
 
 **III. Participants → Hard to Tell**
 
 The Join platform is open to all citizens. It does not put any special weight on stakeholders.
 
+<div class="figure">
+
 ![Figure 3-24en](https://opengovreport.ocf.tw/assets/img/md/en/3-24en.png) 
+
+</div>
 
 **IV. Level of Openness→ Not All Stages Are Open for Participation, Good Prospect of Policy Continuity**
 
 The Join platform is simply a petition platform. While it can stimulate public attention on the issue at hand, whether later stages of policy-making are open depends on the responsible agency. Still, since the platform is supported by an administrative order, its prospect of policy continuity is comparatively good.
 
+<div class="figure">
+
 ![Figure 3-25en](https://opengovreport.ocf.tw/assets/img/md/en/3-25en.png) 
+
+</div>
 
 ## 3-7. Case Study: Participatory Budgeting
 
