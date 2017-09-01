@@ -104,8 +104,14 @@ However, the online petition website, JOIN.GOV.TW, is worth mentioning because o
 
 ### Current Organizational Structure
 
+<div class="figure">
+
 ![Figure 1-1en](https://opengovreport.ocf.tw/assets/img/md/en/1-1en.png)
+
 Figure 1.2 Organizational Structure
+
+</div>
+
 
 Currently, open data policy is mainly driven and implemented by the Executive Yuan. All second-level agencies under the Executive Yuan are required to set up an open government data advisory team and upload the data to DATA.GOV.TW pursuant to the Operating Principle. On the other hand, the Industrial Development Bureau (IDB) is responsible for encouraging the development of open data applications to create value-added, which includes promoting the innovation of relevant industries. 
 
@@ -115,9 +121,14 @@ All second-level agencies under the Executive Yuan have an open data advisory te
 
 Under this two-level mechanism and the principle that "unless otherwise specified as an exception, all information shall be open", when a citizen requests a second-level agency to open a specific dataset and the agency refuses, it must provide a reason. If the citizen is not convinced by the reason, he or she can make an appeal to the Executive Yuan and it can overthrow the original decision and request the agency to open the data.
 
- 
+<div class="figure">
+
 ![Figure 1-2en](https://opengovreport.ocf.tw/assets/img/md/1-2en.png)
+
 Figure 1.3 The Process of Requesting Open Data
+
+</div>
+
 
 ### Challenges under Current Framework
 
