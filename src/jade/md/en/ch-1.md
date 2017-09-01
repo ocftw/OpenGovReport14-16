@@ -123,12 +123,11 @@ Under this two-level mechanism and the principle that "unless otherwise specifie
 
 <div class="figure">
 
-![Figure 1-2en](https://opengovreport.ocf.tw/assets/img/md/1-2en.png)
+![Figure 1-2en](https://opengovreport.ocf.tw/assets/img/md/en/1-2en.png)
 
 Figure 1.3 The Process of Requesting Open Data
 
 </div>
-
 
 ### Challenges under Current Framework
 
