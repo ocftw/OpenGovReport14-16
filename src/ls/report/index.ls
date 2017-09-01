@@ -4,6 +4,7 @@ angular.module \ogr
     $scope.gotab = ->
       $scope.tab = it
       document.body.scrollTop = document.getElementById(\report).getBoundingClientRect!top + document.body.scrollTop
+    $scope.$watch 'tab', (n,o) -> window.location.hash = "tab-#{n}"
     $scope.toc = do
       handle: (event) ->
         text = Array.from((event.target or event.toElement).childNodes)
@@ -21,4 +22,4 @@ angular.module \ogr
         top = if sel => ( $(sel).offset!top - 60 ) else 0
         $(document.body).animate {scrollTop: top}, '500', 'swing', ->
         $("html").animate {scrollTop: top}, '500', 'swing', ->
-
+    if /tab-(\d+)/.exec(window.location.hash) => $scope.gotab that.1
