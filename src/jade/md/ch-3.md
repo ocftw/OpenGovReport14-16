@@ -79,11 +79,14 @@
 
 本文使用 Blulu 列車量表，以判斷公民參與發生在政策制定過程中的哪一個階段。一般來說，公民參與發生在越早期，後續越不容易出現爭議。	
 
-	
-![Figure 3-1](https://opengovreport.ocf.tw/assets/img/md/3-1.png)
-<圖表 3.1> Blulu 列車量表A－－政策制訂週期
-資料來源： Blulu.tw 
+<div class="figure">
 
+![Figure 3-1](https://opengovreport.ocf.tw/assets/img/md/3-1.png)
+
+<圖表 3.1> Blulu 列車量表A－－政策制訂週期 (資料來源： Blulu.tw)
+
+</div>
+   
 **此個案的審議品質？**
 
 Blulu 列車量表將審議的流程區分為八個階段，每個階段分別對應下列八個關鍵問題：
@@ -97,25 +100,39 @@ Blulu 列車量表將審議的流程區分為八個階段，每個階段分別�
 7. 審議結論是否得到政府部門有意義的回應？公務機關是否具體承諾，並將參考審議結論作為決策依據的判斷標準？	
 8. 審議結果是否能被問責？是否有明確承辦單位，並設立後續回饋機制作為評量標準？
 
+<div class="figure">
+
 ![Figure 3-2](https://opengovreport.ocf.tw/assets/img/md/3-2.png)
-<圖表 3.2> Blulu 列車量表 B－－公共審議的流程
-資料來源： Blulu.tw 
+
+<圖表 3.2> Blulu 列車量表 B－－公共審議的流程(資料來源： Blulu.tw)
+
+</div>
+
 
 **此個案有哪些參與者？**
 
 針對參與對象，我們使用 Blulu 披薩量表來評量。一般公民參與開放不特定公眾參與，並藉由政務官的加入表現政治意志，而較好品質的公民參與則希望能包含事務官、利害關係人。
 
+<div class="figure">
+
 ![Figure 3-3](https://opengovreport.ocf.tw/assets/img/md/3-3.png)
-<圖表 3.3 Blulu 披薩量表>
-資料來源： Blulu.tw 
+
+<圖表 3.3> Blulu 披薩量表(資料來源：Blulu.tw)
+
+</div>
+
 
 **此公民參與個案的開放參與程度**
 
 針對長久政策制訂的開放參與程度，Blulu 測量儀以三個層次進行評量，第一個是政策形成的程序是否健康；第二個層次是參與的開放度；第三個層次是執行的持久度。
 
+<div class="figure">
+
 ![Figure 3-4](https://opengovreport.ocf.tw/assets/img/md/3-4.png)
-<圖表 3.4> Blulu 測量儀
-資料來源： Blulu.tw 
+
+<圖表 3.4> Blulu 測量儀 (資料來源：Blulu.tw)
+
+</div>
 
 
 ## 3-2. 案例分析：公民憲政會議草根論壇
@@ -149,25 +166,41 @@ Blulu 列車量表將審議的流程區分為八個階段，每個階段分別�
 
 公民憲政會議草根論壇的舉辦，肇因於三一八佔領運動後，針對當時的社會議題提出憲政改革的可能，根據公民憲政推動聯盟的規畫，草根論壇目的為彙整憲政改革的議題，在憲政改革的政策流程中，草根論壇應在問題分析的階段。
 
+<div class="figure">
+
 ![Figure 3-5](https://opengovreport.ocf.tw/assets/img/md/3-5.png)
+
+</div>
 
 **審議品質**
 
 草根論壇的議程設定是與合作的公民團體討論得出，其研究調查的狀況納入公民團體的意見，流程中也以專家導讀進行知情的階段，然而因為是由下而上舉辦的論壇，主辦單位僅能收攏意見，難以進行下一階段的回應和課責。
 
+<div class="figure">
+
 ![Figure 3-6](https://opengovreport.ocf.tw/assets/img/md/3-6.png)
+
+</div>
 
 **參與者 → 無政府方**
 
 草根論壇由於和各公民團體合辦，不但開放給不特定公眾，有時針對議題也會有民間利害關係人參與，但無政府方參與。
 
+<div class="figure">
+
 ![Figure 3-7](https://opengovreport.ocf.tw/assets/img/md/3-7.png)
+
+</div>
 
 **開放參與程度 → 開放程度高，但非法定程序**
 
 公民憲政會議草根論壇以公民團體自主舉辦，雖然試圖成為法定程序的一部分，其開放程度雖然相當高，也是一個健康的政策程序，但礙於政治氛圍無法成為法定程序，故無法評量執行層面的狀況。
 
+<div class="figure">
+
 ![Figure 3-8](https://opengovreport.ocf.tw/assets/img/md/3-8.png)
+
+</div>
 
 ## 3-3. 案例分析：經貿青年國是會議
 
@@ -196,25 +229,41 @@ Blulu 列車量表將審議的流程區分為八個階段，每個階段分別�
 
 經貿國是會議的舉辦，肇因於三一八佔領運動，當時《海峽兩岸服務貿易協議》已進入政策合法化階段。                    
 
+<div class="figure">
+
 ![Figure 3-9](https://opengovreport.ocf.tw/assets/img/md/3-9.png)
+
+</div>
 
 **審議品質**
 
 經貿國是會議青年網聚 World Café 論壇中的議題皆為行政院訂定，研究調查部分由行政院進行，會議上提供專案報告及簡報，無法做到開放參與及充分知情。世界咖啡館進行了討論及投票，行政院承諾修正，並持續追蹤完成進度[^fifth]。
 
+<div class="figure">
+
 ![Figure 3-10](https://opengovreport.ocf.tw/assets/img/md/3-10.png)
+
+</div>
 
 **參與者 → 無法邀請到所有利害關係人**
 
 雖然國是會議的過程中，政務官及事務官都有出席，不過因為是邀請制，非針對不特定公眾，且因議題龐大，無法邀請到所有利害關係人。
 
+<div class="figure">
+
 ![Figure 3-11](https://opengovreport.ocf.tw/assets/img/md/3-11.png)
+
+</div>
 
 **開放參與程度 → 低**
 
 國是會議可以說是一種政策危機處理的機制，在遇到重大決策時才會召開，並非政策形成的健康程序，其參與的族群及階段也不完善，在開放參與的程度上可以說是非常低的。
 
+<div class="figure">
+
 ![Figure 3-12](https://opengovreport.ocf.tw/assets/img/md/3-12.png)
+
+</div>
 
 ## 3-4. 案例分析：飛雁新村
 
@@ -257,27 +306,48 @@ Blulu 列車量表將審議的流程區分為八個階段，每個階段分別�
 
 飛雁新村開發案，是在遠雄建設撰寫開發計畫書進行法定流程前便進行，可以說在政策規畫的過程中即進行公民參與。
 
+<div class="figure">
+
 ![Figure 3-13](https://opengovreport.ocf.tw/assets/img/md/3-13.png)
+
+</div>
 
 **審議品質**
 
 願景工作坊及城鄉論壇的議題經願景工作坊確認，參與成員針對議題進行研究調查，市府也提供足夠的資訊，並現場做出回應、指派權管單位以達成課責的目的。城鄉論壇中，以手冊方式將願景工作坊討論的內容及研究資料展示，做到知情，並以討論內容作為市府決策參考。
 
+<div class="figure">
+
 ![Figure 3-14](https://opengovreport.ocf.tw/assets/img/md/3-14.png)
+
+</div>
+
+
+<div class="figure">
+
 ![Figure 3-15](https://opengovreport.ocf.tw/assets/img/md/3-15.png)
 
+</div>
 
 **參與者 → 公民及政府方**
 
 願景工作坊的參與者包括政務官、事務官及利害關係人，城鄉論壇則包含上述三者及抽選出的公眾。
 
+<div class="figure">
+
 ![Figure 3-16](https://opengovreport.ocf.tw/assets/img/md/3-16.png)
+
+</div>
 
 **開放參與程度 → 單一議題決策持久度不足**
 
 從上述分析可以觀察出飛雁新村的程序健康、開放程度亦高，然而此案為市府選擇進行的單一議題公民參與，並沒有形成讓公民啟動參與的機制，例如南鐵議題是否能夠開啟參與，因此欠缺決策持久度。
 
+<div class="figure">
+
 ![Figure 3-17](https://opengovreport.ocf.tw/assets/img/md/3-17.png)
+
+</div>
 
 ## 3-5. 案例分析：台北市社子島 i-Voting
 
@@ -311,25 +381,41 @@ i-Voting（台北市民網路投票）是 2014 年台北市長候選人柯文哲
 
 社子島開發計畫在都市計畫案件的法定程序前，規畫階段便應進行公民參與。
 
+<div class="figure">
+
 ![Figure 3-18](https://opengovreport.ocf.tw/assets/img/md/3-18.png)
+
+</div>
 
 **審議品質**
 
 社子島 i-Voting 的議題設定及研究調查都由市府規畫，雖然有做到知情，不過過程中缺乏討論，且由於後續還要進行法定程序（都市計畫仍須送交台北市都市計畫委員會、內政部都市計畫委員會進行審議，防洪計畫則須送交經濟部審議，且此方案亦須經過環境影響評估程序），投票結果無法成為最終決定。
 
+<div class="figure">
+
 ![Figure 3-19](https://opengovreport.ocf.tw/assets/img/md/3-19.png)
+
+</div>
 
 **參與者 → 缺乏對話**
 
 由於社子島 i-Voting 缺乏討論的環節，即使設計了針對不特定公眾及利害關係人的兩套投票機制，前期宣傳時也有政務官及事務官參與其中，卻欠缺雙方對話。
 
+<div class="figure">
+
 ![Figure 3-20](https://opengovreport.ocf.tw/assets/img/md/3-20.png)
+
+</div>
 
 **參與開放程度 → 非健康程序，但執行持久度可以預期**
 
 i-Voting 是政策形成的其中一項程序，但是否為健康的程序，端看 i-Voting 制度的設計，以社子島開發一案來說，因為缺乏討論，議題設定的程序也不夠開放，並不是一個健康的程序。不過針對執行持久度來說，因為 i-Voting 有行政命令的效力，執行持久度是可以預期的。
 
+<div class="figure">
+
 ![Figure 3-21](https://opengovreport.ocf.tw/assets/img/md/3-21.png)
+
+</div>
 
 ## 3-6. 案例分析：公共政策網路參與平台
 
@@ -359,17 +445,29 @@ Join 平台是一個方便、好用且參與門檻非常低的平台，除提案
 
 Join 平台的提點子區塊，由公民決定政策方向，是在問題分析階段便納入公民參與。
 
+<div class="figure">
+
 ![Figure 3-22](https://opengovreport.ocf.tw/assets/img/md/3-22.png)
+
+</div>
 
 **審議品質**
 
 Join 平台的議題設定及研究調查，都由提案人或提案團隊進行，由於僅須提供提案原因，並不一定能做到知情，附議的功能如同對投票者無限制、不嚴謹且只有單一選項的投票，行政機關僅給予回應，難以做到後續課責。
 
+<div class="figure">
+
 ![Figure 3-23](https://opengovreport.ocf.tw/assets/img/md/3-23.png)
+
+</div>
 
 **參與者 → 難以判斷**
 
+<div class="figure">
+
 ![Figure 3-24](https://opengovreport.ocf.tw/assets/img/md/3-24.png)
+
+</div>
 
 Join 平台針對公眾，對利害關係人的角色並不強調，行政單位雖給予回應，卻難以判斷是否政務官及事務官皆有參與。
 
@@ -377,7 +475,11 @@ Join 平台針對公眾，對利害關係人的角色並不強調，行政單位
 
 Join 平台作為提案平台， 能夠啟動對議題的討論及關注，政策形成的程序後續是否仍開放，端看各行政機關，因此開放參與的階段並不完整，不過 Join 平台有行政命令的效力，執行持久度是可以預期的。
 
+<div class="figure">
+
 ![Figure 3-25](https://opengovreport.ocf.tw/assets/img/md/3-25.png)
+
+</div>
 
 ## 3-7. 案例分析：參與式預算 
 
