@@ -21,8 +21,11 @@
 
 ### 台灣開放政府大事紀
 
+<div class="figure">
+
 ![Figure 0-2](https://opengovreport.ocf.tw/assets/img/md/0-2.png)
 
+</div>
 
 ### 註解 
 
