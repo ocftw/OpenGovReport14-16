@@ -868,7 +868,8 @@ plotdb.chart.add('Line Chart - OGR edition',{"key":14126,"name":"Line Chart - OG
       stroke: "#ffffff"
     });
     this.lines.transition("opacity").duration(500).attr({
-      opacity: function(it) { return (that.activeGroup? (that.activeGroup == that.parsed.group[it[0].group].name ? 1 : 0.2):1); }
+      opacity: function(it) { return (that.activeGroup? (that.activeGroup == that.parsed.group[it[0].group].name ? 1 : 0.2):1); },
+      "stroke-width": function(it) { return (that.activeGroup? (that.activeGroup == that.parsed.group[it[0].group].name ? 3 : 1):1); }
     });
     this.dots.transition("opacity").duration(500).attr({
       opacity: function(it) { return (that.activeGroup? (that.activeGroup == that.parsed.group[it.group].name ? 1 : 0.2):1); }
