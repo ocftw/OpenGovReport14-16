@@ -151,6 +151,7 @@ base = do
         if item.0.name == \h2 and item.text!trim! in ["關鍵結論","Key Findings"] => skip = true
       output = output.join("\n")
       output = md.render output
+      output = output.replace "<ul>", """<ul data-spy="affix" class="nav affix">"""
       fs.write-file-sync toc, output
       console.log "[BUILD] #src --> #toc"
       @summary lang
